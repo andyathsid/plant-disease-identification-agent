@@ -1,0 +1,45 @@
+vectordb:
+  - name: qdrant_openai_large
+    db_type: qdrant
+    embedding_model: openai_embed_3_large
+    client_type: docker
+    url: "http://localhost:6333"
+    collection_name: autorag_eval_collection
+    similarity_metric: cosine
+    embedding_batch: 64
+    dimension: 3072   
+
+node_lines:
+- node_line_name: retrieval_evaluation
+  nodes:
+    - node_type: retrieval
+      strategy:
+        metrics: [retrieval_f1, retrieval_recall, retrieval_ndcg]
+        top_k: 10
+      modules:
+        # 1. Compare Dense Embeddings (Gemini vs OpenAI)
+        - module_type: vectordb
+          vectordb_type: qdrant
+          embedding_model: [gemini-embedding-001, openai_embed_3_large]
+          collection_name: autorag_eval_collection
+        
+        # 2. BM25 Sparse Retrieval
+        - module_type: bm25
+          # Supported tokenizers: porter_stemmer, space, ko_kiwi, ko_kkma, ko_okt, sudachipy, or a HF tokenizer name
+          bm25_tokenizer: [porter_stemmer, space]
+        
+        # 3. Hybrid Search (Dense + BM25) - Testing different weight combinations
+        - module_type: hybrid_cc 
+          target_modules: [vectordb, bm25]
+          weights: [(0.5, 0.5), (0.7, 0.3), (0.3, 0.7)]
+    
+    - node_type: passage_reranker
+      strategy:
+        metrics: [retrieval_f1, retrieval_recall, retrieval_precision]
+        top_k: 5
+      modules:
+        # 4. Compare Rerankers (Voyage AI vs Jina AI)
+        - module_type: voyageai_reranker
+          model_name: rerank-2
+        - module_type: jina_reranker
+          model_name: jina-reranker-v2-base-multilingual

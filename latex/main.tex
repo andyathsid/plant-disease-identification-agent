@@ -1,0 +1,512 @@
+\documentclass[12pt, a4paper, oneside]{report}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[indonesian]{babel}
+\usepackage{newtxtext, newtxmath} % Times New Roman
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{tocloft}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{float}
+\usepackage{tikz}
+\usepackage[most]{tcolorbox}
+\usetikzlibrary{positioning, calc, backgrounds, fit, shapes, shapes.geometric, 
+                shapes.misc, arrows.meta, decorations.pathreplacing, shadows}
+\usepackage[edges]{forest}
+\usepackage{etoolbox}
+\usepackage{csquotes}
+\usepackage{siunitx}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{tabularx}
+\usepackage{listings}
+\usepackage{minted}
+
+\usemintedstyle{colorful}
+\setminted{
+    fontsize=\scriptsize,
+    breaklines=true,
+    frame=none,
+    bgcolor=background
+}
+
+\colorlet{punct}{red!60!black}
+\definecolor{background}{HTML}{EEEEEE}
+\definecolor{delim}{RGB}{20,105,176}
+\colorlet{numb}{magenta!60!black}
+
+\lstdefinelanguage{json}{
+    basicstyle=\normalfont\ttfamily\footnotesize,
+    numbers=left,
+    numberstyle=\scriptsize,
+    stepnumber=1,
+    numbersep=8pt,
+    showstringspaces=false,
+    breaklines=true,
+    frame=lines,
+    backgroundcolor=\color{background},
+    literate=
+     *{0}{{{\color{numb}0}}}{1}
+      {1}{{{\color{numb}1}}}{1}
+      {2}{{{\color{numb}2}}}{1}
+      {3}{{{\color{numb}3}}}{1}
+      {4}{{{\color{numb}4}}}{1}
+      {5}{{{\color{numb}5}}}{1}
+      {6}{{{\color{numb}6}}}{1}
+      {7}{{{\color{numb}7}}}{1}
+      {8}{{{\color{numb}8}}}{1}
+      {9}{{{\color{numb}9}}}{1}
+      {:}{{{\color{punct}{:}}}}{1}
+      {,}{{{\color{punct}{,}}}}{1}
+      {\{}{{{\color{delim}{\{}}}}{1}
+      {\}}{{{\color{delim}{\}}}}}{1}
+      {[}{{{\color{delim}{[}}}}{1}
+      {]}{{{\color{delim}{]}}}}{1},
+}
+
+\sisetup{
+    range-phrase = {--},
+    range-units = single
+}
+
+\setlength{\headheight}{52pt}
+
+% --- Bibliography (APA 7) ---
+\usepackage[backend=biber, style=apa, uniquelist=false]{biblatex}
+\addbibresource{Thesis.bib}
+
+% Custom Indonesian support for APA 7
+\DeclareLanguageMapping{indonesian}{indonesian-apa}
+
+% --- Margins ---
+\geometry{
+    top=3cm,
+    bottom=3cm,
+    left=4cm,
+    right=3cm
+}
+
+% --- Line Spacing ---
+\setstretch{1.5}
+
+% --- Custom Commands ---
+\newcommand{\imgplaceholder}[1]{%
+    \fbox{%
+        \begin{minipage}{0.8\textwidth}
+            \centering
+            \vspace{2cm}
+            Gambar Placeholder:\\
+            \texttt{\detokenize{#1}}
+            \vspace{2cm}
+        \end{minipage}%
+    }%
+}
+
+% --- Chapter Titles ---
+\titleformat{\chapter}[block]
+  {\bfseries\normalsize\centering\setstretch{1.0}}
+  {\MakeUppercase{\chaptername\ \Roman{chapter}}\\}
+  {0pt}
+  {\MakeUppercase}
+
+\titlespacing*{\chapter}{0pt}{0pt}{\baselineskip}
+
+% --- Section Titles ---
+\setcounter{secnumdepth}{5}
+\renewcommand{\thechapter}{\Roman{chapter}}
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+\renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
+\renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}
+\renewcommand{\theequation}{\arabic{chapter}.\arabic{equation}}
+
+\titleformat{\section}
+  {\bfseries\normalsize}
+  {\thesection}
+  {1em}
+  {}
+
+\titlespacing*{\section}{0pt}{0pt}{0pt}
+
+\titleformat{\subsection}
+  {\bfseries\normalsize}
+  {\thesubsection}
+  {1em}
+  {}
+
+\titlespacing*{\subsection}{0pt}{0pt}{0pt}
+
+\titleformat{\subsubsection}
+  {\bfseries\normalsize}
+  {\thesubsubsection}
+  {1em}
+  {}
+
+\titlespacing*{\subsubsection}{0pt}{0pt}{0pt}
+
+\titleformat{\paragraph}
+  {\bfseries\normalsize}
+  {\theparagraph}
+  {1em}
+  {}
+
+\titlespacing*{\paragraph}{0pt}{0pt}{0pt}
+
+\titleformat{\subparagraph}
+  {\bfseries\normalsize}
+  {\thesubparagraph}
+  {1em}
+  {}
+
+\titlespacing*{\subparagraph}{0pt}{0pt}{0pt}
+
+% --- Page Numbering ---
+\fancypagestyle{frontmatter}{
+    \fancyhf{}
+    \fancyfoot[C]{\thepage}
+    \renewcommand{\headrulewidth}{0pt}
+}
+
+\fancypagestyle{mainbody}{
+    \fancyhf{}
+    \fancyhead[R]{\thepage}
+    \renewcommand{\headrulewidth}{0pt}
+}
+
+% Redefine plain style for chapter pages (automatically used on first page of chapters)
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \fancyfoot[C]{\thepage}
+    \renewcommand{\headrulewidth}{0pt}
+}
+
+% --- Captions ---
+\captionsetup[table]{font=normalsize, position=top, justification=centering, skip=0pt, labelsep=period}
+\captionsetup[figure]{font=normalsize, position=bottom, justification=centering, skip=10pt, labelsep=period}
+
+% --- Reduce spacing after and before floats ---
+\setlength{\textfloatsep}{12pt}
+\setlength{\intextsep}{12pt}
+
+% Custom command for source in figures/tables
+\newcommand{\source}[1]{\par\vspace{2pt}\centering \footnotesize Sumber: #1 \par}
+
+% --- Table of Contents ---
+\setcounter{tocdepth}{4}
+\addto\captionsindonesian{
+    \renewcommand{\contentsname}{DAFTAR ISI}
+    \renewcommand{\listfigurename}{DAFTAR GAMBAR}
+    \renewcommand{\listtablename}{DAFTAR TABEL}
+}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} % Add dots to chapters in TOC
+\renewcommand{\cftchappresnum}{BAB}
+\setlength{\cftchapnumwidth}{5.5em}
+\renewcommand{\cfttoctitlefont}{\hfill\bfseries\normalsize}
+\renewcommand{\cftaftertoctitle}{\hfill}
+\setlength{\cftbeforetoctitleskip}{0pt}
+\setlength{\cftaftertoctitleskip}{0pt}
+\setlength{\cftbeforechapskip}{0pt}
+
+
+\renewcommand{\cftloftitlefont}{\hfill\bfseries\normalsize}
+\renewcommand{\cftafterloftitle}{\hfill}
+\setlength{\cftbeforeloftitleskip}{0pt}
+\setlength{\cftafterloftitleskip}{0pt}
+
+\renewcommand{\cftlottitlefont}{\hfill\bfseries\normalsize}
+\renewcommand{\cftafterlottitle}{\hfill}
+\setlength{\cftbeforelottitleskip}{0pt}
+\setlength{\cftafterlottitleskip}{0pt}
+
+% --- Daftar Lampiran Configuration ---
+\newcommand{\listlampiranname}{DAFTAR LAMPIRAN}
+\newlistof{lampiran}{lamp}{\listlampiranname}
+
+\renewcommand{\cftlamptitlefont}{\hfill\bfseries\normalsize}
+\renewcommand{\cftafterlamptitle}{\hfill}
+\setlength{\cftbeforelamptitleskip}{0pt}
+\setlength{\cftafterlamptitleskip}{\baselineskip}
+
+\newcommand{\buatlampiran}[1]{%
+    \refstepcounter{lampiran}%
+    \section*{Lampiran \thelampiran \ #1}%
+    \addcontentsline{lamp}{lampiran}{Lampiran \thelampiran \ #1}%
+}
+
+
+% --- Abstract Environment ---
+\newenvironment{abstract-id}{
+    \clearpage
+    \setstretch{1.0}
+    \fontsize{11pt}{13pt}\selectfont
+}{
+    \par
+}
+
+\newenvironment{abstract-en}{
+    \clearpage
+    \setstretch{1.0}
+    \fontsize{11pt}{13pt}\selectfont
+    \itshape
+}{
+    \par
+}
+
+% --- Metadata ---
+\newcommand{\thesistitle}{INTEGRASI RETRIEVAL-AUGMENTED GENERATION DAN DETEKSI OBJEK MULTIMODAL PADA SISTEM AGENTIK UNTUK IDENTIFIKASI PENYAKIT TANAMAN}
+\newcommand{\thesistitleen}{INTEGRATION OF RETRIEVAL-AUGMENTED GENERATION AND MULTIMODAL OBJECT DETECTION IN AN AGENTIC SYSTEM FOR PLANT DISEASE IDENTIFICATION}
+\newcommand{\authorname}{Andakara Athaya Sidiq}
+\newcommand{\studentid}{2200822}
+\newcommand{\prody}{PROGRAM STUDI S1 TEKNIK KOMPUTER}
+\newcommand{\faculty}{UNIVERSITAS PENDIDIKAN INDONESIA}
+\newcommand{\campus}{KAMPUS UPI DI CIBIRU}
+\newcommand{\thesisyear}{2026}
+
+% --- Advisor and Program Head ---
+\newcommand{\advisorone}{Dr. Eng. Munawir, S.Kom., M.T.}
+\newcommand{\advisoronenip}{920200819851205101}
+\newcommand{\advisortwo}{Muhammad Taufik Dwi Putra, S.Tr.Kom., M.T.I.}
+\newcommand{\advisortwonip}{920200819940117101}
+\newcommand{\programhead}{Anugrah Adiwilaga, S.ST., M.T.}
+\newcommand{\programheadnip}{920200819880813101}
+
+\begin{document}
+
+% --- Front Matter ---
+\pagestyle{frontmatter}
+
+% Title Page
+\begin{titlepage}
+    \centering
+    \setstretch{1.5}
+    \thispagestyle{empty} % No page number on title page
+    {\bfseries \MakeUppercase{\thesistitle} \par}
+    \vfill
+    \includegraphics[width=4cm]{logo_upi.png}
+    \vfill
+    {\bfseries SKRIPSI \par}
+    \vspace{\baselineskip}
+    diajukan untuk memenuhi sebagian syarat\\
+    untuk memperoleh gelar Sarjana Teknik Program Studi Teknik Komputer
+    \vfill
+    Oleh:\\
+    \authorname\\
+    \studentid
+    \vfill
+    {\bfseries \prody \\ \campus \\ \faculty \\ \thesisyear \par}
+\end{titlepage}
+\clearpage
+
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+% Halaman Hak Cipta
+\addcontentsline{toc}{chapter}{HALAMAN HAK CIPTA}
+\begin{center}
+    \vspace*{\fill}
+    {\bfseries HALAMAN HAK CIPTA \par}
+    \vspace{1cm}
+    {\bfseries \MakeUppercase{\thesistitle} \par}
+    \vspace{3cm}
+    Oleh\\
+    \authorname\\
+    NIM \studentid\\
+    \vspace{2cm}
+    Sebuah skripsi yang diajukan untuk memenuhi sebagian syarat memperoleh gelar Sarjana Teknik\\
+    Program Studi Teknik Komputer\\
+    \vspace{1cm}
+    \copyright\ \authorname\ \\
+    Universitas Pendidikan Indonesia\\
+    \thesisyear\\
+    \vspace{3cm}
+    Hak Cipta dilindungi undang-undang.\\
+    Skripsi ini tidak boleh diperbanyak seluruhnya atau sebagian,\\
+    dengan dicetak ulang, difotokopi, atau cara lainnya tanpa ijin dari penulis.
+    \vspace*{\fill}
+\end{center}
+\clearpage
+
+% Lembar Pengesahan
+\clearpage
+\addcontentsline{toc}{chapter}{HALAMAN PENGESAHAN}
+\begin{center}
+    \setstretch{1.1}
+    {\bfseries HALAMAN PENGESAHAN SKRIPSI \par}
+    \vfill
+    {\bfseries \MakeUppercase{\authorname} \par}
+    {\bfseries \studentid \par}
+    \vfill
+    {\bfseries \MakeUppercase{\thesistitle} \par}
+    \vfill
+    Disetujui dan Disahkan Oleh Pembimbing: \\
+    \vspace{0.5cm}
+    Pembimbing 1 \\
+    \vspace{1.8cm}
+    \advisorone \par
+    NIP. \advisoronenip \\
+    \vfill
+    Pembimbing 2 \\
+    \vspace{1.8cm}
+    \advisortwo \par
+    NIP. \advisortwonip \\
+    \vfill
+    Mengetahui, \\
+    Ketua Program Studi S-1 Teknik Komputer \\
+    \vspace{1.8cm}
+    \programhead \par
+    NIP. \programheadnip
+\end{center}
+\clearpage
+
+% Pernyataan Bebas Plagiarisme
+\clearpage
+\addcontentsline{toc}{chapter}{PERNYATAAN BEBAS PLAGIARISME}
+\begin{center}
+    \setstretch{1.1}
+    {\bfseries PERNYATAAN BEBAS PLAGIARISME \par}
+\end{center}
+\vspace{1.5cm}
+
+\noindent Saya yang bertanda tangan di bawah ini:
+
+\vspace{0.5cm}
+\noindent
+\begin{tabular}{@{}l p{0.2cm} l}
+    Nama & : & \authorname \\
+    NIM & : & \studentid \\
+    Program Studi & : & Teknik Komputer \\
+    Judul Karya & : & \parbox[t]{11cm}{\thesistitle}
+\end{tabular}
+
+\vspace{1cm}
+\noindent Dengan ini menyatakan bahwa karya tulis ini merupakan hasil kerja saya sendiri. Saya menjamin bahwa seluruh isi karya ini, baik sebagian maupun keseluruhan, bukan merupakan plagiarisme dari karya orang lain, kecuali pada bagian yang telah dinyatakan dan disebutkan sumbernya dengan jelas.
+
+\vspace{0.5cm}
+\noindent Jika di kemudian hari ditemukan pelanggaran terhadap etika akademik atau unsur plagiarisme, saya bersedia menerima sanksi sesuai peraturan yang berlaku di Universitas Pendidikan Indonesia.
+
+\vfill
+\begin{center}
+    Bandung, 15 Januari \thesisyear \\
+    \vspace{2.5cm}
+    \authorname
+\end{center}
+\vspace{1.5cm}
+\clearpage
+
+% Kata Pengantar
+\chapter*{KATA PENGANTAR}
+\addcontentsline{toc}{chapter}{KATA PENGANTAR}
+
+Puji dan syukur penulis panjatkan ke hadirat Allah Swt. atas segala rahmat, hidayah, serta karunia-Nya, sehingga penulis dapat menyelesaikan skripsi yang berjudul “\thesistitle” dengan baik. Penyusunan skripsi ini dilakukan sebagai salah satu syarat untuk menyelesaikan pendidikan pada Program Studi S1 Teknik Komputer Universitas Pendidikan Indonesia.
+
+Penulis menyadari bahwa keberhasilan dalam menyelesaikan karya ini tidak terlepas dari bantuan, bimbingan, serta dukungan dari berbagai pihak. Oleh karena itu, pada kesempatan ini penulis ingin menyampaikan apresiasi dan terima kasih yang tulus kepada:
+
+\begin{enumerate}[label=\arabic*., leftmargin=*, nosep]
+    \item Allah Swt. yang telah memberikan kesehatan, kekuatan, dan kelancaran kepada penulis dalam setiap tahapan penyelesaian skripsi ini.
+    \item Kedua orang tua tercinta, Bapak Mohamad Syarif Sidik dan Ibu Siti Fauzanah, yang senantiasa memberikan doa yang tidak terputus, motivasi, serta dukungan moril maupun materil yang luar biasa.
+    \item Bapak Anugrah Adiwilaga, S.ST., M.T., selaku Ketua Program Studi S1 Teknik Komputer yang telah memberikan dukungan dan fasilitas selama masa perkuliahan.
+    \item \advisorone, selaku Dosen Pembimbing I, yang telah meluangkan waktu dan pikiran untuk memberikan bimbingan, arahan, serta masukan yang sangat berharga bagi penulis sejak tahap perencanaan hingga skripsi ini selesai.
+    \item \advisortwo, selaku Dosen Pembimbing II, yang telah memberikan banyak arahan, motivasi, serta saran-saran membangun yang membantu penulis dalam menyempurnakan penelitian ini.
+    \item Seluruh Bapak dan Ibu Dosen serta staf administrasi di Program Studi S1 Teknik Komputer \campus, atas ilmu dan bantuan yang diberikan selama penulis menempuh studi.
+    \item Teman-teman seperjuangan mahasiswa Teknik Komputer angkatan 2022 yang telah menjadi rekan diskusi dan memberikan semangat selama masa perkuliahan ini.
+    \item Semua pihak yang tidak dapat penulis sebutkan satu per satu, yang telah memberikan bantuan baik secara langsung maupun tidak langsung dalam penyelesaian penelitian ini.
+\end{enumerate}
+
+Penulis menyadari bahwa skripsi ini masih memiliki banyak kekurangan. Oleh karena itu, kritik dan saran yang membangun sangat diharapkan demi perbaikan di masa mendatang. Semoga penelitian ini dapat memberikan manfaat bagi perkembangan ilmu pengetahuan dan bagi pembaca sekalian.
+
+\vspace{1cm}
+\begin{flushright}
+    Bandung, 15 Januari \thesisyear \\
+    \vspace{1.5cm}
+    \authorname
+\end{flushright}
+
+% Abstrak
+\begin{abstract-id}
+    \addcontentsline{toc}{chapter}{ABSTRAK}
+    \begin{center}
+        {\bfseries \MakeUppercase{\thesistitle} \par}
+        \vspace{2em}
+        \authorname \\
+        \studentid \\
+        \vspace{2em}
+        {\bfseries ABSTRAK}
+    \end{center}
+    \vspace{-0.5em}
+    Penyakit tanaman merupakan ancaman utama bagi produktivitas pertanian global. Keterbatasan metode identifikasi tradisional mendorong kebutuhan akan solusi berbasis teknologi cerdas yang cepat dan akurat. Penelitian ini bertujuan mengembangkan sistem agentik multimodal untuk identifikasi penyakit tanaman dengan mengintegrasikan model bahasa-visual (VLM) dan kerangka kerja \textit{Retrieval-Augmented Generation} (RAG). Metode penelitian yang digunakan adalah \textit{Design and Development Research} (DDR). Sistem dibangun menggunakan ekosistem LangChain dengan mengadopsi pola \textit{Reasoning and Acting} (ReAct) pada agen LLM Gemini 3 Flash. Komponen sistem meliputi YOLOv11 untuk deteksi daun, OWLv2 sebagai deteksi \textit{open-vocabulary}, model SCOLD untuk pencarian gambar-teks penyakit, serta mekanisme RAG untuk pengambilan informasi dari basis pengetahuan dan internet. Hasil penelitian menunjukkan bahwa model YOLOv11 \textit{small} memberikan keseimbangan terbaik dengan mAP50 sebesar \qty{89}{\percent} dan latensi p50 \qty{47}{ms}. Konfigurasi RAG yang menggabungkan \texttt{gemini-embedding-001}, BM25, dan \textit{reranker} Voyage AI mencapai skor nDCG@5, \textit{Recall}@5, dan MRR@5 di atas \qty{90}{\percent}. Evaluasi identifikasi penyakit oleh sistem agentik pada data di dalam distribusi melalui eksperimen tanya jawab visual menghasilkan akurasi berkisar \qtyrange{85}{96}{\percent} dan \qtyrange{60}{79}{\percent} pada data luar distribusi (OOD). Pengujian \textit{black-box} menunjukkan seluruh fungsionalitas antarmuka berjalan sesuai harapan. Integrasi ini menghasilkan sistem identifikasi penyakit tanaman yang fleksibel, adaptif, dan mampu memberikan rekomendasi penanganan berbasis bukti.
+    
+    \vspace{1em}
+    \noindent {\bfseries Kata Kunci:} Penyakit Tanaman, Sistem Agentik, Multimodal, YOLOv11, VLM, RAG
+\end{abstract-id}
+
+\begin{abstract-en}
+    \addcontentsline{toc}{chapter}{ABSTRACT}
+    \begin{center}
+        {\bfseries \MakeUppercase{\thesistitleen} \par}
+        \vspace{2em}
+        \authorname \\
+        \studentid \\
+        \vspace{2em}
+        {\bfseries ABSTRACT}
+    \end{center}
+    \vspace{-0.5em}
+    Plant diseases pose a major threat to global agricultural productivity. The limitations of traditional identification methods drive the need for fast and accurate intelligent technology-based solutions. This research aims to develop a multimodal agentic system for plant disease identification by integrating Vision-Language Models (VLMs) and the Retrieval-Augmented Generation (RAG) framework. The research methodology employed is Design and Development Research (DDR). The system is built using the LangChain ecosystem, adopting the Reasoning and Acting (ReAct) pattern on a Gemini 3 Flash LLM agent. System components include YOLOv11 for leaf detection, OWLv2 for open-vocabulary detection, the SCOLD model for image-text disease retrieval, and a RAG mechanism for information retrieval from the knowledge base and the internet. Research results indicate that the YOLOv11 small model provides the best balance with an mAP50 of \qty{89}{\percent} and a p50 latency of \qty{47}{ms}. The RAG configuration, combining \texttt{gemini-embedding-001}, BM25, and the Voyage AI reranker, achieved nDCG@5, Recall@5, and MRR@5 scores above \qty{90}{\percent}. Disease identification evaluation by the agentic system on in-distribution data through visual question answering experiments yielded accuracies ranging from \qtyrange{85}{96}{\percent} and \qtyrange{60}{79}{\percent} on out-of-distribution (OOD) data. Black-box testing showed that all interface functionalities operated as expected. This integration results in a flexible and adaptive plant disease identification system capable of providing evidence-based treatment recommendations.
+    
+    \vspace{1em}
+    \noindent {\bfseries Keywords:} Plant Disease, Agentic System, Multimodal, YOLOv11, VLM, RAG
+\end{abstract-en}
+
+\clearpage
+\begingroup
+\setlength{\cftaftertoctitleskip}{\baselineskip}
+\begin{singlespace}
+\tableofcontents
+\end{singlespace}
+\clearpage
+
+% Daftar Tabel
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
+\clearpage
+
+% Daftar Gambar
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+\clearpage
+
+% Daftar Lampiran
+\addcontentsline{toc}{chapter}{\listlampiranname}
+\listoflampiran
+\clearpage
+
+
+
+\clearpage
+
+\endgroup
+\clearpage
+
+% --- Main Body ---
+\pagenumbering{arabic}
+\pagestyle{mainbody}
+
+\include{chapters/bab1}
+\include{chapters/bab2}
+\include{chapters/bab3}
+\include{chapters/bab4}
+\include{chapters/bab5}
+
+\printbibliography[title={DAFTAR PUSTAKA}]
+\addcontentsline{toc}{chapter}{DAFTAR PUSTAKA}
+
+\include{chapters/lampiran}
+
+\end{document}

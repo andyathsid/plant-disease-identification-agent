@@ -1,0 +1,112 @@
+\babel@toc {indonesian}{}\relax 
+\contentsline {chapter}{HALAMAN HAK CIPTA}{i}{}%
+\contentsline {chapter}{HALAMAN PENGESAHAN}{ii}{}%
+\contentsline {chapter}{PERNYATAAN BEBAS PLAGIARISME}{iii}{}%
+\contentsline {chapter}{KATA PENGANTAR}{iv}{}%
+\contentsline {chapter}{ABSTRAK}{vi}{}%
+\contentsline {chapter}{ABSTRACT}{vii}{}%
+\contentsline {chapter}{DAFTAR TABEL}{xi}{}%
+\contentsline {chapter}{DAFTAR GAMBAR}{xiii}{}%
+\contentsline {chapter}{DAFTAR LAMPIRAN}{xviii}{}%
+\contentsline {chapter}{\numberline {I}PENDAHULUAN}{1}{}%
+\contentsline {section}{\numberline {1.1}Latar Belakang Penelitian}{1}{}%
+\contentsline {section}{\numberline {1.2}Rumusan Masalah Penelitian}{8}{}%
+\contentsline {section}{\numberline {1.3}Tujuan Penelitian}{8}{}%
+\contentsline {section}{\numberline {1.4}Ruang Lingkup Penelitian}{8}{}%
+\contentsline {section}{\numberline {1.5}Manfaat Penelitian}{9}{}%
+\contentsline {subsection}{\numberline {1.5.1}Manfaat Teoritis}{9}{}%
+\contentsline {subsection}{\numberline {1.5.2}Manfaat Praktis}{9}{}%
+\contentsline {chapter}{\numberline {II}KAJIAN PUSTAKA, KERANGKA PEMIKIRAN, DAN HIPOTESIS}{11}{}%
+\contentsline {section}{\numberline {2.1}Penyakit Tanaman}{11}{}%
+\contentsline {section}{\numberline {2.2}\textit {Artificial Intelligence} (AI)}{12}{}%
+\contentsline {section}{\numberline {2.3}\textit {Deep Learning}}{16}{}%
+\contentsline {section}{\numberline {2.4}\textit {Large-Language Models}}{20}{}%
+\contentsline {subsection}{\numberline {2.4.1}Arsitektur \textit {Transformer}}{24}{}%
+\contentsline {subsection}{\numberline {2.4.2}Arsitektur \textit {Vision Transformer}}{27}{}%
+\contentsline {subsection}{\numberline {2.4.3}\textit {Mixture-of-Experts}}{28}{}%
+\contentsline {section}{\numberline {2.5}Model Multimodal}{31}{}%
+\contentsline {subsection}{\numberline {2.5.1}\textit {Vision-Language Models}}{32}{}%
+\contentsline {subsection}{\numberline {2.5.2}CLIP}{36}{}%
+\contentsline {subsection}{\numberline {2.5.3}Keluarga Model Gemini}{38}{}%
+\contentsline {subsection}{\numberline {2.5.4}\textit {Chain-of-Thought} (CoT)}{44}{}%
+\contentsline {subsection}{\numberline {2.5.5}ReAct (\textit {Reasoning and Action})}{45}{}%
+\contentsline {section}{\numberline {2.6}\textit {Object Detection}}{47}{}%
+\contentsline {subsection}{\numberline {2.6.1}YOLO}{49}{}%
+\contentsline {subsection}{\numberline {2.6.2}OWLv2}{54}{}%
+\contentsline {section}{\numberline {2.7}\textit {Retrieval-Augmented Generation}}{55}{}%
+\contentsline {subsection}{\numberline {2.7.1}\textit {Hybrid Search}}{57}{}%
+\contentsline {subsection}{\numberline {2.7.2}\textit {Reranking}}{60}{}%
+\contentsline {subsection}{\numberline {2.7.3}Qdrant}{63}{}%
+\contentsline {subsection}{\numberline {2.7.4}ranx}{64}{}%
+\contentsline {section}{\numberline {2.8}Sistem Agentik}{65}{}%
+\contentsline {subsection}{\numberline {2.8.1}LangChain}{67}{}%
+\contentsline {subsection}{\numberline {2.8.2}LlamaIndex}{68}{}%
+\contentsline {section}{\numberline {2.9}\textit {LLM-as-a-judge}}{70}{}%
+\contentsline {subsection}{\numberline {2.9.1}RAGAS}{72}{}%
+\contentsline {subsection}{\numberline {2.9.2}DeepEval}{74}{}%
+\contentsline {section}{\numberline {2.10}Penelitian Terkait}{74}{}%
+\contentsline {chapter}{\numberline {III}METODE PENELITIAN}{79}{}%
+\contentsline {section}{\numberline {3.1}Desain Penelitian}{79}{}%
+\contentsline {section}{\numberline {3.2}Prosedur Penelitian}{79}{}%
+\contentsline {section}{\numberline {3.3}Analisis Kebutuhan}{81}{}%
+\contentsline {section}{\numberline {3.4}Perancangan dan Pengembangan}{81}{}%
+\contentsline {subsection}{\numberline {3.4.1}Sistem Agentik}{82}{}%
+\contentsline {subsection}{\numberline {3.4.2}Agen LLM}{85}{}%
+\contentsline {subsubsection}{\numberline {3.4.2.1}Konfigurasi}{85}{}%
+\contentsline {subsubsection}{\numberline {3.4.2.2}\textit {Prompt Engineering}}{87}{}%
+\contentsline {subsection}{\numberline {3.4.3}Modul Deteksi Objek Tanaman}{89}{}%
+\contentsline {subsubsection}{\numberline {3.4.3.1}Alat Deteksi \textit {Closed-Set}}{90}{}%
+\contentsline {subsubsection}{\numberline {3.4.3.2}Persiapan Data}{90}{}%
+\contentsline {paragraph}{\numberline {3.4.3.2.1}Pemodelan}{91}{}%
+\contentsline {paragraph}{\numberline {3.4.3.2.2}Evaluasi}{92}{}%
+\contentsline {subsubsection}{\numberline {3.4.3.3}Alat Deteksi Open-Vocabulary}{95}{}%
+\contentsline {subsection}{\numberline {3.4.4}Modul Pencarian Gambar-Teks Penyakit}{96}{}%
+\contentsline {subsubsection}{\numberline {3.4.4.1}Persiapan Data}{97}{}%
+\contentsline {subsubsection}{\numberline {3.4.4.2}\textit {Indexing}}{98}{}%
+\contentsline {subsubsection}{\numberline {3.4.4.3}Strategi Pencarian}{99}{}%
+\contentsline {subsection}{\numberline {3.4.5}Modul Pencarian Informasi}{101}{}%
+\contentsline {subsubsection}{\numberline {3.4.5.1}Alat Pencarian Basis Data Pengetahuan}{102}{}%
+\contentsline {paragraph}{\numberline {3.4.5.1.1}Persiapan Data}{105}{}%
+\contentsline {paragraph}{\numberline {3.4.5.1.2}Indexing}{108}{}%
+\contentsline {paragraph}{\numberline {3.4.5.1.3}Strategi Pencarian}{109}{}%
+\contentsline {paragraph}{\numberline {3.4.5.1.4}Evaluasi}{111}{}%
+\contentsline {subsubsection}{\numberline {3.4.5.2}Alat Pencarian Internet}{114}{}%
+\contentsline {subsection}{\numberline {3.4.6}Antarmuka Sistem Agentik}{114}{}%
+\contentsline {subsubsection}{\numberline {3.4.6.1}Arsitektur Antarmuka}{115}{}%
+\contentsline {subsubsection}{\numberline {3.4.6.2}Use Case Diagram}{116}{}%
+\contentsline {subsubsection}{\numberline {3.4.6.3}Sequence Diagram}{118}{}%
+\contentsline {subsubsection}{\numberline {3.4.6.4}Prototipe Antarmuka}{122}{}%
+\contentsline {subsubsection}{\numberline {3.4.6.5}Pengujian Antarmuka}{123}{}%
+\contentsline {section}{\numberline {3.5}Pengujian dan Evaluasi Sistem Agentik}{124}{}%
+\contentsline {subsection}{\numberline {3.5.1}Pengujian Satu Tahap}{124}{}%
+\contentsline {subsubsection}{\numberline {3.5.1.1}Persiapan Data}{125}{}%
+\contentsline {paragraph}{\numberline {3.5.1.1.1}\textit {Dataset In-Distribution} (ID)}{125}{}%
+\contentsline {paragraph}{\numberline {3.5.1.1.2}Dataset Out-of-Distribution (OOD)}{125}{}%
+\contentsline {subsubsection}{\numberline {3.5.1.2}Evaluasi}{131}{}%
+\contentsline {paragraph}{\numberline {3.5.1.2.1}Disease Accuracy}{131}{}%
+\contentsline {paragraph}{\numberline {3.5.1.2.2}Trajectory Accuracy}{134}{}%
+\contentsline {paragraph}{\numberline {3.5.1.2.3}Agent Goal Accuracy}{135}{}%
+\contentsline {paragraph}{\numberline {3.5.1.2.4}Faithfulness}{137}{}%
+\contentsline {paragraph}{\numberline {3.5.1.2.5}Context Relevance}{140}{}%
+\contentsline {subsection}{\numberline {3.5.2}Pengujian Multi-Tahap}{141}{}%
+\contentsline {subsubsection}{\numberline {3.5.2.1}Persiapan Data}{141}{}%
+\contentsline {subsubsection}{\numberline {3.5.2.2}Evaluasi}{142}{}%
+\contentsline {section}{\numberline {3.6}Analisis dan Pembahasan}{143}{}%
+\contentsline {chapter}{\numberline {IV}HASIL DAN PEMBAHASAN}{144}{}%
+\contentsline {section}{\numberline {4.1}Hasil Perancangan dan Pengembangan Sistem Agentik}{144}{}%
+\contentsline {section}{\numberline {4.2}Hasil Perancangan dan Pengembangan Agen LLM}{147}{}%
+\contentsline {section}{\numberline {4.3}Hasil Perancangan dan Pengembangan Modul Deteksi Objek Tanaman}{153}{}%
+\contentsline {subsection}{\numberline {4.3.1}Alat Deteksi Closed-Set}{154}{}%
+\contentsline {subsection}{\numberline {4.3.2}Alat Deteksi Open-Vocabulary}{160}{}%
+\contentsline {section}{\numberline {4.4}Hasil Perancangan dan Pengembangan Modul Gambar-Teks Penyakit Tanaman}{162}{}%
+\contentsline {section}{\numberline {4.5}Hasil Perancangan dan Pengembangan Modul Pencarian Informasi}{165}{}%
+\contentsline {section}{\numberline {4.6}Hasil Perancangan dan Pengembangan Antarmuka Sistem Agentik}{167}{}%
+\contentsline {section}{\numberline {4.7}Hasil Pengujian dan Evaluasi Sistem Agentik}{170}{}%
+\contentsline {subsection}{\numberline {4.7.1}Pengujian Satu Tahap}{172}{}%
+\contentsline {subsection}{\numberline {4.7.2}Pengujian Multi-Tahap}{176}{}%
+\contentsline {section}{\numberline {4.8}Hasil Analisis}{179}{}%
+\contentsline {chapter}{\numberline {V}SIMPULAN DAN SARAN}{182}{}%
+\contentsline {section}{\numberline {5.1}Simpulan}{182}{}%
+\contentsline {section}{\numberline {5.2}Saran}{183}{}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{198}{}%
+\contentsline {chapter}{LAMPIRAN}{199}{}%

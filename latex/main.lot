@@ -1,0 +1,34 @@
+\babel@toc {indonesian}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Kategori model berbasis \textit {Transformer} \blx@tocontentsinit {0}\parencite {amidiSuperStudyGuide2024, jm3}}}{26}{}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Ringkasan penelitian terkait sistem agentik identifikasi penyakit tanaman}}{78}{}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Perangkat Pendukung Penelitian}}{81}{}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Komponen Status (\textit {State}) pada Agen LLM}}{86}{}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Komponen \textit {Middleware} pada Agen LLM}}{87}{}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Konfigurasi Hiperparameter Pelatihan YOLOv11}}{91}{}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Skema Poin (Vektor dan Payload) pada Indeks Qdrant}}{98}{}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces Skema Ekstraksi Data dari PlantVillage dan Gardenology}}{107}{}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces Jenis Pertanyaan pada Dataset Evaluasi QA Sintetis}}{108}{}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces Skema Poin dengan Vektor Jamak dan Metadata pada Basis Data Pengetahuan}}{109}{}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces Konfigurasi Parameter Tavily Search API}}{114}{}%
+\contentsline {table}{\numberline {3.10}{\ignorespaces Pengujian \textit {Black Box} Antarmuka Sistem Agentik}}{123}{}%
+\contentsline {table}{\numberline {3.11}{\ignorespaces \textit {Rincian Dataset Out-of-Distribution} (OOD)}}{126}{}%
+\contentsline {table}{\numberline {3.12}{\ignorespaces Kebutuhan Data untuk Evaluasi Disease Accuracy}}{132}{}%
+\contentsline {table}{\numberline {3.13}{\ignorespaces Kebutuhan Data untuk Evaluasi Trajectory Accuracy}}{134}{}%
+\contentsline {table}{\numberline {3.14}{\ignorespaces Logika Evaluasi dan Rubrik Penilaian Trajectory Accuracy}}{135}{}%
+\contentsline {table}{\numberline {3.15}{\ignorespaces Kebutuhan Data untuk Evaluasi Agent Goal Accuracy}}{136}{}%
+\contentsline {table}{\numberline {3.16}{\ignorespaces Desain Evaluator Agent Goal Accuracy}}{137}{}%
+\contentsline {table}{\numberline {3.17}{\ignorespaces Kebutuhan Data untuk Evaluasi Faithfulness}}{138}{}%
+\contentsline {table}{\numberline {3.18}{\ignorespaces Desain Evaluator Faithfulness}}{139}{}%
+\contentsline {table}{\numberline {3.19}{\ignorespaces Kebutuhan Data untuk Evaluasi Context Relevance}}{141}{}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Konfigurasi Hiperparameter Pelatihan Final}}{155}{}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Rangkuman Hasil Evaluasi Performa dan Latensi Model YOLOv11}}{158}{}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Perbandingan Latensi Model Deteksi Closed-Set dan Open-Vocabulary}}{162}{}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Perbandingan performa empat konfigurasi hybrid search pada benchmark QA}}{166}{}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Pengujian \textit {Black Box} Antarmuka Sistem Agentik}}{170}{}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Rangkuman Hasil Evaluasi Metrik Pengujian Satu Tahap}}{172}{}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Rangkuman Hasil Evaluasi Kualitatif Eksperimen Domain Boundary}}{179}{}%
+\addvspace {10\p@ }

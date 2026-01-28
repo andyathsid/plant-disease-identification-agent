@@ -1,0 +1,27 @@
+branding:
+  appName: "Agen Penyakit Tanaman"
+  logoPath: "/logo.png"
+  logoWidth: 28
+  logoHeight: 28
+  description: "Tanyakan apa saja kepada Agen Penyakit Tanaman."
+  fullDescription: "/full-description.md"
+
+buttons:
+  enableFileUpload: true
+  chatInputPlaceholder: "Tanyakan apa yang ingin Anda ketahui."
+
+threads:
+  showHistory: true
+  enableDeletion: true
+  enableTitleEdit: true
+  autoGenerateTitles: true
+  sidebarOpenByDefault: true
+
+theme:
+  fontFamily: "serif"
+  fontSize: "large"
+  colorScheme: "light"
+
+ui:
+  autoCollapseToolCalls: false
+  chatWidth: "default"

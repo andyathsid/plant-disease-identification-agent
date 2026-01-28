@@ -1,0 +1,123 @@
+\babel@toc {indonesian}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Taksonomi penyakit tanaman}}{12}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Perbandingan alur kerja \textit {rule-based system} dan \textit {learning-based system}}}{14}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Kategori \textit {machine learning} (Sarker, 2021)}}{15}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Hierarki antara \textit {artificial intelligence}, \textit {machine learning}, \textit {representation learning}, dan \textit {deep learning}}}{16}{}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Arsitektur jaringan saraf tiruan dan mekanisme kerja neuron}}{17}{}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Perbandingan alur kerja antara \textit {machine learning} tradisional, \textit {representation learning}, dan \textit {deep learning}}}{18}{}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Contoh mekanisme \textit {feature extraction} dan \textit {fine-tuning} pada model CNN}}{19}{}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Ilustrasi mekanisme prediksi kata pada LLM}}{20}{}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Visualisasi parameter pada model bahasa}}{21}{}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Mekanisme tokenisasi}}{22}{}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Visualisasi representasi vektor pada ruang \textit {embedding}}}{22}{}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Mekanisme pembangkitan teks autoregresif pada LLM}}{23}{}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Arsitektur \textit {Transformer}}}{25}{}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Tiga varian arsitektur \textit {Transformer}}}{26}{}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Arsitektur \textit {Vision Transformer}}}{28}{}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Perbandingan arsitektur \textit {Transformer} standar dan MoE pada GShard}}{29}{}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Mekanisme \textit {routing} pada \textit {Switch Transformer}}}{30}{}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Empat Kategori Utama \textit {Vision-Language Models}}}{33}{}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Taksonomi Evaluasi \textit {Vision-Language Models}}}{35}{}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Arsitektur dan mekanisme pelatihan CLIP}}{37}{}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Arsitektur SCOLD}}{38}{}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Perbandingan performa retrieval SCOLD dan CLIP}}{38}{}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Gambaran umum kemampuan multimodal Gemini}}{39}{}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Hasil benchmark Gemini 2.5 Pro}}{40}{}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Perbandingan kecepatan Gemini 2.5 Flash}}{40}{}%
+\contentsline {figure}{\numberline {2.26}{\ignorespaces Perbandingan kemampuan keluarga model Gemini}}{41}{}%
+\contentsline {figure}{\numberline {2.27}{\ignorespaces Hasil benchmark Gemini 3 Pro}}{42}{}%
+\contentsline {figure}{\numberline {2.28}{\ignorespaces Hasil benchmark model embedding Gemini}}{43}{}%
+\contentsline {figure}{\numberline {2.29}{\ignorespaces Perbandingan \textit {standard prompting} dan \textit {chain-of-thought prompting}}}{45}{}%
+\contentsline {figure}{\numberline {2.30}{\ignorespaces Ilustrasi metode ReAct}}{46}{}%
+\contentsline {figure}{\numberline {2.31}{\ignorespaces Perbedaan Antara \textit {Image Recognition} dan \textit {Object Detection}}}{48}{}%
+\contentsline {figure}{\numberline {2.32}{\ignorespaces Perbedaan \textit {closed-set} dan \textit {open-vocabulary object detection}}}{49}{}%
+\contentsline {figure}{\numberline {2.33}{\ignorespaces Arsitektur YOLO}}{49}{}%
+\contentsline {figure}{\numberline {2.34}{\ignorespaces Arsitektur YOLOv11}}{51}{}%
+\contentsline {figure}{\numberline {2.35}{\ignorespaces Perbandingan performa YOLOv11}}{51}{}%
+\contentsline {figure}{\numberline {2.36}{\ignorespaces Hasil benchmark berbagai varian YOLO pada tugas deteksi objek di lingkungan pertanian}}{53}{}%
+\contentsline {figure}{\numberline {2.37}{\ignorespaces Arsitektur OWLv2}}{55}{}%
+\contentsline {figure}{\numberline {2.38}{\ignorespaces Alur kerja RAG}}{56}{}%
+\contentsline {figure}{\numberline {2.39}{\ignorespaces Alur Kerja \textit {Hybrid Search}}}{58}{}%
+\contentsline {figure}{\numberline {2.40}{\ignorespaces Arsitektur Sentence-BERT}}{59}{}%
+\contentsline {figure}{\numberline {2.41}{\ignorespaces Mekanisme fusion pada Hybrid Search}}{60}{}%
+\contentsline {figure}{\numberline {2.42}{\ignorespaces Konsep \textit {Reranking}}}{61}{}%
+\contentsline {figure}{\numberline {2.43}{\ignorespaces Visualisasi operator MaxSim}}{62}{}%
+\contentsline {figure}{\numberline {2.44}{\ignorespaces Mekanisme \textit {Late Interaction}}}{63}{}%
+\contentsline {figure}{\numberline {2.45}{\ignorespaces Struktur Data \textit {Point} pada Qdrant}}{64}{}%
+\contentsline {figure}{\numberline {2.46}{\ignorespaces Blok dasar dari sistem agentik}}{66}{}%
+\contentsline {figure}{\numberline {2.47}{\ignorespaces Kerangka kerja G-Eval}}{71}{}%
+\contentsline {figure}{\numberline {2.48}{\ignorespaces Perbandingan hasil evaluasi G-Eval}}{72}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Fase dalam penelitian Design and Development Research}}{79}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Tahapan dalam prosedur penelitian}}{80}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Arsitektur sistem agentik dengan kemampuan multimodal}}{83}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Perbandingan antara (a) desain teoritis ReAct dan (b) implementasi berbasis graf pada LangGraph}}{85}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Visualisasi kerangka kerja CO-STAR}}{88}{}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Alur Kerja Modul Deteksi Objek Tanaman}}{90}{}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Distribusi Kelas pada Dataset PlantDoc dari \blx@tocontentsinit {0}\textcite {singhPlantDocDatasetVisual2020}}}{91}{}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Diagram Alur Prosedur \textit {Benchmarking} Latensi Model}}{94}{}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Contoh Grafik \textit {Pareto Frontier} mAP vs Latensi \blx@tocontentsinit {0}\parencite {shakyaSmallObjectDetectionEdge2026}}}{95}{}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Arsitektur Model OWLv2 yang Digunakan}}{96}{}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Alur Kerja Modul Pencarian Gambar-Teks Penyakit Tanaman}}{97}{}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Distribusi Kelas pada Dataset PlantWild dari \textcite {weiBenchmarkingInthewildMultimodal2024}}}{97}{}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Visualisasi Mekanisme Penyaringan}}{99}{}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Visualisasi empat strategi pencarian multimodal: (a) \textit {Text-to-Text}, (b) \textit {Text-to-Image}, (c) \textit {Image-to-Image}, dan (d) \textit {Image-to-Text}}}{100}{}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Alur Kerja Modul Pencarian Informasi}}{102}{}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Peringkat \texttt {gemini-embedding-001} dan \texttt {text-embedding-3-large} pada MTEB oleh \blx@tocontentsinit {0}\textcite {muennighoffMTEBMassiveText2023}}}{103}{}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Diagram Alur Pengujian Komponen Alat Pencarian Basis Data Pengetahuan}}{105}{}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Alur Kerja Persiapan Data Dari Crawling hingga Pembangkitan Dataset QA}}{106}{}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Visualisasi Alur Kerja Strategi Pencarian Hibrida pada Basis Data Pengetahuan}}{111}{}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Arsitektur Antarmuka Sistem Agentik}}{116}{}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Use Case Diagram Antarmuka Sistem Agentik}}{117}{}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Diagram Urutan Interaksi Identifikasi Penyakit Tanaman}}{118}{}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Diagram Urutan Pengiriman Pesan Baru}}{120}{}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Diagram Urutan Akses \textit {Thread} Sebelumnya}}{121}{}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Diagram Urutan Melanjutkan Percakapan pada \textit {Thread} Lama}}{122}{}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Tampilan prototipe antarmuka sistem agentik}}{123}{}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Contoh Entri Dataset Evaluasi OOD dalam Format JSON}}{126}{}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Contoh Prompt Few-Shot untuk Skenario 1}}{128}{}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Alur Instruksi Pembangkitan Dataset Sintetis dengan LLM}}{129}{}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Contoh Entri Dataset Evaluasi Sintetis: (a) Skenario 1, (b) Skenario 2, dan (c) Skenario 3}}{130}{}%
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Diagram Alur Logika Evaluasi Disease Accuracy menggunakan DAG}}{133}{}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces \textit {Prompt} Evaluasi untuk Metrik Domain Adherence}}{143}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Representasi graf sistem agentik setelah proses kompilasi}}{144}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Visualisasi graf agen pada LangSmith Studio}}{145}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Contoh keluaran agen saat diuji di LangSmith Studio}}{146}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Jejak eksekusi (\textit {trace}) agen yang menampilkan pemanggilan alat}}{147}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Tampilan antarmuka manajemen prompt pada LangSmith Prompt Hub}}{148}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Realisasi instruksi Context dan Objective pada sistem}}{149}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Realisasi instruksi Style, Tone, dan Audience pada sistem}}{149}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Realisasi instruksi Response Structure pada sistem}}{150}{}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Realisasi referensi teknis alat pada sistem}}{151}{}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Diagram alir kebijakan penggunaan alat (\textit {Tool Decision Policy})}}{152}{}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Diagram alir mekanisme aturan kebenaran (\textit {Hard Truthfulness Rules})}}{153}{}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Sampel citra dan anotasi dari dataset PlantDoc}}{154}{}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Contoh sampel \textit {batch} pelatihan pada model YOLOv11-nano}}{155}{}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Kurva metrik pelatihan dan validasi untuk model (a) YOLOv11-nano, (b) YOLOv11-small, dan (c) YOLOv11-medium}}{156}{}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Hasil prediksi deteksi daun pada data uji menggunakan model (a) YOLOv11-nano, (b) YOLOv11-small, dan (c) YOLOv11-medium}}{157}{}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Perbandingan performa deteksi (mAP) antar varian YOLOv11}}{158}{}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Perbandingan latensi inferensi (p50 dan p95) antar varian YOLOv11}}{159}{}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Analisis \textit {Pareto Frontier} pada (a) mAP@50 vs Latensi p50 dan (b) mAP@50-95 vs Latensi p95 untuk pemilihan model terbaik}}{160}{}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Contoh hasil deteksi buah menggunakan model OWLv2}}{161}{}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Tampilan dasbor Qdrant yang menunjukkan status koleksi data PlantWild}}{162}{}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Struktur poin data yang menyimpan vektor ganda dan metadata}}{163}{}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Hasil verifikasi fungsionalitas pencarian multimodal: (a) Text-to-Image, (b) Image-to-Image, (c) Text-to-Text, dan (d) Image-to-Text}}{164}{}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Perbandingan hasil pencarian: (a) Tanpa filter metadata dan (b) Dengan filter metadata tanaman 'Apple'}}{165}{}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Perbandingan kinerja reranker pada top-5 dokumen: tanpa reranker, late interaction, dan cross-encoder.}}{167}{}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Tampilan antarmuka utama sistem agentik}}{168}{}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Implementasi antarmuka untuk fitur interaksi utama dan transparansi}}{169}{}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Implementasi antarmuka untuk pengelolaan riwayat percakapan (UC4)}}{169}{}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Tampilan dataset ID, OOD, dan Domain Boundary yang terintegrasi di LangSmith}}{171}{}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Detail contoh data evaluasi dalam LangSmith yang mencakup input dan referensi}}{171}{}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Tangkapan layar hasil eksperimen pada dashboard LangSmith. Kolom kiri menampilkan hasil pengujian pada dataset \textit {In-Distribution} (ID), sedangkan kolom kanan menampilkan hasil pada dataset \textit {Out-of-Distribution} (OOD). Urutan baris dari atas ke bawah merepresentasikan Skenario 1, Skenario 2, dan Skenario 3.}}{173}{}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Contoh eksekusi sukses pada input citra daun menggunakan alat deteksi \textit {closed-set}}}{174}{}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Contoh eksekusi sukses pada input citra buah menggunakan alat deteksi \textit {open-vocabulary}}}{174}{}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Sampel kasus dengan skor rendah pada Skenario 3, didominasi oleh penyakit jamur}}{175}{}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Contoh kegagalan identifikasi akibat kesalahan pengenalan tanaman yang mempengaruhi filter pencarian}}{176}{}%
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Visualisasi skor \textit {Domain Adherence}, latensi, dan penggunaan token pada eksperimen Domain Boundary}}{177}{}%
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Daftar eksekusi eksperimen Domain Boundary dengan variasi persona pengguna}}{177}{}%
+\contentsline {figure}{\numberline {4.37}{\ignorespaces Contoh penanganan kasus batas (\textit {Edge Case}) dan penilaian evaluator otomatis terhadap respons agen}}{178}{}%
+\addvspace {10\p@ }

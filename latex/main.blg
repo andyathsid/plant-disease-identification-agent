@@ -1,0 +1,27 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'main.blg'
+[109] biber-MSWIN64:342> INFO - === 
+[151] Biber.pm:421> INFO - Reading 'main.bcf'
+[387] Biber.pm:1002> INFO - Found 126 citekeys in bib section 0
+[402] Biber.pm:4487> INFO - Processing section 0
+[413] Biber.pm:4678> INFO - Looking for bibtex file 'Thesis.bib' for section 0
+[510] bibtex.pm:1713> INFO - LaTeX decoding ...
+[810] bibtex.pm:1519> INFO - Found BibTeX data source 'Thesis.bib'
+[5969] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[5970] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'variable = shifted' with 'variable = non-ignorable'
+[5970] Biber.pm:4307> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'indonesian'
+[5970] Biber.pm:4313> INFO - No sort tailoring available for locale 'indonesian'
+[7045] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'variable = shifted' with 'variable = non-ignorable'
+[7046] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[7046] Biber.pm:4307> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'indonesian'
+[7046] Biber.pm:4313> INFO - No sort tailoring available for locale 'indonesian'
+[7669] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[54960] bbl.pm:779> INFO - Output to main.bbl
+[54961] Biber.pm:132> WARN - ISBN '979-8-3503-7666-1 979-8-3503-7668-5' in entry 'abhiramNovelTwoStageDeep2024a' is invalid - run biber with '--validate_datamodel' for details.
+[54961] Biber.pm:132> WARN - ISBN '978-3-031-72969-0 978-3-031-72970-6' in entry 'liuGroundingDINOMarrying2025' is invalid - run biber with '--validate_datamodel' for details.
+[54961] Biber.pm:132> WARN - ISBN '978-1-63343-658-9 978-1-63835-777-3' in entry 'cholletDeepLearningPython2026' is invalid - run biber with '--validate_datamodel' for details.
+[54961] Biber.pm:132> WARN - ISBN '978-3-030-99738-0 978-3-030-99739-7' in entry 'bassaniRanxBlazingFastPython2022' is invalid - run biber with '--validate_datamodel' for details.
+[54961] Biber.pm:132> WARN - I didn't find a database entry for 'liuPretrainPromptPredict2023' (section 0)
+[54961] Biber.pm:132> WARN - I didn't find a database entry for 'chaseLangChain2022' (section 0)
+[54961] Biber.pm:132> WARN - I didn't find a database entry for 'TavilyaiTavilypython2026' (section 0)
+[54961] Biber.pm:134> INFO - WARNINGS: 7

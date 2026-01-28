@@ -1,0 +1,15 @@
+pandas
+pyarrow
+qdrant-client
+openai
+voyageai
+ranx>=0.3.11
+python-dotenv
+tqdm
+google-generativeai
+torch
+fastembed
+langchain-qdrant
+langchain-google-genai
+langchain-openai
+langchain-community

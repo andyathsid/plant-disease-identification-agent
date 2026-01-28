@@ -1,0 +1,136 @@
+\ProvidesFile{indonesian-apa.lbx}[2026/01/18 v9.17 APA biblatex localisation for Indonesian]
+\InheritBibliographyExtras{indonesian}
+
+\NewBibliographyString{publication}
+\NewBibliographyString{jourarticle}
+\NewBibliographyString{revisededition}
+\NewBibliographyString{typechair}
+\NewBibliographyString{typechairs}
+\NewBibliographyString{typevolume}
+\NewBibliographyString{typevolumes}
+\NewBibliographyString{typeseries}
+\NewBibliographyString{typeseriess}
+\NewBibliographyString{typevolseries}
+\NewBibliographyString{typevolseriess}
+\NewBibliographyString{on}
+\NewBibliographyString{retrieved}
+\NewBibliographyString{available}
+\NewBibliographyString{from}
+\NewBibliographyString{archivedat}
+\NewBibliographyString{origyear}
+\NewBibliographyString{reviewof}
+\NewBibliographyString{with}
+\NewBibliographyString{supplement}
+\NewBibliographyString{commenton}
+\NewBibliographyString{manunpub}
+\NewBibliographyString{maninprep}
+\NewBibliographyString{mansub}
+\NewBibliographyString{producer}
+\NewBibliographyString{producers}
+\NewBibliographyString{execproducer}
+\NewBibliographyString{execproducers}
+\NewBibliographyString{execdirector}
+\NewBibliographyString{execdirectors}
+\NewBibliographyString{director}
+\NewBibliographyString{directors}
+\NewBibliographyString{writer}
+\NewBibliographyString{writers}
+\NewBibliographyString{host}
+\NewBibliographyString{hosts}
+\NewBibliographyString{guestexpert}
+\NewBibliographyString{guestexperts}
+\NewBibliographyString{narrator}
+\NewBibliographyString{narrators}
+\NewBibliographyString{film}
+\NewBibliographyString{tvseries}
+\NewBibliographyString{tvepisode}
+\NewBibliographyString{video}
+\NewBibliographyString{song}
+\NewBibliographyString{album}
+\NewBibliographyString{podcast}
+\NewBibliographyString{podcastepisode}
+\NewBibliographyString{interview}
+\NewBibliographyString{speech}
+\NewBibliographyString{lithograph}
+\NewBibliographyString{map}
+\NewBibliographyString{lecturenotes}
+\NewBibliographyString{powerpoint}
+\NewBibliographyString{photograph}
+\NewBibliographyString{photographs}
+\NewBibliographyString{present}
+\NewBibliographyString{painting}
+\NewBibliographyString{article}
+\NewBibliographyString{unitednations}
+\NewBibliographyString{charter}
+\NewBibliographyString{ofthe}
+\NewBibliographyString{tothe}
+
+\DeclareBibliographyStrings{%
+  inherit          = {indonesian},
+  andothers        = {{dan kawan-kawan}{dkk\adddot}},
+  and              = {{\&}{\&}},
+  retrieved        = {{diakses}{diakses}},
+  from             = {{dari}{dari}},
+  nodate           = {{tanpa tahun}{t\adddot t\adddot}},
+  on               = {{pada}{pada}},
+  available        = {{tersedia}{tersedia}},
+  revisededition   = {{Edisi\space Revisi}{ed\adddot\space rev\adddot}},
+  page             = {{halaman}{hal\adddot}},
+  pages            = {{halaman}{hal\adddot}},
+  editor           = {{editor}{ed\adddot}},
+  editors          = {{editor}{ed\adddot}},
+  volume           = {{volume}{vol\adddot}},
+  volumes          = {{volume}{vol\adddot}},
+  number           = {{nomor}{no\adddot}},
+  edition          = {{edisi}{ed\adddot}},
+  techreport       = {{laporan\space teknis}{lap\adddot\space tek\adddot}},
+  in               = {{dalam}{dalam}},
+  january          = {{Januari}{Januari}},
+  february         = {{Februari}{Februari}},
+  march            = {{Maret}{Maret}},
+  april            = {{April}{April}},
+  may              = {{Mei}{Mei}},
+  june             = {{Juni}{Juni}},
+  july             = {{Juli}{Juli}},
+  august           = {{Agustus}{Agustus}},
+  september        = {{September}{September}},
+  october          = {{Oktober}{Oktober}},
+  november         = {{November}{November}},
+  december         = {{Desember}{Desember}},
+}
+
+\DeclareBibliographyExtras{%
+  \def\urldatecomma{\addcomma\addspace}%
+  \protected\def\mkbibdateapalong#1#2#3#4{%
+    \iffieldundef{#3}%
+      {}%
+      {\stripzeros{\thefield{#3}}\addspace}%
+    \iffieldundef{#2}%
+      {}%
+      {\mkbibmonth{\thefield{#2}}\urldatecomma}%
+    \iffieldundef{#1}%
+      {}%
+      {\iffieldbibstring{#1}{\bibncpstring{\thefield{#1}}}{\thefield{#1}}}}%
+  \protected\def\mkbibdateapalongextra#1#2#3#4{%
+    \iffieldundef{#3}%
+      {}%
+      {\stripzeros{\thefield{#3}}\addspace}%
+    \iffieldundef{#2}%
+      {}%
+      {\mkbibmonth{\thefield{#2}}\urldatecomma}%
+    \iffieldundef{#1}%
+      {}%
+      {\iffieldbibstring{#1}{\bibncpstring{\thefield{#1}}}{\thefield{#1}}\printfield{extradate}}}%
+  \protected\def\mkbibdateapa#1#2#3#4{%
+    \iffieldundef{#3}%
+      {}%
+      {\stripzeros{\thefield{#3}}\addspace}%
+    \iffieldundef{#2}%
+      {}%
+      {\mkbibmonth{\thefield{#2}}\addspace}%
+    \iffieldundef{#1}%
+      {}%
+      {\iffieldbibstring{#1}{\bibncpstring{\thefield{#1}}}{\thefield{#1}}}}%
+}
+
+\endinput

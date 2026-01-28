@@ -1,0 +1,854 @@
+%TODO: semua yg ada di judul wajib ada subbabnya di bab 2. termasiuk multimodal dan deteksi objek
+
+\chapter{KAJIAN PUSTAKA, KERANGKA PEMIKIRAN, DAN HIPOTESIS}
+\section{Penyakit Tanaman}
+Penyakit tanaman secara fundamental didefinisikan sebagai gangguan atau penyimpangan dari kondisi fisiologis normal yang disebabkan oleh interaksi berkelanjutan dengan faktor eksternal, yang bermanifestasi pada perubahan morfologi, fisiologi, maupun perilaku tanaman. \textcite{muhammadComprehensiveReviewCrop2025} memperluas definisi ini dengan terminologi cekaman (\textit{crop stress}), yakni segala kondisi eksternal yang memberikan dampak negatif terhadap metabolisme, pertumbuhan, dan produktivitas tanaman. Segala bentuk gangguan yang memengaruhi vitalitas tanaman tersebut menuntut adanya pemahaman ilmiah yang komprehensif.
+Disiplin ilmu yang mempelajari fenomena ini adalah Fitopatologi (\textit{Phytopathology}). Berdasarkan etimologinya, istilah ini berasal dari bahasa Yunani \textit{phyton} (tanaman), \textit{pathos} (penyakit), dan \textit{logos} (pengetahuan) \parencite{bhargavaPlantLeafDisease2024}. \textcite{bhargavaPlantLeafDisease2024} menjelaskan bahwa Fitopatologi bukan sekadar ilmu pengenalan penyakit, melainkan sebuah sistem terpadu yang mencakup empat tujuan utama: (1) Etiologi, yang berfokus pada studi sumber atau penyebab penyakit; (2) Patogenesis, yang mempelajari mekanisme perkembangan penyakit; (3) Epidemiologi, yang mengkaji interaksi antara populasi inang, patogen, dan lingkungan; serta (4) Manajemen, yang merancang strategi pengendalian untuk memitigasi kerugian. Fitopatologi mengintegrasikan berbagai subdisiplin ilmu seperti bakteriologi, virologi, mikologi, hingga biologi molekuler dan meteorologi untuk memahami dinamika kesehatan tanaman secara holistik.
+
+Penyebab penyakit dan cekaman tanaman secara garis besar diklasifikasikan menjadi dua kategori utama, yaitu faktor abiotik dan faktor biotik. Visualisasi taksonomi dari penyebab penyakit ini disajikan pada Gambar \ref{fig:taxonomy_plant_disease}. Penyakit abiotik dipicu oleh faktor lingkungan non-hidup seperti suhu ekstrem, salinitas tanah, dan ketidakseimbangan nutrisi yang bertindak sebagai stresor fisik pengganggu homeostasis tanaman \parencite{muhammadComprehensiveReviewCrop2025}. Secara karakteristik, penyakit abiotik bersifat tidak menular dengan sebaran di lahan yang cenderung seragam mengikuti kondisi fisik lingkungan, serta gejala yang muncul secara serentak pada banyak individu. Diagnosis untuk kategori ini umumnya dilakukan melalui analisis tanah, cuaca, dan jaringan tanaman. Sebaliknya, penyakit biotik disebabkan oleh organisme hidup parasit seperti jamur (\textit{fungi}), bakteri, virus, dan nematoda, maupun serangan hama yang dapat berperan sebagai vektor pembawa penyakit \parencite{muhammadComprehensiveReviewCrop2025}. Berbeda dengan faktor abiotik, penyakit biotik memiliki sifat menular yang menyebar secara bertahap seiring siklus hidup patogen, dengan pola sebaran di lahan yang cenderung berkelompok (\textit{patchy}) atau menyebar secara radial. Identifikasi penyakit biotik memerlukan pengamatan visual terhadap tanda (\textit{signs}), kultur, atau teknik molekuler.
+\begin{figure}[ht]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{forest}
+  for tree={
+    font=\small,
+    draw=black!70,
+    rounded corners,
+    align=center,
+    edge={-latex, line width=0.6pt, draw=black!70},
+    l sep=0.8cm,
+    s sep=0.3cm,
+    inner sep=5pt,
+    tier/.option=level,
+  },
+  where level=0{
+    fill=gray!20,
+    line width=1pt,
+    font=\small\bfseries,
+  }{},
+  where level=1{
+    fill=blue!10,
+    line width=0.8pt,
+    font=\small\bfseries,
+    edge={-latex, line width=1pt},
+  }{},
+  where level=2{
+    fill=white,
+    line width=0.6pt,
+  }{},
+  where level=3{
+    draw=none,
+    fill=none,
+    font=\footnotesize\itshape,
+    text=black!60,
+    edge={-},
+    inner sep=2pt,
+    anchor=north,
+  }{},
+  [ \textbf{Penyakit Tanaman} \\ (Plant Disease)
+    [ \textbf{Biotik} \\ (Infectious)
+      [ Bakteri \\ (Bacterial)
+        [ {Bercak (\textit{Spot}) \\ Layu (\textit{Wilting})} ]
+      ]
+      [ Virus \\ (Viral)
+        [ {Mosaik (\textit{Mosaic}) \\ Albikasi (\textit{Albication}) \\ Pengerutan Daun (\textit{Leaf Curl})} ]
+      ]
+      [ Jamur \\ (Fungal)
+        [ {Hawar (\textit{Blight}) \\ Karat (\textit{Rust}) \\ Scorch} ]
+      ]
+      [ Hama \\ (Pests)
+        [ {Vektor Penyakit \\ Kerusakan Mekanis} ]
+      ]
+    ]
+    [ \textbf{Abiotik} \\ (Non-Infectious)
+      [ Suhu \\ (Temperature) ]
+      [ Curah Hujan \\ (Rainfall) ]
+      [ Kelembaban \\ (Humidity) ]
+      [ Nutrisi \\ (Nutrient Deficiency) ]
+    ]
+  ]
+\end{forest}
+}
+\caption[Taksonomi penyakit tanaman]{Taksonomi penyakit tanaman \parencite{muhammadComprehensiveReviewCrop2025, bhargavaPlantLeafDisease2024}}
+\label{fig:taxonomy_plant_disease}
+\end{figure}
+% TODO(HUMAN): Ubah ke gambar manual di drawio dan tambahin contoh gambar penyakit tanaman.
+
+% Terjadinya penyakit biotik yang sukses memerlukan interaksi kompleks yang dikenal sebagai Segitiga Penyakit (\textit{Disease Triangle}). Konsep ini menjelaskan bahwa infeksi hanya akan terjadi jika terdapat pertemuan antara inang yang rentan (\textit{susceptible host}), patogen yang virulen (\textit{virulent pathogen}), dan kondisi lingkungan yang mendukung (\textit{favorable environment}) (Bhargava dkk., 2024). Ketiadaan salah satu komponen tersebut akan menggagalkan proses patogenesis.
+
+Dalam proses identifikasi, membedakan antara gejala (\textit{symptoms}) dan tanda (\textit{signs}) merupakan langkah fundamental bagi identifikasi yang akurat. Gejala merujuk pada respon internal atau perubahan fisiologis tanaman akibat gangguan, seperti klorosis (menguning), nekrosis (kematian jaringan), atau distorsi bentuk \parencite{muhammadComprehensiveReviewCrop2025}. Sementara itu, tanda (\textit{signs}) adalah bukti fisik langsung dari keberadaan agen penyebab, seperti massa hifa jamur, lendir bakteri (\textit{ooze}), atau keberadaan hama itu sendiri \parencite{bhargavaPlantLeafDisease2024}. Pengenalan visual terhadap indikator-indikator ini, baik yang bersifat makroskopis maupun mikroskopis, menjadi basis utama pengembangan sistem deteksi otomatis berbasis kecerdasan buatan. 
+
+\section{\textit{Artificial Intelligence} (AI)}
+\textit{Artificial Intelligence} (AI) atau kecerdasan buatan merupakan cabang ilmu komputer yang berfokus pada pengembangan sistem yang mampu melakukan tugas-tugas yang biasanya memerlukan kecerdasan manusia, seperti pengenalan pola, penalaran, pembelajaran, dan pengambilan keputusan \parencite{russell2020artificial}. Dalam perkembangannya, \textcite{russell2020artificial} mengategorikan AI ke dalam empat dimensi utama, yakni sistem yang berpikir seperti manusia, sistem yang bertindak seperti manusia, sistem yang berpikir secara rasional, dan sistem yang bertindak secara rasional. Fokus utama pada penelitian ini terletak pada pengembangan agen cerdas yang mampu bertindak secara rasional untuk memecahkan masalah identifikasi penyakit tanaman.
+
+Berdasarkan mekanisme operasionalnya, sistem yang menerapkan AI dapat diklasifikasikan menjadi dua kategori utama, yakni \textit{rule-based system} (sistem berbasis aturan) dan \textit{learning-based system} (sistem berbasis pembelajaran) \parencite{russell2020artificial}. \textcite{goodfellowDeepLearning2016} menjelaskan bahwa transisi dari sistem berbasis aturan menuju sistem berbasis pembelajaran merupakan evolusi krusial dalam AI untuk mengatasi keterbatasan pengetahuan manusia yang sulit diformalkan. \textit{Rule-based system} bekerja dengan mengikuti sekumpulan logika atau aturan "jika-maka" (\textit{if-then rules}) yang didefinisikan secara manual oleh pakar manusia. Meskipun sistem ini sangat andal pada domain yang statis dan terstruktur, ia memiliki keterbatasan dalam menangani data yang kompleks dan tidak terduga di dunia nyata. Sebaliknya, \textit{learning-based system} dirancang agar sistem dapat memperoleh pengetahuannya sendiri secara otomatis melalui analisis data tanpa harus diprogram secara eksplisit untuk setiap skenario. Perbandingan alur kerja antara kedua paradigma tersebut dapat digambarkan pada Gambar \ref{fig:comparison_rule_learning}.
+
+\begin{figure}[H] 
+\centering
+\begin{tikzpicture}[
+    node distance=1.2cm and 2cm,
+    block/.style={rectangle, draw, minimum width=3cm, minimum height=1cm, align=center, rounded corners=2pt, font=\small},
+    input/.style={block, fill=gray!10},
+    logic/.style={block, fill=blue!10},
+    output/.style={block, fill=green!10},
+    source/.style={block, fill=orange!10, dashed},
+    arrow/.style={thick, ->, >=stealth}
+]
+
+% --- Sistem Berbasis Aturan ---
+\node[logic] (rb_rules) at (4.5, 2.5) {Logika Aturan \\ (\textit{If-Then Rules})};
+\node[input, left=of rb_rules] (rb_data) {Data Masukan};
+\node[output, right=of rb_rules] (rb_out) {Luaran};
+\node[source] (pakar) [above=0.6cm of rb_rules] {Pakar Manusia};
+\node[font=\bfseries] (rb_title) [above=0.4cm of pakar] {Sistem Berbasis Aturan (\textit{Rule-Based System})};
+
+\draw[arrow] (rb_data) -- (rb_rules);
+\draw[arrow] (rb_rules) -- (rb_out);
+\draw[arrow, dashed] (pakar) -- (rb_rules);
+
+% Garis pemisah
+\draw[dashed, gray!30] (-1.5, 0.5) -- (10.5, 0.5);
+
+% --- Sistem Berbasis Pembelajaran ---
+\node[logic, fill=purple!10] (lb_model) at (4.5, -2) {Model Prediksi \\ (\textit{Machine Learning})};
+\node[input, left=of lb_model] (lb_data) {Data Masukan};
+\node[output, right=of lb_model] (lb_out) {Luaran};
+\node[source] (train_data) [below=0.6cm of lb_model] {Data Pelatihan};
+\node[font=\bfseries] (lb_title) [above=0.6cm of lb_model] {Sistem Berbasis Pembelajaran (\textit{Learning-Based System})};
+
+\draw[arrow] (lb_data) -- (lb_model);
+\draw[arrow] (lb_model) -- (lb_out);
+\draw[arrow, dashed] (train_data) -- (lb_model);
+
+\end{tikzpicture}
+\caption[Perbandingan alur kerja \textit{rule-based system} dan \textit{learning-based system}]{Perbandingan alur kerja \textit{rule-based system} dan \textit{learning-based system}}
+\label{fig:comparison_rule_learning}
+\end{figure}
+
+Implementasi dari paradigma \textit{learning-based system} ini secara spesifik diwujudkan melalui \textit{machine learning} (pembelajaran mesin). \textcite{goodfellowDeepLearning2016} menekankan bahwa \textit{machine learning} adalah pendekatan yang memungkinkan sistem AI untuk memperoleh pengetahuannya sendiri dengan mengekstraksi pola dari data, sehingga mampu menyelesaikan tugas-tugas yang sulit didefinisikan secara formal oleh manusia. Dalam identifikasi penyakit tanaman, fleksibilitas ini sangat diperlukan karena karakteristik visual gejala penyakit seringkali terlalu kompleks untuk dipetakan secara manual ke dalam aturan logika yang kaku \parencite{pacalSystematicReviewDeep2024}. Melalui mekanisme ini, sistem dapat belajar dari pengalaman atau sekumpulan data historis guna meningkatkan akurasi diagnosanya secara berkelanjutan \parencite{russell2020artificial}. Untuk mengoptimalkan proses akuisisi pengetahuan tersebut, algoritma \textit{machine learning} dikembangkan ke dalam berbagai metode yang disesuaikan dengan karakteristik data yang tersedia.
+
+Secara umum, algoritma \textit{machine learning} dikelompokkan ke dalam empat kategori utama berdasarkan jenis data dan metode pembelajarannya (Sarker, 2021). Visualisasi dari kategori-kategori tersebut disajikan pada Gambar \ref{fig:taxonomy_ml}. Keempat kategori tersebut dijabarkan sebagai berikut:
+\begin{enumerate}[nosep]
+    \item \textit{Supervised Learning}: Pendekatan di mana model dilatih menggunakan \textit{dataset} yang memiliki label eksplisit, yang terdiri dari pasangan masukan dan luaran yang benar. Tujuannya adalah untuk memetakan fungsi dari masukan ke luaran sehingga model dapat melakukan prediksi atau klasifikasi pada data baru yang belum pernah dilihat sebelumnya.
+    \item \textit{Unsupervised Learning}: Pendekatan ini bekerja pada data yang tidak memiliki label atau anotasi sebelumnya. Fokus utamanya adalah untuk menemukan struktur, pola, atau hubungan tersembunyi di dalam data tanpa adanya panduan luaran yang spesifik, seperti pada tugas klasterisasi atau asosiasi.
+    \item \textit{Semi-supervised Learning}: Kategori ini merupakan hibrida yang memanfaatkan \textit{dataset} berlabel dalam jumlah kecil bersama dengan \textit{dataset} tidak berlabel dalam jumlah besar selama proses pelatihan. Pendekatan ini dapat digunakan dalam skenario di mana biaya anotasi data oleh pakar sangat mahal, namun data mentah tersedia secara melimpah.
+    \item \textit{Reinforcement Learning}: Metode pembelajaran yang berbasis pada interaksi agen dengan lingkungan melalui mekanisme \textit{reward} (penghargaan) dan \textit{penalty} (hukuman). Agen belajar untuk mengambil serangkaian tindakan yang dapat memaksimalkan akumulasi \textit{reward} dalam jangka panjang melalui proses \textit{trial and error}.
+\end{enumerate}
+
+
+\begin{figure}[ht]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{forest}
+  for tree={
+    font=\small,
+    draw,
+    align=center,
+    edge={-latex, line width=0.8pt},
+    l sep=0.8cm,
+    s sep=0.2cm,
+    inner sep=5pt,
+    rounded corners=2pt,
+  },
+  where level=0{fill=gray!10}{},
+  [ \textbf{Machine Learning Types}
+    [ \textbf{Supervised} \\ \textbf{Learning}
+      [ {Target Var. \\ (Discrete)}
+        [ Classification ]
+      ]
+      [ {Target Var. \\ (Continuous)}
+        [ Regression ]
+      ]
+    ]
+    [ \textbf{Unsupervised} \\ \textbf{Learning}
+      [ Unlabeled Data
+        [ Clustering ]
+        [ Association ]
+      ]
+    ]
+    [ \textbf{Semi-Supervised} \\ \textbf{Learning}
+      [ {Learns from Combined Data \\ (Labeled + Unlabeled)}
+        [ Classification ]
+        [ Clustering ]
+      ]
+    ]
+    [ \textbf{Reinforcement} \\ \textbf{Learning}
+      [ {Positive \\ (Reward)} ]
+      [ {Negative \\ (Penalty)} ]
+    ]
+  ]
+\end{forest}
+}
+\caption{Kategori \textit{machine learning} (Sarker, 2021)}
+\label{fig:taxonomy_ml}
+\end{figure}
+
+% [TODO: MENTION ABOUT SELF-SUPERVISED LEARNING AS A SUBSET OF SUPERVISED LEARNING]
+
+\section{\textit{Deep Learning}}
+\textit{Deep learning} merupakan subbidang dari \textit{machine learning} yang menggunakan arsitektur jaringan saraf tiruan (\textit{artificial neural networks}) dengan banyak lapisan tersembunyi untuk mempelajari representasi data secara hierarkis \parencite{cholletDeepLearningPython2026,goodfellowDeepLearning2016, russell2020artificial}. Secara taksonomi, \textit{deep learning} merupakan bagian integral dari \textit{machine learning}, yang mana \textit{machine learning} itu sendiri berada di bawah payung besar \textit{Artificial Intelligence}. Hubungan hierarkis ini dapat divisualisasikan pada Gambar \ref{fig:hierarchy_ai_ml_dl}.
+
+\begin{figure}[H] 
+\centering
+\includegraphics[width=0.8\textwidth]{hierarkiai.png}
+\caption[Hierarki antara \textit{artificial intelligence}, \textit{machine learning}, \textit{representation learning}, dan \textit{deep learning}]{Hierarki antara \textit{artificial intelligence}, \textit{machine learning}, dan \textit{deep learning} \parencite{cholletDeepLearningPython2026}}
+\label{fig:hierarchy_ai_ml_dl}
+\end{figure}
+
+Jaringan saraf tiruan (\textit{Artificial Neural Networks} atau ANN) merupakan fondasi utama dari \textit{deep learning} yang terinspirasi oleh struktur biologis otak manusia untuk memproses informasi melalui unit-unit komputasi yang saling terhubung \parencite{goodfellowDeepLearning2016}. Unit dasar dalam ANN adalah neuron yang menerima sinyal masukan, memberikan bobot (\textit{weights}) dan bias tertentu, serta menerapkan fungsi aktivasi untuk menghasilkan luaran. Arsitektur dasar sebuah jaringan saraf terdiri dari tiga jenis lapisan utama, yaitu lapisan masukan (\textit{input layer}), satu atau lebih lapisan tersembunyi (\textit{hidden layers}), dan lapisan luaran (\textit{output layer}) \parencite{leBigDataAnalytics2021}. Struktur jaringan saraf dan mekanisme operasional pada tingkat neuron diilustrasikan pada Gambar \ref{fig:nn_architecture}.
+
+\begin{figure}[H] 
+\centering
+\includegraphics[width=\textwidth]{nn_architecture.png}
+\caption[Arsitektur jaringan saraf tiruan dan mekanisme kerja neuron]{Arsitektur jaringan saraf tiruan: (a) Hierarki lapisan pada ANN dan (b) Mekanisme matematis pada tingkat neuron \parencite{leBigDataAnalytics2021}}
+\label{fig:nn_architecture}
+\end{figure}
+
+Perbedaan utama antara \textit{machine learning} tradisional dan \textit{deep learning} terletak pada cara fitur data diperoleh. \textcite{goodfellowDeepLearning2016} menjelaskan bahwa \textit{machine learning} tradisional sangat bergantung pada rekayasa fitur manual (\textit{hand-crafted features}) yang membutuhkan pengetahuan domain mendalam. Untuk mengatasi ketergantungan tersebut, dikembangkan pendekatan \textit{representation learning} (pembelajaran representasi) yang memungkinkan sistem secara otomatis menemukan representasi data yang diperlukan untuk menyelesaikan tugas tertentu \parencite{goodfellowDeepLearning2016}. \textit{Deep learning} merupakan bentuk spesifik dari \textit{representation learning} yang mampu mengekstraksi fitur secara otomatis langsung dari data mentah melalui struktur lapisan hierarkis yang merepresentasikan konsep secara bertingkat. Perbandingan alur pengolahan data ini disajikan dalam Gambar \ref{fig:workflow_ml_dl}.
+
+\begin{figure}[H] 
+\centering
+\includegraphics[width=0.8\textwidth]{traditionalvsdeeplearning.png}
+\caption[Perbandingan alur kerja antara \textit{machine learning} tradisional, \textit{representation learning}, dan \textit{deep learning}]{Perbandingan alur kerja antara \textit{machine learning} tradisional, \textit{representation learning}, dan \textit{deep learning} \parencite{goodfellowDeepLearning2016}}
+\label{fig:workflow_ml_dl}
+\end{figure}
+
+Dalam implementasi \textit{deep learning}, terdapat konsep yang sering dikenal dengan \textit{pre-training}, di mana model dilatih terlebih dahulu pada \textit{dataset} berskala besar untuk mempelajari fitur umum sebelum diterapkan pada tugas yang lebih spesifik melalui \textit{transfer learning} \parencite{cholletDeepLearningPython2026}. \textcite{cholletDeepLearningPython2026} menjelaskan bahwa fitur pada lapisan awal cenderung bersifat umum (\textit{general}), sementara fitur pada lapisan akhir lebih spesifik terhadap \textit{dataset} pelatihan asli. Oleh karena itu, terdapat dua strategi \textit{transfer learning} yang umum digunakan dalam pengembangan model \textit{deep learning}, yaitu \textit{feature extraction} dan \textit{fine-tuning}. Perbedaan mekanisme antara kedua strategi tersebut diilustrasikan pada Gambar \ref{fig:transfer_learning_mechanisms}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{transfer_learning_mechanisms.png}
+\caption[Contoh mekanisme \textit{feature extraction} dan \textit{fine-tuning} pada model CNN]{Contoh mekanisme \textit{feature extraction} dan \textit{fine-tuning} pada model CNN \parencite{asifDeepLearningbasedFramework2022}}
+\label{fig:transfer_learning_mechanisms}
+\end{figure}
+
+Strategi \textit{feature extraction} bekerja dengan menggunakan bobot model yang sudah dilatih sebagai ekstraktor fitur tetap tanpa melakukan pembaruan bobot pada lapisan dasar model, sehingga hanya lapisan klasifikasi terakhir yang dilatih ulang. Strategi ini ideal digunakan ketika \textit{dataset} target berukuran kecil atau memiliki kemiripan visual yang sangat tinggi dengan \textit{dataset} asal. Sebaliknya, strategi \textit{fine-tuning} melibatkan pelatihan kembali sebagian atau seluruh lapisan model menggunakan \textit{dataset} target dengan laju pembelajaran (\textit{learning rate}) yang lebih rendah guna mengadaptasi fitur yang sudah dipelajari ke domain data yang baru \parencite{cholletDeepLearningPython2026}. Strategi ini lebih cocok diterapkan pada \textit{dataset} target yang berukuran besar atau memiliki karakteristik data yang berbeda secara signifikan dari \textit{dataset} asal.
+
+Meskipun \textit{deep learning} menawarkan keunggulan dalam akurasi, model ini secara tradisional sangat bergantung pada ketersediaan data berlabel dalam jumlah besar terutama untuk pelatihan berbasis \textit{supervised learning} \parencite{goodfellowDeepLearning2016}. Keterbatasan ini mendorong perkembangan paradigma \textit{self-supervised learning}, di mana model dirancang untuk mempelajari representasi data dari data yang tidak berlabel dengan cara menciptakan tugas prediksi internal dari struktur data itu sendiri\parencite{minaeeLargeLanguageModels2025}. Pendekatan ini menjadi sangat relevan dalam mengatasi tantangan kelangkaan data berlabel pada domain-domain spesifik, termasuk dalam identifikasi penyakit tanaman yang memerlukan anotasi dari pakar.
+
+\section{\textit{Large-Language Models}}
+\textit{Large Language Models} (LLM) merupakan salah satu terobosan paling signifikan dalam bidang \textit{Natural Language Processing} (NLP) \parencite{cholletDeepLearningPython2026}. NLP didefinisikan sebagai subbidang kecerdasan buatan yang berfokus pada pengembangan algoritma untuk memproses, memahami, serta menghasilkan bahasa alami manusia, baik dalam bentuk teks maupun suara \parencite{jm3}. Dalam hierarki teknologi, LLM menempati posisi sebagai model bahasa tingkat lanjut yang memanfaatkan teknik \textit{deep learning} untuk memproses informasi tekstual dalam skala yang sangat besar.
+
+Terminologi LLM terdiri dari dua komponen utama, yakni model bahasa (\textit{language model}) dan skala besar (\textit{large}) \parencite{jm3}. Model bahasa secara fundamental adalah model probabilitas berbasis jaringan saraf yang menerima masukan berupa konteks atau prefiks teks, dan menghasilkan distribusi probabilitas terhadap kata atau token berikutnya yang paling mungkin muncul \parencite{jm3}. Ilustrasi mekanisme dasar LLM sebagai model prediksi urutan kata disajikan pada Gambar \ref{fig:llm_illustration}. 
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{bab2/llmilust.png}
+\caption[Ilustrasi mekanisme prediksi kata pada LLM]{Ilustrasi mekanisme LLM sebagai jaringan saraf yang menerima konteks dan menghasilkan distribusi kata berikutnya \parencite{jm3}}
+\label{fig:llm_illustration}
+\end{figure}
+Atribut "besar" pada LLM mengacu pada dua aspek utama, yaitu jumlah parameter yang mencapai miliaran hingga triliunan, serta penggunaan \textit{dataset} pelatihan masif yang mencakup sebagian besar literatur digital dunia. Parameter dalam konteks ini merupakan variabel internal model yang nilainya dipelajari selama proses pelatihan untuk menentukan bagaimana data masukan dipetakan menjadi luaran \parencite{jm3, amidiSuperStudyGuide2024}. Skala parameter ini berbanding lurus dengan kapasitas komputasi yang dibutuhkan, yang umumnya diukur dalam satuan FLOPS (\textit{Floating Point Operations per Second}) untuk merepresentasikan jumlah operasi aritmatika yang dilakukan per detik selama proses pelatihan maupun inferensi. Visualisasi mengenai korelasi antara jumlah parameter dan arsitektur model disajikan pada Gambar \ref{fig:model_parameters}.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{bab2/modelparameters.png}
+\caption[Visualisasi parameter pada model bahasa]{Visualisasi parameter pada model bahasa \parencite{amidiSuperStudyGuide2024}}
+\label{fig:model_parameters}
+\end{figure}
+Perkembangan model bahasa modern saat ini hampir seluruhnya didasarkan pada arsitektur \textit{Transformer} yang diperkenalkan pertama kali oleh \textcite{vaswaniAttentionAllYou2023} melalui penelitian "Attention Is All You Need" \parencite{jm3}. Arsitektur ini memperkenalkan mekanisme \textit{self-attention} yang memungkinkan model untuk memproses seluruh urutan kata secara paralel dan memahami ketergantungan antar kata terlepas dari jarak posisinya dalam kalimat. Inovasi ini menjadi fondasi utama bagi hampir seluruh LLM populer yang ada saat ini.
+Dalam proses kerjanya, LLM mengandalkan mekanisme tokenisasi untuk memecah teks masukan menjadi unit-unit kecil yang disebut sebagai token \parencite{jm3}. Proses ini merupakan tahap fundamental pertama yang memungkinkan model untuk menginterpretasikan bahasa manusia ke dalam format yang dapat diproses secara komputasional. Terdapat berbagai strategi tokenisasi, mulai dari pemisahan berbasis kata, karakter, hingga sub-kata (\textit{sub-word}) seperti \textit{Byte-Pair Encoding} (BPE) yang mampu menangani kata-kata langka secara lebih efisien. Setelah melalui proses tokenisasi (\textit{encode}), urutan token tersebut dapat dikembalikan ke bentuk teks asli melalui proses sebaliknya (\textit{decode}), seperti yang diilustrasikan pada Gambar \ref{fig:encode_decode}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{bab2/encodedecode.png}
+\caption[Mekanisme tokenisasi]{Mekanisme tokenisasi: (a) Proses \textit{encode} dari teks ke token dan (b) Proses \textit{decode} dari token ke teks \parencite{amidiSuperStudyGuide2024}}
+\label{fig:encode_decode}
+\end{figure}
+
+Setiap token kemudian dikonversi menjadi representasi numerik dalam bentuk vektor dimensi tinggi yang dikenal sebagai \textit{embedding} \parencite{vaswaniAttentionAllYou2023, amidiSuperStudyGuide2024}. Vektor-vektor ini ditempatkan dalam ruang fitur di mana kata-kata dengan makna serupa akan berada pada posisi yang berdekatan. Kedekatan atau kemiripan antar vektor tersebut umumnya diukur menggunakan teknik kesamaan vektor, seperti \textit{cosine similarity}, yang memungkinkan model untuk menangkap hubungan semantik antar token dalam dimensi ruang tertentu \parencite{jm3, amidiSuperStudyGuide2024}. Representasi ini memungkinkan model melakukan operasi aritmatika vektor untuk menangkap relasi analogi antar kata, seperti diilustrasikan pada Gambar \ref{fig:vector_representation}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{bab2/kingmanwomanqueen.png}
+\caption[Visualisasi representasi vektor pada ruang \textit{embedding}]{Visualisasi representasi vektor pada ruang \textit{embedding} dengan contoh analogi $king - man + woman \approx queen$ oleh \textcite{mikolovEfficientEstimationWord2013} \parencite{sutorMetaconceptsIsolatingContext2019a}}
+\label{fig:vector_representation}
+\end{figure}
+
+Kemampuan utama LLM dalam menghasilkan teks (\textit{generation}) dilakukan melalui mekanisme \textit{autoregressive}, di mana model memprediksi token berikutnya berdasarkan urutan token sebelumnya secara berulang \parencite{jm3}. Visualisasi dari proses pembangkitan teks secara \textit{autoregressive} ini disajikan pada Gambar \ref{fig:llm_generation}. Proses pembangkitan ini dipandu oleh instruksi atau masukan teks awal yang disebut sebagai \textit{prompt}. Melalui konfigurasi \textit{prompt} yang tepat, model dapat diarahkan untuk menjalankan tugas-tugas tertentu tanpa memerlukan pembaruan parameter model secara permanen, sebuah fenomena yang dikenal sebagai \textit{in-context learning} \parencite{jm3, amidiSuperStudyGuide2024}. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{bab2/llmgeneration.png}
+\caption[Mekanisme pembangkitan teks autoregresif pada LLM]{Mekanisme pembangkitan teks autoregresif pada LLM \parencite{jm3}}
+\label{fig:llm_generation}
+\end{figure}
+
+Meskipun memiliki kemampuan yang menyerupai penalaran manusia, LLM tetap memiliki batasan intrinsik berupa fenomena halusinasi (\textit{hallucination}) \parencite{minaeeLargeLanguageModels2025}. Halusinasi merujuk pada kondisi di mana model menghasilkan informasi yang tampak masuk akal secara bahasa namun tidak memiliki dasar faktual atau tidak sesuai dengan data pelatihan yang ada. Hal ini karena LLM pada dasarnya bekerja sebagai model probabilitas yang memprediksi urutan kata yang paling mungkin, bukan sebagai sistem yang menyimpan pengetahuan faktual secara eksplisit. \textcite{minaeeLargeLanguageModels2025} mengidentifikasi berbagai metode augmentasi untuk mengurangi halusinasi pada LLM. Beberapa di antaranya adalah \textit{fine-tuning}, \textit{Retrieval-Augmented Generation} (RAG), penggunaan alat eksternal, serta pengembangan agen LLM. \textit{Fine-tuning} memungkinkan model beradaptasi dengan tugas tertentu melalui pelatihan ulang sebagian parameternya menggunakan data yang lebih kecil dan terkurasi. Namun, pendekatan ini menghadapi sejumlah kendala, seperti kebutuhan data berlabel yang cukup besar, risiko terjadinya \textit{catastrophic forgetting} (hilangnya pengetahuan umum), serta tingginya biaya komputasi dalam pelatihan. Sebagai alternatif, RAG menawarkan solusi yang lebih fleksibel dengan menggabungkan LLM dan mekanisme pengambilan informasi dari sumber eksternal yang sudah disiapkan. Dengan cara ini, model dapat menghasilkan jawaban yang lebih relevan, akurat, dan dapat dipercaya. Pengambilan informasi eksternal ini merupakan salah satu contoh bagaimana LLM dapat menggunakan \textit{tools} (alat) eksternal yang pada dasarnya dapat berupa fungsi, API (\textit{Application Programming Interface}), atau layanan apa pun yang memberikan akses ke data dinamis, kalkulasi, atau kapabilitas lainnya. Lebih lanjut, kemampuan ini dapat ditingkatkan melalui konsep agen LLM yang dirancang untuk memungkinkan LLM menggunakan berbagai alat yang disediakan secara adaptif. 
+
+
+\subsection{Arsitektur \textit{Transformer}}
+Arsitektur \textit{Transformer} diperkenalkan oleh \textcite{vaswaniAttentionAllYou2023} sebagai model urutan (\textit{sequence model}) pertama yang sepenuhnya mengandalkan mekanisme atensi untuk menangkap dependensi global antara masukan dan luaran, tanpa menggunakan lapisan rekurensi atau konvolusi. Komponen inti dari arsitektur ini adalah mekanisme \textit{multi-head self-attention} yang memungkinkan setiap posisi dalam urutan masukan untuk berinteraksi secara langsung dengan seluruh posisi lainnya. Secara struktural, \textit{Transformer} orisinal terdiri dari komponen \textit{encoder} dan \textit{decoder} yang saling terhubung. Visualisasi diagram blok dari arsitektur ini, yang mencakup mekanisme \textit{scaled dot-product attention}, \textit{positional encoding}, hingga lapisan \textit{feed-forward}, disajikan pada Gambar \ref{fig:transformer_architecture}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{bab1/arsitekturtransformer.png}
+\caption[Arsitektur \textit{Transformer}]{Arsitektur \textit{Transformer} \parencite{vaswaniAttentionAllYou2023}}
+\label{fig:transformer_architecture}
+\end{figure}
+
+
+Dalam pengembangannya, arsitektur \textit{encoder-decoder} dari \textcite{vaswaniAttentionAllYou2023} telah diadaptasi menjadi berbagai varian yang dioptimalkan untuk tugas-tugas spesifik. Adaptasi ini umumnya diklasifikasikan ke dalam tiga kategori utama berdasarkan bagian arsitektur yang digunakan: \textit{encoder-decoder}, \textit{encoder-only}, dan \textit{decoder-only} \parencite{amidiSuperStudyGuide2024}. Perbandingan karakteristik dan contoh model dari ketiga kategori tersebut dirangkum dalam Tabel \ref{tab:transformer_categories}.
+%TODO: masukin referensi paper di contoh model? 
+\begin{table}[H]
+\centering
+\caption{Kategori model berbasis \textit{Transformer} \parencite{amidiSuperStudyGuide2024, jm3}}
+\label{tab:transformer_categories}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|p{6cm}|l|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Kategori}} & \multicolumn{1}{c|}{\textbf{Tujuan/Mekanisme}} & \multicolumn{1}{c|}{\textbf{Contoh Model}} \\ \hline
+\textit{Encoder-decoder} & Pemetaan teks-ke-teks (\textit{text-to-text}) di mana \textit{input} dan \textit{output} dapat memiliki panjang yang berbeda. & T5, mT5, ByT5, BART \\ \hline
+\textit{Encoder-only} & Proyeksi \textit{embedding} untuk klasifikasi atau prediksi kelas (misalnya ekstraksi sentimen). & BERT, RoBERTa, DistilBERT \\ \hline
+\textit{Decoder-only} & Pembangkitan teks (\textit{text generation}) secara autoregresif berdasarkan konteks sebelumnya. & GPT-4, Llama 3, Gemini \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+Model \textit{encoder-only} seperti BERT dirancang untuk memahami konteks kalimat secara dua arah (\textit{bidirectional}), sehingga sangat efektif untuk tugas-tugas pemahaman bahasa (\textit{Natural Language Understanding}) seperti klasifikasi teks dan pengenalan entitas bernama \parencite{jm3}. Sebaliknya, model \textit{decoder-only} seperti keluarga GPT dan Llama difokuskan pada pembangkitan bahasa secara searah dari kiri ke kanan, yang menjadi standar bagi pengembangan \textit{Large Language Models} saat ini. Sementara itu, model \textit{encoder-decoder} tetap relevan untuk tugas-tugas translasi atau peringkasan teks yang memerlukan pemetaan kompleks antara dua urutan bahasa yang berbeda \parencite{amidiSuperStudyGuide2024}. Perbedaan struktur antara ketiga kategori arsitektur tersebut diilustrasikan pada Gambar \ref{fig:three_transformer_architectures}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{bab2/tigaarsitekturtransformer.png}
+\caption[Tiga varian arsitektur \textit{Transformer}]{Tiga varian arsitektur \textit{Transformer}: \textit{encoder-only}, \textit{encoder-decoder}, dan \textit{decoder-only} \parencite{jm3}}
+\label{fig:three_transformer_architectures}
+\end{figure}
+
+\subsection{Arsitektur \textit{Vision Transformer}}
+\textit{Vision Transformer} (ViT) diperkenalkan oleh \textcite{dosovitskiyImageWorth16x162020a} sebagai upaya untuk menerapkan arsitektur \textit{Transformer} standar secara langsung pada citra dengan modifikasi seminimal mungkin. Sebelum kemunculan ViT, mekanisme \textit{attention} dalam visi komputer umumnya diterapkan bersamaan dengan \textit{Convolutional Neural Networks} (CNN), atau digunakan untuk menggantikan komponen tertentu dari CNN sambil tetap mempertahankan struktur keseluruhannya. \textcite{dosovitskiyImageWorth16x162020a} menunjukkan bahwa ketergantungan pada CNN tidak sepenuhnya diperlukan dan \textit{Transformer} murni yang diterapkan pada urutan \textit{patch} citra dapat memberikan kinerja yang sangat baik pada tugas klasifikasi citra, terutama ketika dilatih pada \textit{dataset} berskala besar.
+
+Mekanisme inti dari ViT adalah mengubah citra 2D menjadi urutan \textit{token} 1D agar dapat diproses oleh \textit{Transformer} standar yang dirancang untuk data sekuensial. Sebuah citra $x \in \mathbb{R}^{H \times W \times C}$ dipecah menjadi serangkaian \textit{patch} berukuran tetap $x_p \in \mathbb{R}^{N \times (P^2 \cdot C)}$, di mana $(H, W)$ adalah resolusi citra asli, $C$ adalah jumlah saluran, $(P, P)$ adalah resolusi setiap \textit{patch}, dan $N = HW/P^2$ adalah jumlah total \textit{patch} yang juga menjadi panjang urutan masukan bagi \textit{Transformer}. Setiap \textit{patch} kemudian diratakan (\textit{flattened}) dan dipetakan ke dalam dimensi model $D$ menggunakan proyeksi linier yang dapat dilatih, menghasilkan apa yang disebut sebagai \textit{patch embeddings}.
+
+Untuk mempertahankan informasi posisi spasial yang hilang akibat perataan, \textit{position embeddings} ditambahkan ke setiap \textit{patch embeddings}. \textcite{dosovitskiyImageWorth16x162020a} menggunakan \textit{learnable position embeddings} 1D standar. Selain itu, mirip dengan \textit{token} [CLS] pada model BERT, sebuah \textit{embedding} khusus yang dapat dilatih ditambahkan di awal urutan \textit{patch} ($z_0^0 = x_{class}$). Keadaan keluaran dari \textit{token} ini pada lapisan terakhir \textit{encoder} ($z_L^0$) berfungsi sebagai representasi citra keseluruhan (\textit{image representation}) yang kemudian diteruskan ke \textit{classification head} (biasanya berupa MLP) untuk memprediksi kelas citra.
+
+Arsitektur \textit{Transformer Encoder} pada ViT terdiri dari lapisan-lapisan yang bergantian antara \textit{Multi-Head Self-Attention} (MSA) dan blok \textit{Multi-Layer Perceptron} (MLP). Normalisasi lapisan (\textit{Layer Normalization} atau LN) diterapkan sebelum setiap blok, dan koneksi residual (\textit{residual connections}) diterapkan setelah setiap blok. Struktur keseluruhan dari \textit{Vision Transformer} diilustrasikan pada Gambar \ref{fig:vit_architecture}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{bab2/arsitekturvisiontransformer.png} 
+\caption[Arsitektur \textit{Vision Transformer}]{Arsitektur \textit{Vision Transformer} \parencite{dosovitskiyImageWorth16x162020a}}
+\label{fig:vit_architecture}
+\end{figure}
+
+Berbeda dengan CNN yang memiliki bias induktif (\textit{inductive bias}) yang kuat terhadap invarian translasi dan lokalitas, ViT memiliki bias induktif yang jauh lebih sedikit. Pada ViT, hubungan antar piksel atau \textit{patch} harus dipelajari dari awal melalui mekanisme \textit{self-attention}, yang memungkinkan model untuk menangkap konteks global (\textit{global context}) dari citra sejak lapisan awal. Hal ini memberikan keunggulan pada ViT dalam menangkap pola jarak jauh yang kompleks, namun juga mensyaratkan jumlah data pelatihan yang sangat besar agar model dapat menggeneralisasi dengan baik.
+
+\subsection{\textit{Mixture-of-Experts}}
+\textit{Mixture-of-Experts} (MoE) merupakan teknik arsitektur yang memungkinkan peningkatan kapasitas model secara masif tanpa disertai peningkatan biaya komputasi yang linier. Berbeda dengan model \textit{dense} konvensional di mana seluruh parameter jaringan digunakan untuk memproses setiap data masukan, MoE menerapkan prinsip komputasi kondisional (\textit{conditional computation}). Dalam arsitektur ini, lapisan \textit{Feed-Forward Network} (FFN) standar digantikan oleh lapisan MoE yang terdiri dari sejumlah sub-jaringan independen yang disebut sebagai "ahli" (\textit{experts}) dan sebuah jaringan gerbang (\textit{gating network}) atau \textit{router}. \textit{Router} bertugas menentukan ahli mana yang paling relevan untuk memproses \textit{token} tertentu, sehingga hanya sebagian kecil parameter model yang aktif selama proses inferensi. Hal ini memungkinkan model memiliki jumlah parameter total yang sangat besar (\textit{sparse parameters}) namun tetap mempertahankan efisiensi komputasi setara dengan model yang lebih kecil.
+
+Penerapan MoE pada model bahasa berskala besar dipelopori oleh \textcite{lepikhinGShardScalingGiant2020} melalui GShard. Penelitian ini mendemonstrasikan kelayakan pelatihan model multibahasa dengan 600 miliar parameter menggunakan teknik pemaralelan otomatis (\textit{automatic sharding}). GShard menggunakan mekanisme \textit{top-2 routing}, di mana setiap \textit{token} diproses oleh dua ahli yang paling sesuai, yang terbukti meningkatkan kualitas penerjemahan secara signifikan dibandingkan model \textit{dense}. Perbandingan arsitektur blok \textit{Transformer} standar dengan blok MoE pada GShard ditunjukkan pada Gambar \ref{fig:gshard_architecture}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{bab2/arsitekturmoe.png}
+\caption[Perbandingan arsitektur \textit{Transformer} standar dan MoE pada GShard]{Perbandingan arsitektur: (a) \textit{Transformer encoder} standar, (b) MoE \textit{Transformer encoder}, dan (c) MoE \textit{Transformer encoder} dengan \textit{device placement} \parencite{lepikhinGShardScalingGiant2020}}
+\label{fig:gshard_architecture}
+\end{figure}
+
+Konsep ini kemudian dikembangkan lebih lanjut oleh \textcite{fedusSwitchTransformersScaling2022} melalui arsitektur \textit{Switch Transformer} yang menyederhanakan mekanisme pemilihan ahli. \textcite{fedusSwitchTransformersScaling2022} memperkenalkan strategi \textit{top-1 routing} di mana setiap \textit{token} hanya diarahkan ke satu ahli tunggal. Mekanisme tersebut diilustrasikan pada Gambar \ref{fig:moe_architecture}. Pendekatan ini mengurangi biaya komunikasi antar perangkat dan meningkatkan stabilitas pelatihan model berukuran triliunan parameter. Selain itu, untuk mengatasi masalah ketidakseimbangan beban di mana satu ahli mungkin menerima terlalu banyak \textit{token}, \textit{Switch Transformer} menerapkan mekanisme \textit{load balancing loss} sebagai penyeimbang. Arsitektur ini membuktikan bahwa skala parameter model dapat dipisahkan dari biaya komputasi (FLOPS), memungkinkan peningkatan performa model yang berkelanjutan. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{bab2/arsitekturswitchtransformer.png}
+\caption[Mekanisme \textit{routing} pada \textit{Switch Transformer}]{Mekanisme \textit{routing} pada \textit{Switch Transformer} dengan strategi \textit{top-1 routing} \parencite{fedusSwitchTransformersScaling2022}}
+\label{fig:moe_architecture}
+\end{figure}
+
+Saat ini, arsitektur MoE telah menjadi standar dalam pengembangan \textit{Large Language Models} modern guna mencapai performa tinggi dengan efisiensi inferensi yang optimal. Beberapa model populer yang mengadopsi arsitektur ini antara lain Mixtral 8x7B \parencite{jiangMixtralExperts2024}, DeepSeek-V3 \parencite{deepseek-aiDeepSeekV3TechnicalReport2024}, hingga keluarga model Gemini \parencite{comaniciGemini25Pushing2025}.
+
+\section{Model Multimodal}
+Model multimodal merupakan paradigma dalam kecerdasan buatan yang dirancang untuk memproses, mengintegrasikan, dan memahami informasi dari berbagai jenis modalitas data secara bersamaan, seperti teks, citra, audio, dan video \parencite{bordesIntroductionVisionLanguageModeling2024}. Pengembangan model ini didasarkan pada fakta bahwa informasi di dunia nyata bersifat multimodal, di mana pemahaman yang komprehensif sering kali memerlukan kombinasi dari berbagai sensor atau sumber data. \textcite{liuCrossModalDataFusion2025} menjelaskan bahwa tujuan utama dari pemrosesan multimodal adalah untuk menangkap hubungan korelasi antar modalitas guna menghasilkan representasi yang lebih kaya dibandingkan dengan penggunaan modalitas tunggal (\textit{unimodal}).
+
+Dalam arsitektur model multimodal, terdapat tiga komponen utama yang bekerja secara terintegrasi, yaitu pengode (\textit{encoder}) untuk setiap modalitas, mekanisme penyelarasan (\textit{alignment}), dan strategi fusi (\textit{fusion}) \parencite{bordesIntroductionVisionLanguageModeling2024}. \textit{Encoder} berfungsi untuk mengekstraksi fitur unik dari masing-masing modalitas ke dalam bentuk vektor representasi. Selanjutnya, mekanisme penyelarasan dilakukan untuk memastikan bahwa representasi dari modalitas yang berbeda berada dalam ruang fitur yang sama (\textit{shared embedding space}), sehingga konsep yang serupa pada modalitas yang berbeda, misalnya kata "daun" dan citra daun, memiliki posisi vektor yang berdekatan \parencite{liuCrossModalDataFusion2025}. Strategi fusi kemudian diterapkan untuk menggabungkan fitur-fitur tersebut, baik secara awal (\textit{early fusion}), akhir (\textit{late fusion}), maupun pada tingkat menengah (\textit{intermediate fusion}).
+
+Perkembangan terkini menunjukkan tren menuju model multimodal natif (\textit{natively multimodal}), di mana model dilatih sejak awal menggunakan dataset yang mencakup berbagai modalitas sekaligus \parencite{teamGeminiFamilyHighly2025}. Berbeda dengan pendekatan konvensional yang menggabungkan model-model \textit{unimodal} yang sudah dilatih secara terpisah, model multimodal natif memiliki kemampuan penalaran lintas modalitas (\textit{cross-modal reasoning}) yang lebih kuat dan fleksibel. Model-model ini sering kali dikembangkan sebagai \textit{foundation models} yang memiliki kemampuan generalisasi tinggi untuk berbagai tugas hilir (\textit{downstream tasks}) melalui satu arsitektur terpadu \parencite{bommasaniOpportunitiesRisksFoundation2022}. Salah satu implementasi paling dominan dari paradigma multimodal ini adalah \textit{Vision-Language Models} (VLM), yang secara spesifik menjembatani pemahaman antara modalitas visual dan tekstual.
+
+\subsection{\textit{Vision-Language Models}}
+\textit{Vision-Language Models} (VLM) adalah kelas model kecerdasan buatan multimodal yang dirancang untuk memproses dan menghubungkan informasi dari modalitas visual (citra atau video) dan tekstual (bahasa alami) secara bersamaan. Tujuan utama dari VLM adalah untuk menjembatani kesenjangan semantik antara representasi visual dan linguistik, sehingga memungkinkan mesin untuk "melihat" dan "memahami" dunia visual serta mengomunikasikannya melalui bahasa manusia \parencite{bordesIntroductionVisionLanguageModeling2024}. Kemampuan ini menjadi fondasi bagi berbagai aplikasi cerdas, mulai dari pencarian gambar berbasis teks, deskripsi gambar otomatis, hingga sistem tanya jawab visual yang kompleks.
+
+Berdasarkan strategi pelatihan dan arsitekturnya, \textcite{bordesIntroductionVisionLanguageModeling2024} mengklasifikasikan VLM ke dalam empat keluarga utama, yaitu \textit{contrastive}, \textit{masking}, \textit{generative}, dan \textit{pretrained backbones}. Klasifikasi ini menggambarkan evolusi pendekatan dalam mengintegrasikan modalitas visual dan tekstual. Visualisasi mengenai keempat kategori utama ini disajikan pada Gambar \ref{fig:vlm_families}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{bab2/vlmfamilies.png}
+\caption[Empat Kategori Utama \textit{Vision-Language Models}]{Empat Kategori Utama \textit{Vision-Language Models}: (1) \textit{Contrastive}, (2) \textit{Masking}, (3) \textit{Generative}, dan (4) \textit{Pretrained Backbones} \parencite{bordesIntroductionVisionLanguageModeling2024}}
+\label{fig:vlm_families}
+\end{figure}
+
+Penjelasan mendetail mengenai keempat kategori tersebut adalah sebagai berikut:
+\begin{enumerate}[nosep]
+    \item \textit{Contrastive Learning}: Pendekatan ini berfokus pada penyelarasan ruang representasi antara citra dan teks menggunakan fungsi kerugian kontras (\textit{contrastive loss}), seperti InfoNCE. Model dilatih menggunakan pasangan data citra-teks dalam jumlah besar untuk membedakan antara pasangan yang cocok (positif) dan yang tidak cocok (negatif). Tujuannya adalah agar representasi vektor dari citra dan teks yang bermakna sama memiliki jarak yang dekat dalam ruang fitur, sementara yang berbeda saling menjauh. Contoh paling prominen dari kategori ini adalah CLIP (\textit{Contrastive Language-Image Pre-training}) yang menunjukkan kemampuan \textit{zero-shot} yang luar biasa pada berbagai tugas klasifikasi \parencite{bordesIntroductionVisionLanguageModeling2024}.
+    
+    \item \textit{Masking}: Terinspirasi oleh keberhasilan BERT dalam pemrosesan bahasa alami, pendekatan ini menerapkan mekanisme \textit{masked modeling} pada data multimodal. Model dilatih untuk merekonstruksi bagian yang sengaja ditutupi (\textit{masked}) dari input, baik itu berupa \textit{patch} citra (\textit{Masked Image Modeling}) maupun token teks (\textit{Masked Language Modeling}), berdasarkan konteks yang tersedia dari modalitas lainnya. Pendekatan ini mendorong model untuk mempelajari hubungan kontekstual yang mendalam antara elemen visual dan tekstual.
+    
+    \item \textit{Generative}: Kategori ini mencakup model yang dilatih dengan tujuan utama untuk membangkitkan data, baik itu menghasilkan teks dari citra (\textit{image captioning}) atau menghasilkan citra dari deskripsi teks (\textit{text-to-image generation}). Model generatif, seperti CoCa atau CM3Leon, sering kali menggunakan arsitektur \textit{encoder-decoder} atau \textit{decoder-only} dan dilatih dengan fungsi kerugian autoregresif untuk memprediksi token selanjutnya dalam urutan multimodal.
+    
+    \item \textit{Pretrained Backbones}: Ini merupakan pendekatan yang paling populer dalam pengembangan VLM modern karena efisiensinya. Strategi ini memanfaatkan model yang sudah sangat kuat dan terlatih (\textit{pretrained}) sebagai komponen dasar, yaitu \textit{Large Language Model} (LLM) beku (\textit{frozen}) untuk pemrosesan teks dan \textit{Vision Encoder} beku untuk ekstraksi fitur visual. Fokus pelatihan hanya dilakukan pada modul penghubung (\textit{adapter} atau \textit{mapping network}) yang bertugas memetakan fitur visual ke dalam ruang input LLM. Contoh model yang menggunakan pendekatan ini antara lain adalah BLIP-2, MiniGPT-4, dan LLaVA, yang mampu mewarisi kemampuan penalaran canggih dari LLM tanpa biaya komputasi pelatihan ulang yang masif \parencite{bordesIntroductionVisionLanguageModeling2024}.
+\end{enumerate}
+
+Pelatihan VLM modern tidak hanya bergantung pada arsitektur, tetapi juga sangat ditentukan oleh kualitas dan skala data pelatihan. \textcite{bordesIntroductionVisionLanguageModeling2024} menyoroti pentingnya kurasi data yang ketat, seperti yang diterapkan dalam tolak ukur DataComp, di mana strategi penyaringan berbasis heuristik dan skor penyelarasan (seperti skor CLIP) digunakan untuk membersihkan dataset dari pasangan citra-teks yang bising (\textit{noisy}). Selain itu, tren pelatihan saat ini juga melibatkan penggunaan data sintetis yang dibangkitkan oleh model lain untuk memperkaya variasi data. Tahap krusial selanjutnya adalah \textit{Instruction Tuning}, di mana model dilatih (atau di-\textit{finetune}) menggunakan dataset instruksi multimodal untuk meningkatkan kemampuan model dalam mengikuti perintah pengguna dan melakukan percakapan visual yang lebih alami, sebagaimana diterapkan pada model LLaVA.
+
+Evaluasi kinerja VLM dilakukan menggunakan berbagai metrik dan tugas standar untuk mengukur kemampuan visio-linguistiknya secara komprehensif. Taksonomi evaluasi VLM sebagaimana dijelaskan oleh \textcite{bordesIntroductionVisionLanguageModeling2024} divisualisasikan pada Gambar \ref{fig:vlm_evaluation}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{bab2/vlmevaluation.png}
+\caption[Taksonomi Evaluasi \textit{Vision-Language Models}]{Taksonomi Evaluasi \textit{Vision-Language Models} \parencite{bordesIntroductionVisionLanguageModeling2024}}
+\label{fig:vlm_evaluation}
+\end{figure}
+
+Salah satu tugas evaluasi yang paling fundamental adalah \textit{Visual Question Answering} (VQA). Dalam VQA, model diberikan sebuah citra dan pertanyaan bahasa alami terkait citra tersebut, kemudian diminta untuk menghasilkan jawaban yang akurat. Tugas ini menuntut kemampuan penalaran tingkat tinggi karena model tidak hanya harus mengenali objek dalam citra, tetapi juga memahami hubungan spasial, aktivitas, dan konteks semantik yang ditanyakan \parencite{bordesIntroductionVisionLanguageModeling2024}. VQA dianggap sebagai proksi yang kuat untuk mengukur pemahaman multimodal yang mendalam. Selain VQA, evaluasi juga mencakup kemampuan \textit{zero-shot classification}, penalaran komposisional (\textit{compositional reasoning}) untuk mendeteksi nuansa linguistik yang halus, serta pengujian terhadap halusinasi objek untuk memastikan reliabilitas model dalam aplikasi dunia nyata.
+
+\subsection{CLIP}
+Contrastive Language-Image Pre-training (CLIP) merupakan model multimodal yang diperkenalkan oleh \textcite{radfordLearningTransferableVisual2021} untuk menjembatani kesenjangan antara visi komputer dan pemahaman bahasa alami. Berbeda dengan pendekatan visi komputer konvensional yang bergantung pada dataset dengan label kelas yang kaku dan terbatas, CLIP dilatih menggunakan pengawasan alami (\textit{natural language supervision}) dari pasangan citra dan teks yang tersedia secara melimpah di internet. Pendekatan ini memungkinkan model untuk mempelajari representasi visual yang kaya dan fleksibel, serta memiliki kemampuan \textit{zero-shot transfer} yang memungkinkannya mengenali kategori objek baru tanpa perlu dilatih ulang secara spesifik.
+
+Arsitektur CLIP terdiri dari dua komponen utama, yaitu \textit{Image Encoder} dan \textit{Text Encoder}. \textit{Image Encoder} bertugas untuk memproses data visual menjadi vektor fitur, yang dapat menggunakan arsitektur ResNet atau Vision Transformer (ViT). Sementara itu, \textit{Text Encoder} menggunakan arsitektur Transformer untuk mengubah deskripsi teks menjadi vektor fitur dalam ruang dimensi yang sama. Mekanisme pelatihan CLIP didasarkan pada pembelajaran kontras (\textit{contrastive learning}), di mana model dilatih untuk memprediksi pasangan citra dan teks yang benar dari sekumpulan kemungkinan pasangan acak dalam sebuah \textit{batch}. Secara matematis, CLIP memaksimalkan kesamaan kosinus (\textit{cosine similarity}) antara \textit{embedding} citra dan teks yang berpasangan ($N$ pasangan asli) sambil meminimalkan kesamaan antara pasangan yang tidak cocok ($N^2 - N$ pasangan salah). Arsitektur dan mekanisme pelatihan CLIP diilustrasikan pada Gambar \ref{fig:clip_architecture}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{bab2/arsitekturclip.png}
+\caption[Arsitektur dan mekanisme pelatihan CLIP]{Arsitektur dan mekanisme pelatihan CLIP \parencite{radfordLearningTransferableVisual2021}}
+\label{fig:clip_architecture}
+\end{figure}
+
+Keunggulan CLIP dalam mempelajari representasi visual yang kuat telah menginspirasi pengembangan model turunan untuk domain spesifik, salah satunya adalah SCOLD (\textit{Soft-target COntrastive learning for Leaf Disease identification}) yang diusulkan oleh \textcite{quocVisionLanguageFoundationModel2025}. SCOLD merupakan \textit{Vision-Language Foundation Model} yang secara khusus dikembangkan untuk pengenalan penyakit tanaman. Model ini mengadaptasi arsitektur CLIP dan menyempurnakannya melalui teknik \textit{fine-tuning} serta penerapan \textit{Deep Metric Learning}.
+
+Dalam pengembangannya, \textcite{quocVisionLanguageFoundationModel2025} merancang SCOLD untuk mengatasi tantangan variabilitas visual yang tinggi pada gejala penyakit tanaman yang sering kali sulit dibedakan oleh model umum. Arsitektur SCOLD mempertahankan struktur encoder ganda dari CLIP, namun dioptimalkan untuk memetakan fitur penyakit tanaman ke dalam ruang representasi yang lebih diskriminatif. Hal ini dicapai dengan melatih model agar jarak antara representasi citra penyakit dan deskripsi teksnya menjadi lebih dekat, sementara jarak dengan kelas penyakit lain diperlebar. Visualisasi arsitektur SCOLD dapat dilihat pada Gambar \ref{fig:scold_architecture}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{bab2/arsitekturscold.png}
+\caption[Arsitektur SCOLD]{Arsitektur SCOLD untuk pengenalan penyakit tanaman \parencite{quocVisionLanguageFoundationModel2025}}
+\label{fig:scold_architecture}
+\end{figure}
+
+Efektivitas SCOLD dibandingkan dengan model CLIP standar dievaluasi menggunakan dataset LeafNet melalui tugas pengambilan lintas modalitas (\textit{cross-modal retrieval}), yaitu \textit{Image-to-Text Retrieval} dan \textit{Text-to-Image Retrieval}. Hasil evaluasi menunjukkan bahwa SCOLD secara konsisten mengungguli CLIP pada metrik Recall@K (R@1, R@5, dan R@10) untuk kedua tugas tersebut. Peningkatan performa ini mengindikasikan bahwa proses \textit{fine-tuning} dan adaptasi domain yang dilakukan pada SCOLD berhasil meningkatkan keselarasan semantik antara fitur visual gejala penyakit dan deskripsi tekstualnya. Perbandingan kinerja pengambilan informasi antara CLIP dan SCOLD disajikan pada Gambar \ref{fig:scold_performance}.
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{bab2/scoldimagetext.png}
+    \caption{}
+    \label{fig:scold_imagetext}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{bab2/scoldtexttoimage.png}
+    \caption{}
+    \label{fig:scold_texttoimage}
+\end{subfigure}
+\caption[Perbandingan performa retrieval SCOLD dan CLIP]{Perbandingan performa retrieval SCOLD dan CLIP pada dataset LeafNet: (a) Hasil \textit{image-to-text retrieval} dan (b) Hasil \textit{text-to-image retrieval} \parencite{quocVisionLanguageFoundationModel2025}}
+\label{fig:scold_performance}
+\end{figure}
+
+\subsection{Keluarga Model Gemini}
+Gemini merupakan keluarga model multimodal yang dikembangkan oleh Google DeepMind. Berbeda dengan pendekatan konvensional yang melatih komponen secara terpisah untuk modalitas yang berbeda, Gemini dibangun secara natif (\textit{natively multimodal}). Model ini dilatih sejak awal pada sekumpulan data multimodal yang mencakup teks, kode, gambar, audio, dan video secara bersamaan. Pendekatan ini memungkinkan model untuk memiliki pemahaman dan penalaran lintas modalitas yang kuat serta kemampuan untuk menerima masukan dan menghasilkan luaran dalam berbagai format secara mulus \parencite{teamGeminiFamilyHighly2025}. Gambaran umum mengenai kemampuan multimodal model ini diilustrasikan pada Gambar \ref{fig:gemini_overview}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{bab2/geminimodeloverview.png}
+\caption[Gambaran umum kemampuan multimodal Gemini]{Gambaran umum kemampuan multimodal Gemini \parencite{teamGeminiFamilyHighly2025}}
+\label{fig:gemini_overview}
+\end{figure}
+
+Evolusi keluarga model ini dimulai dengan Gemini 1.0 yang memperkenalkan tiga varian utama, yaitu Ultra, Pro, dan Nano, masing-masing dioptimalkan untuk tingkat kompleksitas tugas dan efisiensi sumber daya yang berbeda. Pengembangan model ini dilanjutkan dengan diperkenalkannya Gemini 1.5 \parencite{teamGemini15Unlocking2024}. Inovasi utama pada Gemini 1.5 adalah perluasan jendela konteks (\textit{context window}) hingga jutaan token, yang memfasilitasi pemrosesan dokumen panjang atau basis kode yang besar dalam satu kali interaksi.
+
+Evolusi selanjutnya hadir melalui keluarga Gemini 2.5, yang difokuskan pada peningkatan kemampuan penalaran lanjut (\textit{advanced reasoning}) dan menyeimbangkan performa tinggi dengan efisiensi operasional. Gemini 2.5 dibangun menggunakan arsitektur \textit{Mixture-of-Experts} (MoE) yang diadopsi dari \textcite{fedusSwitchTransformersScaling2022}, di mana model hanya mengaktifkan subset parameter yang relevan untuk setiap input, sehingga meningkatkan efisiensi inferensi tanpa mengorbankan kualitas luaran \parencite{comaniciGemini25Pushing2025}. Model ini juga dilatih menggunakan teknik \textit{Chain-of-Thought} (CoT), yang memberikannya kemampuan penalaran (\textit{reasoning}) dalam menyelesaikan masalah logika kompleks, matematika, dan pemrograman. \textcite{comaniciGemini25Pushing2025} menyatakan bahwa versi ini dirancang untuk menangani instruksi yang kompleks serta mempertahankan koherensi dalam tugas-tugas yang membutuhkan perencanaan bertahap (\textit{long-horizon planning}). Seri ini mencakup varian Gemini 2.5 Pro yang dioptimalkan untuk performa penalaran tertinggi, serta Gemini 2.5 Flash yang dirancang untuk efisiensi dan latensi rendah. Kemampuan varian Pro dalam berbagai tolok ukur akademis diperlihatkan pada Gambar \ref{fig:gemini25_pro_benchmark}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{bab2/gemini2.5probenchmark.png}
+\caption[Hasil benchmark Gemini 2.5 Pro]{Hasil benchmark Gemini 2.5 Pro pada berbagai tugas penalaran dan multimodal \parencite{comaniciGemini25Pushing2025}}
+\label{fig:gemini25_pro_benchmark}
+\end{figure}
+
+Selain varian Pro, Gemini 2.5 Flash menawarkan keunggulan dalam kecepatan pemrosesan, menjadikannya solusi yang sesuai untuk aplikasi yang membutuhkan respons instan atau pemrosesan volume data yang besar. Perbandingan kecepatan inferensi yang signifikan pada varian Flash ditunjukkan pada Gambar \ref{fig:gemini25_flash_speed}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{bab2/gemini2.5flashisfast.png}
+\caption[Perbandingan kecepatan Gemini 2.5 Flash]{Perbandingan kecepatan Gemini 2.5 Flash \parencite{comaniciGemini25Pushing2025}}
+\label{fig:gemini25_flash_speed}
+\end{figure}
+
+Selain keunggulan dalam kecepatan, Gemini 2.5 juga mencatatkan peningkatan performa yang signifikan dibandingkan pendahulunya. Perbandingan kemampuan model-model dalam keluarga Gemini hingga versi 2.5 diperlihatkan pada Gambar \ref{fig:gemini25_comparisons}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{bab2/uptogemini2.5comparisons.png}
+\caption[Perbandingan kemampuan keluarga model Gemini]{Perbandingan kemampuan keluarga model Gemini hingga versi 2.5 \parencite{comaniciGemini25Pushing2025}}
+\label{fig:gemini25_comparisons}
+\end{figure}
+
+Iterasi terbaru yang saat ini diperkenalkan adalah seri Gemini 3, yang kembali menghadirkan varian Pro dan Flash dengan peningkatan pada arsitektur dasarnya. Gemini 3 Pro dirancang sebagai model dengan kemampuan penalaran terbaik di kelasnya, mampu menangani nuansa bahasa dan logika yang paling kompleks \parencite{google2025}. Di sisi lain, Gemini 3 Flash menargetkan keseimbangan optimal antara kecerdasan, kecepatan, dan biaya operasional, serta kemampuan agentik yang lebih andal untuk eksekusi tugas otomatis \parencite{googleGemini3Flash2025}. Performa kedua model ini dalam berbagai pengujian standar dapat dilihat pada Gambar \ref{fig:gemini3_pro_benchmark}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{bab2/gemini3probenchmark.png}
+\caption[Hasil benchmark Gemini 3 Pro]{Hasil benchmark Gemini 3 Pro pada tugas penalaran kompleks \parencite{google2025}}
+\label{fig:gemini3_pro_benchmark}
+\end{figure}
+
+Melengkapi keluarga model generatif tersebut, ekosistem Gemini juga menyediakan model \textit{embedding} yang dioptimalkan untuk tugas pengambilan informasi semantik (\textit{semantic retrieval}) dan klasterisasi data. Model ini berfungsi memetakan teks ke dalam vektor representasi berdimensi tinggi yang menangkap makna semantik, yang merupakan komponen krusial dalam implementasi sistem \textit{Retrieval-Augmented Generation} (RAG). Efektivitas model embedding ini dalam menangkap konteks semantik telah dibuktikan melalui berbagai pengujian benchmark, sebagaimana ditampilkan pada Gambar \ref{fig:gemini_embedding_benchmark}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{bab2/geminiembeddingbenchmark.png}
+\caption[Hasil benchmark model embedding Gemini]{Hasil benchmark model embedding Gemini}
+\label{fig:gemini_embedding_benchmark}
+\end{figure} 
+
+\textit{Prompt Engineering} adalah sebuah paradigma dalam pemrosesan bahasa alami (NLP) yang berfokus pada perancangan dan optimasi masukan tekstual (\textit{prompt}) untuk mengarahkan \textit{Large Language Models} (LLM) agar menghasilkan luaran yang diinginkan tanpa perlu mengubah parameter model melalui pelatihan ulang \parencite{liuPretrainPromptPredict2023}. Pendekatan ini muncul sebagai konsekuensi dari kemampuan \textit{in-context learning} yang dimiliki oleh LLM, di mana model mampu mempelajari tugas baru hanya dengan diberikan instruksi atau contoh dalam konteks masukan saat inferensi \parencite{brownLanguageModelsAre2020}. Dalam paradigma ini, fungsi objektif model tetap berupa prediksi probabilitas token berikutnya, namun perilaku model dimanipulasi melalui pemilihan kata, struktur kalimat, dan penyertaan informasi pendukung yang tepat dalam \textit{prompt}.
+
+Secara fundamental, \textit{prompt engineering} bertujuan untuk menjembatani kesenjangan antara cara model dilatih (biasanya prediksi teks umum) dan tugas spesifik yang ingin diselesaikan. Sebuah prompt yang efektif umumnya terdiri dari instruksi tugas yang jelas, konteks atau batasan masalah, serta format luaran yang diharapkan. \textcite{liuPretrainPromptPredict2023} mengategorikan teknik \textit{prompting} ke dalam beberapa strategi utama, di antaranya adalah \textit{zero-shot prompting} dan \textit{few-shot prompting}. \textit{Zero-shot prompting} mengandalkan kemampuan generalisasi model dengan memberikan instruksi tugas tanpa disertai contoh demonstrasi, seperti "Klasifikasikan teks berikut ke dalam kategori positif atau negatif". Strategi ini sangat bergantung pada pengetahuan yang telah dipelajari model selama fase pra-pelatihan \parencite{kojimaLargeLanguageModels2023}.
+
+Di sisi lain, \textit{few-shot prompting} memberikan sejumlah kecil contoh pasangan masukan-luaran (demonstrasi) di dalam \textit{prompt} untuk memberikan panduan yang lebih eksplisit kepada model mengenai pola penyelesaian tugas yang diharapkan \parencite{brownLanguageModelsAre2020}. Contohnya, untuk tugas penerjemahan, \textit{prompt} akan berisi beberapa kalimat dalam bahasa asal beserta terjemahannya sebelum kalimat target yang ingin diterjemahkan. Penelitian \textcite{brownLanguageModelsAre2020} menunjukkan bahwa performa LLM, khususnya pada model dengan parameter yang besar seperti GPT-3, meningkat secara signifikan seiring dengan penambahan jumlah contoh dalam \textit{few-shot prompting}, bahkan mampu menyamai performa model yang dilatih secara khusus (\textit{fine-tuned}) pada beberapa tugas tertentu. Meskipun demikian, efektivitas \textit{prompt} sangat sensitif terhadap pemilihan kata dan urutan contoh, sehingga mendorong berkembangnya teknik-teknik lanjutan seperti \textit{Chain-of-Thought} (CoT) untuk menangani tugas penalaran yang lebih kompleks.
+
+\subsection{\textit{Chain-of-Thought} (CoT)}
+\textit{Chain-of-Thought} (CoT) \textit{prompting} merupakan teknik yang diperkenalkan oleh \textcite{weiChainofThoughtPromptingElicits2023} untuk meningkatkan kemampuan penalaran kompleks pada \textit{Large Language Models} (LLM). Metode ini mengarahkan model untuk menghasilkan serangkaian langkah penalaran perantara (\textit{intermediate reasoning steps}) sebelum menyajikan jawaban akhir, menyerupai proses kognitif manusia dalam memecahkan masalah yang rumit secara bertahap.
+
+Dalam paradigma \textit{prompting} standar, model umumnya dilatih untuk memprediksi jawaban secara langsung dari masukan yang diberikan. Pendekatan tersebut sering kali menghasilkan kesalahan pada tugas-tugas yang memerlukan logika bertingkat, seperti soal cerita matematika atau penalaran simbolis. Sebaliknya, CoT memungkinkan model untuk menguraikan masalah menjadi komponen-komponen yang lebih kecil, sehingga mengurangi kemungkinan kesalahan logika pada hasil akhir. Perbedaan fundamental antara pendekatan standar dan CoT divisualisasikan pada Gambar \ref{fig:cot_comparison}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{bab2/cotcomparison.png}
+\caption[Perbandingan \textit{standard prompting} dan \textit{chain-of-thought prompting}]{Perbandingan \textit{standard prompting} dan \textit{chain-of-thought prompting} dalam menyelesaikan soal cerita matematika \parencite{weiChainofThoughtPromptingElicits2023}}
+\label{fig:cot_comparison}
+\end{figure}
+
+Penerapan CoT dapat dilakukan melalui dua strategi utama. Strategi pertama adalah \textit{Few-Shot CoT}, di mana \textit{prompt} diperkaya dengan sejumlah contoh demonstrasi (\textit{exemplars}) yang secara eksplisit menampilkan alur penalaran beserta jawabannya \parencite{weiChainofThoughtPromptingElicits2023}. Strategi kedua adalah \textit{Zero-Shot CoT} yang diusulkan oleh \textcite{kojimaLargeLanguageModels2023}. Pada strategi ini, kemampuan penalaran model diaktifkan hanya dengan menambahkan instruksi pemicu seperti "Mari berpikir langkah demi langkah" (\textit{"Let's think step by step"}) tanpa memerlukan contoh demonstrasi spesifik. Temuan ini mengindikasikan bahwa kapasitas penalaran merupakan kemampuan inheren yang dimiliki oleh LLM berskala besar, yang dapat dimunculkan melalui instruksi yang tepat.
+
+\subsection{ReAct (\textit{Reasoning and Action})}
+ReAct (\textit{Reasoning and Action}) merupakan pola yang mengatur cara kerja \textit{Large Language Model} (LLM). Pola ini pertama kali diperkenalkan oleh \textcite{yaoReActSynergizingReasoning2023} sebagai sebuah teknik \textit{prompting} dalam \textit{prompt engineering}. ReAct memberikan \textit{prompt} yang mengarahkan LLM untuk menghasilkan jejak pemikiran (\textit{reasoning traces}) sekaligus melaksanakan tindakan yang spesifik terhadap suatu tugas (\textit{task-specific actions}) secara bersamaan. Melalui mekanisme tersebut, sistem mampu melakukan penalaran dinamis untuk menyusun, menjaga, dan menyesuaikan rencana tindakan, sekaligus berinteraksi dengan lingkungan eksternal, misalnya dengan melakukan pencarian tambahan melalui API atau basis data sebelum menggunakan hasilnya untuk mengambil keputusan yang lebih tepat. Dalam implementasinya, \textcite{yaoReActSynergizingReasoning2023} menggunakan \textit{prompt} untuk menginstruksikan LLM menghasilkan tindakan dalam skema atau struktur yang telah ditentukan, yang salah satunya dapat berupa pemanggilan \textit{Application Programming Interface} (API). Dari struktur ini, lingkungan eksternal bertugas mengekstraksi pemanggilan API tersebut untuk dieksekusi pada kode alat yang sebenarnya.
+
+Gambar \ref{fig:react_illustration} memperlihatkan ilustrasi mekanisme ReAct dalam menjawab pertanyaan pada dataset HotpotQA dari \textcite{yangHotpotQADatasetDiverse2018}. Dalam ilustrasi tersebut, model berusaha mengidentifikasi perangkat lain yang dapat digunakan untuk mengontrol program menggunakan Apple Remote.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{bab2/ilustrasireact.png}
+\caption[Ilustrasi metode ReAct]{Ilustrasi metode ReAct dalam menyelesaikan tugas \parencite{yaoReActSynergizingReasoning2023}}
+\label{fig:react_illustration}
+\end{figure}
+
+ReAct merupakan pengembangan dari teknik \textit{prompting} \textit{Chain-of-Thought} (CoT) dari \textcite{weiChainofThoughtPromptingElicits2023}, yang memungkinkan model menghasilkan jejak penalaran (\textit{reasoning traces}) untuk menjawab pertanyaan yang melibatkan aritmatika, penalaran berbasis logika, maupun \textit{commonsense reasoning}. Akan tetapi, CoT memiliki keterbatasan karena tidak dapat mengakses informasi eksternal atau memperbarui pengetahuannya, sehingga sering menimbulkan masalah seperti halusinasi fakta dan propagasi kesalahan. Pada penelitian \textcite{yaoReActSynergizingReasoning2023}, ReAct dan CoT dievaluasi pada dataset HotpotQA \parencite{yangHotpotQADatasetDiverse2018} untuk tugas tanya jawab dan FEVER \parencite{thorneFEVERLargescaleDataset2018} untuk verifikasi fakta, dengan menggunakan PaLM-540B sebagai model dasar. Hasil evaluasi menunjukkan bahwa ReAct secara umum memberikan kinerja lebih baik dibandingkan Act (yang hanya melibatkan tindakan) pada kedua tugas, dengan skor 27,4 pada HotpotQA dan 58,9 pada FEVER untuk ReAct, serta 25,7 dan 58,9 untuk Act. ReAct juga melampaui CoT pada FEVER dengan skor 60,9, meskipun masih tertinggal pada HotpotQA dengan skor 27,4 dibandingkan 33,4 untuk CoT.
+
+Analisis lebih lanjut oleh \textcite{yaoReActSynergizingReasoning2023} menunjukkan bahwa CoT rentan terhadap halusinasi fakta, sementara ReAct memiliki keterbatasan fleksibilitas karena adanya struktur langkah yang kaku dalam merumuskan penalaran. Selain itu, ReAct sangat bergantung pada kualitas informasi yang diambil. Jika hasil pencarian tidak relevan, proses penalaran model dapat terganggu dan sulit untuk dipulihkan. Menariknya, ketika CoT dan ReAct dikombinasikan melalui mekanisme yang memungkinkan model beralih di antara keduanya, kinerjanya melampaui semua metode \textit{prompting} lain, dengan skor 35,1 pada HotpotQA dan 64,6 pada FEVER. Hasil ini memperlihatkan bahwa kekurangan ReAct dapat ditutupi oleh keunggulan CoT, sehingga kombinasi keduanya menghasilkan sistem yang lebih akurat.
+
+\section{\textit{Object Detection}}
+Deteksi objek adalah salah satu tugas fundamental dalam \textit{computer vision} yang bertujuan untuk mengidentifikasi keberadaan objek tertentu dalam citra digital dan menentukan lokasi tepatnya. Berbeda dengan pengenalan gambar (\textit{image recognition}) atau klasifikasi citra yang hanya memberikan label kategori tunggal untuk keseluruhan gambar, deteksi objek memberikan informasi yang lebih granular berupa label kelas dan koordinat kotak pembatas (\textit{bounding box}) untuk setiap instansi objek yang ditemukan \parencite{raniObjectDetectionRecognition2022}. Hal ini memungkinkan sistem untuk tidak hanya mengetahui "apa" yang ada di dalam gambar, tetapi juga "di mana" letaknya dan "berapa banyak" jumlahnya. Perbedaan visual antara pengenalan gambar dan deteksi objek dapat dilihat pada Gambar \ref{fig:obj_vs_recog}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{bab2/Image-recognition-vs-object-detection.png}
+\caption[Perbedaan Antara \textit{Image Recognition} dan \textit{Object Detection}]{Perbedaan Antara \textit{Image Recognition} dan \textit{Object Detection} \parencite{raniObjectDetectionRecognition2022}}
+\label{fig:obj_vs_recog}
+\end{figure}
+
+Berdasarkan cakupan kategori objek yang dapat dikenali, sistem deteksi objek secara umum diklasifikasikan menjadi dua paradigma, yaitu \textit{closed-set object detection} dan \textit{open-vocabulary object detection} \parencite{hosoyaOpenvocabularyVsClosedset2024}. \textit{Closed-set object detection} merupakan pendekatan konvensional di mana model dilatih menggunakan dataset dengan daftar kategori yang telah ditentukan sebelumnya (misalnya, 80 kelas pada dataset COCO). Model jenis ini hanya mampu mendeteksi objek yang termasuk dalam kategori pelatihan tersebut dan akan memperlakukan objek lain sebagai latar belakang. Sebaliknya, \textit{open-vocabulary object detection} bertujuan untuk mengatasi keterbatasan ini dengan memanfaatkan kemampuan generalisasi dari model bahasa-visi. Pendekatan ini memungkinkan model untuk mendeteksi objek berdasarkan deskripsi teks bebas, termasuk kategori objek yang tidak pernah dilihat selama proses pelatihan. Perbedaan mekanisme antara kedua pendekatan ini diilustrasikan pada Gambar \ref{fig:closed_vs_open}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{bab2/closedsetvsopenvocab.png}
+\caption[Perbedaan \textit{closed-set} dan \textit{open-vocabulary object detection}]{Perbedaan \textit{closed-set} dan \textit{open-vocabulary object detection} \parencite{hosoyaOpenvocabularyVsClosedset2024}}
+\label{fig:closed_vs_open}
+\end{figure}
+
+\subsection{YOLO}
+YOLO (\textit{You Only Look Once}) merupakan algoritma deteksi objek yang pertama kali diperkenalkan oleh \textcite{redmonYouOnlyLook2016a} melalui pendekatan yang menyatukan proses prediksi lokasi objek dan klasifikasi dalam satu jaringan saraf tunggal. Dalam bidang \textit{computer vision}, deteksi objek merupakan tugas krusial yang bertujuan untuk mengidentifikasi jenis objek sekaligus menentukan posisinya dalam citra melalui koordinat \textit{bounding box}. Sebelum kemunculan YOLO, deteksi objek didominasi oleh pendekatan \textit{two-stage detector} seperti Faster R-CNN yang dikembangkan oleh \textcite{renFasterRCNNRealTime2017}. Visualisasi arsitektur dasar YOLO diilustrasikan pada Gambar \ref{fig:yolo_architecture}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{arsitekturyolo.png}
+\caption[Arsitektur YOLO]{Arsitektur YOLO \parencite{redmonYouOnlyLook2016a}}
+\label{fig:yolo_architecture}
+\end{figure}
+
+Perbedaan utama antara kedua pendekatan tersebut terletak pada alur pemrosesannya. \textit{Two-stage detector} bekerja dengan menghasilkan sejumlah usulan wilayah (\textit{region proposals}) terlebih dahulu, baru kemudian melakukan klasifikasi pada setiap wilayah tersebut secara terpisah \Parencite{renFasterRCNNRealTime2017}. Meskipun akurat, proses ini memerlukan waktu komputasi yang besar sehingga sulit digunakan untuk aplikasi yang membutuhkan respons cepat. Sebaliknya, YOLO sebagai \textit{one-stage detector} memperlakukan deteksi objek sebagai masalah regresi tunggal, yang memetakan piksel gambar langsung ke koordinat \textit{bounding box} dan probabilitas kelas dalam satu kali jalan (\textit{one-pass}) \parencite{redmonYouOnlyLook2016a}. Karakteristik ini memungkinkan YOLO untuk bekerja secara \textit{real-time} dengan kecepatan yang jauh mengungguli pendahulunya.
+
+Perkembangan arsitektur YOLO terus mengalami peningkatan signifikan sejak pertama kali dirilis. Setelah versi awal oleh \textcite{redmonYouOnlyLook2016a}, berbagai iterasi seperti YOLOv2 \parencite{redmonYOLO9000BetterFaster2016}, YOLOv3 \parencite{redmonYOLOv3IncrementalImprovement2018}, hingga YOLOv7 \parencite{wangYOLOv7TrainableBagofFreebies2023} membawa peningkatan pada akurasi dan kecepatan melalui teknik-teknik seperti \textit{anchor boxes}, \textit{feature pyramid networks}, dan optimalisasi \textit{backbone}. Saat ini, pengembangan YOLO dikelola secara luas oleh Ultralytics \parencite{jocherUltralyticsYOLO2023}, yang telah merilis versi populer seperti YOLOv8 dan YOLOv9 \parencite{wangYOLOv9LearningWhat2025}. Iterasi terbaru ini mengintegrasikan kemajuan terbaru dalam \textit{deep learning}, seperti penggunaan \textit{backbone} yang lebih efisien serta modul \textit{neck} yang mampu menangkap fitur pada berbagai skala dengan lebih baik.
+
+Versi terbaru yang diperkenalkan oleh Ultralytics adalah YOLOv11, yang membawa sejumlah pembaruan arsitektur untuk meningkatkan efisiensi ekstraksi fitur dan performa deteksi \parencite{khanamYOLOv11OverviewKey2024}. Arsitektur YOLOv11 memperkenalkan blok C3k2 yang merupakan evolusi dari modul C2f, serta penggunaan \textit{Spatial Pyramid Pooling - Fast} (SPPF) yang dioptimalkan untuk mempercepat pemrosesan tanpa mengurangi kualitas representasi spasial. Selain itu, integrasi modul \textit{Cross-Stage Partial with Shared Attention} (C2PSA) pada bagian \textit{neck} memungkinkan model untuk lebih fokus pada fitur-fitur penting dalam citra, sehingga meningkatkan akurasi pada objek dengan skala yang bervariasi. Visualisasi arsitektur YOLOv11 secara mendetail dapat dilihat pada Gambar \ref{fig:yolov11_architecture}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{bab2/yolov11architecture.png}
+\caption[Arsitektur YOLOv11]{Arsitektur YOLOv11 \parencite{sapkotaYOLOAdvancesIts2025}}
+\label{fig:yolov11_architecture}
+\end{figure}
+
+Dari sisi performa, YOLOv11 menunjukkan peningkatan efisiensi komputasi yang signifikan dibandingkan dengan versi sebelumnya. Berdasarkan hasil pengujian pada dataset COCO, YOLOv11 mampu mencapai nilai \textit{mean Average Precision} (mAP) yang lebih tinggi dengan jumlah parameter yang lebih sedikit jika dibandingkan dengan YOLOv8 dan YOLOv10 \parencite{khanamYOLOv11OverviewKey2024}. Hal ini membuat YOLOv11 sangat kompetitif untuk aplikasi \textit{real-time} yang membutuhkan keseimbangan antara akurasi tinggi dan latensi rendah. Perbandingan performa YOLOv11 terhadap iterasi YOLO sebelumnya diilustrasikan pada Gambar \ref{fig:yolov11_benchmark}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{bab2/yolov11benchmark.png}
+\caption[Perbandingan performa YOLOv11]{Perbandingan performa YOLOv11 terhadap model YOLO lainnya \parencite{khanamYOLOv11OverviewKey2024}}
+\label{fig:yolov11_benchmark}
+\end{figure}
+
+Saat ini, Ultralytics memposisikan YOLO11 sebagai versi yang paling stabil dan efisien untuk berbagai skenario penggunaan \parencite{jocherUltralyticsYOLO2023}, meskipun versi YOLOv12 telah mulai diperkenalkan oleh \textcite{tianYOLOv12AttentionCentricRealTime2025}. Peningkatan arsitektur pada YOLO11 difokuskan pada pengoptimalan aliran informasi dalam jaringan guna mengurangi beban komputasi tanpa mengorbankan akurasi. Hal ini dapat dibuktikkan berdasarkan hasil evaluasi kinerja yang dilakukan oleh \textcite{sapkotaComprehensivePerformanceEvaluation2026} pada deteksi objek di lingkungan pertanian yang kompleks, YOLO11 menunjukkan konsistensi performa yang lebih baik dibandingkan dengan varian YOLOv8 hingga YOLOv12. Dalam pengujian tersebut, varian terkecil yakni YOLO11n (\textit{nano}) tercatat memiliki kecepatan pemrosesan paling tinggi dibandingkan model lainnya, yang menjadikannya sangat ideal untuk implementasi pada perangkat dengan keterbatasan sumber daya. Hasil perbandingan kinerja dari berbagai varian YOLO tersebut disajikan pada Gambar \ref{fig:yolo_benchmark}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{yolobenchmark.png}
+\caption[Hasil benchmark berbagai varian YOLO pada tugas deteksi objek di lingkungan pertanian]{Hasil benchmark berbagai varian YOLO pada tugas deteksi objek di lingkungan pertanian oleh \textcite{sapkotaComprehensivePerformanceEvaluation2026}}
+\label{fig:yolo_benchmark}
+\end{figure}
+
+%NOTE: Perlu tambahin studi literatur penggunaan model YOLO biasanya sebagai bagian pertama dari two-stage detector
+
+\subsection{OWLv2}
+OWLv2 (\textit{Open-Vocabulary World Object Detection}) merupakan algoritma deteksi objek kosa kata terbuka (\textit{open-vocabulary}) yang dikembangkan untuk mengatasi keterbatasan detektor tradisional seperti YOLO yang hanya mampu mengenali kategori objek yang telah ditentukan sebelumnya (\textit{closed-set}). Pendekatan ini memungkinkan model untuk mendeteksi dan mengklasifikasikan objek berdasarkan deskripsi teks bebas, memberikan fleksibilitas tinggi dalam mengenali objek baru tanpa memerlukan pelatihan ulang.
+
+Perkembangan OWLv2 diawali oleh penelitian \textcite{mindererSimpleOpenVocabularyObject2022} yang memperkenalkan OWL-ViT (\textit{Vision Transformer for Open-World Localization}). OWL-ViT mengadaptasi arsitektur \textit{Vision Transformer} (ViT) standar dengan sedikit modifikasi untuk tugas deteksi objek. Model ini dilatih menggunakan pasangan gambar dan teks dalam skala besar untuk mentransfer kemampuan pengenalan visual-semantik dari model seperti CLIP ke dalam tugas lokalisasi objek. OWL-ViT menjembatani kesenjangan antara klasifikasi gambar tingkat tinggi dan deteksi objek tingkat rinci dengan memanfaatkan fitur dari \textit{image encoder} dan mencocokkannya dengan \textit{text embedding} dari kueri label.
+
+\textcite{mindererScalingOpenVocabularyObject2024} kemudian mengembangkan OWLv2 dengan fokus utama pada skalabilitas data pelatihan. Tantangan utama dalam deteksi objek \textit{open-vocabulary} adalah kelangkaan data anotasi kotak pembatas (\textit{bounding box}) yang terkurasi. Untuk mengatasi hal ini, OWLv2 menerapkan strategi pelatihan mandiri (\textit{self-training}) yang memanfaatkan detektor yang sudah ada untuk menghasilkan label semu (\textit{pseudo-labels}) pada dataset gambar-teks berskala web (WebLI) yang sangat besar. Dengan cara ini, model dapat belajar dari miliaran contoh data yang bising namun kaya informasi, yang secara signifikan meningkatkan kemampuan deteksi \textit{zero-shot}.
+
+Secara arsitektur, OWLv2 mengoptimalkan desain OWL-ViT dengan meningkatkan efisiensi pada komponen \textit{detection head} dan strategi pelatihan. Model ini menggunakan \textit{image encoder} untuk mengekstraksi representasi visual dan \textit{text encoder} untuk memproses kueri teks menjadi \textit{embedding}. Interaksi antara kedua representasi ini memungkinkan model untuk memprediksi lokasi objek dan probabilitas kelasnya berdasarkan kesesuaian semantik. Arsitektur umum dari pendekatan ini diilustrasikan pada Gambar \ref{fig:owlv2_architecture}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{bab2/arsitekturowlv2.png}
+\caption[Arsitektur OWLv2]{Arsitektur OWLv2 yang menggunakan \textit{image encoder} dan \textit{text encoder} untuk deteksi objek \textit{open-vocabulary} \parencite{mindererScalingOpenVocabularyObject2024}}
+\label{fig:owlv2_architecture}
+\end{figure}
+
+Keunggulan performa OWLv2 dibuktikan melalui evaluasi komprehensif oleh \textcite{wuEvaluatingPerformanceOpenVocabulary2026} yang membandingkan berbagai model deteksi objek \textit{open-vocabulary} terkini. Hasil studi tersebut menunjukkan bahwa OWLv2 secara konsisten mengungguli model lain dalam hal akurasi deteksi dan kemampuan generalisasi pada kategori objek yang belum pernah dilihat sebelumnya. \textcite{wuEvaluatingPerformanceOpenVocabulary2026} menyoroti bahwa strategi skala besar yang diterapkan pada OWLv2 memberikan keuntungan signifikan dalam menangani variasi visual dan kompleksitas deskripsi teks dibandingkan pendekatan lainnya.
+
+
+\section{\textit{Retrieval-Augmented Generation}}
+
+\textit{Retrieval-Augmented Generation} (RAG) adalah pendekatan modern yang dikembangkan untuk meningkatkan kemampuan \textit{Large Language Models} (LLM) sekaligus mengurangi masalah halusinasi \parencite{gaoRetrievalAugmentedGenerationLarge2024}. Konsep dasar RAG adalah menggabungkan kemampuan generatif LLM dengan sistem \textit{retrieval} atau pencarian informasi eksternal yang relevan. Daripada hanya mengandalkan pola yang dipelajari dari data pelatihan, model dapat mengambil informasi aktual dari \textit{knowledge base} (basis pengetahuan), internet, atau penyedia data lainnya, lalu menggunakan informasi tersebut sebagai konteks tambahan saat menghasilkan jawaban atau teks. Dengan pendekatan ini, LLM menjadi lebih akurat dan faktual, karena output yang dihasilkan didukung oleh data nyata, bukan sekadar prediksi probabilistik dari pola bahasa. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{bab2/alurkerjarag.png}
+\caption[Alur kerja RAG]{Alur kerja RAG \parencite{athinaAIRAGCookbooks2024}}
+\label{fig:alur_kerja_rag}
+\end{figure}
+
+Gambar \ref{fig:alur_kerja_rag} mengilustrasikan alur kerja RAG yang terdiri dari empat komponen utama yang bekerja secara berurutan. Komponen ini diuraikan sebagai berikut:
+\begin{enumerate}[nosep]
+    \item \textit{Indexing}: Dokumen atau koleksi teks dipecah menjadi potongan-potongan (\textit{chunks}) yang lebih kecil agar lebih mudah dikelola. Setiap potongan kemudian diubah menjadi \textit{embedding}, representasi vektor numerik yang mencerminkan makna teks tersebut. Semua \textit{embedding} ini disimpan dalam sebuah \textit{vector store} (penyimpanan vektor). Proses \textit{indexing} ini memungkinkan sistem penyimpanan informasi eksternal yang bisa dicari secara efisien.
+    \item \textit{Retriever}: Saat ada pertanyaan atau \textit{prompt} dari pengguna, komponen ini mencari dokumen-dokumen relevan dalam \textit{vector store} berdasarkan kemiripan vektor (\textit{vector similarity}). \textit{Retriever} ini bisa menggunakan teknik-teknik seperti pencarian berbasis \textit{embedding}, algoritma pencarian, atau kombinasi \textit{hybrid} antara indeks vektor dan teks tradisional untuk menemukan potongan teks yang kemungkinan besar mengandung jawaban atau informasi penting.
+    \item \textit{Augment}: Setelah dokumen-dokumen relevan ditemukan, konteks yang diperoleh digabungkan dengan pertanyaan atau \textit{prompt} pengguna menjadi sebuah konteks yang lebih lengkap. Maksudnya, \textit{prompt} asli ditambahkan dengan potongan teks dari dokumen-dokumen yang ditemukan agar model generatif memiliki informasi yang lebih mendalam dan terkini ketika membuat jawaban.
+    \item \textit{Generate}: Komponen terakhir adalah generator, yaitu LLM yang menggunakan \textit{prompt} yang sudah diperluas (dengan konteks tambahan) untuk menghasilkan teks atau jawaban akhir. Dengan informasi eksternal yang disediakan, generator bisa memberi respons yang lebih faktual dan relevan, lalu mengurangi kemungkinan munculnya halusinasi.
+\end{enumerate}
+
+Kelebihan RAG tidak hanya pada akurasi jawaban, tetapi juga fleksibilitasnya. Model dapat diperluas dengan menambahkan sumber pengetahuan baru tanpa harus melatih ulang LLM secara keseluruhan parencite{guptaComprehensiveSurveyRetrievalAugmented2024}. Selain itu, RAG mendukung penggunaan LLM dalam domain khusus (\textit{domain-specific knowledge}), misalnya bidang kesehatan, hukum, atau pertanian, di mana informasi faktual dan terkini sangat penting. Sebagai contoh, dalam pertanian presisi, RAG dapat membantu LLM memberikan rekomendasi penanganan penyakit tanaman berdasarkan literatur ilmiah terbaru, sehingga keputusan yang diambil lebih valid dan dapat dipertanggungjawabkan.
+
+\subsection{\textit{Hybrid Search}}
+\textit{Hybrid Search} merupakan pendekatan pencarian informasi yang mengintegrasikan mekanisme pencarian leksikal berbasis kata kunci (\textit{keyword-based}) dan pencarian semantik berbasis vektor (\textit{vector-based}). Pendekatan ini dikembangkan untuk mengatasi keterbatasan masing-masing metode tunggal. Pencarian leksikal, yang mengandalkan representasi vektor jarang (\textit{sparse vector}), unggul dalam pencocokan istilah yang presisi (\textit{exact match}) namun memiliki keterbatasan dalam menangkap variasi bahasa seperti sinonim atau polisemi. Sebaliknya, pencarian semantik yang menggunakan representasi vektor padat (\textit{dense vector}) mampu memahami konteks dan makna di balik kueri, namun sering kali kurang sensitif terhadap istilah spesifik atau nama entitas yang jarang muncul. \textcite{qdrantQdrant2025} menjelaskan bahwa \textit{hybrid search} menggabungkan skor relevansi dari kedua metode tersebut untuk menghasilkan hasil pencarian yang lebih akurat dan komprehensif. Alur kerja dari mekanisme pencarian hibrida ini diilustrasikan pada Gambar \ref{fig:hybrid_search_workflow}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{bab2/alurkerjahybridsearch.png}
+\caption[Alur Kerja \textit{Hybrid Search}]{Alur Kerja \textit{Hybrid Search} \parencite{qdrantQdrant2025}}
+\label{fig:hybrid_search_workflow}
+\end{figure}
+
+Dalam komponen pencarian semantik, pembentukan representasi vektor padat umumnya dilakukan menggunakan arsitektur \textit{Bi-Encoder}. \textcite{reimersSentenceBERTSentenceEmbeddings2019} memperkenalkan Sentence-BERT (SBERT), sebuah modifikasi dari model BERT yang menggunakan jaringan siam (\textit{siamese networks}) untuk menghasilkan \textit{embedding} kalimat yang bermakna secara semantik. Dalam arsitektur ini, dua input kalimat diproses secara paralel oleh model transformer dengan bobot yang sama (\textit{shared weights}), kemudian representasi keduanya dibandingkan menggunakan ukuran kesamaan seperti \textit{cosine similarity}. Pendekatan ini memungkinkan komputasi kesamaan antar dokumen dalam skala besar secara efisien, yang tidak dimungkinkan oleh arsitektur \textit{Cross-Encoder} murni. Visualisasi arsitektur Sentence-BERT disajikan pada Gambar \ref{fig:sentence_transformer}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{bab2/sentencetransformer.png}
+\caption[Arsitektur Sentence-BERT]{Arsitektur Sentence-BERT untuk menghasilkan embedding kalimat \parencite{reimersSentenceBERTSentenceEmbeddings2019}}
+\label{fig:sentence_transformer}
+\end{figure}
+
+Pada sisi pencarian leksikal, algoritma BM25 (\textit{Best Matching 25}) tetap menjadi standar industri untuk fungsi peringkat berbasis probabilitas. \textcite{robertsonProbabilisticRelevanceFramework2009} mendeskripsikan BM25 sebagai evolusi dari skema pembobotan TF-IDF (\textit{Term Frequency-Inverse Document Frequency}) yang memasukkan normalisasi panjang dokumen dan saturasi frekuensi istilah. Algoritma ini menghitung skor relevansi berdasarkan probabilitas bahwa dokumen relevan mengandung istilah kueri tertentu, dengan penyesuaian agar dokumen yang lebih panjang tidak secara tidak adil mendominasi hasil pencarian.
+
+Sebagai perkembangan lebih lanjut dalam representasi jarang, \textcite{formalSPLADESparseLexical2021} mengusulkan SPLADE (\textit{Sparse Lexical and Expansion Model}). Berbeda dengan BM25 yang bergantung pada pencocokan istilah eksak, SPLADE memanfaatkan kekuatan model bahasa terlatih (\textit{Pre-trained Language Models}) untuk mempelajari bobot istilah dan melakukan ekspansi kueri (\textit{query expansion}) secara otomatis. Model ini memprediksi bobot untuk setiap token dalam kosakata, termasuk token yang tidak muncul dalam teks asli namun memiliki relevansi semantik, menghasilkan representasi vektor yang tetap jarang namun kaya informasi. Hal ini memungkinkan SPLADE untuk menggabungkan efisiensi indeks terbalik (\textit{inverted index}) dengan kemampuan pemahaman semantik dari model \textit{deep learning}.
+
+Setelah hasil pencarian diperoleh dari kedua metode (leksikal dan semantik), langkah selanjutnya adalah menggabungkan peringkat dokumen-dokumen tersebut melalui mekanisme fusi (\textit{fusion}). \textcite{qdrantQdrant2025} menekankan bahwa karena skor relevansi dari pencarian leksikal (seperti BM25) dan pencarian vektor memiliki skala dan distribusi yang berbeda, penggabungan langsung berdasarkan skor sering kali tidak efektif. Oleh karena itu, diperlukan teknik fusi peringkat, seperti \textit{Reciprocal Rank Fusion} (RRF), yang menormalkan peringkat dengan memberikan bobot berdasarkan posisi urutan dokumen dalam setiap daftar hasil, bukan berdasarkan nilai skor absolutnya. Proses ini memastikan bahwa dokumen yang dianggap relevan oleh kedua metode akan mendapatkan peringkat gabungan yang lebih tinggi. Ilustrasi mengenai mekanisme fusi ini disajikan pada Gambar \ref{fig:hybrid_fusion}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{bab2/fusion.png}
+\caption[Mekanisme fusion pada Hybrid Search]{Mekanisme fusion pada Hybrid Search \parencite{qdrantQdrant2025}}
+\label{fig:hybrid_fusion}
+\end{figure}
+
+\subsection{\textit{Reranking}}
+\textit{Reranking} adalah proses menata ulang hasil pencarian awal untuk meningkatkan relevansi dokumen yang ditampilkan kepada pengguna {amidiSuperStudyGuide2024}. Dalam sistem pencarian bertahap, tahap pertama biasanya menggunakan metode pengambilan (\textit{retrieval}) yang efisien secara komputasi untuk menyaring koleksi dokumen yang besar menjadi kandidat dokumen yang lebih sedikit. Namun, metode ini sering kali mengorbankan akurasi demi kecepatan. \textit{Reranking} diterapkan pada tahap kedua untuk menilai kembali relevansi kandidat dokumen tersebut dengan metode yang lebih canggih dan akurat, meskipun lebih berat secara komputasi. Ilustrasi konsep \textit{reranking} dapat dilihat pada Gambar \ref{fig:reranking_concept}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{bab2/reranking.png}
+\caption[Konsep \textit{Reranking}]{Konsep \textit{Reranking} dalam Sistem Pencarian \parencite{qdrantQdrant2025}}
+\label{fig:reranking_concept}
+\end{figure}
+
+Salah satu arsitektur yang umum digunakan dalam tahap \textit{reranking} adalah \textit{Cross-Encoder}. \textcite{reimersSentenceBERTSentenceEmbeddings2019} membahas penggunaan arsitektur ini untuk penilaian pasangan kalimat, yang didasarkan pada model BERT yang diperkenalkan oleh \textcite{devlinBERTPretrainingDeep2019a}. Berbeda dengan arsitektur \textit{Bi-Encoder} yang memproses kueri dan dokumen secara terpisah menjadi vektor representasi independen, \textit{Cross-Encoder} memproses kueri dan dokumen sebagai satu kesatuan masukan ke dalam jaringan saraf. Hal ini memungkinkan mekanisme \textit{self-attention} pada model Transformer untuk menangkap interaksi yang kompleks antara setiap kata dalam kueri dengan setiap kata dalam dokumen secara mendalam.
+
+Perbedaan fundamental dalam mekanisme pemrosesan ini menghasilkan karakteristik yang berbeda antara keduanya. \textit{Bi-Encoder} memungkinkan pra-komputasi (\textit{pre-computation}) vektor dokumen, sehingga pencarian dapat dilakukan dengan sangat cepat menggunakan perhitungan jarak vektor (seperti \textit{cosine similarity}) pada jutaan dokumen. Di sisi lain, \textit{Cross-Encoder} tidak dapat melakukan pra-komputasi karena representasi dokumen bergantung pada kueri yang spesifik. Akibatnya, proses inferensi menjadi jauh lebih lambat karena harus dilakukan secara \textit{real-time} untuk setiap pasangan kueri dan dokumen. Namun, kemampuan \textit{Cross-Encoder} untuk "melihat" hubungan antar kata secara langsung memberikannya akurasi yang jauh lebih tinggi dibandingkan \textit{Bi-Encoder}. Oleh karena itu, \textit{Cross-Encoder} lebih ideal diterapkan pada tahap \textit{reranking} di mana jumlah dokumen yang perlu dinilai relatif sedikit.
+
+Sebagai alternatif untuk menyeimbangkan efisiensi dan akurasi, dikembangkanlah model seperti ColBERT (\textit{Contextualized Late Interaction over BERT}). Model ini mempertahankan kemampuan pra-komputasi untuk dokumen, namun memperkenalkan mekanisme interaksi yang lebih kaya dibandingkan vektor tunggal pada \textit{Bi-Encoder}. ColBERT menggunakan konsep \textit{Late Interaction}, di mana setiap token dalam kueri dan dokumen direpresentasikan oleh vektornya sendiri (\textit{multi-vector representation}). Interaksi relevansi dihitung pada tahap akhir setelah proses encoding, dengan membandingkan setiap vektor token kueri dengan vektor token dokumen. Mekanisme interaksi ini secara spesifik menggunakan operator \textit{MaxSim} (Maximum Similarity). \textcite{khattabColBERTEfficientEffective2020} mendefinisikan operasi ini dengan mencari skor kemiripan tertinggi untuk setiap token kueri terhadap semua token dalam dokumen, kemudian menjumlahkan skor-skor maksimum tersebut. Pendekatan ini memastikan bahwa setiap bagian dari kueri dipadankan dengan bagian yang paling relevan dari dokumen, tanpa kehilangan informasi akibat kompresi vektor. Ilustrasi visual dari operasi MaxSim ini ditunjukkan pada Gambar \ref{fig:maxsim_visualization}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{bab2/maxsim.png}
+\caption[Visualisasi operator MaxSim]{Visualisasi operator MaxSim dalam menghitung relevansi antara kueri dan dokumen \parencite{qdrantQdrant2025}}
+\label{fig:maxsim_visualization}
+\end{figure}
+
+Mekanisme ini memungkinkan model untuk menangkap nuansa semantik yang lebih halus daripada kompresi menjadi satu vektor, namun tetap lebih efisien daripada \textit{Cross-Encoder} penuh. Mekanisme \textit{Late Interaction} pada proses ingesti dan \textit{reranking} diilustrasikan pada Gambar \ref{fig:late_interaction}.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{bab2/ingestionmakelateinteraction.png}
+        \caption{}
+        \label{fig:ingestion_late_interaction}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{bab2/rerankingmakelateinteraction.png}
+        \caption{}
+        \label{fig:reranking_late_interaction}
+    \end{subfigure}
+    \caption[Mekanisme \textit{Late Interaction}]{Mekanisme \textit{Late Interaction} pada (a) Proses Ingesti dan (b) Proses \textit{Reranking} \parencite{qdrantQdrant2025}}
+    \label{fig:late_interaction}
+\end{figure}
+
+Pengembangan lebih lanjut dari arsitektur ini terus dilakukan, salah satunya adalah Jina-ColBERT-v2 yang diperkenalkan oleh \textcite{jhaJinaColBERTv2GeneralPurposeMultilingual2024}. Model ini dirancang sebagai model representasi serbaguna yang mendukung berbagai bahasa dan menawarkan peningkatan performa dalam tugas pengambilan informasi serta \textit{reranking} dengan tetap mempertahankan efisiensi komputasi dari arsitektur ColBERT.
+
+\subsection{Qdrant}
+Qdrant adalah mesin pencari vektor (\textit{vector search engine}) dan basis data vektor sumber terbuka yang dirancang untuk menyimpan, mengelola, dan mencari vektor \textit{embedding} dalam skala besar dengan efisien \parencite{qdrantQdrant2025}. Qdrant menyediakan mekanisme pencarian kesamaan (\textit{similarity search}) yang memungkinkan pengambilan informasi berdasarkan makna semantik dari data, bukan hanya pencocokan kata kunci.
+
+Entitas utama yang menjadi unit penyimpanan dasar dalam Qdrant dikenal sebagai \textit{Point}. Setiap \textit{Point} merepresentasikan catatan data tunggal yang terdiri dari tiga komponen utama, yaitu pengenal unik (ID), representasi vektor, dan \textit{payload} opsional. Struktur dari sebuah \textit{Point} dalam Qdrant diilustrasikan pada Gambar \ref{fig:qdrant_points}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{bab2/qdrantpoints.png}
+\caption[Struktur Data \textit{Point} pada Qdrant]{Struktur Data \textit{Point} pada Qdrant yang Terdiri dari ID, Vektor, dan \textit{Payload} \parencite{qdrantQdrant2025}}
+\label{fig:qdrant_points}
+\end{figure}
+
+Komponen ID berfungsi sebagai identitas unik untuk setiap \textit{Point}, yang dapat berupa bilangan bulat 64-bit (\textit{unsigned integer}) atau UUID. Jika pengguna tidak menyediakan ID saat pembuatan \textit{Point}, klien Qdrant secara otomatis akan menghasilkan UUID acak. Komponen kedua adalah vektor, yang merupakan representasi numerik dari data. Qdrant memiliki fleksibilitas tinggi dalam penyimpanan vektor, dengan dukungan terhadap berbagai jenis vektor seperti vektor padat (\textit{dense vector}), vektor jarang (\textit{sparse vector}), maupun \textit{multivector}. Lebih lanjut, Qdrant memungkinkan penyimpanan beberapa jenis vektor sekaligus dalam satu \textit{Point} melalui fitur \textit{named vectors}. Fitur ini berguna dalam skenario yang kompleks, seperti pada model multimodal di mana satu entitas data mungkin memiliki representasi vektor untuk teks dan citra secara bersamaan.
+
+Komponen ketiga adalah \textit{payload}, yang merupakan metadata tambahan dalam format JSON yang terkait dengan vektor tersebut. \textit{Payload} memungkinkan penyimpanan informasi non-vektor seperti atribut deskriptif, kategori, atau label waktu. Fungsi utama dari \textit{payload} adalah untuk memfasilitasi mekanisme penyaringan (\textit{filtering}) selama proses pencarian. Dengan fitur ini, Qdrant dapat melakukan pencarian hibrida yang menggabungkan pencarian semantik berbasis vektor dengan penyaringan berbasis aturan pada metadata, sehingga hasil yang diperoleh menjadi lebih spesifik dan relevan sesuai dengan kriteria yang diinginkan.
+
+\subsection{ranx}
+Evaluasi kinerja komponen \textit{retrieval} dalam arsitektur RAG umumnya dilakukan menggunakan pendekatan \textit{offline evaluation} berbasis koleksi uji standar. Pendekatan ini memerlukan adanya \textit{Query Relevance Judgments} (qrels), yaitu kumpulan data yang berisi pemetaan antara kueri dengan dokumen-dokumen yang dianggap relevan secara faktual. Melalui \textit{qrels}, luaran sistem \textit{retrieval} (\textit{run}) dapat dinilai secara objektif menggunakan berbagai metrik statistik untuk mengukur seberapa baik sistem dalam menemukan informasi yang dibutuhkan.
+
+Kinerja sistem diukur menggunakan serangkaian metrik standar \textit{Information Retrieval} (IR). \textit{Precision@k} mengukur proporsi dokumen relevan yang ditemukan dalam $k$ dokumen teratas. \textit{Recall@k} mengukur proporsi dokumen relevan yang berhasil diambil dibandingkan dengan total dokumen relevan yang tersedia. \textit{Mean Reciprocal Rank} (MRR) mengevaluasi seberapa tinggi peringkat dokumen relevan pertama yang ditemukan dalam daftar hasil. \textit{Mean Average Precision} (MAP) memberikan gambaran rata-rata presisi di setiap posisi dokumen relevan, yang merefleksikan stabilitas kinerja sistem. Sementara itu, \textit{Normalized Discounted Cumulative Gain} (NDCG) mempertimbangkan posisi peringkat dokumen relevan dengan memberikan bobot lebih tinggi pada dokumen yang muncul di urutan awal, sehingga metrik ini sangat krusial untuk mengevaluasi efektivitas mekanisme \textit{reranking}.
+
+Untuk memfasilitasi evaluasi ini secara efisien, \textcite{bassaniRanxBlazingFastPython2022} mengembangkan \textit{ranx}, sebuah pustaka berbasis Python yang dirancang khusus untuk evaluasi dan perbandingan sistem IR. \textit{ranx} menyediakan antarmuka untuk memproses data \textit{qrels} dan \textit{run}, serta menghitung berbagai metrik evaluasi seperti NDCG, MAP, MRR, \textit{Precision}, dan \textit{Recall} dengan kecepatan tinggi. Pustaka ini dioptimalkan menggunakan kompilasi \textit{Just-In-Time} (JIT) melalui Numba, yang memungkinkan eksekusi perhitungan metrik yang jauh lebih cepat dibandingkan implementasi Python standar. Selain kapabilitas evaluasi dasar, \textit{ranx} juga menyediakan fitur untuk melakukan uji signifikansi statistik dan fusi peringkat (\textit{rank fusion}), yang memungkinkan analisis komparatif yang mendalam antar konfigurasi model \textit{retrieval} yang berbeda.
+
+\section{Sistem Agentik}
+Menurut \textcite{anthropicBuildingEffectiveAgents2024}, sistem agentik adalah pendekatan untuk memperluas kemampuan LLM dengan memberi akses pada alat, memori, atau sumber informasi eksternal sehingga model dapat bertindak lebih dari sekadar menghasilkan teks. Dalam merancang sistem agentik, Anthropic membedakan dua pendekatan utama, yaitu \textit{workflow} dan \textit{agents} (agen). Pertama, \textit{workflow}, yaitu alur kerja dari LLM dengan alat yang sudah ditetapkan sebelumnya, di mana setiap langkah dijalankan dalam urutan yang telah dirancang sehingga cocok digunakan untuk tugas yang rutin dan stabil. Kedua, agen, yaitu sistem yang lebih fleksibel dan adaptif, di mana LLM dapat merencanakan langkahnya sendiri, memilih alat sesuai kebutuhan, dan mengambil keputusan kapan perlu mengambil informasi tambahan. Gambar \ref{fig:blok_dasar_sistem_agentik} menggambarkan blok dasar dari sistem agentik. Di mana, sistem agentik pada dasarnya adalah bentuk augmentasi LLM dengan memberikannya akses alat berupa pengambilan informasi, memori, atau alat-alat eksternal lainnya. Dari sini, dapat dirancang berbagai pola yang dapat lebih condong ke \textit{workflow} dan terdapat pola yang lebih condong ke agen.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{bab2/blokdasarsistemagentik.png}
+\caption[Blok dasar dari sistem agentik]{Blok dasar dari sistem agentik \parencite{anthropicBuildingEffectiveAgents2024}}
+\label{fig:blok_dasar_sistem_agentik}
+\end{figure}
+
+Beberapa penelitian memperlihatkan bagaimana berbagai pola dan teknik diterapkan dalam merancang sistem agentik. Pada pendekatan \textit{workflow}, penelitian \textcite{trautmannLargeLanguageModel2023} menerapkan pola \textit{prompt chaining} untuk dapat memecah dokumen hukum yang panjang dengan terlebih dahulu diringkas, kemudian dilakukan \textit{semantic search}, dan akhirnya langkah klasifikasi dilakukan oleh LLM menggunakan \textit{few-shot} atau \textit{in-context prompts} yang dibangun dari \textit{output} tahap sebelumnya. Penelitian lain \textcite{xuMultimodalAgriculturalAgent2025}, memperlihatkan penerapan pola \textit{routing} agar dapat adaptif dalam tugas identifikasi. Dalam implementasinya, digunakan model klasifikasi sebagai \textit{router} untuk menentukan alat yang relevan berdasarkan \textit{input} berupa gambar tanaman dan pertanyaan teks, misalnya klasifikasi atau deteksi penyakit, sebelum memberikan respons akhir oleh LLM. Sementara itu, \textcite{xiaParallelismMeetsAdaptiveness2025} yang mengombinasikan pola \textit{parallelization} dengan adaptasi multi-agen, di mana beberapa agen mengolah bagian dokumen secara paralel dengan mekanisme evaluasi bersama untuk meningkatkan skalabilitas. 
+Lebih lanjut, pada pendekatan \textit{agent} terdapat penerapannya melalui teknik \textit{Reasoning and Action} (ReAct) dari \textcite{yaoReActSynergizingReasoning2023}. ReAct merupakan teknik \textit{prompt engineering} yang memungkinkan LLM untuk menalar terlebih dahulu (\textit{reasoning}), kemudian memilih tindakan yang sesuai (\textit{acting}) dengan memanggil alat, sehingga proses penalaran dan eksekusi berlangsung secara transparan dan sistematis. Pendekatan ini kemudian banyak dijadikan fondasi dalam pengembangan sistem yang melibatkan agen dan telah banyak diadopsi oleh berbagai proyek, seperti LangChain, AutoGPT, dan DSPy \parencite{yuSurveyAgentWorkflow2025}. Selain teknik \textit{prompting}, perkembangan kemampuan agen ini juga didorong oleh penelitian \textcite{schickToolformerLanguageModels2023} melalui Toolformer, yang mengajarkan bagaimana melatih model untuk menggunakan alat eksternal secara mandiri, sehingga memunculkan model-model modern yang mampu menggunakan alat secara natif seperti Gemini. Selain ReAct, terdapat juga Autono dari \parencite{wuAutonoReActBasedHighly2025} yang mencoba memperluas ReAct dengan mekanisme adaptif pada pembuatan tindakan berikutnya berdasarkan jejak (\textit{trajectory}) sebelumnya, dan juga kolaborasi multi-agen serta memori bersama agar agen bisa “belajar” dari tindakan-tindakan sebelumnya. Selain itu, untuk tugas-tugas yang butuh keakuratan tinggi, seperti konteks klinis, muncul DERA (\textit{Dialog-Enabled Resolving Agents}) dari \textcite{nairDERAEnhancingLarge2023}. DERA menggunakan dua agen internal, yaitu \textit{Researcher} yang memproses informasi, mengidentifikasi komponen penting dari masalah, dan \textit{Decider} yang memutuskan \textit{output} akhir berdasarkan masukan dari \textit{Researcher}. Prosesnya dialog antar agen agar \textit{output} LLM bisa diperbaiki iteratif, baik dari segi kelengkapan maupun kebenaran faktual. DERA diuji pada tugas seperti peringkasan dialog medis, pembuatan rencana perawatan, dan pertanyaan‐jawaban klinis. Hasilnya menunjukkan peningkatan atas GPT-4 saja terutama untuk peringkasan dan rencana perawatan, walau di tanya jawab terbuka peningkatannya tidak begitu besar.
+
+\subsection{LangChain}
+LangChain adalah kerangka kerja orkestrasi yang dirancang untuk memfasilitasi pengembangan aplikasi berbasis \textit{Large Language Models} (LLM) \parencite{langchainaiLangChain2025}. Seiring dengan meningkatnya kompleksitas aplikasi LLM, LangChain telah berevolusi dari sebuah pustaka tunggal menjadi ekosistem pengembangan yang komprehensif. Ekosistem ini menyediakan infrastruktur modular yang mendukung seluruh siklus hidup pengembangan aplikasi, mulai dari tahap prototipe hingga penyebaran di lingkungan produksi.
+
+Secara arsitektural, ekosistem LangChain terdiri dari beberapa komponen utama yang saling terintegrasi namun dapat beroperasi secara independen. Fondasi dari ekosistem ini adalah paket \texttt{langchain-core} yang menyediakan abstraksi dasar untuk \textit{LangChain Expression Language} (LCEL) serta antarmuka standar bagi komponen-komponen seperti LLM, \textit{vector stores}, dan \textit{retrievers}. Di atas fondasi tersebut, terdapat \texttt{langchain-community} yang berisi integrasi dengan berbagai layanan pihak ketiga, serta pustaka \texttt{langchain} utama yang menyediakan implementasi logika rantai (\textit{chains}) dan strategi pengambilan informasi.
+
+Untuk kebutuhan orkestrasi yang lebih kompleks, ekosistem ini menghadirkan LangGraph. LangGraph adalah pustaka yang dirancang khusus untuk membangun aplikasi yang bersifat \textit{stateful} dan \textit{multi-agent} dengan kemampuan kontrol aliran yang granular \parencite{langchainaiLangGraph2025}. Berbeda dengan pendekatan agen tradisional yang berbasis graf asiklik terarah (\textit{Directed Acyclic Graph} atau DAG), LangGraph memungkinkan pembentukan alur kerja yang melibatkan siklus (\textit{cycles}), percabangan, dan persistensi memori yang lebih kuat. Kemampuan ini sangat krusial dalam pengembangan agen otonom yang memerlukan interaksi berulang atau mekanisme \textit{human-in-the-loop} untuk validasi keputusan sebelum eksekusi tindakan.
+
+Guna memastikan keandalan dan transparansi kinerja sistem, ekosistem ini dilengkapi dengan LangSmith. LangSmith berfungsi sebagai platform \textit{LLMOps} (\textit{Large Language Model Operations}) yang menyediakan kapabilitas untuk penelusuran (\textit{tracing}), evaluasi, dan pemantauan aplikasi LLM \parencite{langchainaiLangSmithSDK2025}. Melalui LangSmith, setiap langkah eksekusi dalam rantai atau agen dapat direkam dan dianalisis, memungkinkan pengembang untuk mendeteksi \textit{bottleneck}, melakukan \textit{debugging} pada kesalahan logika agen, serta mengukur kualitas luaran model secara sistematis menggunakan dataset evaluasi. Integrasi antara LangChain sebagai kerangka kerja pembangunan, LangGraph sebagai mesin orkestrasi agen, dan LangSmith sebagai platform observabilitas membentuk solusi \textit{end-to-end} yang kokoh bagi pengembangan sistem kecerdasan buatan modern.
+
+\subsection{LlamaIndex}
+LlamaIndex adalah kerangka kerja data (\textit{data framework}) yang dirancang untuk menghubungkan Model Bahasa Besar (\textit{Large Language Models} atau LLM) dengan sumber data privat atau spesifik domain \parencite{runllamaLlamaIndex2025}. LLM umumnya dilatih menggunakan data publik yang tersedia secara luas, namun sering kali tidak memiliki akses terhadap data internal milik pengguna atau organisasi. LlamaIndex menjembatani kesenjangan ini dengan menyediakan alat untuk memuat (\textit{ingest}), mengindeks (\textit{index}), dan menanyakan (\textit{query}) data tersebut, sehingga memungkinkan pengembangan aplikasi berbasis LLM yang diperkaya dengan konteks data eksternal, seperti \textit{Retrieval-Augmented Generation} (RAG).
+
+Ekosistem LlamaIndex terdiri dari beberapa komponen utama yang bekerja secara terintegrasi untuk mengelola siklus hidup data dalam aplikasi LLM. Komponen-komponen tersebut meliputi:
+\begin{enumerate}[nosep]
+    \item \textit{Data Connectors}: Komponen ini berfungsi untuk membaca dan memuat data dari berbagai sumber dan format aslinya—seperti API, basis data, PDF, atau dokumen teks—menjadi representasi standar dokumen teks. LlamaIndex menyediakan LlamaHub, sebuah repositori terbuka yang berisi ratusan pemuat data (\textit{data loaders}) yang dikembangkan oleh komunitas untuk berbagai layanan pihak ketiga.
+    \item \textit{Data Indexes}: Setelah data dimuat, data tersebut perlu distrukturisasi agar mudah diambil oleh LLM. LlamaIndex menawarkan berbagai struktur indeks, seperti \textit{Vector Store Index} untuk pencarian berbasis kesamaan semantik, \textit{Summary Index} untuk peringkasan dokumen, hingga \textit{Knowledge Graph Index} untuk menangkap hubungan entitas yang kompleks. Indeks ini menyimpan data dalam bentuk \textit{node} yang mengandung teks dan metadata.
+    \item \textit{Engines}: LlamaIndex menyediakan mesin pemrosesan untuk berinteraksi dengan data. \textit{Query Engines} adalah antarmuka untuk mengajukan pertanyaan pada data dan mendapatkan jawaban yang disintesis oleh LLM. Sementara itu, \textit{Chat Engines} memungkinkan interaksi percakapan multi-putaran (\textit{multi-turn conversation}) dengan menjaga konteks sejarah percakapan.
+    \item \textit{Agents}: Komponen ini memungkinkan LLM untuk bertindak sebagai agen otonom yang dapat mengambil keputusan, memilih alat (\textit{tools}) yang tepat, dan mengeksekusi serangkaian tindakan berdasarkan input pengguna. Agen di LlamaIndex dapat menggunakan berbagai mesin kueri dan alat eksternal untuk menyelesaikan tugas yang kompleks.
+\end{enumerate}
+
+Selain komponen inti tersebut, LlamaIndex juga mendukung evaluasi dan observabilitas untuk memastikan kualitas luaran aplikasi. Dengan arsitektur yang modular, pengembang dapat menyesuaikan setiap tahapan pemrosesan data, mulai dari strategi pemecahan teks (\textit{chunking}), pemilihan model \textit{embedding}, hingga teknik pengambilan kembali (\textit{retrieval}) dan sintesis jawaban.
+
+
+\section{\textit{LLM-as-a-judge}}
+\textit{LLM-as-a-judge} merupakan paradigma evaluasi otomatis di mana \textit{Large Language Models} (LLM) difungsikan sebagai penilai untuk mengukur kualitas teks yang dihasilkan oleh sistem generatif \parencite{wangLargeLanguageModels2024}. Pendekatan ini dikembangkan untuk mengatasi keterbatasan metrik evaluasi tradisional berbasis \textit{n-gram} seperti BLEU (\textit{Bilingual Evaluation Understudy}) dan ROUGE (\textit{Recall-Oriented Understudy for Gisting Evaluation}), yang terbukti memiliki korelasi rendah dengan penilaian manusia pada tugas-tugas yang membutuhkan pemahaman semantik mendalam, seperti peringkasan teks atau pembuatan dialog \parencite{liuGEvalNLGEvaluation2023}. Dalam mekanisme ini, LLM yang bertindak sebagai juri diberikan instruksi (\textit{prompt}) yang berisi kriteria penilaian spesifik, teks masukan (\textit{input}), dan teks luaran (\textit{output}) yang akan dinilai, untuk kemudian menghasilkan skor atau keputusan peringkat.
+
+Keunggulan utama dari metode ini terletak pada efisiensi biaya dan waktu dibandingkan dengan evaluasi manusia, serta kemampuannya untuk memberikan penilaian yang lebih bernuansa dibandingkan metrik heuristik. \textcite{wangLargeLanguageModels2024} menyajikan tinjauan komprehensif mengenai metodologi ini, menyoroti bahwa LLM mutakhir mampu menghasilkan penilaian yang sangat selaras dengan preferensi manusia di berbagai tugas. Namun, \textcite{wangLargeLanguageModels2024} juga mengidentifikasi sejumlah tantangan, seperti bias posisi (\textit{positional bias}) di mana model cenderung memfavoritkan jawaban yang muncul pertama, serta bias kebertele-telean (\textit{verbosity bias}) yang memberikan skor lebih tinggi pada jawaban yang lebih panjang meskipun tidak lebih informatif.
+
+Sebagai upaya untuk meningkatkan keselarasan dengan penilaian manusia, \textcite{liuGEvalNLGEvaluation2023} memperkenalkan kerangka kerja G-Eval. Pendekatan ini memanfaatkan teknik \textit{Chain-of-Thought} (CoT) untuk mengarahkan LLM agar menghasilkan langkah-langkah penalaran evaluasi secara eksplisit sebelum memberikan skor akhir. Mekanisme kerja dari G-Eval ini diilustrasikan pada Gambar \ref{fig:geval_framework}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{bab2/kerangkakerjageval.png}
+\caption[Kerangka kerja G-Eval]{Kerangka kerja G-Eval yang memanfaatkan \textit{chain-of-thought} untuk evaluasi \parencite{liuGEvalNLGEvaluation2023}}
+\label{fig:geval_framework}
+\end{figure}
+
+Berdasarkan eksperimen yang dilakukan, G-Eval menunjukkan korelasi Spearman yang lebih tinggi dengan penilaian manusia dibandingkan dengan metode evaluasi otomatis sebelumnya, membuktikan bahwa penambahan langkah penalaran dapat meningkatkan reliabilitas LLM sebagai juri yang objektif. Hasil eksperimen dari penelitian tersebut menunjukkan bahwa G-Eval mengungguli metode evaluasi tradisional non-LLM yang disebutkan sebelumnya. Sebagaimana ditunjukkan pada Gambar \ref{fig:geval_results}, nilai korelasi Spearman dan Kendall-Tau yang lebih tinggi mengindikasikan tingkat keselarasan yang lebih baik dengan penilaian manusia.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{bab2/evaluasigeval.png}
+\caption[Perbandingan hasil evaluasi G-Eval]{Perbandingan korelasi G-Eval dengan metode evaluasi lainnya \parencite{liuGEvalNLGEvaluation2023}}
+\label{fig:geval_results}
+\end{figure}
+
+\subsection{RAGAS}
+RAGAS (\textit{Retrieval Augmented Generation Assessment}) adalah kerangka kerja evaluasi otomatis yang dikembangkan oleh \textcite{esRagasAutomatedEvaluation2025} untuk mengukur kinerja sistem \textit{Retrieval Augmented Generation} (RAG). Kerangka kerja ini mengadopsi paradigma \textit{LLM-as-a-judge}, di mana \textit{Large Language Model} (LLM) difungsikan sebagai evaluator independen untuk menilai kualitas teks yang dihasilkan berdasarkan aspek semantik dan logika penalaran. Pendekatan ini ditujukan untuk mengatasi keterbatasan metrik evaluasi tradisional berbasis \textit{n-gram} seperti BLEU dan ROUGE yang sering kali gagal menangkap koherensi faktual pada jawaban yang dihasilkan oleh model bahasa.
+
+Evaluasi dalam RAGAS dilakukan secara \textit{reference-free} (tanpa referensi jawaban manusia) untuk sebagian metriknya, yang memungkinkan skalabilitas evaluasi pada dataset yang dinamis. Penilaian dilakukan terhadap tiga komponen utama dalam ekosistem RAG, yaitu pertanyaan (\textit{query}), konteks yang diambil (\textit{retrieved context}), dan jawaban yang dihasilkan (\textit{generated answer}). Berdasarkan interaksi antar komponen tersebut, \textcite{esRagasAutomatedEvaluation2025} mendefinisikan serangkaian metrik utama sebagai berikut:
+
+\begin{enumerate}[nosep]
+    \item \textbf{\textit{Faithfulness}} (Kesetiaan): Metrik ini mengukur konsistensi faktual dari jawaban yang dihasilkan terhadap konteks yang diambil. Jawaban dianggap setia (\textit{faithful}) jika seluruh klaim yang dibuat dapat didukung atau disimpulkan dari konteks yang tersedia. Perhitungan dilakukan dengan mengekstraksi pernyataan atomik dari jawaban dan memverifikasinya terhadap konteks untuk mendeteksi adanya halusinasi.
+    
+    \item \textbf{\textit{Answer Relevance}} (Relevansi Jawaban): Metrik ini mengevaluasi seberapa relevan jawaban yang dihasilkan terhadap pertanyaan pengguna, tanpa memperhitungkan kebenaran faktualnya. Penilaian didasarkan pada prinsip bahwa jawaban yang relevan seharusnya hanya memuat informasi yang diminta oleh pertanyaan. RAGAS menghitung skor ini dengan cara membangkitkan pertanyaan-pertanyaan potensial dari jawaban (\textit{reverse engineering}) dan mengukur kesamaan kosinus (\textit{cosine similarity}) antara vektor pertanyaan asli dengan rata-rata vektor pertanyaan yang dibangkitkan.
+    
+    \item \textbf{\textit{Context Precision}} (Presisi Konteks): Metrik ini mengukur rasio informasi yang relevan dalam konteks yang diambil terhadap total informasi yang disajikan. Metrik ini menilai kemampuan sistem pencarian (\textit{retriever}) dalam menempatkan dokumen yang relevan (\textit{ground truth}) pada peringkat atas. Skor yang tinggi menunjukkan bahwa sistem mampu memprioritaskan informasi yang benar-benar berguna dan meminimalkan \textit{noise} dalam konteks.
+    
+    \item \textbf{\textit{Context Recall}} (Recall Konteks): Metrik ini mengukur sejauh mana konteks yang diambil berhasil mencakup seluruh informasi yang diperlukan untuk menjawab pertanyaan berdasarkan referensi jawaban yang benar (\textit{ground truth}). Penilaian dilakukan dengan memverifikasi apakah setiap klaim dalam jawaban referensi dapat ditemukan atribusinya dalam konteks yang diambil.
+    
+    \item \textbf{\textit{Answer Correctness}} (Kebenaran Jawaban): Metrik ini menilai akurasi jawaban yang dihasilkan dibandingkan dengan jawaban referensi (\textit{ground truth}). Skor dihitung sebagai rata-rata berbobot dari dua komponen, yaitu kebenaran faktual (\textit{factual correctness}) dan kesamaan semantik (\textit{semantic similarity}). Komponen kebenaran faktual mengukur tumpang tindih fakta antara kedua jawaban, sedangkan kesamaan semantik dihitung menggunakan jarak vektor \textit{embedding}.
+\end{enumerate}
+
+Melalui kombinasi metrik-metrik tersebut, RAGAS memberikan gambaran holistik mengenai kinerja sistem RAG, baik dari sisi kualitas pengambilan informasi (\textit{retrieval}) maupun kualitas pembangkitan teks (\textit{generation}).
+
+\subsection{DeepEval}
+DeepEval merupakan kerangka kerja evaluasi sumber terbuka yang dirancang khusus untuk menguji dan mengevaluasi sistem berbasis \textit{Large Language Model} (LLM), seperti aplikasi RAG (\textit{Retrieval-Augmented Generation}) dan agen cerdas \parencite{confidentaiDeepEval2025}. Kerangka kerja ini menawarkan pendekatan yang modular dan mudah diintegrasikan dalam siklus pengembangan perangkat lunak (CI/CD), mengadopsi prinsip pengujian unit (\textit{unit testing}) untuk memvalidasi luaran LLM secara sistematis.
+
+DeepEval menyediakan implementasi dari berbagai metrik evaluasi mutakhir, termasuk G-Eval yang memanfaatkan paradigma \textit{LLM-as-a-judge} untuk memberikan penilaian otomatis yang memiliki korelasi tinggi dengan persepsi manusia. Namun, evaluasi berbasis LLM murni sering kali menghadapi tantangan terkait sifat non-deterministik dari model generatif, yang dapat menyebabkan variabilitas skor pada input yang sama. Untuk mengatasi hal ini, DeepEval memperkenalkan metrik \textit{Deep Acyclic Graph} (DAG). Metrik ini dirancang untuk meningkatkan determinisme dan keandalan evaluasi dengan menyusun kriteria penilaian ke dalam struktur graf asiklik. Melalui pendekatan ini, proses penalaran model dipandu melalui serangkaian node logika yang terstruktur, sehingga menghasilkan luaran evaluasi yang lebih konsisten, transparan, dan dapat direproduksi dibandingkan dengan metode \textit{prompting} standar.
+
+\section{Penelitian Terkait}
+Pada penelitian terkait, berbagai pendekatan sistem agentik dengan integrasi model \textit{deep learning} hingga \textit{computer vision} telah digunakan untuk tugas yang berkaitan dengan identifikasi penyakit tanaman. Pada implementasi paling sederhana, \textcite{sbDesignImplementationAIPowered2024} mengembangkan sistem agentik untuk deteksi penyakit tanaman sekaligus memberikan rekomendasi penanganan. Sistem ini memanfaatkan YOLOv5 untuk mengidentifikasi daun tanaman yang terinfeksi pada berbagai spesies dan jenis penyakit. Selanjutnya, sistem diintegrasikan dengan LLM dari Gemini API guna menyediakan rekomendasi penanganan yang disesuaikan dengan jenis penyakit yang terdeteksi. Evaluasi sistem hanya dilakukan pada model YOLOv5 yakni dengan \textit{mean Average Precision} (mAP) sebesar 0,85 dan \textit{precision} sebesar 0,88 dalam diagnosis penyakit. Pendekatan dari sistem agentik ini dapat dikatakan sebagai \textit{workflow} tanpa ada teknik augmentasi dari LLM, sehingga beresiko terjadi halusinasi.
+
+Mengembangkan dari pendekatan sebelumnya, \textcite{mondalVisionMeetsLanguage2025} memperkenalkan sistem yang lebih maju dengan menggabungkan YOLO dan RAG untuk augmentasi LLM. Sistem ini memanfaatkan YOLOv8 untuk terlebih dahulu mendeteksi penyakit pada daun kopi, kemudian mengintegrasikan mekanisme RAG untuk memberikan hasil diagnosis yang relevan. Pengujian dan evaluasi hanya dilakukan pada model YOLOv8 yang mendapatkan mAP@0.5 sebesar 0.681 dalam deteksi. Sistem agentik ini sendiri merupakan pendekatan \textit{workflow} dengan teknik augmentasi tambahan untuk LLM melalui RAG.
+
+Alternatif pendekatan lainnya terdapat pada penelitian \textcite{roumeliotisPlantDiseaseDetection2025} yang mengeksplorasi penggunaan GPT-4o sebagai LLM multimodal dan digabungkan dengan ResNet-50 untuk klasifikasi penyakit tanaman dari citra daun. Mereka melakukan evaluasi dalam \textit{setting zero-shot}, \textit{few-shot}, dan \textit{progressive fine-tuning} menggunakan \textit{dataset} PlantVillage, pada dua spesies tanaman, yaitu apel dan jagung, dengan gambar resolusi 100, 150, dan 256 piksel. Hasilnya menunjukkan bahwa model GPT-4o yang di-\textit{fine-tune} mencapai akurasi tertinggi sekitar 98,12\% pada citra daun apel 256 px, sedikit lebih baik dibanding ResNet-50 di $\sim$96,88\% pada kondisi yang sama. Namun, performa \textit{zero-shot} GPT-4o, menunjukkan bahwa meski model multimodal LLM kuat, pelatihan tetap diperlukan. Selain itu, meskipun model menunjukkan adaptasi yang baik terhadap berbagai resolusi gambar, generalisasi ke spesies tanaman yang berbeda tetap memiliki batasan, khususnya ketika struktur daun cukup berbeda. Penelitian ini menunjukkan penerapan \textit{workflow} dengan augmentasi \textit{fine-tuning} pada LLM.
+
+Pendekatan yang menarik terdapat pada penelitian \textcite{xuMultimodalAgriculturalAgent2025} yang mengusulkan MA3 sebagai pendekatan \textit{workflow} yang dapat mengambil keputusan dalam identifikasi penyakit tanaman secara adaptif. Arsitektur ini dirancang agar lebih adaptif melalui modul \textit{router} berisi model BERT yang dilatih secara \textit{supervised learning} untuk mengklasifikasikan \textit{query} (\textit{input} teks) pengguna. Berdasarkan hasil klasifikasi tersebut, sistem dapat mengarahkan proses ke modul klasifikasi penyakit, deteksi penyakit, atau tanya jawab. Modul klasifikasi dan deteksi dibangun menggunakan \textit{backbone} CLIP-ViT yang di-\textit{fine-tune} untuk data penyakit tebu, sementara komponen terakhir memanfaatkan Qwen2.5-32B sebagai LLM guna menggabungkan keluaran seluruh alat dan menyusun jawaban akhir yang lebih informatif. Dengan desain ini, MA3 menghadirkan pendekatan \textit{workflow} adaptif yang membedakannya dari pendekatan agen, karena pemilihan alat dikendalikan oleh \textit{router}, bukan oleh LLM itu sendiri. Pilihan penggunaan \textit{router} dalam penggunaan alat yang adaptif dimaksudkan untuk menghindari halusinasi dari LLM, tetapi \textcite{xuMultimodalAgriculturalAgent2025} luput menyebutkan pendekatan seperti agen dengan pola ReAct yang sebenarnya sudah menawarkan solusi atas masalah tersebut.
+
+Hasil evaluasi pada sistem yang dikembangkan penelitian \textcite{xuMultimodalAgriculturalAgent2025} menunjukkan bahwa \textit{router} BERT mencapai akurasi sangat tinggi di atas 99\%, modul klasifikasi penyakit memperoleh \textit{precision} hingga 96,2\%, sedangkan modul deteksi penyakit masih menghadapi tantangan dengan mAP sekitar 0,325. Evaluasi dilakukan dengan kombinasi metrik tradisional serta metrik kualitas tanya jawab seperti \textit{semantic consistency}, \textit{information completeness}, \textit{information leakage}, dan \textit{redundancy} oleh \textit{evaluator} pakar di bidang pertanian.
+
+Pada sistem agentik yang dikembangkan, \textcite{xuMultimodalAgriculturalAgent2025} juga memperkenalkan metode evaluasi menggunakan LLM berupa DeepSeek-V3 sebagai \textit{evaluator} untuk memeriksa kualitas dan relevansi dari penggunaan berbagai komponen MA3, baik dalam tugas klasifikasi, deteksi, maupun tanya jawab. Evaluasi ini pada dasarnya menerapkan metode evaluasi \textit{LLM-as-a-Judge} sebagaimana dijelaskan oleh Gu dkk. (2025), yakni penggunaan LLM sebagai \textit{evaluator} otomatis untuk memberikan evaluasi kuantitatif dari dari sistem dalam menyelesaikan tugas. Gu dkk. menekankan bahwa metode ini tidak hanya mempercepat proses evaluasi, tetapi juga membuka peluang untuk mengurangi bias serta meningkatkan reliabilitas penilaian pada berbagai domain dan skenario tugas yang kompleks seperti pada sistem agentik.
+
+Sejauh ini belum ada penelitian yang menerapkan pendekatan agen dalam sistem agentik untuk identifikasi penyakit tanaman melalui pola ReAct, maupun mengintegrasikannya dengan VLM dan dapat mengevaluasi sistemnya secara komprehensif. Pendekatan yang paling mendekati ditunjukkan oleh ShizishanGPT yang diperkenalkan oleh \textcite{yangShizishanGPTAgriculturalLarge2024}, yakni sebuah sistem agentik yang dirancang untuk mendukung berbagai tugas agrikultur, termasuk seputar penyakit tanaman, meski penggunaannya masih terbatas pada skenario tanya jawab tanpa analisis citra. Dalam sistem, terdapat agen LLM dengan pola ReAct yang menggunakan GPT-4 dengan akses modul yang berisi alat eksternal seperti pencarian internet, prediksi fenotipe tanaman, analisis gen, dan model cuaca. ShizishanGPT juga memiliki modul pengambilan informasi berbasis RAG, tetapi modul ini tidak terintegrasi pada agen sebagai alat, sehingga penggunaannya tidak adaptif. 
+
+Untuk eksperimen, \textcite{yangShizishanGPTAgriculturalLarge2024} menyiapkan \textit{dataset} baru berisi 100 pasangan pertanyaan dan jawaban pertanian. Evaluasi dilakukan melalui \textit{machine scoring} pada modul pengambilan informasi berbasis RAG menggunakan beberapa metrik, di mana ShizishanGPT meraih skor komposit tertinggi di 0,923. Selain itu, \textit{manual scoring} oleh \textit{evaluator} untuk akurasi, profesionalisme, dan kemampuan bahasa dari jawaban menempatkan ShizishanGPT pada skor 9,65 dari 10, lebih unggul dibanding GPT-4 maupun model lainnya. Evaluasi juga dilakukan melalui eksperimen yang menghapus beberapa modul dari sistem untuk menilai kontribusi masing-masing komponen. Hasilnya menunjukkan konfigurasi penuh memberikan hasil terbaik, sementara penghapusan modul pengambilan informasi berbasis RAG memberikan skor terendah di 9,21, menunjukkan peran penting RAG dalam menjaga kualitas jawaban. 
+Secara keseluruhan, penelitian-penelitian sebelumnya menunjukkan berbagai pendekatan dalam penerapan sistem agentik untuk identifikasi penyakit tanaman. Penerapan ini dimulai dari integrasi \textit{workflow} sederhana dengan YOLO dan LLM, pengambilan informasi melalui RAG, \textit{fine-tuning} pada LLM, hingga arsitektur \textit{workflow} yang kompleks dengan \textit{router} dan model-model khusus. Peningkatan signifikan terlihat pada awal tahun 2025 dengan munculnya sistem agentik yang lebih otonom dan reliabel. Namun, belum ada yang secara komprehensif mengintegrasikan pola ReAct dengan VLM untuk identifikasi penyakit tanaman secara \textit{end-to-end} dengan evaluasi yang menyeluruh. Rangkuman dari penelitian-penelitian tersebut ditunjukkan pada Tabel \ref{tab:summary_related_research}.
+
+\begin{table}[ht]
+\centering
+\caption{Ringkasan penelitian terkait sistem agentik identifikasi penyakit tanaman}
+\label{tab:summary_related_research}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{4cm}|p{4cm}|p{4cm}|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Peneliti dan Tahun}} & \multicolumn{1}{c|}{\textbf{Pendekatan Sistem Agentik}} & \multicolumn{1}{c|}{\textbf{Integrasi Tambahan}} & \multicolumn{1}{c|}{\textbf{Evaluasi}} \\ \hline
+\textcite{sbDesignImplementationAIPowered2024} & \textit{Workflow} sederhana & YOLOv5 untuk deteksi penyakit tanaman & mAP 0,85 dan \textit{precision} 0,88 pada model YOLOv5 \\ \hline
+\textcite{roumeliotisPlantDiseaseDetection2025} & \textit{Workflow} sederhana dengan \textit{fine-tuning} LLM & ResNet-50 untuk klasifikasi tanaman & Akurasi hingga 98,12\% pada GPT-4o (\textit{fine-tuned}) dan $\sim$96,88\% pada ResNet-50 \\ \hline
+\textcite{xuMultimodalAgriculturalAgent2025} & \textit{Workflow} adaptif dengan \textit{fine-tuning} LLM & BERT sebagai \textit{Router} penggunaan alat adaptif dan CLIP-ViT untuk deteksi lesi serta klasifikasi penyakit tanaman & \textit{Router} akurasi $>$99\%; klasifikasi \textit{precision} 96,2\%; deteksi mAP $\sim$0,325; Evaluasi komponen menggunakan \textit{LLM-as-a-judge} \\ \hline
+\textcite{yangShizishanGPTAgriculturalLarge2024} & Kombinasi \textit{workflow} dengan ReAct & RAG, model–model untuk berbagai tugas, dan pencarian internet & Skor komposit RAG 0,923 (\textit{machine scoring}) dan skor manual 9,65/10 (\textit{human scoring}) \\ \hline
+\end{tabular}%
+}
+\end{table}
+

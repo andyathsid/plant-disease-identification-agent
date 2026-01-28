@@ -1,0 +1,10 @@
+data
+models
+qdrant_storage
+*-venv/
+__pycache__
+scraping/automation
+.env
+.github
+corpus
+vespa_storage

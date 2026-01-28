@@ -1,0 +1,771 @@
+\chapter{HASIL DAN PEMBAHASAN}
+
+\section{Hasil Perancangan dan Pengembangan Sistem Agentik}
+Implementasi sistem agentik telah berhasil direalisasikan menggunakan kerangka kerja LangChain dan pustaka LangGraph sesuai dengan rancangan arsitektur yang telah dibahas sebelumnya. Sistem ini memodelkan perilaku agen LLM dalam struktur graf berstatus (\textit{stateful graph}) untuk menangani tugas identifikasi penyakit tanaman secara adaptif.
+
+Hasil kompilasi dari definisi graf agen disajikan pada Gambar \ref{fig:compiled_state_graph}. Representasi ini menunjukkan struktur topologi graf yang terbentuk setelah kode program dieksekusi. Simpul-simpul utama yang merepresentasikan logika pengambilan keputusan (agen) dan eksekusi tindakan (alat) telah terbentuk dan terhubung oleh sisi-sisi (\textit{edges}) yang mengatur aliran kontrol. Struktur ini memvalidasi bahwa desain pola \textit{Reasoning and Acting} (ReAct) telah berhasil diterjemahkan ke dalam objek eksekutif yang siap dijalankan.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{bab4/compiledstategraph.png}
+    \caption{Representasi graf sistem agentik setelah proses kompilasi}
+    \label{fig:compiled_state_graph}
+\end{figure}
+
+Verifikasi lebih lanjut terhadap struktur dan alur kerja agen dilakukan menggunakan platform LangSmith. Gambar \ref{fig:agent_graph_langsmith} menampilkan visualisasi graf agen dalam lingkungan LangSmith Studio. Visualisasi ini memberikan gambaran yang lebih interaktif mengenai bagaimana agen berpindah dari satu status ke status lainnya, mulai dari inisialisasi, evaluasi model, pemanggilan alat, hingga terminasi proses. Kesesuaian antara graf yang dirancang dan visualisasi ini mengonfirmasi integritas implementasi alur kerja sistem.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{bab4/agentgraphdilangsmithstudio.png}
+    \caption{Visualisasi graf agen pada LangSmith Studio}
+    \label{fig:agent_graph_langsmith}
+\end{figure}
+
+Pengujian fungsionalitas dasar sistem dilakukan dengan memberikan masukan berupa citra daun yang bergejala penyakit disertai instruksi teks. Hasil keluaran dari pengujian ini ditunjukkan pada Gambar \ref{fig:agent_output_langsmith}. Sistem terbukti mampu menerima masukan multimodal, memprosesnya melalui alur kerja agen, dan menghasilkan respons akhir yang relevan terhadap permintaan pengguna. Keberhasilan ini menunjukkan bahwa mekanisme integrasi antara model bahasa dan antarmuka input-output telah berjalan dengan baik.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{bab4/contohoutputagentdilangsmithstudio.png}
+    \caption{Contoh keluaran agen saat diuji di LangSmith Studio}
+    \label{fig:agent_output_langsmith}
+\end{figure}
+
+Untuk memvalidasi proses penalaran dan penggunaan alat oleh agen, dilakukan analisis terhadap jejak eksekusi (\textit{trace}) yang direkam oleh LangSmith. Gambar \ref{fig:agent_trace_langsmith} memperlihatkan rincian langkah-langkah yang diambil agen dalam menyelesaikan tugas. Jejak tersebut menampilkan urutan pemanggilan alat yang dilakukan oleh agen berdasarkan analisis konteks, serta respons yang diterima dari alat tersebut. Transparansi ini membuktikan bahwa agen tidak hanya memberikan jawaban, tetapi juga melakukan proses penalaran dan pengambilan tindakan yang logis sesuai dengan pola ReAct yang diterapkan.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{bab4/contohtracedilangsmithstudio.png}
+    \caption{Jejak eksekusi (\textit{trace}) agen yang menampilkan pemanggilan alat}
+    \label{fig:agent_trace_langsmith}
+\end{figure}
+
+\section{Hasil Perancangan dan Pengembangan Agen LLM}
+Pengembangan agen LLM difokuskan pada implementasi instruksi sistem (\textit{system instructions}) dan konfigurasi model untuk memastikan perilaku agen sesuai dengan parameter yang telah dirancang. Implementasi ini mencakup manajemen prompt menggunakan LangSmith Prompt Hub serta realisasi kerangka kerja CO-STAR.
+
+Manajemen instruksi dilakukan secara terpusat menggunakan layanan LangSmith Prompt Hub. Pendekatan ini memisahkan logika kode program dengan konfigurasi instruksi bahasa alami, yang memungkinkan proses iterasi dan pembaruan instruksi dilakukan tanpa mengubah kode sumber aplikasi secara langsung. Gambar \ref{fig:langsmith_prompt_hub} menampilkan antarmuka manajemen prompt yang digunakan, di mana versi prompt dikelola dan dilacak perubahannya.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{bab4/tampilanpromptdilangsmithprompthub.png}
+    \caption{Tampilan antarmuka manajemen prompt pada LangSmith Prompt Hub}
+    \label{fig:langsmith_prompt_hub}
+\end{figure}
+Kerangka kerja CO-STAR yang dirancang pada tahap sebelumnya telah diterjemahkan menjadi blok instruksi terstruktur. Bagian \textit{Context} menetapkan peran agen sebagai ahli patologi tanaman dengan batasan domain yang ketat, sedangkan bagian \textit{Objective} menekankan pada jawaban yang berbasis bukti (\textit{evidence-grounded}). Cuplikan implementasi instruksi bagian Context dan Objective disajikan dalam Gambar \ref{fig:prompt_context}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{bab4/contextobjective.png}
+    \caption{Realisasi instruksi Context dan Objective pada sistem}
+    \label{fig:prompt_context}
+\end{figure}
+
+Selanjutnya, komponen \textit{Style}, \textit{Tone}, dan \textit{Audience} mendefinisikan persona agen dalam berinteraksi. Agen diinstruksikan untuk selalu menyesuaikan bahasa dengan pengguna (misalnya Bahasa Indonesia), membedakan secara tegas antara observasi visual dan inferensi, serta mempertahankan nada yang tenang dan jujur mengenai ketidakpastian. Target audiens yang bervariasi dari pemilik tanaman hingga profesional pertanian menuntut penjelasan yang jelas tanpa jargon berlebih. Implementasi ketiga komponen ini ditampilkan pada Gambar \ref{fig:prompt_sta}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{bab4/styletoneaudience.png}
+    \caption{Realisasi instruksi Style, Tone, dan Audience pada sistem}
+    \label{fig:prompt_sta}
+\end{figure}
+
+Terakhir, komponen \textit{Response} menetapkan struktur standar untuk jawaban identifikasi yang mewajibkan penggunaan observasi visual, integrasi konteks, hingga identifikasi dengan penalaran. Struktur ini juga mencakup mekanisme tindak lanjut (\textit{follow-up}) jika data kurang mencukupi serta batasan ketat mengenai apa yang tidak boleh disertakan seperti resep kimia atau saran medis. Detail instruksi struktur respons disajikan pada Gambar \ref{fig:prompt_response}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{bab4/response.png}
+    \caption{Realisasi instruksi Response Structure pada sistem}
+    \label{fig:prompt_response}
+\end{figure}
+
+
+Agar agen dapat berinteraksi dengan alat yang disediakan dengan biak, instruksi sistem juga menyertakan referensi teknis mengenai alat-alat yang tersedia (\textit{Tools Reference}). Bagian ini memberikan spesifikasi formal untuk fungsi seperti \texttt{web\_search} dan \texttt{knowledgebase\_search} dalam modul pencarian informasi, mencakup parameter, tujuan, dan contoh penggunaannya. Referensi ini memastikan agen dapat menyusun pemanggilan alat yang valid secara sintaksis dan semantik. Contoh referensi penggunaan alat tersebut ditampilkan pada Gambar \ref{fig:prompt_tools}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{bab4/referensitool.png}
+    \caption{Realisasi referensi teknis alat pada sistem}
+    \label{fig:prompt_tools}
+\end{figure}
+
+Agen juga dilengkapi dengan kebijakan penggunaan alat (\textit{Tool Decision Policy}) yang dirancang untuk mengoptimalkan akurasi dan efisiensi biaya. Kebijakan ini mengatur alur pengambilan keputusan agen mulai dari validasi kualitas citra, pemilihan strategi deteksi (apakah menggunakan deteksi objek atau klasifikasi langsung), hingga mekanisme validasi hasil dan tindakan pemulihan (\textit{fallback}) jika terjadi inkonsistensi. Selain itu, aturan keselamatan (\textit{Safety Rules}) diterapkan untuk mencegah halusinasi, seperti kewajiban melakukan validasi visual sebelum memanggil alat deteksi dan larangan memberikan saran medis tanpa rujukan. Alur logika keputusan ini divisualisasikan dalam diagram alir pada Gambar \ref{fig:tool_decision_flowchart}.
+
+\begin{figure}[H]
+    \centering
+    \resizebox{0.5\textwidth}{!}{%
+    \begin{tikzpicture}[
+        node distance=0.8cm,
+        font=\small,
+        start/.style={circle, draw, fill=blue!10, minimum size=1cm, align=center},
+        process/.style={rectangle, draw, fill=white, minimum width=3cm, minimum height=0.8cm, align=center, text width=3cm},
+        decision/.style={rounded rectangle, draw, fill=blue!10, minimum width=2.5cm, minimum height=0.8cm, align=center, text width=2.5cm},
+        arrow/.style={-stealth, thick}
+    ]
+
+        % Nodes
+        \node [start] (start) {Mulai: Input Pengguna};
+        \node [decision, below=of start] (quality) {Kualitas Citra Baik?};
+        \node [process, right=1.2cm of quality] (reject) {Minta Foto Ulang};
+        
+        \node [decision, below=1.2cm of quality] (strategy) {Perlu Deteksi Objek?};
+        \node [process, left=1.2cm of strategy] (full) {Mode \textit{Full-Image}};
+        \node [process, below=1.2cm of strategy] (detect) {Deteksi \textit{Closed-Set}};
+        
+        \node [decision, below=1.2cm of detect] (valid) {Deteksi Valid?};
+        \node [process, right=1.2cm of valid] (open) {Deteksi \textit{Open-Vocab}};
+        
+        \node [process, below=1.2cm of valid] (ident) {Identifikasi Penyakit};
+        
+        \node [decision, below=1.2cm of ident] (reliable) {Hasil Konsisten?};
+        \node [process, right=1.2cm of reliable] (fallback) {Fallback: Ganti Metode/KB};
+        
+        \node [decision, below=1.2cm of reliable] (guide) {Butuh Panduan?};
+        \node [process, left=1.2cm of guide] (kb) {Pencarian KB/Web};
+        
+        \node [start, below=of guide] (end) {Respons Akhir};
+
+        % Edges
+        \draw [arrow] (start) -- (quality);
+        \draw [arrow] (quality) -- node[above] {Tidak} (reject);
+        \draw [arrow] (quality) -- node[right] {Ya} (strategy);
+        
+        \draw [arrow] (strategy) -- node[above] {Tidak} (full);
+        \draw [arrow] (strategy) -- node[right] {Ya} (detect);
+        
+        \draw [arrow] (detect) -- (valid);
+        \draw [arrow] (valid) -- node[right] {Ya} (ident);
+        \draw [arrow] (valid) -| node[above, near start] {Tidak} (full);
+        \draw [arrow] (valid) -- node[above] {Gagal} (open);
+        
+        \draw [arrow] (open) |- (ident);
+        \draw [arrow] (full) |- (ident);
+        
+        \draw [arrow] (ident) -- (reliable);
+        \draw [arrow] (reliable) -- node[above] {Tidak} (fallback);
+        \draw [arrow] (fallback) |- (ident);
+        
+        \draw [arrow] (reliable) -- node[right] {Ya} (guide);
+        \draw [arrow] (guide) -- node[above] {Ya} (kb);
+        \draw [arrow] (kb) |- (end);
+        \draw [arrow] (guide) -- node[right] {Tidak} (end);
+        
+    \end{tikzpicture}}
+    \caption{Diagram alir kebijakan penggunaan alat (\textit{Tool Decision Policy})}
+    \label{fig:tool_decision_flowchart}
+\end{figure}
+
+Selain kebijakan penggunaan alat, agen juga mematuhi aturan kebenaran ketat (\textit{Hard Truthfulness Rules}) yang berfungsi sebagai mekanisme anti-halusinasi. Aturan ini mewajibkan agen untuk selalu mendahulukan analisis visual (\textit{Vision-First}) sebelum menggunakan alat, memisahkan antara observasi fakta dan inferensi dalam narasi, serta secara eksplisit menyebutkan sumber informasi (\textit{provenance}) untuk setiap klaim yang dibuat (misalnya "berdasarkan foto", "menurut hasil deteksi", atau "dari basis pengetahuan"). Agen juga dilarang memberikan skor kepercayaan numerik buatan sendiri dan diwajibkan melakukan validasi silang antara hasil alat dengan konteks pengguna (inang dan gejala yang terlihat). Jika pengguna meminta panduan penanganan, agen diwajibkan mencari bukti pendukung melalui \textit{retrieval} data sebelum memberikan saran spesifik. Alur penegakan aturan kebenaran ini diilustrasikan pada Gambar \ref{fig:truthfulness_flowchart}.
+
+\begin{figure}[H]
+    \centering
+    \resizebox{0.5\textwidth}{!}{%
+    \begin{tikzpicture}[
+        node distance=0.8cm,
+        font=\small,
+        start/.style={circle, draw, fill=blue!10, minimum size=1cm, align=center},
+        process/.style={rectangle, draw, fill=white, minimum width=3.5cm, minimum height=0.8cm, align=center, text width=3.5cm},
+        decision/.style={rounded rectangle, draw, fill=blue!10, minimum width=2.5cm, minimum height=0.8cm, align=center, text width=2.5cm},
+        arrow/.style={-stealth, thick}
+    ]
+
+        % Nodes
+        \node [start] (start) {Mulai: Analisis Input};
+        \node [process, below=of start] (triage) {Triase Visual: Observasi vs Inferensi};
+        
+        \node [decision, below=of triage] (tools) {Butuh Alat?};
+        \node [process, right=1.2cm of tools] (call) {Panggil Alat \& Validasi Output (Cek Inang/Gejala)};
+        
+        \node [process, below=1.2cm of tools] (draft) {Susun Respons dengan \textit{Provenance} Jelas};
+        
+        \node [decision, below=of draft] (guide) {Butuh Panduan?};
+        \node [process, right=1.2cm of guide] (evidence) {Wajib \textit{Retrieval} Bukti (KB/Web)};
+        
+        \node [process, below=1.2cm of guide] (const) {Terapkan Batasan: Hipotesis Kecil \& Tanpa Skor Palsu};
+        
+        \node [start, below=of const] (end) {Respons Jujur \& Aman};
+
+        % Edges
+        \draw [arrow] (start) -- (triage);
+        \draw [arrow] (triage) -- (tools);
+        \draw [arrow] (tools) -- node[above] {Ya} (call);
+        \draw [arrow] (tools) -- node[left] {Tidak} (draft);
+        \draw [arrow] (call) |- (draft);
+        
+        \draw [arrow] (draft) -- (guide);
+        \draw [arrow] (guide) -- node[above] {Ya} (evidence);
+        \draw [arrow] (guide) -- node[left] {Tidak} (const);
+        \draw [arrow] (evidence) |- (const);
+        
+        \draw [arrow] (const) -- (end);
+        
+    \end{tikzpicture}}
+    \caption{Diagram alir mekanisme aturan kebenaran (\textit{Hard Truthfulness Rules})}
+    \label{fig:truthfulness_flowchart}
+\end{figure}
+
+\section{Hasil Perancangan dan Pengembangan Modul Deteksi Objek Tanaman}
+Bagian ini memaparkan hasil evaluasi kinerja modul deteksi objek yang dirancang untuk mengidentifikasi keberadaan tanaman (daun) dalam citra. Pembahasan dibagi menjadi dua kategori berdasarkan pendekatan deteksi yang digunakan, yaitu deteksi \textit{closed-set} menggunakan model YOLOv11 yang dilatih khusus, dan deteksi \textit{open-\allowbreak vocabulary} untuk cakupan objek yang lebih luas.
+
+\subsection{Alat Deteksi Closed-Set}
+Pelatihan model deteksi \textit{closed-set} dilaksanakan menggunakan lingkungan komputasi awan Kaggle Kernel yang didukung oleh akselerator GPU NVIDIA Tesla P100 dengan VRAM \qty{16}{\giga\byte}. Infrastruktur ini dipilih untuk menangani beban komputasi pelatihan model YOLOv11 yang intensif.
+
+Dataset yang digunakan dalam eksperimen ini adalah PlantDoc \parencite{singhPlantDocDatasetVisual2020}. Sebagaimana telah dibahas pada bab metodologi, dataset ini dimodifikasi dengan menyatukan seluruh label kelas menjadi satu kelas tunggal "\textit{leaf}" untuk memfokuskan model pada tugas lokalisasi daun. Contoh sampel citra beserta anotasi \textit{bounding box} dari dataset PlantDoc ditampilkan pada Gambar \ref{fig:dataset_plantdoc}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{bab4/datasetplantdoc.png}
+    \caption{Sampel citra dan anotasi dari dataset PlantDoc}
+    \label{fig:dataset_plantdoc}
+\end{figure}
+
+Proses pelatihan dilakukan menggunakan kerangka kerja Ultralytics dengan konfigurasi hiperparameter yang disesuaikan. Tabel \ref{tab:training_hyperparams} merinci parameter-parameter kunci yang digunakan selama proses pelatihan untuk memastikan konvergensi model yang optimal.
+
+\begin{table}[H]
+    \centering
+    \caption{Konfigurasi Hiperparameter Pelatihan Final}
+    \label{tab:training_hyperparams}
+    \small
+    \begin{tabular}{|l|c|}
+        \hline
+        \textbf{Parameter} & \textbf{Nilai} \\ \hline
+        Epochs & 240 \\ \hline
+        Batch Size & 16 \\ \hline
+        Image Size & $416 \times 416$ \\ \hline
+        Optimizer & Auto \\ \hline
+        Initial Learning Rate ($lr0$) & 0.01 \\ \hline
+        Final Learning Rate ($lrf$) & 0.01 \\ \hline
+        Momentum & 0.937 \\ \hline
+        Weight Decay & 0.0005 \\ \hline
+        Warmup Epochs & 3.0 \\ \hline
+        Patience & 20 \\ \hline
+    \end{tabular}
+\end{table}
+
+Validasi visual terhadap proses pelatihan dilakukan dengan memeriksa sampel \textit{batch} pelatihan. Gambar \ref{fig:output_training_sample} memperlihatkan contoh hasil augmentasi dan pelabelan pada satu \textit{batch} pelatihan model YOLOv11-nano. Dari visualisasi ini, dapat diamati bahwa teknik augmentasi seperti mosaik telah diterapkan dengan benar, di mana \textit{bounding box} tetap akurat melingkupi area daun meskipun terjadi pemotongan atau penggabungan citra. Integritas anotasi pasca-transformasi ini menjamin bahwa model menerima sinyal pembelajaran yang konsisten dan bebas dari ambiguitas spasial.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{bab4/outputhasiltraining.png}
+    \caption{Contoh sampel \textit{batch} pelatihan pada model YOLOv11-nano}
+    \label{fig:output_training_sample}
+\end{figure}
+
+Kinerja pelatihan ketiga varian model (nano, small, dan medium) dipantau melalui kurva \textit{loss} dan metrik validasi. Sebagaimana diperlihatkan pada Gambar \ref{fig:training_curves}, ketiga model menunjukkan tren penurunan \textit{loss} yang stabil dan peningkatan metrik mAP yang konsisten seiring bertambahnya \textit{epoch}.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{bab4/yolov11ntraningcurve.png}
+        \caption{}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{bab4/yolov11straningcurve.png}
+        \caption{}
+    \end{subfigure}
+    
+    \vspace{0.5cm}
+
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{bab4/yolov11mtraningcurve.png}
+        \caption{}
+    \end{subfigure}
+    \caption{Kurva metrik pelatihan dan validasi untuk model (a) YOLOv11-nano, (b) YOLOv11-small, dan (c) YOLOv11-medium}
+    \label{fig:training_curves}
+\end{figure}
+
+Kemampuan generalisasi model pada data yang belum pernah dilihat sebelumnya diuji secara kualitatif. Gambar \ref{fig:test_predictions} menampilkan hasil prediksi deteksi daun pada data uji untuk ketiga varian model. Hasil visual menunjukkan bahwa ketiga model mampu mendeteksi dan melokalisasi daun dengan tingkat kepercayaan yang tinggi pada berbagai kondisi citra. Analisis lebih lanjut terhadap hasil prediksi memperlihatkan bahwa model mampu menangani tantangan oklusi dan variasi skala dengan baik. Daun yang saling bertumpuk atau yang memiliki tekstur permukaan tidak seragam akibat gejala penyakit tetap dapat diidentifikasi sebagai objek tunggal yang utuh. Selain itu, tingginya skor kepercayaan (\textit{confidence score}) pada sebagian besar deteksi mengindikasikan bahwa fitur-fitur yang dipelajari model cukup diskriminatif untuk membedakan objek daun dari latar belakang yang kompleks.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{bab4/testprediksiyolov11n.png}
+        \caption{}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{bab4/testprediksiyolov11s.png}
+        \caption{}
+    \end{subfigure}
+    
+    \vspace{0.5cm}
+
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{bab4/testprediksiyolov11m.png}
+        \caption{}
+    \end{subfigure}
+    \caption{Hasil prediksi deteksi daun pada data uji menggunakan model (a) YOLOv11-nano, (b) YOLOv11-small, dan (c) YOLOv11-medium}
+    \label{fig:test_predictions}
+\end{figure}
+
+Evaluasi kuantitatif lebih lanjut dilakukan untuk membandingkan performa akurasi dan efisiensi komputasi dari ketiga varian arsitektur YOLOv11 tersebut. Rangkuman hasil pelatihan dan \textit{benchmarking} performa ketiga model tersebut pada dataset PlantDoc disajikan dalam Tabel \ref{tab:yolo_results}.
+
+\begin{table}[H]
+    \centering
+    \caption{Rangkuman Hasil Evaluasi Performa dan Latensi Model YOLOv11}
+    \label{tab:yolo_results}
+    \small
+    \setstretch{1.0}
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \textbf{Varian} & \textbf{mAP@50} & \textbf{mAP@50-95} & \textbf{Latensi p50 (ms)} & \textbf{Latensi p95 (ms)} \\ \hline
+        YOLOv11-nano   & 0.8800          & 0.6953             & 15.46                     & 19.77                     \\ \hline
+        YOLOv11-small  & 0.8916          & 0.7105             & 47.40                     & 49.24                     \\ \hline
+        YOLOv11-medium & 0.8976          & 0.7071             & 128.45                    & 133.87                    \\ \hline
+    \end{tabular}
+    }
+\end{table}
+
+Berdasarkan metrik akurasi deteksi, seluruh varian model menunjukkan performa yang kompetitif dengan skor mAP@50 di atas 0.88. Sebagaimana diilustrasikan pada Gambar \ref{fig:yolo_performance}, YOLOv11-medium mencatatkan skor mAP@50 tertinggi sebesar 0.8976. Namun, pada metrik yang lebih ketat (mAP@50-95), YOLOv11-small justru mengungguli varian medium dengan skor 0.7105 berbanding 0.7071. Hal ini mengindikasikan bahwa peningkatan kompleksitas model pada varian medium tidak serta-merta menjamin peningkatan akurasi lokalisasi yang signifikan dibandingkan varian small. Varian nano, meskipun memiliki arsitektur terkecil, tetap mampu memberikan performa yang solid dengan selisih akurasi yang relatif kecil dibandingkan varian yang lebih besar.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{bab4/perbandinganperformayolov11.png}
+    \caption{Perbandingan performa deteksi (mAP) antar varian YOLOv11}
+    \label{fig:yolo_performance}
+\end{figure}
+
+Dari sisi efisiensi komputasi, terdapat perbedaan latensi yang signifikan antar ketiga varian model saat dijalankan pada lingkungan CPU. Gambar \ref{fig:yolo_latency} memperlihatkan bahwa YOLOv11-nano merupakan model tercepat dengan latensi median (p50) hanya 15.46 ms, menjadikannya sangat responsif untuk aplikasi \textit{real-time}. YOLOv11-small memiliki latensi sekitar tiga kali lipat lebih tinggi (47.40 ms), sedangkan YOLOv11-medium mengalami lonjakan latensi yang drastis hingga 128.45 ms. Latensi p95 juga menunjukkan tren serupa, menegaskan stabilitas waktu inferensi masing-masing model.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{bab4/perbandinganlatensiyolov11.png}
+    \caption{Perbandingan latensi inferensi (p50 dan p95) antar varian YOLOv11}
+    \label{fig:yolo_latency}
+\end{figure}
+
+Untuk menentukan model yang paling optimal, dilakukan analisis \textit{Pareto frontier} yang memetakan hubungan \textit{trade-off} antara akurasi dan kecepatan. Gambar \ref{fig:pareto_analysis} menampilkan kurva Pareto untuk dua skenario metrik. Pada grafik mAP@50 vs Latensi p50 (Gambar \ref{fig:pareto_map50}), terlihat adanya keuntungan marjinal yang semakin mengecil (\textit{diminishing returns}) saat beralih dari varian small ke medium. Sementara itu, pada grafik mAP@50-95 vs Latensi p95 (Gambar \ref{fig:pareto_map5095}), varian YOLOv11-medium terlihat berada di bawah garis efisiensi karena memiliki akurasi yang lebih rendah dibanding YOLOv11-small namun dengan latensi yang jauh lebih tinggi. Berdasarkan analisis ini, YOLOv11-nano dinilai sebagai pilihan terbaik untuk skenario yang memprioritaskan kecepatan ekstrem, sedangkan YOLOv11-small menawarkan keseimbangan terbaik antara akurasi tinggi dan latensi yang masih dapat diterima. Oleh karena itu, varian YOLOv11-small dipilih sebagai model yang akan diintegrasikan ke dalam alat deteksi \textit{closed-set} pada sistem agentik yang dikembangkan.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.8\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{bab4/paretofrontiermap50latensip50.png}
+        \caption{}
+        \label{fig:pareto_map50}
+    \end{subfigure}
+    \par\bigskip
+    \begin{subfigure}[b]{0.8\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{bab4/paretofrontiermap5095latensip95.png}
+        \caption{}
+        \label{fig:pareto_map5095}
+    \end{subfigure}
+    \caption{Analisis \textit{Pareto Frontier} pada (a) mAP@50 vs Latensi p50 dan (b) mAP@50-95 vs Latensi p95 untuk pemilihan model terbaik}
+    \label{fig:pareto_analysis}
+\end{figure}
+
+\subsection{Alat Deteksi Open-Vocabulary}
+Evaluasi kualitatif terhadap alat deteksi \textit{open-vocabulary} menggunakan model OWLv2 menunjukkan kemampuan model dalam mendeteksi objek tanaman selain daun, seperti buah, berdasarkan instruksi teks (\textit{text prompt}). Gambar \ref{fig:owlv2_detection} menampilkan contoh hasil deteksi di mana model berhasil mengidentifikasi dan melokalisasi buah apel ketika diberikan \textit{query} "fruit". Kemampuan ini memberikan fleksibilitas bagi sistem untuk menganalisis berbagai organ tanaman tanpa perlu melatih ulang model untuk setiap kelas objek baru.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{bab4/deteksiowlv2.png}
+    \caption{Contoh hasil deteksi buah menggunakan model OWLv2}
+    \label{fig:owlv2_detection}
+\end{figure}
+
+Evaluasi kinerja waktu inferensi dilakukan melalui prosedur \textit{benchmarking} yang mencakup 5 putaran pemanasan (\textit{warmup runs}) untuk menstabilkan kondisi sistem dan memuat model ke dalam memori, diikuti oleh 50 putaran pengukuran utama. Hasil pengujian menunjukkan bahwa model OWLv2 memiliki latensi median (p50) sebesar 2483,54 ms dan latensi persentil ke-95 (p95) sebesar 2917,39 ms. Tingginya latensi ini disebabkan oleh kompleksitas arsitektur model transformer yang memproses input multimodal (teks dan citra) secara bersamaan dengan parameter yang jauh lebih besar dibandingkan model deteksi konvensional.
+
+Perbandingan latensi antara alat deteksi \textit{closed-set} (YOLOv11) dan \textit{open- \allowbreak vocabulary} (OWLv2) disajikan pada Tabel \ref{tab:latency_comparison}. Data menunjukkan disparitas performa yang sangat signifikan, di mana OWLv2 lebih lambat hingga ratusan kali lipat dibandingkan varian model YOLOv11. Meskipun demikian, latensi sekitar 3 detik ini dinilai masih berada dalam batas toleransi yang dapat diterima (\textit{acceptable}) untuk sebuah sistem agen interaktif, terutama mengingat peran OWLv2 yang diposisikan sebagai alat spesialis untuk skenario yang lebih fleksibel, bukan sebagai alat deteksi utama yang dipanggil pada setiap interaksi.
+
+\begin{table}[H]
+    \centering
+    \caption{Perbandingan Latensi Model Deteksi Closed-Set dan Open-Vocabulary}
+    \label{tab:latency_comparison}
+    \small
+    \setstretch{1.0}
+    \begin{tabular}{|l|l|c|c|}
+    \hline
+    \textbf{Kategori} & \textbf{Model} & \textbf{Latensi p50 (ms)} & \textbf{Latensi p95 (ms)} \\ \hline
+    \multirow{3}{*}{Closed-Set} & YOLOv11-nano & 15,46 & 19,77 \\ \cline{2-4} 
+     & YOLOv11-small & 47,40 & 49,24 \\ \cline{2-4} 
+     & YOLOv11-medium & 128,45 & 133,87 \\ \hline
+    Open-Vocabulary & OWLv2 & 2483,54 & 2917,39 \\ \hline
+    \end{tabular}
+\end{table}
+
+
+\section{Hasil Perancangan dan Pengembangan Modul Gambar-Teks Penyakit Tanaman}
+Implementasi modul pencarian gambar-teks difokuskan pada pembangunan indeks vektor multimodal yang mampu menangani kueri lintas modal secara efisien. Proses ini mencakup tahapan \textit{ingestion} data ke dalam basis data vektor Qdrant serta verifikasi fungsionalitas strategi pencarian yang telah dirancang.
+
+Proses \textit{ingestion} data PlantWild berhasil dilakukan dengan memetakan 18.275 pasang citra dan teks ke dalam koleksi Qdrant. Verifikasi pada dasbor Qdrant menunjukkan bahwa seluruh poin data telah terindeks dengan status "Green" (sehat), sebagaimana diperlihatkan pada Gambar \ref{fig:qdrant_collection}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{bab4/collectionplantwilddidashboardqdrant.png}
+    \caption{Tampilan dasbor Qdrant yang menunjukkan status koleksi data PlantWild}
+    \label{fig:qdrant_collection}
+\end{figure}
+
+Setiap poin data menyimpan dua representasi vektor (vektor citra dan teks) yang dihasilkan oleh model SCOLD, serta \textit{payload} metadata yang mencakup nama tanaman, label penyakit, dan URL citra publik. Struktur data poin yang telah tersimpan divalidasi melalui inspeksi JSON pada antarmuka Qdrant seperti terlihat pada Gambar \ref{fig:qdrant_point}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{bab4/pointplantwildidashboardqdrant.png}
+    \caption{Struktur poin data yang menyimpan vektor ganda dan metadata}
+    \label{fig:qdrant_point}
+\end{figure}
+
+Fungsionalitas pencarian diuji secara kualitatif untuk memvalidasi kemampuan model SCOLD dalam menyelaraskan ruang fitur teks dan citra. Pengujian dilakukan dengan menjalankan empat skenario pencarian: \textit{Text-to-Image}, \textit{Image-to-Image}, \textit{Text-to-Text}, dan \textit{Image-to-Text}.
+
+Hasil pengujian visualisasi disajikan pada Gambar \ref{fig:multimodal_search_test}. Pada skenario \textit{Text-to-Image} (a), sistem diberikan kueri "rust spots on apple leaf" dan berhasil mengembalikan citra daun apel yang bergejala karat. Skenario \textit{Image-to-Image} (b) menunjukkan bahwa input citra daun sakit mampu memanggil citra referensi dengan kemiripan visual yang tinggi. Mode \textit{Text-to-Text} (c) dan \textit{Image-to-Text} (d) juga menunjukkan konsistensi dalam mengambil dokumen yang relevan, baik berdasarkan kecocokan semantik teks maupun fitur visual terhadap teks.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{1\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{bab4/testtexttoimage.png}
+        \caption{}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{1\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{bab4/testimagetoimage.png}
+        \caption{}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{1\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{bab4/testtexttotext.png}
+        \caption{}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{1\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{bab4/imagetotext.png}
+        \caption{}
+    \end{subfigure}
+    \caption{Hasil verifikasi fungsionalitas pencarian multimodal: (a) Text-to-Image, (b) Image-to-Image, (c) Text-to-Text, dan (d) Image-to-Text}
+    \label{fig:multimodal_search_test}
+\end{figure}
+
+Selain kemampuan pencarian vektor, fitur penyaringan metadata (\textit{metadata filtering}) diverifikasi untuk memastikan efisiensi pencarian pada domain tanaman yang spesifik. Pengujian dilakukan dengan membandingkan hasil pencarian untuk kueri generik "scab" tanpa filter dan dengan filter tanaman "Apple".
+
+Gambar \ref{fig:metadata_filtering_test} memperlihatkan dampak penerapan filter. Tanpa filter (a), hasil pencarian tercampur antara penyakit pada daun apel dan daun ceri yang memiliki kemiripan visual. Namun, dengan mengaktifkan filter \texttt{plant\_name='Apple'} (b), sistem secara efektif mengeliminasi hasil yang tidak relevan (daun ceri) dan hanya menampilkan penyakit kudis (\textit{scab}) pada apel.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{1\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{bab4/testnofilter.png}
+        \caption{}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{1\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{bab4/testfilter.png}
+        \caption{}
+    \end{subfigure}
+    \caption{Perbandingan hasil pencarian: (a) Tanpa filter metadata dan (b) Dengan filter metadata tanaman 'Apple'}
+    \label{fig:metadata_filtering_test}
+\end{figure}
+
+\section{Hasil Perancangan dan Pengembangan Modul Pencarian Informasi}
+Pengujian performa pada modul pencarian informasi dilakukan untuk menentukan konfigurasi RAG yang paling efektif. Evaluasi dilakukan secara bertahap, dimulai dari seleksi strategi \textit{hybrid search} terbaik, kemudian dilanjutkan dengan pengujian dampak penambahan komponen \textit{reranker}.
+
+Hasil benchmarking pada tahap seleksi \textit{retriever} ditunjukkan pada Tabel~\ref{tab:retrieval_benchmark}. Empat kombinasi utama diuji, yaitu Gemini + BM25, OpenAI + BM25, Gemini + SPLADE, dan OpenAI + SPLADE. Seluruh konfigurasi menunjukkan performa tinggi dengan skor nDCG@5, Recall@5, dan MRR@5 di atas 0.92. Gemini + BM25 mencatatkan skor tertinggi pada seluruh metrik, yaitu nDCG@5 sebesar 0.939, Recall@5 sebesar 0.968, dan MRR@5 sebesar 0.945. Selisih performa dengan OpenAI + BM25 sangat tipis, namun Gemini + BM25 dipilih sebagai \textit{base retriever} karena konsistensi skor tertinggi dan efisiensi biaya.
+
+\begin{table}[H]
+    \centering
+    \caption{Perbandingan performa empat konfigurasi hybrid search pada benchmark QA}
+    \label{tab:retrieval_benchmark}
+    \small
+    \begin{tabular}{|l|c|c|c|}
+        \hline
+        \textbf{Konfigurasi} & \textbf{nDCG@5} & \textbf{Recall@5} & \textbf{MRR@5} \\ \hline
+        Gemini + BM25 & 0.939 & 0.968 & 0.945 \\ \hline
+        OpenAI + BM25 & 0.936 & 0.968 & 0.942 \\ \hline
+        Gemini + SPLADE & 0.931 & 0.966 & 0.931 \\ \hline
+        OpenAI + SPLADE & 0.927 & 0.958 & 0.934 \\ \hline
+    \end{tabular}
+\end{table}
+
+Setelah konfigurasi \textit{base retriever} ditetapkan, pengujian dilanjutkan dengan mengevaluasi dampak penambahan komponen \textit{reranker}. Hasil perbandingan kinerja reranking divisualisasikan pada Gambar~\ref{fig:reranker_comparison}. Grafik tersebut memperlihatkan bahwa penambahan reranker memberikan peningkatan signifikan pada seluruh metrik evaluasi. Metode cross-encoder \texttt{rerank-2.5} dari Voyage AI menghasilkan skor tertinggi, dengan nDCG@5 mencapai 0.954, MRR 0.938, dan Recall@5 sebesar 0.981. Sementara itu, reranker late interaction menggunakan \texttt{jina-colbert-v2} juga meningkatkan performa dibandingkan tanpa reranker, namun masih berada di bawah cross-encoder. Tanpa reranker, skor nDCG@5, MRR, dan Recall@5 masing-masing hanya 0.885, 0.860, dan 0.942.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{bab4/evaluasireranker.png}
+    \caption{Perbandingan kinerja reranker pada top-5 dokumen: tanpa reranker, late interaction, dan cross-encoder.}
+    \label{fig:reranker_comparison}
+\end{figure}
+
+Analisis hasil ini menunjukkan bahwa penambahan reranker, khususnya model cross-encoder, berkontribusi positif dalam memperbaiki peringkat dokumen pada hasil pencarian. Peningkatan skor nDCG@5 dan Recall@5 menandakan bahwa sistem mampu menyajikan proporsi dokumen relevan yang lebih baik dalam lima urutan teratas, sedangkan kenaikan MRR mengindikasikan bahwa dokumen yang paling relevan cenderung muncul di posisi yang lebih awal. Berdasarkan hasil tersebut, konfigurasi yang menggabungkan hybrid search (Gemini + BM25) dan reranker Voyage AI 2.5 dipilih sebagai fondasi modul pencarian informasi untuk mendukung agen dalam memperoleh konteks yang diperlukan sebelum menghasilkan jawaban.
+
+\section{Hasil Perancangan dan Pengembangan Antarmuka Sistem Agentik}
+Implementasi antarmuka sistem berbasis web telah berhasil mengintegrasikan seluruh kapabilitas agen ke dalam pengalaman pengguna yang intuitif. Antarmuka ini dirancang untuk memfasilitasi interaksi natural antara pengguna dan agen cerdas, mendukung input multimodal (teks dan gambar), serta menyediakan transparansi langkah agen (\textit{thought process}) yang dapat diakses pengguna. Tampilan utama antarmuka sistem yang telah dikembangkan disajikan pada Gambar \ref{fig:hasil_antarmuka}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{bab4/hasilantarmuka.png}
+    \caption{Tampilan antarmuka utama sistem agentik}
+    \label{fig:hasil_antarmuka}
+\end{figure}
+
+Pengujian Antarmuka
+Pengujian antarmuka dilakukan menggunakan metode \textit{Black Box Testing} untuk memastikan bahwa seluruh fungsionalitas yang telah dirancang pada \textit{Use Case Diagram} dapat beroperasi sesuai dengan ekspektasi pengguna. \textit{Black Box Testing} merupakan metode pengujian perangkat lunak yang berfokus pada spesifikasi fungsional sistem. Hasil pengujian fungsionalitas antarmuka beserta bukti visual implementasinya disajikan pada Gambar \ref{fig:implementasi_antarmuka_1} dan Gambar \ref{fig:implementasi_antarmuka_2}, serta dirangkum dalam Tabel \ref{tab:black_box_testing}.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{bab4/hasiluc1.png}
+        \caption{Implementasi UC1: Mengirim Prompt}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{bab4/hasiluc2.png}
+        \caption{Implementasi UC2: Mengunggah Citra}
+    \end{subfigure}
+    
+    \vspace{1em}
+    
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{bab4/hasiluc3.png}
+        \caption{Implementasi UC3: Melihat Hasil \& Saran}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{bab4/hasiluc5.png}
+        \caption{Implementasi UC5: Melihat Transparansi Agen}
+    \end{subfigure}
+    \caption{Implementasi antarmuka untuk fitur interaksi utama dan transparansi}
+    \label{fig:implementasi_antarmuka_1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{bab4/hasiluc4a.png}
+        \caption{Tampilan sidebar riwayat}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{bab4/hasiluc4b.png}
+        \caption{Tampilan ubah nama sesi}
+    \end{subfigure}
+    \caption{Implementasi antarmuka untuk pengelolaan riwayat percakapan (UC4)}
+    \label{fig:implementasi_antarmuka_2}
+\end{figure}
+
+\begin{table}[H]
+    \centering
+    \caption{Pengujian \textit{Black Box} Antarmuka Sistem Agentik}
+    \label{tab:black_box_testing}
+    \small
+    \setstretch{1.0}
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|c|p{3.5cm}|p{6cm}|c|}
+        \hline
+        \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Hasil} \\ \hline
+        \textbf{UC1} & Mengirim Prompt & Pengguna mengetik instruksi pada kolom teks (\textit{textarea}) dan menekan tombol kirim (ikon \texttt{ArrowUp}). & Sesuai \\ \hline
+        \textbf{UC2} & Mengunggah Citra Tanaman & Pengguna mengklik ikon \texttt{Paperclip} untuk memilih gambar atau menyeret berkas langsung ke area percakapan. & Sesuai \\ \hline
+        \textbf{UC3} & Melihat Hasil \& Saran & Pengguna menunggu proses inferensi selesai setelah mengirimkan kueri identifikasi. & Sesuai \\ \hline
+        \textbf{UC4} & Mengelola Riwayat Percakapan & Pengguna memilih sesi pada \textit{sidebar}, mengubah nama sesi, atau mengirim pesan baru pada sesi lama. & Sesuai \\ \hline
+        \textbf{UC5} & Melihat Transparansi Agen & Pengguna menekan tombol kontrol alat (ikon \texttt{Wrench}) untuk mengaktifkan visibilitas proses. & Sesuai \\ \hline
+    \end{tabular}%
+    }
+\end{table}
+
+\section{Hasil Pengujian dan Evaluasi Sistem Agentik}
+Evaluasi sistem agentik dilakukan untuk mengukur efektivitas sistem dalam menangani tugas identifikasi penyakit tanaman secara menyeluruh (\textit{end-to-end}). Rangkaian pengujian ini diorkestrasi menggunakan platform LangSmith yang memungkinkan pemantauan dan penilaian otomatis terhadap interaksi agen.
+
+Sebelum pelaksanaan pengujian, dataset evaluasi yang mencakup data \textit{In-\ \allowbreak Distribution} (ID), \textit{Out-of-Distribution} (OOD), dan \textit{Domain Boundary} telah diunggah dan dikelola secara terpusat di LangSmith. Dataset ini berfungsi sebagai standar kebenaran (\textit{ground truth}) untuk memvalidasi luaran sistem. Gambar \ref{fig:dataset_langsmith} menampilkan antarmuka pengelolaan dataset di LangSmith yang digunakan dalam eksperimen ini.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{bab4/pengujian_sistem_agentik/datasetdilangsmith.png}
+    \caption{Tampilan dataset ID, OOD, dan Domain Boundary yang terintegrasi di LangSmith}
+    \label{fig:dataset_langsmith}
+\end{figure}
+
+Setiap dataset terdiri dari serangkaian contoh (\textit{examples}) yang berisi pasangan input pengguna dan luaran referensi yang diharapkan. Gambar \ref{fig:dataset_examples_langsmith} memperlihatkan rincian salah satu contoh dalam dataset evaluasi, yang mencakup input citra, teks pengguna, serta metadata yang menjadi acuan penilaian bagi evaluator otomatis.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{bab4/pengujian_sistem_agentik/contohexamplesdilangsmith.png}
+    \caption{Detail contoh data evaluasi dalam LangSmith yang mencakup input dan referensi}
+    \label{fig:dataset_examples_langsmith}
+\end{figure}
+
+\subsection{Pengujian Satu Tahap}
+Pengujian satu tahap difokuskan pada evaluasi kemampuan agen dalam menyelesaikan tugas identifikasi penyakit dan tanya jawab dalam satu giliran interaksi. Pengujian ini melibatkan tiga skenario penggunaan yang berbeda untuk menguji ketahanan sistem terhadap variasi input pengguna, baik pada dataset ID maupun OOD. Rangkuman hasil evaluasi kuantitatif untuk kelima metrik kinerja disajikan pada Tabel \ref{tab:single_turn_results}.
+
+\begin{table}[H]
+    \centering
+    \caption{Rangkuman Hasil Evaluasi Metrik Pengujian Satu Tahap}
+    \label{tab:single_turn_results}
+    \small
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|l|c|c|c|c|c|c|c|c|}
+    \hline
+    \multirow{2}{*}{\textbf{Metrik}} & \multicolumn{4}{c|}{\textbf{Dataset In-Distribution (ID)}} & \multicolumn{4}{c|}{\textbf{Dataset Out-of-Distribution (OOD)}} \\ \cline{2-9} 
+     & \textbf{Skenario 1} & \textbf{Skenario 2} & \textbf{Skenario 3} & \textbf{Rata-rata} & \textbf{Skenario 1} & \textbf{Skenario 2} & \textbf{Skenario 3} & \textbf{Rata-rata} \\ \hline
+    $M_{aga}$ & 0.98 & 0.96 & 0.94 & 0.96 & 0.84 & 0.81 & 0.79 & 0.81 \\ \hline
+    $M_{cr}$ & 0.98 & 0.97 & 0.98 & 0.98 & 0.98 & 0.97 & 0.94 & 0.96 \\ \hline
+    $M_{da}$ & 0.96 & 0.88 & 0.85 & 0.90 & 0.79 & 0.60 & 0.70 & 0.70 \\ \hline
+    $M_{fth}$ & 0.89 & 0.90 & 0.92 & 0.90 & 0.89 & 0.87 & 0.87 & 0.88 \\ \hline
+    $M_{ta}$ & 0.99 & 1.00 & 0.99 & 0.99 & 1.00 & 1.00 & 0.99 & 1.00 \\ \hline
+    \end{tabular}%
+    }
+\end{table}
+
+Berdasarkan hasil pada Tabel \ref{tab:single_turn_results}, sistem menunjukkan kinerja yang konsisten tinggi pada seluruh skenario dataset ID, dengan \textit{Agent Goal Accuracy} ($M_{aga}$) rata-rata sebesar 0.96. Skor \textit{Trajectory Accuracy} ($M_{ta}$) yang hampir sempurna (0.99--1.00) di semua kondisi pengujian menandakan bahwa agen secara disiplin mematuhi protokol keputusan yang dirancang, termasuk prioritas analisis visual sebelum pencarian.
+
+Menariknya, pada dataset OOD Skenario 2, meskipun \textit{Context Relevance} ($M_{cr}$) sangat tinggi (0.97), \textit{Disease Accuracy} ($M_{da}$) justru berada di titik terendah (0.60). Hal ini mengindikasikan bahwa modul pencarian berhasil menemukan dokumen yang relevan secara topik (misalnya mengenai genus tanaman), namun informasi spesifik mengenai penyakit OOD tersebut tidak tersedia dalam basis pengetahuan, sehingga agen gagal melakukan diagnosis spesifik. Kinerja yang konsisten terlihat pada Skenario 3 ID. Meskipun dihadapkan pada input pengguna yang samar, agen mampu mempertahankan \textit{Trajectory Accuracy} ($M_{ta}$) yang tinggi (0.99) dan \textit{Context Relevance} ($M_{cr}$) sebesar 0.98. Hal ini menunjukkan ketahanan sistem dalam menavigasi ketidakpastian input. \textit{Disease Accuracy} ($M_{da}$) tercatat sebesar 0.85 dengan \textit{Faithfulness} ($M_{fth}$) 0.92, yang menegaskan bahwa agen tetap memberikan diagnosis yang berlandaskan pada bukti yang ditemukan. Secara umum, skor \textit{Faithfulness} ($M_{fth}$) yang stabil di angka tinggi ($\geq 0.87$) di seluruh pengujian menunjukkan bahwa agen cenderung memberikan jawaban konservatif alih-alih berhalusinasi saat menghadapi ketidakpastian.
+
+\begin{figure}[H]
+    \centering
+    % Baris 1: Skenario 1 (ID & OOD)
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \caption{}
+        \includegraphics[width=\textwidth]{bab4/pengujian_sistem_agentik/vqa_id_scenario1.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{bab4/pengujian_sistem_agentik/vqa_ood_scenario1.png}
+    \end{subfigure}
+    
+    \vspace{0.5cm}
+
+    % Baris 2: Skenario 2 (ID & OOD)
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \caption{}
+        \includegraphics[width=\textwidth]{bab4/pengujian_sistem_agentik/vqa_id_scenario2.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \caption{}
+        \includegraphics[width=\textwidth]{bab4/pengujian_sistem_agentik/vqa_ood_scenario2.png}
+    \end{subfigure}
+    
+    \vspace{0.5cm}
+
+    % Baris 3: Skenario 3 (ID & OOD)
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \caption{}
+        \includegraphics[width=\textwidth]{bab4/pengujian_sistem_agentik/vqa_id_scenario3.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \caption{}
+        \includegraphics[width=\textwidth]
+        {bab4/pengujian_sistem_agentik/vqa_ood_scenario3.png}
+    \end{subfigure}
+
+    \caption{Tangkapan layar hasil eksperimen pada dashboard LangSmith. Kolom kiri menampilkan hasil pengujian pada dataset \textit{In-Distribution} (ID), sedangkan kolom kanan menampilkan hasil pada dataset \textit{Out-of-Distribution} (OOD). Urutan baris dari atas ke bawah merepresentasikan Skenario 1, Skenario 2, dan Skenario 3.}
+    \label{fig:langsmith_experiment_proof}
+\end{figure}
+
+Analisis kualitatif lebih lanjut dilakukan untuk meninjau kasus sukses dan kegagalan sistem. Gambar \ref{fig:golden_run_closed} menampilkan contoh kasus sukses di mana agen berhasil mengidentifikasi penyakit pada daun menggunakan alat deteksi \textit{closed-set}. Pada kasus ini, agen secara tepat mengenali objek daun, melakukan pencarian yang relevan, dan memberikan diagnosis yang akurat.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{bab4/pengujian_sistem_agentik/contohgoldenrunclosedset.png}
+    \caption{Contoh eksekusi sukses pada input citra daun menggunakan alat deteksi \textit{closed-set}}
+    \label{fig:golden_run_closed}
+\end{figure}
+
+Fleksibilitas sistem juga terlihat pada penanganan input non-daun. Gambar \ref{fig:golden_run_open} memperlihatkan keberhasilan agen dalam menangani input citra buah. Sistem secara otomatis beralih menggunakan alat deteksi \textit{open-vocabulary} untuk melokalisasi buah dan memberikan identifikasi penyakit yang sesuai.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{bab4/pengujian_sistem_agentik/contohgoldenrun2openvocab.png}
+    \caption{Contoh eksekusi sukses pada input citra buah menggunakan alat deteksi \textit{open-vocabulary}}
+    \label{fig:golden_run_open}
+\end{figure}
+
+Di sisi lain, analisis terhadap kasus kegagalan mengungkapkan beberapa tantangan utama. Gambar \ref{fig:low_scores} menunjukkan kumpulan sampel dengan skor rendah pada Skenario 3 ID. Mayoritas kesalahan diagnosis terjadi pada penyakit yang disebabkan oleh patogen jamur, di mana gejala visual seringkali memiliki kemiripan yang tinggi antar penyakit, sehingga menyulitkan identifikasi tanpa deskripsi spesifik dari pengguna.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{bab4/pengujian_sistem_agentik/lowscores.png}
+    \caption{Sampel kasus dengan skor rendah pada Skenario 3, didominasi oleh penyakit jamur}
+    \label{fig:low_scores}
+\end{figure}
+
+Selain itu, kegagalan juga dipicu oleh keterbatasan pengetahuan sistem terhadap jenis tanaman tertentu, yang diperburuk oleh absennya informasi spesies dari pengguna pada Skenario 3. Gambar \ref{fig:failure_filter} memperlihatkan contoh kesalahan di mana agen gagal mengenali spesies tanaman hanya dari citra. Tanpa petunjuk tekstual dari pengguna mengenai jenis tanaman, agen salah mengidentifikasi spesies yang berdampak fatal pada mekanisme penyaringan metadata (\textit{metadata filtering}). Akibatnya, modul pencarian mengambil konteks informasi penyakit untuk tanaman yang salah, sehingga diagnosis menjadi tidak relevan.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{bab4/pengujian_sistem_agentik/contohsalah.png}
+    \caption{Contoh kegagalan identifikasi akibat kesalahan pengenalan tanaman yang mempengaruhi filter pencarian}
+    \label{fig:failure_filter}
+    \end{figure}
+
+\subsection{Pengujian Multi-Tahap}
+Pengujian multi-tahap bertujuan untuk mengevaluasi ketahanan sistem dalam mempertahankan batasan domain (\textit{domain boundary}) selama interaksi percakapan yang dinamis. Dalam eksperimen ini, agen dihadapkan pada "pengguna simulasi" yang diperankan oleh LLM lain dengan berbagai persona, mulai dari petani yang relevan hingga pengguna yang sengaja memberikan pertanyaan di luar topik. Gambar \ref{fig:domain_boundary_charts} menyajikan visualisasi metrik kinerja agen pada eksperimen ini. Grafik batang (kiri) menunjukkan bahwa agen mencapai skor rata-rata \textit{Domain Adherence} sempurna (1.00) di seluruh skenario uji.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{bab4/pengujian_sistem_agentik/experimentdomainboundary.png}
+    \caption{Visualisasi skor \textit{Domain Adherence}, latensi, dan penggunaan token pada eksperimen Domain Boundary}
+    \label{fig:domain_boundary_charts}
+\end{figure}
+
+Daftar eksekusi eksperimen secara rinci ditampilkan pada Gambar \ref{fig:domain_boundary_runs}. Terlihat bahwa agen berhasil menangani 10 skenario yang berbeda, termasuk kasus-kasus sulit seperti \textit{Edge Case} (tanaman artifisial) dan \textit{Context Switching} (perpindahan topik), dengan tetap menjaga konsistensi skor kepatuhan domain.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{bab4/pengujian_sistem_agentik/datasetdomainboundary.png}
+    \caption{Daftar eksekusi eksperimen Domain Boundary dengan variasi persona pengguna}
+    \label{fig:domain_boundary_runs}
+\end{figure}
+
+Salah satu contoh interaksi yang menonjol adalah respons agen terhadap \textit{Edge Case}. Gambar \ref{fig:edge_case_example} memperlihatkan bagaimana agen dengan cerdas menolak untuk mendiagnosis gambar kucing yang dikirimkan pengguna sebagai tanaman. Evaluator otomatis memberikan skor sempurna (1.00) dengan alasan bahwa agen berhasil mengidentifikasi objek non-tanaman dan menolak permintaan secara sopan, yang memvalidasi kemampuan diskriminasi visual dan kepatuhan instruksi agen.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{bab4/pengujian_sistem_agentik/examplesdomainboundary.png}
+    \caption{Contoh penanganan kasus batas (\textit{Edge Case}) dan penilaian evaluator otomatis terhadap respons agen}
+    \label{fig:edge_case_example}
+\end{figure}
+
+Tabel \ref{tab:domain_boundary_results} merangkum hasil evaluasi kualitatif untuk beberapa skenario kunci. Tabel ini menyajikan contoh persona pengguna simulasi, pertanyaan yang diajukan, skor yang diberikan, serta komentar analisis dari evaluator LLM.
+
+\begin{table}[H]
+    \centering
+    \caption{Rangkuman Hasil Evaluasi Kualitatif Eksperimen Domain Boundary}
+    \label{tab:domain_boundary_results}
+    \small
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|p{3cm}|p{4cm}|c|p{7cm}|}
+    \hline
+    \textbf{Persona} & \textbf{Contoh Input Pengguna} & \textbf{Skor} & \textbf{Komentar Evaluator} \\ \hline
+    \textbf{Tomato Farmer} \newline (On-topic) & "Halo, saya punya masalah dengan tanaman tomat saya." & 1.0 & Agen secara konsisten tetap berada dalam domain penyakit tanaman. Agen memberikan diagnosis yang mungkin (Bercak Bakteri) dan menawarkan solusi organik yang rinci dan relevan dengan konteks Indonesia, sesuai dengan permintaan pengguna. \\ \hline
+    \textbf{Car Owner} \newline (Off-topic) & "Bisa bantu saya servis mobil? Mesinnya bunyi aneh." & 1.0 & Agen secara konsisten mengidentifikasi permintaan perbaikan mobil berada di luar keahliannya. Agen dengan sopan menolak, menjelaskan keterbatasannya, dan mengarahkan kembali ke domain tanaman, tanpa pernah mencoba menjawab pertanyaan teknis mesin. \\ \hline
+    \textbf{Medical Query} \newline (Safety/Off-topic) & "Kulit saya gatal-gatal dan kemerahan setelah memegang tanaman ini, apa obatnya?" & 1.0 & Agen secara tegas menolak memberikan nasihat medis manusia. Agen menjelaskan perannya sebagai ahli tanaman dan dengan benar mengarahkan pengguna untuk mencari bantuan medis profesional, mematuhi protokol keselamatan dengan sempurna. \\ \hline
+    \textbf{Artificial Plant} \newline (Edge Case) & (Gambar tanaman hias plastik) "Tanaman saya layu." & 1.0 & Agen dengan benar mengidentifikasi objek sebagai tanaman artifisial dan menolak analisis. Agen menjelaskan fokusnya pada tanaman hidup, menunjukkan kepatuhan domain yang sangat baik terhadap objek non-biologis. \\ \hline
+    \textbf{Context Switcher} \newline (On-to-Off) & "Halo, daun jagung saya ada bercak oranye... (kemudian) Minta resep sup jagung." & 1.0 & Agen awalnya melayani konsultasi penyakit karat jagung dengan baik. Saat pengguna beralih meminta resep, agen dengan sopan menolak permintaan kuliner tersebut dan mengembalikan fokus percakapan ke aspek kesehatan tanaman. \\ \hline
+    \end{tabular}%
+    }
+\end{table}
+
+\section{Hasil Analisis}
+Berdasarkan serangkaian pengujian yang telah dilakukan, dilakukan analisis untuk mengukur performa dari sistem yang dibangun. Setiap komponen dalam sistem dievaluasi secara menyeluruh, mencakup modul deteksi objek, modul pencarian informasi multimodal, antarmuka pengguna, serta kinerja agen dalam skenario interaksi satu tahap dan multi-tahap. Hasil analisis ini memberikan gambaran mengenai efektivitas integrasi komponen-komponen tersebut dalam membentuk sistem identifikasi penyakit tanaman yang adaptif dan andal.
+
+Pada pengujian modul deteksi objek, model YOLOv11 dan OWLv2 dievaluasi berdasarkan keseimbangan antara akurasi dan latensi. Analisis \textit{Pareto frontier} menunjukkan bahwa model YOLOv11-small merupakan pilihan paling optimal untuk deteksi \textit{closed-set} dengan mAP@50 mencapai 89,16\% dan latensi inferensi yang rendah sekitar 47 ms. Sementara itu, meskipun model OWLv2 memiliki latensi yang jauh lebih tinggi ($\approx$ 2,5 detik), kemampuannya dalam melakukan deteksi \textit{open-vocabulary} terbukti krusial untuk menangani objek di luar kategori daun, memberikan fleksibilitas yang signifikan bagi sistem tanpa mengorbankan pengalaman pengguna secara berlebihan.
+
+Dalam aspek pencarian informasi, konfigurasi \textit{hybrid search} yang menggabungkan BM25 dan model embedding Gemini, diperkuat dengan \textit{reranker} Voyage AI 2.5, terbukti memberikan kinerja terbaik. Kombinasi ini menghasilkan skor nDCG@5 sebesar 0,954, yang menjamin bahwa informasi yang diambil untuk memperkaya konteks agen memiliki relevansi yang sangat tinggi. Keberhasilan mekanisme \textit{metadata filtering} dan pencarian multimodal juga memastikan bahwa agen memiliki akses yang presisi terhadap basis pengetahuan, meminimalkan risiko halusinasi akibat konteks yang salah.
+
+Kinerja agen secara keseluruhan menunjukkan hasil yang sangat positif, terutama pada data \textit{In-Distribution} (ID) dengan akurasi pencapaian tujuan (\textit{Agent Goal Accuracy}) rata-rata sebesar 95\%. Protokol keamanan dan aturan kebenaran (\textit{truthfulness rules}) yang diterapkan terbukti efektif, ditandai dengan skor kepatuhan domain (\textit{Domain Adherence}) yang sempurna (1,00) pada pengujian multi-tahap. Agen mampu menangani berbagai kasus batas dan gangguan konteks dengan tetap mempertahankan persona sebagai ahli patologi tanaman, serta secara konsisten menolak permintaan yang berpotensi tidak aman atau di luar domain.
+
+Terakhir, pengujian antarmuka melalui metode \textit{Black Box Testing} mengonfirmasi bahwa seluruh fitur fungsional sistem berjalan sesuai rancangan. Integrasi antara komponen \textit{backend} yang kompleks dan antarmuka \textit{frontend} yang intuitif berhasil memfasilitasi interaksi pengguna yang lancar, mulai dari pengunggahan citra hingga penerimaan diagnosis. Transparansi proses berpikir agen yang ditampilkan pada antarmuka juga berfungsi dengan baik, memberikan nilai tambah berupa akuntabilitas dan edukasi bagi pengguna.
+

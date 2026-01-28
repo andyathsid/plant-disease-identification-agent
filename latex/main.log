@@ -1,0 +1,2877 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.17)  27 JAN 2026 06:54
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**d:/Workspace/Repository/thesis/latex/main.tex
+(d:/Workspace/Repository/thesis/latex/main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@chapter=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+\babel@savecnt=\count284
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2068.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2070.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2072.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2073.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2074.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2076.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2101.
+\U@D=\dimen149
+\l@unhyphenated=\language79
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count285
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4196.
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/id\babel-indonesian.tex)
+Package babel Info: Importing font and identification data for indonesian
+(babel)             from babel-id.ini. Reported on input line 4320.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/babel-indonesian\indonesian.ldf
+Language: indonesian 2025/06/01 v1.0n Bahasa Indonesia support from the babel system
+)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\newtxtext.sty
+Package: newtxtext 2024/04/01 v1.744(Michael Sharpe) latex and unicode latex support for TeXGyreTermesX
+ `newtxtext' v1.744, 2024/04/01 Text macros taking advantage of TeXGyre Termes and its extensions (msharpe) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2025-12-24 L3 programming layer (loader) 
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count286
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2025-10-09 L3 Experimental document command parser
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count287
+)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\keyval.tex))
+\XKV@depth=\count288
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
+\xs_counta=\count289
+\xs_countb=\count290
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
+LaTeX Font Info:    Setting ntxLF sub-encoding to TS1/0 on input line 24.
+LaTeX Font Info:    Setting ntxTLF sub-encoding to TS1/0 on input line 24.
+LaTeX Font Info:    Setting ntxOsF sub-encoding to TS1/0 on input line 24.
+LaTeX Font Info:    Setting ntxTOsF sub-encoding to TS1/0 on input line 24.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/binhex\binhex.tex)
+\ntx@tmpcnta=\count291
+\ntx@cnt=\count292
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.sty
+Package: fontaxes 2026-01-02 v2.0.2 Font selection axes (deprecated)
+Applying: [2024-11-01] Use figureversions if present on input line 74.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/figureversions\figureversions.sty
+Package: figureversions 2025-04-29 v1.0.1 Figure versions
+)
+Already applied: [0000-00-00] Fall back to v1 on input line 76.
+)
+\tx@sixem=\dimen150
+\tx@y=\dimen151
+\tx@x=\dimen152
+\tx@tmpdima=\dimen153
+\tx@tmpdimb=\dimen154
+\tx@tmpdimc=\dimen155
+\tx@tmpdimd=\dimen156
+\tx@tmpdime=\dimen157
+\tx@tmpdimf=\dimen158
+\tx@dimA=\dimen159
+\tx@dimAA=\dimen160
+\tx@dimB=\dimen161
+\tx@dimBB=\dimen162
+\tx@dimC=\dimen163
+LaTeX Info: Redefining \oldstylenums on input line 902.
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\newtxmath.sty
+Package: newtxmath 2024/09/22 v1.754
+ `newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen164
+)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen165
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count293
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count294
+\leftroot@=\count295
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count296
+\DOTSCASE@=\count297
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen166
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count298
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count299
+\dotsspace@=\muskip17
+\c@parentequation=\count300
+\dspbrk@lvl=\count301
+\tag@help=\toks22
+\row@=\count302
+\column@=\count303
+\maxfields@=\count304
+\andhelp@=\toks23
+\eqnshift@=\dimen167
+\alignsep@=\dimen168
+\tagshift@=\dimen169
+\tagwidth@=\dimen170
+\totwidth@=\dimen171
+\lineht@=\dimen172
+\@envbody=\toks24
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\centernot.sty
+Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
+)
+\tx@cntz=\count305
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/binhex\binhex.tex)
+\tx@Isdigit=\count306
+\tx@IsAlNum=\count307
+\tx@tA=\toks26
+\tx@tB=\toks27
+\tx@su=\read3
+
+amsthm NOT loaded
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 402.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/minntx/m/n on input line 402.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/minntx/m/n on input line 402.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/minntx/m/n --> OT1/minntx/b/n on input line 403.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/qhv/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/qhv/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/qhv/m/n --> OT1/qhv/b/n on input line 412.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 419.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/minntx/m/it on input line 419.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/minntx/m/it on input line 419.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 420.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> T1/ntxtt/m/n on input line 420.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> T1/ntxtt/m/n on input line 420.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 422.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/minntx/b/n on input line 422.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/minntx/b/n on input line 422.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/minntx/m/it --> OT1/minntx/b/it on input line 423.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  T1/ntxtt/m/n --> T1/ntxtt/b/n on input line 426.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 534.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ntxmi/m/it on input line 534.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ntxmi/m/it on input line 534.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/ntxmi/m/it --> OML/ntxmi/b/it on input line 535.
+\symlettersA=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/ntxmia/m/it --> U/ntxmia/b/it on input line 582.
+Now handling font encoding LMS ...
+... no UTF-8 mapping file for font encoding LMS
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 604.
+LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 604.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> LMS/ntxsy/m/n on input line 604.
+LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 604.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> LMS/ntxsy/m/n on input line 604.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  LMS/ntxsy/m/n --> LMS/ntxsy/b/n on input line 605.
+\symAMSm=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `AMSm' in version `bold'
+(Font)                  U/ntxsym/m/n --> U/ntxsym/b/n on input line 630.
+\symsymbolsC=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/ntxsyc/m/n --> U/ntxsyc/b/n on input line 651.
+Now handling font encoding LMX ...
+... no UTF-8 mapping file for font encoding LMX
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 664.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 664.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 664.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 664.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 664.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  LMX/ntxexx/m/n --> LMX/ntxexx/b/n on input line 665.
+\symlargesymbolsTXA=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
+(Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 679.
+\tx@sbptoks=\toks28
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 902.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 903.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 904.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 905.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 910.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 911.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 913.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 915.
+LaTeX Font Info:    Redeclaring math delimiter \arrowvert on input line 919.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 920.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 966.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 991.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 992.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 2057.
+LaTeX Info: Redefining \Bbbk on input line 2847.
+LaTeX Info: Redefining \not on input line 2995.
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count308
+\Gm@cntv=\count309
+\c@Gm@tempcnt=\count310
+\Gm@bindingoffset=\dimen173
+\Gm@wd@mp=\dimen174
+\Gm@odd@mp=\dimen175
+\Gm@even@mp=\dimen176
+\Gm@layoutwidth=\dimen177
+\Gm@layoutheight=\dimen178
+\Gm@layouthoffset=\dimen179
+\Gm@layoutvoffset=\dimen180
+\Gm@dimlist=\toks29
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box55
+\beforetitleunit=\skip54
+\aftertitleunit=\skip55
+\ttl@plus=\dimen181
+\ttl@minus=\dimen182
+\ttl@toksa=\toks30
+\titlewidth=\dimen183
+\titlewidthlast=\dimen184
+\titlewidthfirst=\dimen185
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\enitkv@toks@=\toks31
+\labelindent=\skip56
+\enit@outerparindent=\dimen186
+\enit@toks=\toks32
+\enit@inbox=\box56
+\enit@count@id=\count311
+\enitdp@description=\count312
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+\f@nch@headwidth=\skip57
+\f@nch@offset@elh=\skip58
+\f@nch@offset@erh=\skip59
+\f@nch@offset@olh=\skip60
+\f@nch@offset@orh=\skip61
+\f@nch@offset@elf=\skip62
+\f@nch@offset@erf=\skip63
+\f@nch@offset@olf=\skip64
+\f@nch@offset@orf=\skip65
+\f@nch@height=\skip66
+\f@nch@footalignment=\skip67
+\f@nch@widthL=\skip68
+\f@nch@widthC=\skip69
+\f@nch@widthR=\skip70
+\@temptokenb=\toks33
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen187
+\captionmargin=\dimen188
+\caption@leftmargin=\dimen189
+\caption@rightmargin=\dimen190
+\caption@width=\dimen191
+\caption@indent=\dimen192
+\caption@parindent=\dimen193
+\caption@hangindent=\dimen194
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count313
+\c@continuedfloat=\count314
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count315
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count316
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip71
+\cftbeforetoctitleskip=\skip72
+\cftaftertoctitleskip=\skip73
+\cftbeforepartskip=\skip74
+\cftpartnumwidth=\skip75
+\cftpartindent=\skip76
+\cftbeforechapskip=\skip77
+\cftchapindent=\skip78
+\cftchapnumwidth=\skip79
+\cftbeforesecskip=\skip80
+\cftsecindent=\skip81
+\cftsecnumwidth=\skip82
+\cftbeforesubsecskip=\skip83
+\cftsubsecindent=\skip84
+\cftsubsecnumwidth=\skip85
+\cftbeforesubsubsecskip=\skip86
+\cftsubsubsecindent=\skip87
+\cftsubsubsecnumwidth=\skip88
+\cftbeforeparaskip=\skip89
+\cftparaindent=\skip90
+\cftparanumwidth=\skip91
+\cftbeforesubparaskip=\skip92
+\cftsubparaindent=\skip93
+\cftsubparanumwidth=\skip94
+\cftbeforeloftitleskip=\skip95
+\cftafterloftitleskip=\skip96
+\cftbeforefigskip=\skip97
+\cftfigindent=\skip98
+\cftfignumwidth=\skip99
+\c@lofdepth=\count317
+\c@lotdepth=\count318
+\cftbeforelottitleskip=\skip100
+\cftafterlottitleskip=\skip101
+\cftbeforetabskip=\skip102
+\cfttabindent=\skip103
+\cfttabnumwidth=\skip104
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+)
+\Gin@req@height=\dimen195
+\Gin@req@width=\dimen196
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count319
+\float@exts=\toks34
+\float@box=\box57
+\@float@everytoks=\toks35
+\@floatcapt=\box58
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks36
+\pgfutil@tempdima=\dimen197
+\pgfutil@tempdimb=\dimen198
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box59
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks37
+\pgfkeys@temptoks=\toks38
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks39
+))
+\pgf@x=\dimen199
+\pgf@y=\dimen256
+\pgf@xa=\dimen257
+\pgf@ya=\dimen258
+\pgf@xb=\dimen259
+\pgf@yb=\dimen260
+\pgf@xc=\dimen261
+\pgf@yc=\dimen262
+\pgf@xd=\dimen263
+\pgf@yd=\dimen264
+\w@pgf@writea=\write3
+\r@pgf@reada=\read4
+\c@pgf@counta=\count320
+\c@pgf@countb=\count321
+\c@pgf@countc=\count322
+\c@pgf@countd=\count323
+\t@pgf@toka=\toks40
+\t@pgf@tokb=\toks41
+\t@pgf@tokc=\toks42
+\pgf@sys@id@count=\count324
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+))) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count325
+\pgfsyssoftpath@bigbuffer@items=\count326
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen265
+\pgfmath@count=\count327
+\pgfmath@box=\box60
+\pgfmath@toks=\toks43
+\pgfmath@stack@operand=\toks44
+\pgfmath@stack@operation=\toks45
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count328
+)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen266
+\pgf@picmaxx=\dimen267
+\pgf@picminy=\dimen268
+\pgf@picmaxy=\dimen269
+\pgf@pathminx=\dimen270
+\pgf@pathmaxx=\dimen271
+\pgf@pathminy=\dimen272
+\pgf@pathmaxy=\dimen273
+\pgf@xx=\dimen274
+\pgf@xy=\dimen275
+\pgf@yx=\dimen276
+\pgf@yy=\dimen277
+\pgf@zx=\dimen278
+\pgf@zy=\dimen279
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen280
+\pgf@path@lasty=\dimen281
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen282
+\pgf@shorten@start@additional=\dimen283
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box61
+\pgf@hbox=\box62
+\pgf@layerbox@main=\box63
+\pgf@picture@serial@count=\count329
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen284
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen285
+\pgf@pt@y=\dimen286
+\pgf@pt@temp=\dimen287
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen288
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen289
+\pgf@sys@shading@range@num=\count330
+\pgf@shadingcount=\count331
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box64
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box65
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen290
+\pgf@nodesepend=\dimen291
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen292
+\pgffor@skip=\dimen293
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
+)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count332
+\pgfplotmarksize=\dimen294
+)
+\tikz@lastx=\dimen295
+\tikz@lasty=\dimen296
+\tikz@lastxsaved=\dimen297
+\tikz@lastysaved=\dimen298
+\tikz@lastmovetox=\dimen299
+\tikz@lastmovetoy=\dimen300
+\tikzleveldistance=\dimen301
+\tikzsiblingdistance=\dimen302
+\tikz@figbox=\box66
+\tikz@figbox@bg=\box67
+\tikz@tempbox=\box68
+\tikz@tempbox@bg=\box69
+\tikztreelevel=\count333
+\tikznumberofchildren=\count334
+\tikznumberofcurrentchild=\count335
+\tikz@fig@count=\count336
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count337
+\pgfmatrixcurrentcolumn=\count338
+\pgf@matrix@numberofcolumns=\count339
+)
+\tikz@expandcount=\count340
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
+Package: tcolorbox 2025/11/28 version 6.9.0 text color boxes
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks48
+\verbatim@line=\toks49
+\verbatim@in@stream=\read5
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box70
+\tcb@upperbox=\box71
+\tcb@lowerbox=\box72
+\tcb@phantombox=\box73
+\c@tcbbreakpart=\count341
+\c@tcblayer=\count342
+\c@tcolorbox@number=\count343
+\l__tcobox_tmpa_box=\box74
+\l__tcobox_tmpa_dim=\dimen303
+\tcb@temp=\box75
+\tcb@temp=\box76
+\tcb@temp=\box77
+\tcb@temp=\box78
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.9.0'
+\c@tcbrastercolumn=\count344
+\c@tcbrasterrow=\count345
+\c@tcbrasternum=\count346
+\c@tcbraster=\count347
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.9.0'
+(C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill.image.sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill-common.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzlibraryfill.image.code.tex
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box79
+)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.9.0'
+)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.9.0'
+(C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/pdfcol\pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+))
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box80
+\tcb@totalupperbox=\box81
+\tcb@totallowerbox=\box82
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.9.0'
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.9.0'
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.9.0'
+\tcbfitdim=\dimen304
+\tcb@lowerfitdim=\dimen305
+\tcb@upperfitdim=\dimen306
+\tcb@cur@hbadness=\count348
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.9.0'
+(C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.9.0'
+(C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count349
+\lst@gtempboxa=\box83
+\lst@token=\toks50
+\lst@length=\count350
+\lst@currlwidth=\dimen307
+\lst@column=\count351
+\lst@pos=\count352
+\lst@lostspace=\dimen308
+\lst@width=\dimen309
+\lst@newlines=\count353
+\lst@lineno=\count354
+\lst@maxwidth=\dimen310
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+\c@lstnumber=\count355
+\lst@skipnumbers=\count356
+\lst@framebox=\box84
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2025/11/14 1.11b listings configuration
+))
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
+
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+(C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.9.0'
+(C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.9.0'
+)
+\c@tcblisting=\count357
+)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/listingsutf8\listingsutf8.sty
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)))) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.9.0'
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.9.0'
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.9.0'
+(C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.9.0'
+)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@layerbox@background=\box85
+\pgf@layerboxsaved@background=\box86
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.callouts.code.tex (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.callouts.code.tex)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodepartlowerbox=\box87
+\pgfnodeparttwobox=\box88
+\pgfnodepartthreebox=\box89
+\pgfnodepartfourbox=\box90
+\pgfnodeparttwentybox=\box91
+\pgfnodepartnineteenbox=\box92
+\pgfnodeparteighteenbox=\box93
+\pgfnodepartseventeenbox=\box94
+\pgfnodepartsixteenbox=\box95
+\pgfnodepartfifteenbox=\box96
+\pgfnodepartfourteenbox=\box97
+\pgfnodepartthirteenbox=\box98
+\pgfnodeparttwelvebox=\box99
+\pgfnodepartelevenbox=\box100
+\pgfnodeparttenbox=\box101
+\pgfnodepartninebox=\box102
+\pgfnodeparteightbox=\box103
+\pgfnodepartsevenbox=\box104
+\pgfnodepartsixbox=\box105
+\pgfnodepartfivebox=\box106
+))) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowinset=\dimen311
+\pgfarrowlength=\dimen312
+\pgfarrowwidth=\dimen313
+\pgfarrowlinewidth=\dimen314
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen315
+\pgfdecoratedremainingdistance=\dimen316
+\pgfdecoratedinputsegmentcompleteddistance=\dimen317
+\pgfdecoratedinputsegmentremainingdistance=\dimen318
+\pgf@decorate@distancetomove=\dimen319
+\pgf@decorate@repeatstate=\count358
+\pgfdecorationsegmentamplitude=\dimen320
+\pgfdecorationsegmentlength=\dimen321
+)
+\tikz@lib@dec@box=\box107
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/forest\forest.sty
+Package: forest 2017/07/14 v2.1.5 Drawing (linguistic) trees
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryintersections.code.tex (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
+\pgf@intersect@solutions=\count359
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/pgfopts\pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks51
+\pgfopts@list@add@b@toks=\toks52
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/elocalloc\elocalloc.sty
+Package: elocalloc 2016/12/15 v0.03 local allocation for LaTeX 2015+ (DPC)
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/inlinedef\inlinedef.sty
+Package: inlinedef 2008/07/10 v1.0 Inlined expansions within definitions
+\ID@toks=\toks53
+\ID@count=\count360
+)
+\ID@usercommands=\toks54
+\safeloop@depth=\count361
+\safeRKloop@depth=\count362
+\forest@temp@dimen=\dimen322
+\forest@temp@count=\count363
+\forest@n=\count364
+\forest@temp@global@count=\count365
+\forest@temp@toks=\toks55
+\forest@temparray@M=\count366
+\forest@temparray@N=\count367
+\forest@global@temparray@M=\count368
+\forest@global@temparray@N=\count369
+\forest@isnum@count=\count370
+\forest@isdim@nonintpart=\count371
+\forest@isdim@dimen=\dimen323
+\forest@sort@m=\count372
+\forest@sort@k=\count373
+\forest@sort@p=\count374
+\bracket@content=\toks56
+\bracket@afterthought=\toks57
+\forest@node@maxid=\count375
+\forest@process@left@M=\count376
+\forest@process@left@N=\count377
+\forest@process@right@M=\count378
+\forest@process@right@N=\count379
+\forest@process@saved@M=\count380
+\forest@process@saved@N=\count381
+\forest@process@result@M=\count382
+\forest@process@result@N=\count383
+\forest@process@n=\count384
+\forest@nodewalk@branch@toks=\toks58
+\forest@nodewalk@shortsteps@resolution=\toks59
+\forest@do@dynamics=\toks60
+\forest@box=\box108
+\forest@xg=\dimen324
+\forest@yg=\dimen325
+\forest@xs=\dimen326
+\forest@ys=\dimen327
+\forest@pi@toks=\toks61
+\forest@segment@toks=\toks62
+\forest@PIi@toks=\toks63
+\forest@PIii@toks=\toks64
+\forest@copy@in=\read6
+\forest@copy@out=\write4
+\forest@externalize@max@outer@n=\count385
+\forest@externalize@inner@n=\count386
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/forest\forest-lib-edges.sty
+Package: forest-lib-edges 2016/12/05 v0.1.1
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+\csq@reset=\count387
+\csq@gtype=\count388
+\csq@glevel=\count389
+\csq@qlevel=\count390
+\csq@maxlvl=\count391
+\csq@tshold=\count392
+\csq@ltx@everypar=\toks65
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count393
+\l__siunitx_number_exponent_fixed_int=\count394
+\l__siunitx_number_min_decimal_int=\count395
+\l__siunitx_number_min_integer_int=\count396
+\l__siunitx_number_round_precision_int=\count397
+\l__siunitx_number_lower_threshold_int=\count398
+\l__siunitx_number_upper_threshold_int=\count399
+\l__siunitx_number_group_first_int=\count400
+\l__siunitx_number_group_size_int=\count401
+\l__siunitx_number_group_minimum_int=\count402
+\l__siunitx_angle_tmp_dim=\dimen328
+\l__siunitx_angle_marker_box=\box109
+\l__siunitx_angle_unit_box=\box110
+\l__siunitx_compound_count_int=\count403
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+)
+\l__siunitx_table_tmp_box=\box111
+\l__siunitx_table_tmp_dim=\dimen329
+\l__siunitx_table_column_width_dim=\dimen330
+\l__siunitx_table_integer_box=\box112
+\l__siunitx_table_decimal_box=\box113
+\l__siunitx_table_uncert_box=\box114
+\l__siunitx_table_before_box=\box115
+\l__siunitx_table_after_box=\box116
+\l__siunitx_table_before_dim=\dimen331
+\l__siunitx_table_carry_dim=\dimen332
+\l__siunitx_unit_tmp_int=\count404
+\l__siunitx_unit_position_int=\count405
+\l__siunitx_unit_total_int=\count406
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen333
+\ar@mcellbox=\box117
+\extrarowheight=\dimen334
+\NC@list=\toks66
+\extratabsurround=\skip105
+\backup@length=\skip106
+\ar@cellbox=\box118
+)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip107
+\multirow@cntb=\count407
+\multirow@dima=\skip108
+\bigstrutjot=\dimen335
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
+\everycr=\toks67
+\minrowclearance=\skip109
+\rownum=\count408
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen336
+\TX@old@table=\dimen337
+\TX@old@col=\dimen338
+\TX@target=\dimen339
+\TX@delta=\dimen340
+\TX@cols=\count409
+\TX@ftn=\toks68
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/minted\minted.sty
+Package: minted 2025/05/14 v3.7.0 Yet another Pygments shim for LaTeX
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/catchfile\catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/fvextra\fvextra.sty
+Package: fvextra 2025/05/29 v1.13.2 fvextra - extensions and patches for fancyvrb
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2025/07/28 4.6 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count410
+\FV@InFile=\read7
+\FV@TabBox=\box119
+\c@FancyVerbLine=\count411
+\FV@StepNumber=\count412
+\FV@OutFile=\write5
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.sty
+Package: lineno 2025/05/13 line numbers on paragraphs v5.5
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+\linenopenalty=\count413
+\output=\toks69
+\linenoprevgraf=\count414
+\linenumbersep=\dimen341
+\linenumberwidth=\dimen342
+\c@linenumber=\count415
+\c@pagewiselinenumber=\count416
+\c@LN@truepage=\count417
+\c@internallinenumber=\count418
+\c@internallinenumbers=\count419
+\quotelinenumbersep=\dimen343
+\bframerule=\dimen344
+\bframesep=\dimen345
+\bframebox=\box120
+\@LN@amsmath@ams@eqpen=\count420
+
+
+LaTeX Warning: Command \@parboxrestore  has changed.
+               Check if current package is valid.
+
+)
+
+Package fvextra Warning: csquotes should be loaded after fvextra, to avoid a warning from the lineno package on input line 37.
+
+\c@FancyVerbWriteLine=\count421
+\c@FancyVerbBufferLine=\count422
+\c@FV@TrueTabGroupLevel=\count423
+\c@FV@TrueTabCounter=\count424
+\FV@TabBox@Group=\box121
+\FV@bgcolorstructbox=\box122
+\FV@TmpLength=\skip110
+\c@FV@HighlightLinesStart=\count425
+\c@FV@HighlightLinesStop=\count426
+\FV@LoopCount=\count427
+\FV@NCharsBox=\box123
+\FV@BreakIndent=\dimen346
+\FV@BreakIndentNChars=\count428
+\FV@BreakSymbolSepLeft=\dimen347
+\FV@BreakSymbolSepLeftNChars=\count429
+\FV@BreakSymbolSepRight=\dimen348
+\FV@BreakSymbolSepRightNChars=\count430
+\FV@BreakSymbolIndentLeft=\dimen349
+\FV@BreakSymbolIndentLeftNChars=\count431
+\FV@BreakSymbolIndentRight=\dimen350
+\FV@BreakSymbolIndentRightNChars=\count432
+\c@FancyVerbLineBreakLast=\count433
+\FV@LineBox=\box124
+\FV@LineIndentBox=\box125
+\c@FV@BreakBufferDepth=\count434
+\FV@LineWidth=\dimen351
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/latex2pydata\latex2pydata.sty
+Package: latex2pydata 2025/03/26 v0.6.0 latex2pydata - write data to file in Python literal format
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+\c@minted@FancyVerbLineTemp=\count435
+\@float@every@listing=\toks70
+\c@listing=\count436
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count437
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count438
+\c@listtotal=\count439
+\c@listcount=\count440
+\c@liststart=\count441
+\c@liststop=\count442
+\c@citecount=\count443
+\c@citetotal=\count444
+\c@multicitecount=\count445
+\c@multicitetotal=\count446
+\c@instcount=\count447
+\c@maxnames=\count448
+\c@minnames=\count449
+\c@maxitems=\count450
+\c@minitems=\count451
+\c@citecounter=\count452
+\c@maxcitecounter=\count453
+\c@savedcitecounter=\count454
+\c@uniquelist=\count455
+\c@uniquename=\count456
+\c@refsection=\count457
+\c@refsegment=\count458
+\c@maxextratitle=\count459
+\c@maxextratitleyear=\count460
+\c@maxextraname=\count461
+\c@maxextradate=\count462
+\c@maxextraalpha=\count463
+\c@abbrvpenalty=\count464
+\c@highnamepenalty=\count465
+\c@lownamepenalty=\count466
+\c@maxparens=\count467
+\c@parenlevel=\count468
+\blx@tempcnta=\count469
+\blx@tempcntb=\count470
+\blx@tempcntc=\count471
+\c@blx@maxsection=\count472
+\blx@maxsegment@0=\count473
+\blx@notetype=\count474
+\blx@parenlevel@text=\count475
+\blx@parenlevel@foot=\count476
+\blx@sectionciteorder@0=\count477
+\blx@sectionciteorderinternal@0=\count478
+\blx@entrysetcounter=\count479
+\blx@biblioinstance=\count480
+\labelnumberwidth=\skip111
+\labelalphawidth=\skip112
+\biblabelsep=\skip113
+\bibitemsep=\skip114
+\bibnamesep=\skip115
+\bibinitsep=\skip116
+\bibparsep=\skip117
+\bibhang=\skip118
+\blx@bcfin=\read8
+\blx@bcfout=\write6
+\blx@langwohyphens=\language80
+\c@mincomprange=\count481
+\c@maxcomprange=\count482
+\c@mincompwidth=\count483
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'apa.dbx' found.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa.dbx
+File: apa.dbx 2025/08/27 v9.20 APA biblatex style data model
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count484
+\c@savedafterword=\count485
+\c@annotator=\count486
+\c@savedannotator=\count487
+\c@author=\count488
+\c@savedauthor=\count489
+\c@bookauthor=\count490
+\c@savedbookauthor=\count491
+\c@commentator=\count492
+\c@savedcommentator=\count493
+\c@editor=\count494
+\c@savededitor=\count495
+\c@editora=\count496
+\c@savededitora=\count497
+\c@editorb=\count498
+\c@savededitorb=\count499
+\c@editorc=\count500
+\c@savededitorc=\count501
+\c@foreword=\count502
+\c@savedforeword=\count503
+\c@holder=\count504
+\c@savedholder=\count505
+\c@introduction=\count506
+\c@savedintroduction=\count507
+\c@namea=\count508
+\c@savednamea=\count509
+\c@nameb=\count510
+\c@savednameb=\count511
+\c@namec=\count512
+\c@savednamec=\count513
+\c@translator=\count514
+\c@savedtranslator=\count515
+\c@shortauthor=\count516
+\c@savedshortauthor=\count517
+\c@shorteditor=\count518
+\c@savedshorteditor=\count519
+\c@narrator=\count520
+\c@savednarrator=\count521
+\c@execproducer=\count522
+\c@savedexecproducer=\count523
+\c@execdirector=\count524
+\c@savedexecdirector=\count525
+\c@with=\count526
+\c@savedwith=\count527
+\c@labelname=\count528
+\c@savedlabelname=\count529
+\c@institution=\count530
+\c@savedinstitution=\count531
+\c@lista=\count532
+\c@savedlista=\count533
+\c@listb=\count534
+\c@savedlistb=\count535
+\c@listc=\count536
+\c@savedlistc=\count537
+\c@listd=\count538
+\c@savedlistd=\count539
+\c@liste=\count540
+\c@savedliste=\count541
+\c@listf=\count542
+\c@savedlistf=\count543
+\c@location=\count544
+\c@savedlocation=\count545
+\c@organization=\count546
+\c@savedorganization=\count547
+\c@origlocation=\count548
+\c@savedoriglocation=\count549
+\c@origpublisher=\count550
+\c@savedorigpublisher=\count551
+\c@publisher=\count552
+\c@savedpublisher=\count553
+\c@language=\count554
+\c@savedlanguage=\count555
+\c@origlanguage=\count556
+\c@savedoriglanguage=\count557
+\c@citation=\count558
+\c@savedcitation=\count559
+\c@pageref=\count560
+\c@savedpageref=\count561
+\shorthandwidth=\skip119
+\shortjournalwidth=\skip120
+\shortserieswidth=\skip121
+\shorttitlewidth=\skip122
+\shortauthorwidth=\skip123
+\shorteditorwidth=\skip124
+\locallabelnumberwidth=\skip125
+\locallabelalphawidth=\skip126
+\localshorthandwidth=\skip127
+\localshortjournalwidth=\skip128
+\localshortserieswidth=\skip129
+\localshorttitlewidth=\skip130
+\localshortauthorwidth=\skip131
+\localshorteditorwidth=\skip132
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+\c@textcitecount=\count562
+\c@textcitetotal=\count563
+\c@textcitemaxnames=\count564
+\c@biburlbigbreakpenalty=\count565
+\c@biburlbreakpenalty=\count566
+\c@biburlnumpenalty=\count567
+\c@biburlucpenalty=\count568
+\c@biburllcpenalty=\count569
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count570
+)
+Package biblatex Info: Trying to load bibliography style 'apa'...
+Package biblatex Info: ... file 'apa.bbx' found.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa.bbx
+File: apa.bbx 2025/08/27 v9.20 APA biblatex references style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count571
+\c@bbx:relatedtotal=\count572
+)
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'bib' already defined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'biblist' already defined, overwriting.
+)
+Package biblatex Info: Trying to load citation style 'apa'...
+Package biblatex Info: ... file 'apa.cbx' found.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa.cbx
+File: apa.cbx 2025/08/27 v9.20 APA biblatex citation style
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
+Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined, overwriting.
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\citeauthor'.
+Package biblatex Info: Redefining '\citeyear'.
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2025-12-24 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
+Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+))
+\c@lampiran=\count573
+\cftbeforelampiranskip=\skip133
+\cftlampiranindent=\skip134
+\cftlampirannumwidth=\skip135
+\c@lampdepth=\count574
+\cftbeforelamptitleskip=\skip136
+\cftafterlamptitleskip=\skip137
+LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line 281.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\t1ntxtlf.fd
+File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
+)
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 281.
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+
+
+Package csquotes Warning: No style for language 'indonesian'.
+(csquotes)                Using fallback style on input line 281.
+
+Package csquotes Info: Redefining alias 'default' -> 'fallback'.
+(main.aux (chapters/bab1.aux) (chapters/bab2.aux) (chapters/bab3.aux) (chapters/bab4.aux
+
+LaTeX Warning: Label `tab:black_box_testing' multiply defined.
+
+) (chapters/bab5.aux) (chapters/lampiran.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 281.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 281.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlntxmi.fd
+File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
+)
+LaTeX Font Info:    ... okay on input line 281.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 281.
+LaTeX Font Info:    ... okay on input line 281.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 281.
+LaTeX Font Info:    ... okay on input line 281.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 281.
+LaTeX Font Info:    ... okay on input line 281.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 281.
+LaTeX Font Info:    ... okay on input line 281.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 281.
+LaTeX Font Info:    ... okay on input line 281.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 281.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 281.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxexa.fd
+File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
+)
+LaTeX Font Info:    ... okay on input line 281.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 281.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 281.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmsntxsy.fd
+File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
+)
+LaTeX Font Info:    ... okay on input line 281.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 281.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 281.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmxntxexx.fd
+File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
+)
+LaTeX Font Info:    ... okay on input line 281.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count575
+\scratchdimen=\dimen352
+\scratchbox=\box126
+\nofMPsegments=\count576
+\nofMParguments=\count577
+\everyMPshowfont=\toks71
+\MPscratchCnt=\count578
+\MPscratchDim=\dimen353
+\MPnumerator=\count579
+\makeMPintoPDFobject=\count580
+\everyMPtoPDFconversion=\toks72
+) (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+\c@mv@tabular=\count581
+\c@mv@boldtabular=\count582
+LaTeX Info: Command `\dddot' is already robust on input line 281.
+LaTeX Info: Command `\ddddot' is already robust on input line 281.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(113.81102pt, 398.3386pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=398.3386pt
+* \textheight=674.33032pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=41.54103pt
+* \topmargin=-63.91173pt
+* \headheight=52.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count583
+Package translations Info: no dictionary file `translations-basic-dictionary-malay.trsl' found. on input line 281.
+Package biblatex Info: Trying to load language 'indonesian' -> 'indonesian-apa'...
+Package biblatex Info: ... file 'indonesian-apa.lbx' found.
+(indonesian-apa.lbx
+File: indonesian-apa.lbx 2026/01/18 v9.17 APA biblatex localisation for Indonesian
+Package biblatex Info: Trying to load language 'indonesian'...
+Package biblatex Info: ... file 'indonesian.lbx' found.
+ (indonesian.lbx
+File: indonesian.lbx 2026/01/18 Indonesian localization
+Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
+Package biblatex Info: ... file 'english-apa.lbx' found.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\english-apa.lbx
+File: english-apa.lbx 2025/08/27 v9.20 APA biblatex localisation
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)))
+Package biblatex Info: Trying to load language 'indonesian'...
+Package biblatex Info: ... file 'indonesian.lbx' found.
+ (indonesian.lbx
+File: indonesian.lbx 2026/01/18 Indonesian localization
+Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
+Package biblatex Info: ... file 'english-apa.lbx' found.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\english-apa.lbx
+File: english-apa.lbx 2025/08/27 v9.20 APA biblatex localisation
+Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
+Package biblatex Info: ... file 'american-apa.lbx' found.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\american-apa.lbx
+File: american-apa.lbx 2025/08/27 v9.20 APA biblatex localisation
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\american.lbx
+File: american.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+))))))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout6 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                TavilyaiTavilypython2026
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                chaseLangChain2022
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                liuPretrainPromptPredict2023
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
+Package biblatex Info: Reference section=0 on input line 281.
+Package biblatex Info: Reference segment=0 on input line 281.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 291.
+<logo_upi.png, id=40, 134.028pt x 134.028pt>
+File: logo_upi.png Graphic file (type png)
+<use logo_upi.png>
+Package pdftex.def Info: logo_upi.png  used on input line 293.
+(pdftex.def)             Requested size: 113.81102pt x 113.81389pt.
+ [1
+
+{C:/Users/Andakara/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc} <./logo_upi.png>]
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 326.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 326.
+ [1
+
+{C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}] [2
+
+
+]
+LaTeX Font Info:    Trying to load font information for OT1+minntx on input line 382.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ot1minntx.fd
+File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
+)
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 12.0pt on input line 382.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 8.8pt on input line 382.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 382.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 12.0pt on input line 382.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 8.8pt on input line 382.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 6.6pt on input line 382.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 12.0pt on input line 382.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 8.8pt on input line 382.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 6.6pt on input line 382.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 12.0pt on input line 382.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 8.8pt on input line 382.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 382.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 382.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxmia.fd
+File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
+)
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 12.0pt on input line 382.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 8.8pt on input line 382.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 6.6pt on input line 382.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 382.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsym.fd
+File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 12.0pt on input line 382.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 8.8pt on input line 382.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 6.6pt on input line 382.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 382.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+)
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 12.0pt on input line 382.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 8.8pt on input line 382.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 6.6pt on input line 382.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 12.0pt on input line 382.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 8.8pt on input line 382.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 6.6pt on input line 382.
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--386
+[]\T1/ntxtlf/m/n/12 INTEGRASI RETRIEVAL-AUGMENTED GE-NE-RA-TION
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 386--386
+\T1/ntxtlf/m/n/12 DAN DE-TEK-SI OB-JEK MUL-TI-MO-DAL PA-DA SIS-TEM
+ []
+
+
+Overfull \hbox (19.88416pt too wide) in paragraph at lines 381--388
+[] 
+ []
+
+[3
+
+
+] [4
+
+
+] [5]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 11.0pt on input line 433.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 11.0pt on input line 436.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 11.0pt on input line 444.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 10.95pt on input line 444.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 8.0pt on input line 444.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 6.1pt on input line 444.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 10.95pt on input line 444.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 8.0pt on input line 444.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 6.1pt on input line 444.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 10.95pt on input line 444.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 8.0pt on input line 444.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 6.1pt on input line 444.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 10.95pt on input line 444.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 8.0pt on input line 444.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 6.1pt on input line 444.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 10.95pt on input line 444.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 8.0pt on input line 444.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 6.1pt on input line 444.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 10.95pt on input line 444.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 8.0pt on input line 444.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 6.1pt on input line 444.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 10.95pt on input line 444.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 8.0pt on input line 444.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 6.1pt on input line 444.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 10.95pt on input line 444.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 8.0pt on input line 444.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 6.1pt on input line 444.
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 444.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\t1ntxtt.fd
+File: t1ntxtt.fd 2012/04/20 v3.1
+)
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 11.0pt on input line 444.
+ [6
+
+{C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
+(Font)              scaled to size 11.0pt on input line 453.
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 461.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `T1/ntxtt/m/it' in size <11> not available
+(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 461.
+ [7
+
+] (main.toc
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 21.
+ [8
+
+] [9])
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+ [10] (main.lot [11
+
+])
+\tf@lot=\write8
+\openout8 = `main.lot'.
+
+ [12] (main.lof [13
+
+] [14]
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 12.0pt on input line 68.
+
+Overfull \hbox (10.17584pt too wide) in paragraph at lines 68--68
+ [][] []\T1/ntxtlf/m/n/12 Peringkat \T1/ntxtt/m/n/12 gemini-embedding-001 \T1/ntxtlf/m/n/12 dan \T1/ntxtt/m/n/12 text-embedding-3-large 
+ []
+
+[15] [16])
+\tf@lof=\write9
+\openout9 = `main.lof'.
+
+ [17] (main.lamp)
+\tf@lamp=\write10
+\openout10 = `main.lamp'.
+
+ [18
+
+]
+\openout2 = `chapters/bab1.aux'.
+
+ (chapters/bab1.tex
+Bab I.
+[1
+
+
+
+
+
+] [2] [3] [4] [5] [6] [7] [8] [9]) [10]
+\openout2 = `chapters/bab2.aux'.
+
+ (chapters/bab2.tex
+Bab II.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 71.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.95pt on input line 71.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 71.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 10.0pt on input line 71.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 10.0pt on input line 71.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 7.3pt on input line 71.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 5.5pt on input line 71.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 10.0pt on input line 71.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 7.3pt on input line 71.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 5.5pt on input line 71.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 10.0pt on input line 71.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 7.3pt on input line 71.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 5.5pt on input line 71.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 10.0pt on input line 71.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 7.3pt on input line 71.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 5.5pt on input line 71.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 10.0pt on input line 71.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 7.3pt on input line 71.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 5.5pt on input line 71.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 10.0pt on input line 71.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 7.3pt on input line 71.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 5.5pt on input line 71.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 10.0pt on input line 71.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 7.3pt on input line 71.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 5.5pt on input line 71.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 10.0pt on input line 71.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 7.3pt on input line 71.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 5.5pt on input line 71.
+[11
+
+
+
+
+]
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
+(Font)              scaled to size 12.0pt on input line 81.
+ [12]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 10.95pt on input line 99.
+ [13] [14] [15]
+<images/hierarkiai.png, id=159, 621.82312pt x 406.51875pt>
+File: images/hierarkiai.png Graphic file (type png)
+<use images/hierarkiai.png>
+Package pdftex.def Info: images/hierarkiai.png  used on input line 193.
+(pdftex.def)             Requested size: 318.67209pt x 208.3329pt.
+<images/nn_architecture.png, id=160, 853.1875pt x 364.36125pt>
+File: images/nn_architecture.png Graphic file (type png)
+<use images/nn_architecture.png>
+Package pdftex.def Info: images/nn_architecture.png  used on input line 202.
+(pdftex.def)             Requested size: 398.3386pt x 170.11563pt.
+ [16 <./images/hierarkiai.png>]
+<images/traditionalvsdeeplearning.png, id=165, 402.00188pt x 560.0925pt>
+File: images/traditionalvsdeeplearning.png Graphic file (type png)
+<use images/traditionalvsdeeplearning.png>
+Package pdftex.def Info: images/traditionalvsdeeplearning.png  used on input line 211.
+(pdftex.def)             Requested size: 318.67209pt x 443.98947pt.
+ [17 <./images/nn_architecture.png (PNG copy)>]
+<images/transfer_learning_mechanisms.png, id=169, 853.1875pt x 541.02126pt>
+File: images/transfer_learning_mechanisms.png Graphic file (type png)
+<use images/transfer_learning_mechanisms.png>
+Package pdftex.def Info: images/transfer_learning_mechanisms.png  used on input line 220.
+(pdftex.def)             Requested size: 398.3386pt x 252.59593pt.
+ [18 <./images/traditionalvsdeeplearning.png>] [19 <./images/transfer_learning_mechanisms.png (PNG copy)>]
+<images/bab2/llmilust.png, id=178, 992.95969pt x 367.3725pt>
+File: images/bab2/llmilust.png Graphic file (type png)
+<use images/bab2/llmilust.png>
+Package pdftex.def Info: images/bab2/llmilust.png  used on input line 235.
+(pdftex.def)             Requested size: 318.67209pt x 117.90353pt.
+<images/bab2/modelparameters.png, id=179, 1084.80281pt x 449.42906pt>
+File: images/bab2/modelparameters.png Graphic file (type png)
+<use images/bab2/modelparameters.png>
+Package pdftex.def Info: images/bab2/modelparameters.png  used on input line 242.
+(pdftex.def)             Requested size: 318.67209pt x 132.02493pt.
+ [20 <./images/bab2/llmilust.png>] [21 <./images/bab2/modelparameters.png>]
+<images/bab2/encodedecode.png, id=188, 8303.02pt x 798.985pt>
+File: images/bab2/encodedecode.png Graphic file (type png)
+<use images/bab2/encodedecode.png>
+Package pdftex.def Info: images/bab2/encodedecode.png  used on input line 251.
+(pdftex.def)             Requested size: 398.3386pt x 38.33011pt.
+<images/bab2/kingmanwomanqueen.png, id=189, 736.7525pt x 358.33875pt>
+File: images/bab2/kingmanwomanqueen.png Graphic file (type png)
+<use images/bab2/kingmanwomanqueen.png>
+Package pdftex.def Info: images/bab2/kingmanwomanqueen.png  used on input line 260.
+(pdftex.def)             Requested size: 278.83578pt x 135.61789pt.
+ [22 <./images/bab2/encodedecode.png> <./images/bab2/kingmanwomanqueen.png (PNG copy)>]
+<images/bab2/llmgeneration.png, id=196, 986.9372pt x 550.30594pt>
+File: images/bab2/llmgeneration.png Graphic file (type png)
+<use images/bab2/llmgeneration.png>
+Package pdftex.def Info: images/bab2/llmgeneration.png  used on input line 269.
+(pdftex.def)             Requested size: 318.67209pt x 177.68852pt.
+ [23 <./images/bab2/llmgeneration.png>]
+<images/bab1/arsitekturtransformer.png, id=201, 440.39531pt x 626.34pt>
+File: images/bab1/arsitekturtransformer.png Graphic file (type png)
+<use images/bab1/arsitekturtransformer.png>
+Package pdftex.def Info: images/bab1/arsitekturtransformer.png  used on input line 282.
+(pdftex.def)             Requested size: 318.67209pt x 453.23904pt.
+ [24]
+Underfull \hbox (badness 1178) in paragraph at lines 302--302
+[]|\T1/ntxtlf/m/n/12 Pembangkitan teks (\T1/ntxtlf/m/it/12 te-xt ge-ne-ra-
+ []
+
+[25 <./images/bab1/arsitekturtransformer.png>]
+<images/bab2/tigaarsitekturtransformer.png, id=210, 889.07156pt x 302.63063pt>
+File: images/bab2/tigaarsitekturtransformer.png Graphic file (type png)
+<use images/bab2/tigaarsitekturtransformer.png>
+Package pdftex.def Info: images/bab2/tigaarsitekturtransformer.png  used on input line 309.
+(pdftex.def)             Requested size: 398.3386pt x 135.58682pt.
+ [26 <./images/bab2/tigaarsitekturtransformer.png>]
+<images/bab2/arsitekturvisiontransformer.png, id=215, 936.49875pt x 484.05844pt>
+File: images/bab2/arsitekturvisiontransformer.png Graphic file (type png)
+<use images/bab2/arsitekturvisiontransformer.png>
+Package pdftex.def Info: images/bab2/arsitekturvisiontransformer.png  used on input line 325.
+(pdftex.def)             Requested size: 398.3386pt x 205.89568pt.
+ [27] [28 <./images/bab2/arsitekturvisiontransformer.png>]
+<images/bab2/arsitekturmoe.png, id=225, 762.59906pt x 479.54156pt>
+File: images/bab2/arsitekturmoe.png Graphic file (type png)
+<use images/bab2/arsitekturmoe.png>
+Package pdftex.def Info: images/bab2/arsitekturmoe.png  used on input line 339.
+(pdftex.def)             Requested size: 398.3386pt x 250.48257pt.
+ [29 <./images/bab2/arsitekturmoe.png>]
+<images/bab2/arsitekturswitchtransformer.png, id=230, 500.62032pt x 589.4522pt>
+File: images/bab2/arsitekturswitchtransformer.png Graphic file (type png)
+<use images/bab2/arsitekturswitchtransformer.png>
+Package pdftex.def Info: images/bab2/arsitekturswitchtransformer.png  used on input line 348.
+(pdftex.def)             Requested size: 318.67209pt x 375.2334pt.
+ [30 <./images/bab2/arsitekturswitchtransformer.png>] [31]
+<images/bab2/vlmfamilies.png, id=239, 1104.125pt x 993.7125pt>
+File: images/bab2/vlmfamilies.png Graphic file (type png)
+<use images/bab2/vlmfamilies.png>
+Package pdftex.def Info: images/bab2/vlmfamilies.png  used on input line 369.
+(pdftex.def)             Requested size: 398.3386pt x 358.50952pt.
+ [32] [33 <./images/bab2/vlmfamilies.png>] [34]
+<images/bab2/vlmevaluation.png, id=250, 1104.125pt x 1161.33875pt>
+File: images/bab2/vlmevaluation.png Graphic file (type png)
+<use images/bab2/vlmevaluation.png>
+Package pdftex.def Info: images/bab2/vlmevaluation.png  used on input line 391.
+(pdftex.def)             Requested size: 398.3386pt x 418.98538pt.
+ [35 <./images/bab2/vlmevaluation.png>]
+<images/bab2/arsitekturclip.png, id=255, 1257.94969pt x 472.76625pt>
+File: images/bab2/arsitekturclip.png Graphic file (type png)
+<use images/bab2/arsitekturclip.png>
+Package pdftex.def Info: images/bab2/arsitekturclip.png  used on input line 405.
+(pdftex.def)             Requested size: 398.3386pt x 149.70125pt.
+ [36]
+<images/bab2/arsitekturscold.png, id=260, 1353.55687pt x 412.54124pt>
+File: images/bab2/arsitekturscold.png Graphic file (type png)
+<use images/bab2/arsitekturscold.png>
+Package pdftex.def Info: images/bab2/arsitekturscold.png  used on input line 416.
+(pdftex.def)             Requested size: 398.3386pt x 121.40276pt.
+ [37 <./images/bab2/arsitekturclip.png>]
+<images/bab2/scoldimagetext.png, id=265, 1000.48781pt x 213.79875pt>
+File: images/bab2/scoldimagetext.png Graphic file (type png)
+<use images/bab2/scoldimagetext.png>
+Package pdftex.def Info: images/bab2/scoldimagetext.png  used on input line 427.
+(pdftex.def)             Requested size: 191.20082pt x 40.85706pt.
+<images/bab2/scoldtexttoimage.png, id=266, 944.02687pt x 202.50656pt>
+File: images/bab2/scoldtexttoimage.png Graphic file (type png)
+<use images/bab2/scoldtexttoimage.png>
+Package pdftex.def Info: images/bab2/scoldtexttoimage.png  used on input line 434.
+(pdftex.def)             Requested size: 191.20082pt x 41.01352pt.
+ [38 <./images/bab2/arsitekturscold.png> <./images/bab2/scoldimagetext.png> <./images/bab2/scoldtexttoimage.png>]
+<images/bab2/geminimodeloverview.png, id=273, 999.735pt x 432.11438pt>
+File: images/bab2/geminimodeloverview.png Graphic file (type png)
+<use images/bab2/geminimodeloverview.png>
+Package pdftex.def Info: images/bab2/geminimodeloverview.png  used on input line 447.
+(pdftex.def)             Requested size: 318.67209pt x 137.73875pt.
+ [39 <./images/bab2/geminimodeloverview.png>]
+<images/bab2/gemini2.5probenchmark.png, id=278, 1078.0275pt x 634.62094pt>
+File: images/bab2/gemini2.5probenchmark.png Graphic file (type png)
+<use images/bab2/gemini2.5probenchmark.png>
+Package pdftex.def Info: images/bab2/gemini2.5probenchmark.png  used on input line 458.
+(pdftex.def)             Requested size: 318.67209pt x 187.59889pt.
+<images/bab2/gemini2.5flashisfast.png, id=279, 1049.42062pt x 422.32782pt>
+File: images/bab2/gemini2.5flashisfast.png Graphic file (type png)
+<use images/bab2/gemini2.5flashisfast.png>
+Package pdftex.def Info: images/bab2/gemini2.5flashisfast.png  used on input line 467.
+(pdftex.def)             Requested size: 318.67209pt x 128.24593pt.
+<images/bab2/uptogemini2.5comparisons.png, id=280, 1126.2075pt x 432.86719pt>
+File: images/bab2/uptogemini2.5comparisons.png Graphic file (type png)
+<use images/bab2/uptogemini2.5comparisons.png>
+Package pdftex.def Info: images/bab2/uptogemini2.5comparisons.png  used on input line 476.
+(pdftex.def)             Requested size: 318.67209pt x 122.48335pt.
+ [40 <./images/bab2/gemini2.5probenchmark.png> <./images/bab2/gemini2.5flashisfast.png>]
+<images/bab2/gemini3probenchmark.png, id=286, 705.38531pt x 628.59843pt>
+File: images/bab2/gemini3probenchmark.png Graphic file (type png)
+<use images/bab2/gemini3probenchmark.png>
+Package pdftex.def Info: images/bab2/gemini3probenchmark.png  used on input line 485.
+(pdftex.def)             Requested size: 318.67209pt x 283.97931pt.
+ [41 <./images/bab2/uptogemini2.5comparisons.png>]
+<images/bab2/geminiembeddingbenchmark.png, id=291, 1120.185pt x 639.13782pt>
+File: images/bab2/geminiembeddingbenchmark.png Graphic file (type png)
+<use images/bab2/geminiembeddingbenchmark.png>
+Package pdftex.def Info: images/bab2/geminiembeddingbenchmark.png  used on input line 494.
+(pdftex.def)             Requested size: 318.67209pt x 181.82458pt.
+ [42 <./images/bab2/gemini3probenchmark.png>]
+
+LaTeX Warning: Citation 'liuPretrainPromptPredict2023' on page 43 undefined on input line 499.
+
+
+LaTeX Warning: Citation 'liuPretrainPromptPredict2023' on page 43 undefined on input line 501.
+
+
+LaTeX Warning: Citation '' on page 43 undefined on input line 501.
+
+[43 <./images/bab2/geminiembeddingbenchmark.png>]
+<images/bab2/cotcomparison.png, id=301, 877.77937pt x 445.665pt>
+File: images/bab2/cotcomparison.png Graphic file (type png)
+<use images/bab2/cotcomparison.png>
+Package pdftex.def Info: images/bab2/cotcomparison.png  used on input line 512.
+(pdftex.def)             Requested size: 358.50229pt x 182.02339pt.
+ [44] [45 <./images/bab2/cotcomparison.png>]
+<images/bab2/ilustrasireact.png, id=309, 398.4486pt x 340.6326pt>
+File: images/bab2/ilustrasireact.png Graphic file (type png)
+<use images/bab2/ilustrasireact.png>
+Package pdftex.def Info: images/bab2/ilustrasireact.png  used on input line 526.
+(pdftex.def)             Requested size: 358.50229pt x 306.48853pt.
+
+Overfull \hbox (0.5737pt too wide) in paragraph at lines 531--532
+[]\T1/ntxtlf/m/n/12 ReAct me-ru-pak-an pe-ngem-bang-an da-ri tek-nik \T1/ntxtlf/m/it/12 promp-ting Chain-of-Thought \T1/ntxtlf/m/n/12 (CoT)
+ []
+
+[46 <./images/bab2/ilustrasireact.png>]
+<images/bab2/Image-recognition-vs-object-detection.png, id=314, 204.765pt x 171.2799pt>
+File: images/bab2/Image-recognition-vs-object-detection.png Graphic file (type png)
+<use images/bab2/Image-recognition-vs-object-detection.png>
+Package pdftex.def Info: images/bab2/Image-recognition-vs-object-detection.png  used on input line 540.
+(pdftex.def)             Requested size: 318.67209pt x 266.57616pt.
+ [47]
+<images/bab2/closedsetvsopenvocab.png, id=318, 1020.81375pt x 262.73157pt>
+File: images/bab2/closedsetvsopenvocab.png Graphic file (type png)
+<use images/bab2/closedsetvsopenvocab.png>
+Package pdftex.def Info: images/bab2/closedsetvsopenvocab.png  used on input line 549.
+(pdftex.def)             Requested size: 398.3386pt x 102.52502pt.
+ [48 <./images/bab2/Image-recognition-vs-object-detection.png>]
+<images/arsitekturyolo.png, id=323, 398.4486pt x 146.4672pt>
+File: images/arsitekturyolo.png Graphic file (type png)
+<use images/arsitekturyolo.png>
+Package pdftex.def Info: images/arsitekturyolo.png  used on input line 559.
+(pdftex.def)             Requested size: 318.67209pt x 117.14261pt.
+ [49 <./images/bab2/closedsetvsopenvocab.png> <./images/arsitekturyolo.png>]
+<images/bab2/yolov11architecture.png, id=329, 853.1875pt x 355.3275pt>
+File: images/bab2/yolov11architecture.png Graphic file (type png)
+<use images/bab2/yolov11architecture.png>
+Package pdftex.def Info: images/bab2/yolov11architecture.png  used on input line 572.
+(pdftex.def)             Requested size: 358.50229pt x 149.307pt.
+ [50]
+<images/bab2/yolov11benchmark.png, id=333, 3854.4pt x 1686.3pt>
+File: images/bab2/yolov11benchmark.png Graphic file (type png)
+<use images/bab2/yolov11benchmark.png>
+Package pdftex.def Info: images/bab2/yolov11benchmark.png  used on input line 581.
+(pdftex.def)             Requested size: 318.67209pt x 139.40965pt.
+ [51 <./images/bab2/yolov11architecture.png (PNG copy)> <./images/bab2/yolov11benchmark.png (PNG copy)>]
+<images/yolobenchmark.png, id=337, 429.605pt x 778.91pt>
+File: images/yolobenchmark.png Graphic file (type png)
+<use images/yolobenchmark.png>
+Package pdftex.def Info: images/yolobenchmark.png  used on input line 590.
+(pdftex.def)             Requested size: 318.67209pt x 577.78683pt.
+ [52] [53 <./images/yolobenchmark.png (PNG copy)>] [54]
+<images/bab2/arsitekturowlv2.png, id=348, 1234.6125pt x 407.27156pt>
+File: images/bab2/arsitekturowlv2.png Graphic file (type png)
+<use images/bab2/arsitekturowlv2.png>
+Package pdftex.def Info: images/bab2/arsitekturowlv2.png  used on input line 608.
+(pdftex.def)             Requested size: 398.3386pt x 131.40465pt.
+
+Overfull \hbox (6.18314pt too wide) in paragraph at lines 613--614
+[]\T1/ntxtlf/m/n/12 P.[]C. Wu (2026) yang mem-ban-dingk-an ber-ba-gai mo-del de-tek-si ob-jek \T1/ntxtlf/m/it/12 open-vocabulary
+ []
+
+<images/bab2/alurkerjarag.png, id=349, 398.4486pt x 245.718pt>
+File: images/bab2/alurkerjarag.png Graphic file (type png)
+<use images/bab2/alurkerjarag.png>
+Package pdftex.def Info: images/bab2/alurkerjarag.png  used on input line 622.
+(pdftex.def)             Requested size: 318.67209pt x 196.52217pt.
+[55 <./images/bab2/arsitekturowlv2.png>] [56 <./images/bab2/alurkerjarag.png>]
+<images/bab2/alurkerjahybridsearch.png, id=358, 1927.2pt x 1084.05pt>
+File: images/bab2/alurkerjahybridsearch.png Graphic file (type png)
+<use images/bab2/alurkerjahybridsearch.png>
+Package pdftex.def Info: images/bab2/alurkerjahybridsearch.png  used on input line 642.
+(pdftex.def)             Requested size: 318.67209pt x 179.24098pt.
+ [57]
+<images/bab2/sentencetransformer.png, id=362, 433.62pt x 342.5297pt>
+File: images/bab2/sentencetransformer.png Graphic file (type png)
+<use images/bab2/sentencetransformer.png>
+Package pdftex.def Info: images/bab2/sentencetransformer.png  used on input line 651.
+(pdftex.def)             Requested size: 318.67209pt x 251.74323pt.
+ [58 <./images/bab2/alurkerjahybridsearch.png (PNG copy)>] [59 <./images/bab2/sentencetransformer.png>]
+<images/bab2/fusion.png, id=370, 1884.03876pt x 1276.77pt>
+File: images/bab2/fusion.png Graphic file (type png)
+<use images/bab2/fusion.png>
+Package pdftex.def Info: images/bab2/fusion.png  used on input line 664.
+(pdftex.def)             Requested size: 318.67209pt x 215.95703pt.
+ [60 <./images/bab2/fusion.png (PNG copy)>]
+<images/bab2/reranking.png, id=375, 2238.3625pt x 1276.77pt>
+File: images/bab2/reranking.png Graphic file (type png)
+<use images/bab2/reranking.png>
+Package pdftex.def Info: images/bab2/reranking.png  used on input line 674.
+(pdftex.def)             Requested size: 318.67209pt x 181.76628pt.
+ [61 <./images/bab2/reranking.png (PNG copy)>]
+<images/bab2/maxsim.png, id=379, 678.28406pt x 322.95656pt>
+File: images/bab2/maxsim.png Graphic file (type png)
+<use images/bab2/maxsim.png>
+Package pdftex.def Info: images/bab2/maxsim.png  used on input line 687.
+(pdftex.def)             Requested size: 318.67209pt x 151.73045pt.
+ [62 <./images/bab2/maxsim.png>]
+<images/bab2/ingestionmakelateinteraction.png, id=384, 1694.33pt x 825.0825pt>
+File: images/bab2/ingestionmakelateinteraction.png Graphic file (type png)
+<use images/bab2/ingestionmakelateinteraction.png>
+Package pdftex.def Info: images/bab2/ingestionmakelateinteraction.png  used on input line 698.
+(pdftex.def)             Requested size: 191.20082pt x 93.10104pt.
+<images/bab2/rerankingmakelateinteraction.png, id=385, 1694.33pt x 825.0825pt>
+File: images/bab2/rerankingmakelateinteraction.png Graphic file (type png)
+<use images/bab2/rerankingmakelateinteraction.png>
+Package pdftex.def Info: images/bab2/rerankingmakelateinteraction.png  used on input line 705.
+(pdftex.def)             Requested size: 191.20082pt x 93.10104pt.
+<images/bab2/qdrantpoints.png, id=386, 3721.905pt x 835.12pt>
+File: images/bab2/qdrantpoints.png Graphic file (type png)
+<use images/bab2/qdrantpoints.png>
+Package pdftex.def Info: images/bab2/qdrantpoints.png  used on input line 722.
+(pdftex.def)             Requested size: 318.67209pt x 71.50034pt.
+ [63 <./images/bab2/ingestionmakelateinteraction.png (PNG copy)> <./images/bab2/rerankingmakelateinteraction.png (PNG copy)>] [64 <./images/bab2/qdrantpoints.png (PNG copy)>] [65]
+<images/bab2/blokdasarsistemagentik.png, id=396, 398.4486pt x 103.1052pt>
+File: images/bab2/blokdasarsistemagentik.png Graphic file (type png)
+<use images/bab2/blokdasarsistemagentik.png>
+Package pdftex.def Info: images/bab2/blokdasarsistemagentik.png  used on input line 743.
+(pdftex.def)             Requested size: 318.67209pt x 82.46223pt.
+ [66 <./images/bab2/blokdasarsistemagentik.png>] [67] [68] [69]
+<images/bab2/kerangkakerjageval.png, id=411, 1493.58pt x 1086.0575pt>
+File: images/bab2/kerangkakerjageval.png Graphic file (type png)
+<use images/bab2/kerangkakerjageval.png>
+Package pdftex.def Info: images/bab2/kerangkakerjageval.png  used on input line 783.
+(pdftex.def)             Requested size: 398.3386pt x 289.64334pt.
+ [70]
+<images/bab2/evaluasigeval.png, id=415, 2091.815pt x 1184.425pt>
+File: images/bab2/evaluasigeval.png Graphic file (type png)
+<use images/bab2/evaluasigeval.png>
+Package pdftex.def Info: images/bab2/evaluasigeval.png  used on input line 792.
+(pdftex.def)             Requested size: 318.67209pt x 180.4393pt.
+ [71 <./images/bab2/kerangkakerjageval.png (PNG copy)>] [72 <./images/bab2/evaluasigeval.png (PNG copy)>] [73] [74] [75] [76]
+Underfull \hbox (badness 10000) in paragraph at lines 852--852
+\T1/ntxtlf/m/n/12 pa-da GPT-4o (\T1/ntxtlf/m/it/12 fine-
+ []
+
+
+Underfull \hbox (badness 2970) in paragraph at lines 852--852
+\T1/ntxtlf/m/it/12 tuned\T1/ntxtlf/m/n/12 ) dan $\LMS/ntxsy/m/n/12 ^^X$\T1/ntxtlf/m/n/12 96,88%
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 852--852
+[]|\T1/ntxtlf/m/it/12 Workflow \T1/ntxtlf/m/n/12 adap-tif de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 852--852
+\T1/ntxtlf/m/n/12 kla-si-fi-ka-si \T1/ntxtlf/m/it/12 pre-ci-sion
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 852--852
+\T1/ntxtlf/m/n/12 96,2%; de-tek-si mAP
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 852--852
+\T1/ntxtlf/m/n/12 po-nen meng-gu-nak-an
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 852--852
+[]|\T1/ntxtlf/m/n/12 S. Yang dkk.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 852--852
+[]|\T1/ntxtlf/m/n/12 Kombinasi \T1/ntxtlf/m/it/12 wor-kflow
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 852--852
+[]|\T1/ntxtlf/m/n/12 Skor kom-po-sit RAG
+ []
+
+
+Underfull \hbox (badness 4072) in paragraph at lines 852--852
+\T1/ntxtlf/m/n/12 0,923 (\T1/ntxtlf/m/it/12 ma-chi-ne sco-
+ []
+
+) [77] [78]
+\openout2 = `chapters/bab3.aux'.
+
+ (chapters/bab3.tex
+Bab III.
+<images/bab3/ddr.png, id=442, 1854.93pt x 248.93pt>
+File: images/bab3/ddr.png Graphic file (type png)
+<use images/bab3/ddr.png>
+Package pdftex.def Info: images/bab3/ddr.png  used on input line 8.
+(pdftex.def)             Requested size: 318.67209pt x 42.76573pt.
+[79
+
+
+
+
+ <./images/bab3/ddr.png>]
+<images/bab3/prosedurpenelitian.png, id=447, 2212.265pt x 3501.08pt>
+File: images/bab3/prosedurpenelitian.png Graphic file (type png)
+<use images/bab3/prosedurpenelitian.png>
+Package pdftex.def Info: images/bab3/prosedurpenelitian.png  used on input line 20.
+(pdftex.def)             Requested size: 318.67209pt x 504.30472pt.
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 38.
+ [80 <./images/bab3/prosedurpenelitian.png>] [81]
+
+LaTeX Warning: Citation 'chaseLangChain2022' on page 82 undefined on input line 72.
+
+<images/bab3/arsitektursistemagentik.png, id=455, 3300.33pt x 4063.18pt>
+File: images/bab3/arsitektursistemagentik.png Graphic file (type png)
+<use images/bab3/arsitektursistemagentik.png>
+Package pdftex.def Info: images/bab3/arsitektursistemagentik.png  used on input line 77.
+(pdftex.def)             Requested size: 398.3386pt x 490.41252pt.
+[82] [83 <./images/bab3/arsitektursistemagentik.png>]
+<images/bab3/reactlanggraph.png, id=463, 3794.175pt x 2212.265pt>
+File: images/bab3/reactlanggraph.png Graphic file (type png)
+<use images/bab3/reactlanggraph.png>
+Package pdftex.def Info: images/bab3/reactlanggraph.png  used on input line 90.
+(pdftex.def)             Requested size: 398.3386pt x 232.24405pt.
+ [84] [85 <./images/bab3/reactlanggraph.png>]
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 10.95pt on input line 112.
+
+Underfull \hbox (badness 3439) in paragraph at lines 113--113
+\T1/ntxtlf/m/n/10.95 men-du-kung pe-na-ngan-an
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 115--115
+\T1/ntxtlf/m/n/10.95 fi-ka-si pe-nya-kit ta-nam-an
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 117--117
+[]|\T1/ntxtlf/m/n/10.95 Menyimpan URL da-ri
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 118--118
+[]|\T1/ntxtlf/m/n/10.95 Atribut kon-trol in-ter-nal
+ []
+
+
+Overfull \hbox (11.76541pt too wide) in paragraph at lines 109--120
+ [][] 
+ []
+
+[86]
+<images/bab3/costar.png, id=475, 4171.585pt x 2067.725pt>
+File: images/bab3/costar.png Graphic file (type png)
+<use images/bab3/costar.png>
+Package pdftex.def Info: images/bab3/costar.png  used on input line 146.
+(pdftex.def)             Requested size: 398.3386pt x 197.41399pt.
+ [87] [88 <./images/bab3/costar.png>]
+<images/bab3/moduldeteksitanaman.png, id=483, 4978.6pt x 1802.735pt>
+File: images/bab3/moduldeteksitanaman.png Graphic file (type png)
+<use images/bab3/moduldeteksitanaman.png>
+Package pdftex.def Info: images/bab3/moduldeteksitanaman.png  used on input line 173.
+(pdftex.def)             Requested size: 398.3386pt x 144.22174pt.
+ [89]
+<images/bab3/plantdoc_distribution.png, id=487, 398.4486pt x 171.039pt>
+File: images/bab3/plantdoc_distribution.png Graphic file (type png)
+<use images/bab3/plantdoc_distribution.png>
+Package pdftex.def Info: images/bab3/plantdoc_distribution.png  used on input line 186.
+(pdftex.def)             Requested size: 398.3386pt x 170.9942pt.
+ [90 <./images/bab3/moduldeteksitanaman.png>] [91 <./images/bab3/plantdoc_distribution.png>] [92] [93]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.8pt on input line 296.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.6pt on input line 296.
+ [94]
+<images/bab3/contohparetofrontier.png, id=507, 995.97093pt x 400.49625pt>
+File: images/bab3/contohparetofrontier.png Graphic file (type png)
+<use images/bab3/contohparetofrontier.png>
+Package pdftex.def Info: images/bab3/contohparetofrontier.png  used on input line 309.
+(pdftex.def)             Requested size: 358.50229pt x 144.1602pt.
+ [95 <./images/bab3/contohparetofrontier.png>]
+<images/bab3/arsitekturalatowlv2.png, id=513, 2798.455pt x 1561.835pt>
+File: images/bab3/arsitekturalatowlv2.png Graphic file (type png)
+<use images/bab3/arsitekturalatowlv2.png>
+Package pdftex.def Info: images/bab3/arsitekturalatowlv2.png  used on input line 319.
+(pdftex.def)             Requested size: 398.3386pt x 222.30165pt.
+<images/bab3/modulgambarteks.png, id=514, 5468.43pt x 2979.13pt>
+File: images/bab3/modulgambarteks.png Graphic file (type png)
+<use images/bab3/modulgambarteks.png>
+Package pdftex.def Info: images/bab3/modulgambarteks.png  used on input line 329.
+(pdftex.def)             Requested size: 398.3386pt x 216.9701pt.
+ [96 <./images/bab3/arsitekturalatowlv2.png>]
+<images/bab3/distribusiplantwild.png, id=520, 1271.5003pt x 338.01282pt>
+File: images/bab3/distribusiplantwild.png Graphic file (type png)
+<use images/bab3/distribusiplantwild.png>
+Package pdftex.def Info: images/bab3/distribusiplantwild.png  used on input line 340.
+(pdftex.def)             Requested size: 398.3386pt x 105.89177pt.
+ [97 <./images/bab3/modulgambarteks.png> <./images/bab3/distribusiplantwild.png>] [98]
+<images/bab3/fulltextindexpayloadfield.png, id=529, 7134.655pt x 2396.955pt>
+File: images/bab3/fulltextindexpayloadfield.png Graphic file (type png)
+<use images/bab3/fulltextindexpayloadfield.png>
+Package pdftex.def Info: images/bab3/fulltextindexpayloadfield.png  used on input line 378.
+(pdftex.def)             Requested size: 398.3386pt x 133.78967pt.
+<images/bab3/strategipencarianteksteks.png, id=530, 4103.33pt x 3019.28pt>
+File: images/bab3/strategipencarianteksteks.png Graphic file (type png)
+<use images/bab3/strategipencarianteksteks.png>
+Package pdftex.def Info: images/bab3/strategipencarianteksteks.png  used on input line 390.
+(pdftex.def)             Requested size: 179.25114pt x 131.8536pt.
+<images/bab3/strategipencariantekksgambar.png, id=531, 4099.315pt x 3019.28pt>
+File: images/bab3/strategipencariantekksgambar.png Graphic file (type png)
+<use images/bab3/strategipencariantekksgambar.png>
+Package pdftex.def Info: images/bab3/strategipencariantekksgambar.png  used on input line 397.
+(pdftex.def)             Requested size: 179.25114pt x 131.99182pt.
+<images/bab3/strategipencariangambargambar.png, id=532, 4099.315pt x 3220.03pt>
+File: images/bab3/strategipencariangambargambar.png Graphic file (type png)
+<use images/bab3/strategipencariangambargambar.png>
+Package pdftex.def Info: images/bab3/strategipencariangambargambar.png  used on input line 406.
+(pdftex.def)             Requested size: 179.25114pt x 140.76787pt.
+<images/bab3/strategipencariangambarteks.png, id=533, 4099.315pt x 3220.03pt>
+File: images/bab3/strategipencariangambarteks.png Graphic file (type png)
+<use images/bab3/strategipencariangambarteks.png>
+Package pdftex.def Info: images/bab3/strategipencariangambarteks.png  used on input line 413.
+(pdftex.def)             Requested size: 179.25114pt x 140.76787pt.
+ [99 <./images/bab3/fulltextindexpayloadfield.png>] [100 <./images/bab3/strategipencarianteksteks.png> <./images/bab3/strategipencariantekksgambar.png> <./images/bab3/strategipencariangambargambar.png> <./images/bab3/strategipencariangambarteks.png>] [101]
+<images/bab3/alurkerjamodulpencarianinformasi.png, id=548, 5540.7pt x 1581.91pt>
+File: images/bab3/alurkerjamodulpencarianinformasi.png Graphic file (type png)
+<use images/bab3/alurkerjamodulpencarianinformasi.png>
+Package pdftex.def Info: images/bab3/alurkerjamodulpencarianinformasi.png  used on input line 445.
+(pdftex.def)             Requested size: 398.3386pt x 113.71397pt.
+<images/bab3/mtebbenchmark.png, id=549, 1860.9525pt x 989.19562pt>
+File: images/bab3/mtebbenchmark.png Graphic file (type png)
+<use images/bab3/mtebbenchmark.png>
+Package pdftex.def Info: images/bab3/mtebbenchmark.png  used on input line 455.
+(pdftex.def)             Requested size: 398.3386pt x 211.73709pt.
+ [102 <./images/bab3/alurkerjamodulpencarianinformasi.png>] [103 <./images/bab3/mtebbenchmark.png>]
+<images/bab3/alurkerjabenchmarkrag.png, id=559, 2396.955pt x 3625.545pt>
+File: images/bab3/alurkerjabenchmarkrag.png Graphic file (type png)
+<use images/bab3/alurkerjabenchmarkrag.png>
+Package pdftex.def Info: images/bab3/alurkerjabenchmarkrag.png  used on input line 466.
+(pdftex.def)             Requested size: 318.67209pt x 481.95909pt.
+ [104]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 486.
+ [105 <./images/bab3/alurkerjabenchmarkrag.png>] [106] [107]
+Underfull \hbox (badness 2065) in paragraph at lines 558--558
+[]|\T1/ntxtlf/m/n/10.95 Pertanyaan yang me-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--558
+[]|\T1/ntxtlf/m/n/10.95 Pertanyaan multi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--558
+\T1/ntxtlf/m/n/10.95 lompatan yang mem-
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 558--558
+\T1/ntxtlf/m/n/10.95 bu-tuhk-an in-fe-ren-si da-ri
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 558--558
+\T1/ntxtlf/m/n/10.95 dua se-gmen in-for-ma-si
+ []
+
+
+Underfull \hbox (badness 5622) in paragraph at lines 558--558
+\T1/ntxtlf/m/n/10.95 ber-be-da (Hwang dkk.,
+ []
+
+[108]
+Underfull \hbox (badness 5756) in paragraph at lines 586--586
+[]|\T1/ntxtlf/m/n/10.95 Skor re-le-van-si ber-ba-sis fre-ku-en-si ka-ta
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--586
+[]|\T1/ntxtlf/m/n/10.95 Sumber do-ku-men (Plan-tVi-lla-
+ []
+
+[109]
+<images/bab3/alatpencarianbasispengetahuan.png, id=580, 2890.8pt x 2272.49pt>
+File: images/bab3/alatpencarianbasispengetahuan.png Graphic file (type png)
+<use images/bab3/alatpencarianbasispengetahuan.png>
+Package pdftex.def Info: images/bab3/alatpencarianbasispengetahuan.png  used on input line 605.
+(pdftex.def)             Requested size: 398.3386pt x 313.1185pt.
+ [110] [111 <./images/bab3/alatpencarianbasispengetahuan.png>] [112]
+Overfull \hbox (6.12901pt too wide) in paragraph at lines 647--648
+[]\T1/ntxtlf/m/n/12 Sedangkan IDCG ada-lah ni-lai DCG mak-si-mal yang da-pat di-ca-pai ji-ka dokumen-
+ []
+
+
+LaTeX Warning: Citation 'TavilyaiTavilypython2026' on page 113 undefined on input line 667.
+
+[113] [114]
+<images/bab3/arsitekturantarmukasistem.png, id=598, 3119.655pt x 3613.5pt>
+File: images/bab3/arsitekturantarmukasistem.png Graphic file (type png)
+<use images/bab3/arsitekturantarmukasistem.png>
+Package pdftex.def Info: images/bab3/arsitekturantarmukasistem.png  used on input line 704.
+(pdftex.def)             Requested size: 398.3386pt x 461.3906pt.
+ [115]
+<images/bab3/usecasediagram.png, id=602, 1047.915pt x 1332.98pt>
+File: images/bab3/usecasediagram.png Graphic file (type png)
+<use images/bab3/usecasediagram.png>
+Package pdftex.def Info: images/bab3/usecasediagram.png  used on input line 714.
+(pdftex.def)             Requested size: 318.67209pt x 405.3481pt.
+ [116 <./images/bab3/arsitekturantarmukasistem.png>] [117 <./images/bab3/usecasediagram.png>]
+<images/bab3/sequencediagram.png, id=611, 3175.865pt x 2782.395pt>
+File: images/bab3/sequencediagram.png Graphic file (type png)
+<use images/bab3/sequencediagram.png>
+Package pdftex.def Info: images/bab3/sequencediagram.png  used on input line 732.
+(pdftex.def)             Requested size: 398.3386pt x 348.98729pt.
+ [118 <./images/bab3/sequencediagram.png>]
+<images/bab3/sequencediagramsubmit.png, id=616, 6227.265pt x 6058.635pt>
+File: images/bab3/sequencediagramsubmit.png Graphic file (type png)
+<use images/bab3/sequencediagramsubmit.png>
+Package pdftex.def Info: images/bab3/sequencediagramsubmit.png  used on input line 750.
+(pdftex.def)             Requested size: 398.3386pt x 387.5387pt.
+ [119]
+<images/bab3/sequencediagramaksesthreadlama.png, id=620, 2934.965pt x 3649.635pt>
+File: images/bab3/sequencediagramaksesthreadlama.png Graphic file (type png)
+<use images/bab3/sequencediagramaksesthreadlama.png>
+Package pdftex.def Info: images/bab3/sequencediagramaksesthreadlama.png  used on input line 759.
+(pdftex.def)             Requested size: 398.3386pt x 495.29684pt.
+ [120 <./images/bab3/sequencediagramsubmit.png>]
+<images/bab3/submitulangdithreadlama.png, id=626, 8078.18pt x 5074.96pt>
+File: images/bab3/submitulangdithreadlama.png Graphic file (type png)
+<use images/bab3/submitulangdithreadlama.png>
+Package pdftex.def Info: images/bab3/submitulangdithreadlama.png  used on input line 768.
+(pdftex.def)             Requested size: 398.3386pt x 250.20073pt.
+ [121 <./images/bab3/sequencediagramaksesthreadlama.png>]
+<images/bab3/prototipeantarmuka.png, id=631, 1409.265pt x 691.08188pt>
+File: images/bab3/prototipeantarmuka.png Graphic file (type png)
+<use images/bab3/prototipeantarmuka.png>
+Package pdftex.def Info: images/bab3/prototipeantarmuka.png  used on input line 780.
+(pdftex.def)             Requested size: 398.3386pt x 195.33644pt.
+ [122 <./images/bab3/submitulangdithreadlama.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 804--804
+[]|\T1/ntxtlf/m/n/10.95 Pengguna meng-klik ikon
+ []
+
+
+Underfull \hbox (badness 4156) in paragraph at lines 804--804
+[]|\T1/ntxtlf/m/n/10.95 Pengguna me-nung-gu pro-
+ []
+
+[123 <./images/bab3/prototipeantarmuka.png>] [124] [125]
+<images/bab3/contohentri.png, id=646, 2055.68pt x 582.175pt>
+File: images/bab3/contohentri.png Graphic file (type png)
+<use images/bab3/contohentri.png>
+Package pdftex.def Info: images/bab3/contohentri.png  used on input line 853.
+(pdftex.def)             Requested size: 398.3386pt x 112.80856pt.
+ [126 <./images/bab3/contohentri.png>]
+<images/bab3/contohpromptpersiapandata.png, id=652, 2055.68pt x 2033.5975pt>
+File: images/bab3/contohpromptpersiapandata.png Graphic file (type png)
+<use images/bab3/contohpromptpersiapandata.png>
+Package pdftex.def Info: images/bab3/contohpromptpersiapandata.png  used on input line 870.
+(pdftex.def)             Requested size: 398.3386pt x 394.05199pt.
+ [127] [128 <./images/bab3/contohpromptpersiapandata.png>]
+<images/bab3/contohskenario1.png, id=660, 2055.68pt x 1063.975pt>
+File: images/bab3/contohskenario1.png Graphic file (type png)
+<use images/bab3/contohskenario1.png>
+Package pdftex.def Info: images/bab3/contohskenario1.png  used on input line 920.
+(pdftex.def)             Requested size: 398.3386pt x 206.16737pt.
+<images/bab3/contohskenario2.png, id=661, 2055.68pt x 1100.11pt>
+File: images/bab3/contohskenario2.png Graphic file (type png)
+<use images/bab3/contohskenario2.png>
+Package pdftex.def Info: images/bab3/contohskenario2.png  used on input line 926.
+(pdftex.def)             Requested size: 398.3386pt x 213.16928pt.
+<images/bab3/contohskenario3.png, id=662, 2055.68pt x 951.555pt>
+File: images/bab3/contohskenario3.png Graphic file (type png)
+<use images/bab3/contohskenario3.png>
+Package pdftex.def Info: images/bab3/contohskenario3.png  used on input line 932.
+(pdftex.def)             Requested size: 398.3386pt x 184.38365pt.
+ [129]
+Overfull \vbox (29.18994pt too high) has occurred while \output is active []
+
+ [130 <./images/bab3/contohskenario1.png> <./images/bab3/contohskenario2.png> <./images/bab3/contohskenario3.png>]
+Overfull \hbox (2.59738pt too wide) in paragraph at lines 953--963
+ [][] 
+ []
+
+[131] [132] [133] [134] [135] [136] [137]
+Underfull \hbox (badness 2846) in paragraph at lines 1179--1179
+\T1/ntxtlf/m/n/10.95 3. \T1/ntxtlf/b/n/10.95 Kla-im Spe-si-fik\T1/ntxtlf/m/n/10.95 : Iden-ti-fi-ka-si pe-nya-kit, na-ma pa-
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 1179--1179
+\T1/ntxtlf/m/n/10.95 to-gen, dan pe-ngo-bat-an ki-mi-a-wi HA-RUS di-da-sark-an pa-da
+ []
+
+[138] [139] [140] [141]
+<images/bab3/promptdomainadherence.png, id=707, 2043.635pt x 618.31pt>
+File: images/bab3/promptdomainadherence.png Graphic file (type png)
+<use images/bab3/promptdomainadherence.png>
+Package pdftex.def Info: images/bab3/promptdomainadherence.png  used on input line 1229.
+(pdftex.def)             Requested size: 398.3386pt x 120.51807pt.
+ [142]) [143 <./images/bab3/promptdomainadherence.png>]
+\openout2 = `chapters/bab4.aux'.
+
+ (chapters/bab4.tex
+Bab IV.
+<images/bab4/compiledstategraph.png, id=715, 216.81pt x 249.93375pt>
+File: images/bab4/compiledstategraph.png Graphic file (type png)
+<use images/bab4/compiledstategraph.png>
+Package pdftex.def Info: images/bab4/compiledstategraph.png  used on input line 10.
+(pdftex.def)             Requested size: 239.00558pt x 275.53435pt.
+[144
+
+
+
+
+ <./images/bab4/compiledstategraph.png (PNG copy)>]
+<images/bab4/agentgraphdilangsmithstudio.png, id=720, 1879.02pt x 997.47656pt>
+File: images/bab4/agentgraphdilangsmithstudio.png Graphic file (type png)
+<use images/bab4/agentgraphdilangsmithstudio.png>
+Package pdftex.def Info: images/bab4/agentgraphdilangsmithstudio.png  used on input line 19.
+(pdftex.def)             Requested size: 398.3386pt x 211.4549pt.
+<images/bab4/contohoutputagentdilangsmithstudio.png, id=721, 1867.72781pt x 993.7125pt>
+File: images/bab4/contohoutputagentdilangsmithstudio.png Graphic file (type png)
+<use images/bab4/contohoutputagentdilangsmithstudio.png>
+Package pdftex.def Info: images/bab4/contohoutputagentdilangsmithstudio.png  used on input line 28.
+(pdftex.def)             Requested size: 398.3386pt x 211.93062pt.
+ [145 <./images/bab4/agentgraphdilangsmithstudio.png>]
+<images/bab4/contohtracedilangsmithstudio.png, id=726, 1877.51437pt x 1000.48781pt>
+File: images/bab4/contohtracedilangsmithstudio.png Graphic file (type png)
+<use images/bab4/contohtracedilangsmithstudio.png>
+Package pdftex.def Info: images/bab4/contohtracedilangsmithstudio.png  used on input line 37.
+(pdftex.def)             Requested size: 398.3386pt x 212.26117pt.
+ [146 <./images/bab4/contohoutputagentdilangsmithstudio.png>]
+<images/bab4/tampilanpromptdilangsmithprompthub.png, id=731, 1861.7053pt x 1053.1847pt>
+File: images/bab4/tampilanpromptdilangsmithprompthub.png Graphic file (type png)
+<use images/bab4/tampilanpromptdilangsmithprompthub.png>
+Package pdftex.def Info: images/bab4/tampilanpromptdilangsmithprompthub.png  used on input line 49.
+(pdftex.def)             Requested size: 398.3386pt x 225.33751pt.
+ [147 <./images/bab4/contohtracedilangsmithstudio.png>]
+<images/bab4/contextobjective.png, id=736, 2055.68pt x 1407.2575pt>
+File: images/bab4/contextobjective.png Graphic file (type png)
+<use images/bab4/contextobjective.png>
+Package pdftex.def Info: images/bab4/contextobjective.png  used on input line 57.
+(pdftex.def)             Requested size: 398.3386pt x 272.68553pt.
+ [148 <./images/bab4/tampilanpromptdilangsmithprompthub.png>]
+<images/bab4/styletoneaudience.png, id=741, 2055.68pt x 881.2925pt>
+File: images/bab4/styletoneaudience.png Graphic file (type png)
+<use images/bab4/styletoneaudience.png>
+Package pdftex.def Info: images/bab4/styletoneaudience.png  used on input line 66.
+(pdftex.def)             Requested size: 398.3386pt x 170.76883pt.
+ [149 <./images/bab4/contextobjective.png> <./images/bab4/styletoneaudience.png>]
+<images/bab4/response.png, id=747, 2055.68pt x 807.015pt>
+File: images/bab4/response.png Graphic file (type png)
+<use images/bab4/response.png>
+Package pdftex.def Info: images/bab4/response.png  used on input line 75.
+(pdftex.def)             Requested size: 398.3386pt x 156.376pt.
+<images/bab4/referensitool.png, id=748, 2055.68pt x 1658.195pt>
+File: images/bab4/referensitool.png Graphic file (type png)
+<use images/bab4/referensitool.png>
+Package pdftex.def Info: images/bab4/referensitool.png  used on input line 85.
+(pdftex.def)             Requested size: 398.3386pt x 321.30992pt.
+ [150 <./images/bab4/response.png>] [151 <./images/bab4/referensitool.png>] [152] [153]
+<images/bab4/datasetplantdoc.png, id=764, 909.1566pt x 904.8204pt>
+File: images/bab4/datasetplantdoc.png Graphic file (type png)
+<use images/bab4/datasetplantdoc.png>
+Package pdftex.def Info: images/bab4/datasetplantdoc.png  used on input line 215.
+(pdftex.def)             Requested size: 318.67209pt x 317.1613pt.
+ [154 <./images/bab4/datasetplantdoc.png>]
+<images/bab4/outputhasiltraining.png, id=769, 1403.2425pt x 419.31656pt>
+File: images/bab4/outputhasiltraining.png Graphic file (type png)
+<use images/bab4/outputhasiltraining.png>
+Package pdftex.def Info: images/bab4/outputhasiltraining.png  used on input line 247.
+(pdftex.def)             Requested size: 318.67209pt x 95.2251pt.
+<images/bab4/yolov11ntraningcurve.png, id=770, 1076.1003pt x 1065.9825pt>
+File: images/bab4/yolov11ntraningcurve.png Graphic file (type png)
+<use images/bab4/yolov11ntraningcurve.png>
+Package pdftex.def Info: images/bab4/yolov11ntraningcurve.png  used on input line 258.
+(pdftex.def)             Requested size: 179.25114pt x 177.55487pt.
+<images/bab4/yolov11straningcurve.png, id=771, 1076.1003pt x 1065.9825pt>
+File: images/bab4/yolov11straningcurve.png Graphic file (type png)
+<use images/bab4/yolov11straningcurve.png>
+Package pdftex.def Info: images/bab4/yolov11straningcurve.png  used on input line 264.
+(pdftex.def)             Requested size: 179.25114pt x 177.55487pt.
+<images/bab4/yolov11mtraningcurve.png, id=772, 1076.1003pt x 1065.9825pt>
+File: images/bab4/yolov11mtraningcurve.png Graphic file (type png)
+<use images/bab4/yolov11mtraningcurve.png>
+Package pdftex.def Info: images/bab4/yolov11mtraningcurve.png  used on input line 272.
+(pdftex.def)             Requested size: 179.25114pt x 177.55487pt.
+ [155 <./images/bab4/outputhasiltraining.png>] [156 <./images/bab4/yolov11ntraningcurve.png> <./images/bab4/yolov11straningcurve.png> <./images/bab4/yolov11mtraningcurve.png>]
+<images/bab4/testprediksiyolov11n.png, id=784, 852.786pt x 849.1725pt>
+File: images/bab4/testprediksiyolov11n.png Graphic file (type png)
+<use images/bab4/testprediksiyolov11n.png>
+Package pdftex.def Info: images/bab4/testprediksiyolov11n.png  used on input line 285.
+(pdftex.def)             Requested size: 179.25114pt x 178.48697pt.
+<images/bab4/testprediksiyolov11s.png, id=785, 852.786pt x 849.1725pt>
+File: images/bab4/testprediksiyolov11s.png Graphic file (type png)
+<use images/bab4/testprediksiyolov11s.png>
+Package pdftex.def Info: images/bab4/testprediksiyolov11s.png  used on input line 291.
+(pdftex.def)             Requested size: 179.25114pt x 178.48697pt.
+<images/bab4/testprediksiyolov11m.png, id=786, 852.786pt x 849.1725pt>
+File: images/bab4/testprediksiyolov11m.png Graphic file (type png)
+<use images/bab4/testprediksiyolov11m.png>
+Package pdftex.def Info: images/bab4/testprediksiyolov11m.png  used on input line 299.
+(pdftex.def)             Requested size: 179.25114pt x 178.48697pt.
+ [157 <./images/bab4/testprediksiyolov11n.png> <./images/bab4/testprediksiyolov11s.png> <./images/bab4/testprediksiyolov11m.png>]
+<images/bab4/perbandinganperformayolov11.png, id=793, 709.6914pt x 422.0568pt>
+File: images/bab4/perbandinganperformayolov11.png Graphic file (type png)
+<use images/bab4/perbandinganperformayolov11.png>
+Package pdftex.def Info: images/bab4/perbandinganperformayolov11.png  used on input line 329.
+(pdftex.def)             Requested size: 318.67209pt x 189.51163pt.
+ [158 <./images/bab4/perbandinganperformayolov11.png>]
+<images/bab4/perbandinganlatensiyolov11.png, id=798, 708.246pt x 422.0568pt>
+File: images/bab4/perbandinganlatensiyolov11.png Graphic file (type png)
+<use images/bab4/perbandinganlatensiyolov11.png>
+Package pdftex.def Info: images/bab4/perbandinganlatensiyolov11.png  used on input line 338.
+(pdftex.def)             Requested size: 318.67209pt x 189.90448pt.
+<images/bab4/paretofrontiermap50latensip50.png, id=799, 683.6742pt x 398.9304pt>
+File: images/bab4/paretofrontiermap50latensip50.png Graphic file (type png)
+<use images/bab4/paretofrontiermap50latensip50.png>
+Package pdftex.def Info: images/bab4/paretofrontiermap50latensip50.png  used on input line 349.
+(pdftex.def)             Requested size: 318.67209pt x 185.95117pt.
+<images/bab4/paretofrontiermap5095latensip95.png, id=800, 677.8926pt x 398.9304pt>
+File: images/bab4/paretofrontiermap5095latensip95.png Graphic file (type png)
+<use images/bab4/paretofrontiermap5095latensip95.png>
+Package pdftex.def Info: images/bab4/paretofrontiermap5095latensip95.png  used on input line 356.
+(pdftex.def)             Requested size: 318.67209pt x 187.53383pt.
+ [159 <./images/bab4/perbandinganlatensiyolov11.png>]
+<images/bab4/deteksiowlv2.png, id=805, 1389.19pt x 1194.4625pt>
+File: images/bab4/deteksiowlv2.png Graphic file (type png)
+<use images/bab4/deteksiowlv2.png>
+Package pdftex.def Info: images/bab4/deteksiowlv2.png  used on input line 369.
+(pdftex.def)             Requested size: 318.67209pt x 273.99155pt.
+ [160 <./images/bab4/paretofrontiermap50latensip50.png> <./images/bab4/paretofrontiermap5095latensip95.png>] [161 <./images/bab4/deteksiowlv2.png (PNG copy)>]
+<images/bab4/collectionplantwilddidashboardqdrant.png, id=814, 1410.77063pt x 365.86688pt>
+File: images/bab4/collectionplantwilddidashboardqdrant.png Graphic file (type png)
+<use images/bab4/collectionplantwilddidashboardqdrant.png>
+Package pdftex.def Info: images/bab4/collectionplantwilddidashboardqdrant.png  used on input line 402.
+(pdftex.def)             Requested size: 398.3386pt x 103.30176pt.
+<images/bab4/pointplantwildidashboardqdrant.png, id=815, 1406.25375pt x 694.84593pt>
+File: images/bab4/pointplantwildidashboardqdrant.png Graphic file (type png)
+<use images/bab4/pointplantwildidashboardqdrant.png>
+Package pdftex.def Info: images/bab4/pointplantwildidashboardqdrant.png  used on input line 411.
+(pdftex.def)             Requested size: 398.3386pt x 196.81386pt.
+ [162 <./images/bab4/collectionplantwilddidashboardqdrant.png>]
+<images/bab4/testtexttoimage.png, id=821, 1187.43625pt x 466.74374pt>
+File: images/bab4/testtexttoimage.png Graphic file (type png)
+<use images/bab4/testtexttoimage.png>
+Package pdftex.def Info: images/bab4/testtexttoimage.png  used on input line 424.
+(pdftex.def)             Requested size: 398.3386pt x 156.57556pt.
+<images/bab4/testimagetoimage.png, id=822, 1582.91376pt x 466.74374pt>
+File: images/bab4/testimagetoimage.png Graphic file (type png)
+<use images/bab4/testimagetoimage.png>
+Package pdftex.def Info: images/bab4/testimagetoimage.png  used on input line 430.
+(pdftex.def)             Requested size: 398.3386pt x 117.4548pt.
+<images/bab4/testtexttotext.png, id=823, 1186.4325pt x 404.51125pt>
+File: images/bab4/testtexttotext.png Graphic file (type png)
+<use images/bab4/testtexttotext.png>
+Package pdftex.def Info: images/bab4/testtexttotext.png  used on input line 436.
+(pdftex.def)             Requested size: 398.3386pt x 135.80992pt.
+<images/bab4/imagetotext.png, id=824, 1585.925pt x 410.53375pt>
+File: images/bab4/imagetotext.png Graphic file (type png)
+<use images/bab4/imagetotext.png>
+Package pdftex.def Info: images/bab4/imagetotext.png  used on input line 442.
+(pdftex.def)             Requested size: 398.3386pt x 103.10925pt.
+ [163 <./images/bab4/pointplantwildidashboardqdrant.png>] [164 <./images/bab4/testtexttoimage.png (PNG copy)> <./images/bab4/testimagetoimage.png (PNG copy)> <./images/bab4/testtexttotext.png (PNG copy)> <./images/bab4/imagetotext.png (PNG copy)>]
+<images/bab4/testnofilter.png, id=832, 1584.92125pt x 391.4625pt>
+File: images/bab4/testnofilter.png Graphic file (type png)
+<use images/bab4/testnofilter.png>
+Package pdftex.def Info: images/bab4/testnofilter.png  used on input line 457.
+(pdftex.def)             Requested size: 398.3386pt x 98.38504pt.
+<images/bab4/testfilter.png, id=833, 1579.9025pt x 393.47pt>
+File: images/bab4/testfilter.png Graphic file (type png)
+<use images/bab4/testfilter.png>
+Package pdftex.def Info: images/bab4/testfilter.png  used on input line 463.
+(pdftex.def)             Requested size: 398.3386pt x 99.20178pt.
+ [165 <./images/bab4/testnofilter.png (PNG copy)> <./images/bab4/testfilter.png (PNG copy)>]
+<images/bab4/evaluasireranker.png, id=837, 990.70125pt x 588.1975pt>
+File: images/bab4/evaluasireranker.png Graphic file (type png)
+<use images/bab4/evaluasireranker.png>
+Package pdftex.def Info: images/bab4/evaluasireranker.png  used on input line 494.
+(pdftex.def)             Requested size: 318.67209pt x 189.19635pt.
+ [166]
+<images/bab4/hasilantarmuka.png, id=841, 1402.48969pt x 710.655pt>
+File: images/bab4/hasilantarmuka.png Graphic file (type png)
+<use images/bab4/hasilantarmuka.png>
+Package pdftex.def Info: images/bab4/hasilantarmuka.png  used on input line 506.
+(pdftex.def)             Requested size: 398.3386pt x 201.83394pt.
+ [167 <./images/bab4/evaluasireranker.png (PNG copy)>]
+<images/bab4/hasiluc1.png, id=845, 1411.52344pt x 694.84593pt>
+File: images/bab4/hasiluc1.png Graphic file (type png)
+<use images/bab4/hasiluc1.png>
+Package pdftex.def Info: images/bab4/hasiluc1.png  used on input line 518.
+(pdftex.def)             Requested size: 179.25114pt x 88.23384pt.
+<images/bab4/hasiluc2.png, id=846, 1407.00656pt x 690.32906pt>
+File: images/bab4/hasiluc2.png Graphic file (type png)
+<use images/bab4/hasiluc2.png>
+Package pdftex.def Info: images/bab4/hasiluc2.png  used on input line 524.
+(pdftex.def)             Requested size: 179.25114pt x 87.94469pt.
+<images/bab4/hasiluc3.png, id=847, 1412.27625pt x 694.09312pt>
+File: images/bab4/hasiluc3.png Graphic file (type png)
+<use images/bab4/hasiluc3.png>
+Package pdftex.def Info: images/bab4/hasiluc3.png  used on input line 532.
+(pdftex.def)             Requested size: 179.25114pt x 88.09589pt.
+<images/bab4/hasiluc5.png, id=848, 1410.0178pt x 688.07062pt>
+File: images/bab4/hasiluc5.png Graphic file (type png)
+<use images/bab4/hasiluc5.png>
+Package pdftex.def Info: images/bab4/hasiluc5.png  used on input line 538.
+(pdftex.def)             Requested size: 179.25114pt x 87.46799pt.
+ [168 <./images/bab4/hasilantarmuka.png>]
+<images/bab4/hasiluc4a.png, id=854, 1409.265pt x 702.37407pt>
+File: images/bab4/hasiluc4a.png Graphic file (type png)
+<use images/bab4/hasiluc4a.png>
+Package pdftex.def Info: images/bab4/hasiluc4a.png  used on input line 549.
+(pdftex.def)             Requested size: 179.25114pt x 89.32912pt.
+<images/bab4/hasiluc4b.png, id=855, 1412.27625pt x 693.34032pt>
+File: images/bab4/hasiluc4b.png Graphic file (type png)
+<use images/bab4/hasiluc4b.png>
+Package pdftex.def Info: images/bab4/hasiluc4b.png  used on input line 555.
+(pdftex.def)             Requested size: 179.25114pt x 88.00034pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
+[]|\T1/ntxtlf/m/n/10.95 Mengelola Ri-wa-yat
+ []
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 578--578
+[]|\T1/ntxtlf/m/n/10.95 Melihat Trans-pa-ran-si
+ []
+
+[169 <./images/bab4/hasiluc1.png> <./images/bab4/hasiluc2.png> <./images/bab4/hasiluc3.png> <./images/bab4/hasiluc5.png> <./images/bab4/hasiluc4a.png> <./images/bab4/hasiluc4b.png>]
+<images/bab4/pengujian_sistem_agentik/datasetdilangsmith.png, id=865, 1385.92781pt x 726.46407pt>
+File: images/bab4/pengujian_sistem_agentik/datasetdilangsmith.png Graphic file (type png)
+<use images/bab4/pengujian_sistem_agentik/datasetdilangsmith.png>
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/datasetdilangsmith.png  used on input line 588.
+(pdftex.def)             Requested size: 398.3386pt x 208.79582pt.
+ [170]
+<images/bab4/pengujian_sistem_agentik/contohexamplesdilangsmith.png, id=869, 1401.73688pt x 695.59875pt>
+File: images/bab4/pengujian_sistem_agentik/contohexamplesdilangsmith.png Graphic file (type png)
+<use images/bab4/pengujian_sistem_agentik/contohexamplesdilangsmith.png>
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/contohexamplesdilangsmith.png  used on input line 597.
+(pdftex.def)             Requested size: 398.3386pt x 197.66394pt.
+ [171 <./images/bab4/pengujian_sistem_agentik/datasetdilangsmith.png> <./images/bab4/pengujian_sistem_agentik/contohexamplesdilangsmith.png>] [172]
+<images/bab4/pengujian_sistem_agentik/vqa_id_scenario1.png, id=878, 1406.25375pt x 691.83469pt>
+File: images/bab4/pengujian_sistem_agentik/vqa_id_scenario1.png Graphic file (type png)
+<use images/bab4/pengujian_sistem_agentik/vqa_id_scenario1.png>
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/vqa_id_scenario1.png  used on input line 634.
+(pdftex.def)             Requested size: 179.25114pt x 88.17871pt.
+<images/bab4/pengujian_sistem_agentik/vqa_ood_scenario1.png, id=879, 1397.97281pt x 691.83469pt>
+File: images/bab4/pengujian_sistem_agentik/vqa_ood_scenario1.png Graphic file (type png)
+<use images/bab4/pengujian_sistem_agentik/vqa_ood_scenario1.png>
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/vqa_ood_scenario1.png  used on input line 639.
+(pdftex.def)             Requested size: 179.25114pt x 88.70654pt.
+<images/bab4/pengujian_sistem_agentik/vqa_id_scenario2.png, id=880, 1403.2425pt x 697.10437pt>
+File: images/bab4/pengujian_sistem_agentik/vqa_id_scenario2.png Graphic file (type png)
+<use images/bab4/pengujian_sistem_agentik/vqa_id_scenario2.png>
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/vqa_id_scenario2.png  used on input line 648.
+(pdftex.def)             Requested size: 179.25114pt x 89.04184pt.
+<images/bab4/pengujian_sistem_agentik/vqa_ood_scenario2.png, id=881, 1400.23125pt x 692.5875pt>
+File: images/bab4/pengujian_sistem_agentik/vqa_ood_scenario2.png Graphic file (type png)
+<use images/bab4/pengujian_sistem_agentik/vqa_ood_scenario2.png>
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/vqa_ood_scenario2.png  used on input line 654.
+(pdftex.def)             Requested size: 179.25114pt x 88.65512pt.
+<images/bab4/pengujian_sistem_agentik/vqa_id_scenario3.png, id=882, 1407.00656pt x 706.13812pt>
+File: images/bab4/pengujian_sistem_agentik/vqa_id_scenario3.png Graphic file (type png)
+<use images/bab4/pengujian_sistem_agentik/vqa_id_scenario3.png>
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/vqa_id_scenario3.png  used on input line 663.
+(pdftex.def)             Requested size: 179.25114pt x 89.95868pt.
+<images/bab4/pengujian_sistem_agentik/vqa_ood_scenario3.png, id=883, 1407.75937pt x 693.34032pt>
+File: images/bab4/pengujian_sistem_agentik/vqa_ood_scenario3.png Graphic file (type png)
+<use images/bab4/pengujian_sistem_agentik/vqa_ood_scenario3.png>
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/vqa_ood_scenario3.png  used on input line 670.
+(pdftex.def)             Requested size: 179.25114pt x 88.2754pt.
+<images/bab4/pengujian_sistem_agentik/contohgoldenrunclosedset.png, id=884, 1405.50093pt x 694.84593pt>
+File: images/bab4/pengujian_sistem_agentik/contohgoldenrunclosedset.png Graphic file (type png)
+<use images/bab4/pengujian_sistem_agentik/contohgoldenrunclosedset.png>
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/contohgoldenrunclosedset.png  used on input line 681.
+(pdftex.def)             Requested size: 398.3386pt x 196.93048pt.
+ [173 <./images/bab4/pengujian_sistem_agentik/vqa_id_scenario1.png> <./images/bab4/pengujian_sistem_agentik/vqa_ood_scenario1.png> <./images/bab4/pengujian_sistem_agentik/vqa_id_scenario2.png> <./images/bab4/pengujian_sistem_agentik/vqa_ood_scenario2.png> <./images/bab4/pengujian_sistem_agentik/vqa_id_scenario3.png> <./images/bab4/pengujian_sistem_agentik/vqa_ood_scenario3.png>]
+<images/bab4/pengujian_sistem_agentik/contohgoldenrun2openvocab.png, id=894, 1375.38844pt x 691.83469pt>
+File: images/bab4/pengujian_sistem_agentik/contohgoldenrun2openvocab.png Graphic file (type png)
+<use images/bab4/pengujian_sistem_agentik/contohgoldenrun2openvocab.png>
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/contohgoldenrun2openvocab.png  used on input line 690.
+(pdftex.def)             Requested size: 398.3386pt x 200.363pt.
+ [174 <./images/bab4/pengujian_sistem_agentik/contohgoldenrunclosedset.png> <./images/bab4/pengujian_sistem_agentik/contohgoldenrun2openvocab.png>]
+<images/bab4/pengujian_sistem_agentik/lowscores.png, id=901, 1111.15125pt x 716.6775pt>
+File: images/bab4/pengujian_sistem_agentik/lowscores.png Graphic file (type png)
+<use images/bab4/pengujian_sistem_agentik/lowscores.png>
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/lowscores.png  used on input line 699.
+(pdftex.def)             Requested size: 398.3386pt x 256.92108pt.
+<images/bab4/pengujian_sistem_agentik/contohsalah.png, id=902, 1393.45593pt x 708.39656pt>
+File: images/bab4/pengujian_sistem_agentik/contohsalah.png Graphic file (type png)
+<use images/bab4/pengujian_sistem_agentik/contohsalah.png>
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/contohsalah.png  used on input line 708.
+(pdftex.def)             Requested size: 398.3386pt x 202.50043pt.
+ [175 <./images/bab4/pengujian_sistem_agentik/lowscores.png>]
+<images/bab4/pengujian_sistem_agentik/experimentdomainboundary.png, id=907, 1399.47844pt x 689.57625pt>
+File: images/bab4/pengujian_sistem_agentik/experimentdomainboundary.png Graphic file (type png)
+<use images/bab4/pengujian_sistem_agentik/experimentdomainboundary.png>
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/experimentdomainboundary.png  used on input line 718.
+(pdftex.def)             Requested size: 398.3386pt x 196.26822pt.
+ [176 <./images/bab4/pengujian_sistem_agentik/contohsalah.png>]
+<images/bab4/pengujian_sistem_agentik/datasetdomainboundary.png, id=912, 1409.265pt x 683.55376pt>
+File: images/bab4/pengujian_sistem_agentik/datasetdomainboundary.png Graphic file (type png)
+<use images/bab4/pengujian_sistem_agentik/datasetdomainboundary.png>
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/datasetdomainboundary.png  used on input line 727.
+(pdftex.def)             Requested size: 398.3386pt x 193.20859pt.
+ [177 <./images/bab4/pengujian_sistem_agentik/experimentdomainboundary.png> <./images/bab4/pengujian_sistem_agentik/datasetdomainboundary.png>]
+<images/bab4/pengujian_sistem_agentik/examplesdomainboundary.png, id=918, 1401.73688pt x 693.34032pt>
+File: images/bab4/pengujian_sistem_agentik/examplesdomainboundary.png Graphic file (type png)
+<use images/bab4/pengujian_sistem_agentik/examplesdomainboundary.png>
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/examplesdomainboundary.png  used on input line 736.
+(pdftex.def)             Requested size: 398.3386pt x 197.02217pt.
+
+Underfull \hbox (badness 1596) in paragraph at lines 758--758
+\T1/ntxtlf/m/n/10.95 gang ta-nam-an ini, apa
+ []
+
+
+Underfull \hbox (badness 3758) in paragraph at lines 758--758
+[]|\T1/ntxtlf/m/n/10.95 (Gambar ta-nam-an hi-as
+ []
+
+[178 <./images/bab4/pengujian_sistem_agentik/examplesdomainboundary.png>] [179] [180]) [181]
+\openout2 = `chapters/bab5.aux'.
+
+ (chapters/bab5.tex
+Bab V.
+[182
+
+
+
+
+] [183]) [184] [185
+
+
+
+] [186] [187] [188] [189] [190] [191] [192] [193]
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 507.
+ [194] [195] [196] [197] [198]
+\openout2 = `chapters/lampiran.aux'.
+
+ (chapters/lampiran.tex [199
+
+
+]
+<images/lampiran/55611489-VQA_ID_Scenario_1.png, id=991, 1322.9425pt x 1720.4275pt>
+File: images/lampiran/55611489-VQA_ID_Scenario_1.png Graphic file (type png)
+<use images/lampiran/55611489-VQA_ID_Scenario_1.png>
+Package pdftex.def Info: images/lampiran/55611489-VQA_ID_Scenario_1.png  used on input line 29.
+(pdftex.def)             Requested size: 179.25114pt x 233.08774pt.
+<images/lampiran/55611489-VQA_ID_Scenario_2.png, id=992, 1322.9425pt x 1720.4275pt>
+File: images/lampiran/55611489-VQA_ID_Scenario_2.png Graphic file (type png)
+<use images/lampiran/55611489-VQA_ID_Scenario_2.png>
+Package pdftex.def Info: images/lampiran/55611489-VQA_ID_Scenario_2.png  used on input line 34.
+(pdftex.def)             Requested size: 179.25114pt x 233.08774pt.
+<images/lampiran/55611628-VQA_ID_Scenario_3.png, id=993, 1322.9425pt x 1720.4275pt>
+File: images/lampiran/55611628-VQA_ID_Scenario_3.png Graphic file (type png)
+<use images/lampiran/55611628-VQA_ID_Scenario_3.png>
+Package pdftex.def Info: images/lampiran/55611628-VQA_ID_Scenario_3.png  used on input line 41.
+(pdftex.def)             Requested size: 179.25114pt x 233.08774pt.
+ [200 <./images/lampiran/55611489-VQA_ID_Scenario_1.png> <./images/lampiran/55611489-VQA_ID_Scenario_2.png> <./images/lampiran/55611628-VQA_ID_Scenario_3.png>]
+<images/lampiran/55611642-VQA_OOD_Scenario_1.png, id=1000, 1322.9425pt x 1720.4275pt>
+File: images/lampiran/55611642-VQA_OOD_Scenario_1.png Graphic file (type png)
+<use images/lampiran/55611642-VQA_OOD_Scenario_1.png>
+Package pdftex.def Info: images/lampiran/55611642-VQA_OOD_Scenario_1.png  used on input line 54.
+(pdftex.def)             Requested size: 179.25114pt x 233.08774pt.
+<images/lampiran/55611672-VQA_OOD_Scenario_2.png, id=1001, 1322.9425pt x 1720.4275pt>
+File: images/lampiran/55611672-VQA_OOD_Scenario_2.png Graphic file (type png)
+<use images/lampiran/55611672-VQA_OOD_Scenario_2.png>
+Package pdftex.def Info: images/lampiran/55611672-VQA_OOD_Scenario_2.png  used on input line 59.
+(pdftex.def)             Requested size: 179.25114pt x 233.08774pt.
+<images/lampiran/55611689-VQA_OOD_Scenario_3.png, id=1002, 1322.9425pt x 1720.4275pt>
+File: images/lampiran/55611689-VQA_OOD_Scenario_3.png Graphic file (type png)
+<use images/lampiran/55611689-VQA_OOD_Scenario_3.png>
+Package pdftex.def Info: images/lampiran/55611689-VQA_OOD_Scenario_3.png  used on input line 66.
+(pdftex.def)             Requested size: 179.25114pt x 233.08774pt.
+ [201 <./images/lampiran/55611642-VQA_OOD_Scenario_1.png> <./images/lampiran/55611672-VQA_OOD_Scenario_2.png> <./images/lampiran/55611689-VQA_OOD_Scenario_3.png>]
+<images/lampiran/55611697-Domain_Boundary.png, id=1009, 1322.9425pt x 1720.4275pt>
+File: images/lampiran/55611697-Domain_Boundary.png Graphic file (type png)
+<use images/lampiran/55611697-Domain_Boundary.png>
+Package pdftex.def Info: images/lampiran/55611697-Domain_Boundary.png  used on input line 77.
+(pdftex.def)             Requested size: 318.67209pt x 414.40738pt.
+) [202 <./images/lampiran/55611697-Domain_Boundary.png>]
+runsystem(latexminted cleantemp  --timestamp 20260127065451 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
+
+ (main.aux (chapters/bab1.aux) (chapters/bab2.aux) (chapters/bab3.aux) (chapters/bab4.aux) (chapters/bab5.aux) (chapters/lampiran.aux))
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2020/03/25>
+ ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 61718 strings out of 467871
+ 1465147 string characters out of 5416924
+ 4085845 words of memory out of 5000000
+ 89772 multiletter control sequences out of 15000+600000
+ 724167 words of font info for 166 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 140i,15n,142p,2971b,7008s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI7.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsym.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmbi.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
+Output written on main.pdf (221 pages, 50195836 bytes).
+PDF statistics:
+ 1086 PDF objects out of 1200 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 862 words of extra memory for PDF output out of 10000 (max. 10000000)
+

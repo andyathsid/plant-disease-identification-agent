@@ -1,0 +1,4 @@
+[submodule "research/react-agent-engine"]
+	path = research/react-agent-engine
+	url = https://github.com/andyathsid/react-agent-engine.git
+	branch = main

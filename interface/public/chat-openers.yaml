@@ -1,0 +1,9 @@
+# Chat Openers Configuration
+# Daftar contoh pertanyaan untuk memulai percakapan
+chatOpeners:
+    - "Apa saja penyakit umum pada tanaman padi?"
+    - "Bagaimana cara mengidentifikasi penyakit layu pada tomat?"
+    - "Apa penyebab bercak daun pada tanaman jagung?"
+    - "Bagaimana cara mencegah penyakit karat pada tanaman kedelai?"
+    - "Apa gejala penyakit busuk akar pada tanaman cabai?"
+    - "Bagaimana pengobatan penyakit embun tepung pada tanaman mentimun?"
