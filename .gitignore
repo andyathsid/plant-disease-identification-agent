@@ -8,3 +8,5 @@ scraping/automation
 .github
 corpus
 vespa_storage
+.vercel
+.env*.local
