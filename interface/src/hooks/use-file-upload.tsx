@@ -35,6 +35,52 @@ export function useFileUpload({
   const [dragOver, setDragOver] = useState(false);
   const dragCounter = useRef(0);
 
+  const processFiles = async (files: File[]) => {
+    const newBlocks = await Promise.all(
+      files.map(async (file) => {
+        const block = await fileToContentBlock(file);
+        if (file.type.startsWith("image/")) {
+          const fileId = `${file.name}-${file.size}-${file.lastModified}`;
+          block.metadata = { ...block.metadata, uploading: true, fileId };
+          setUploadingFiles((prev) => ({ ...prev, [fileId]: true }));
+        }
+        return block;
+      })
+    );
+
+    if (newBlocks.length > 0) {
+      setContentBlocks((prev) => [...prev, ...newBlocks]);
+    }
+
+    for (const file of files) {
+      if (file.type.startsWith("image/")) {
+        const fileId = `${file.name}-${file.size}-${file.lastModified}`;
+        const formData = new FormData();
+        formData.append("file", file);
+        uploadImageAction(formData)
+          .then((url) => {
+            setContentBlocks((prev) =>
+              prev.map((b) =>
+                b.metadata?.fileId === fileId
+                  ? { ...b, metadata: { ...b.metadata, url, uploading: false } }
+                  : b
+              )
+            );
+          })
+          .catch((error) => {
+            console.error("Failed to upload image to Supabase:", error);
+          })
+          .finally(() => {
+            setUploadingFiles((prev) => {
+              const newState = { ...prev };
+              delete newState[fileId];
+              return newState;
+            });
+          });
+      }
+    }
+  };
+
   const handleFileUpload = async (e: ChangeEvent<HTMLInputElement>) => {
     const files = e.target.files;
     if (!files) return;
@@ -43,41 +89,7 @@ export function useFileUpload({
     const validation = validateFiles(fileArray, contentBlocks);
     showFileValidationErrors(validation, false);
 
-    const newBlocks = await Promise.all(
-      validation.uniqueFiles.map(async (file) => {
-        const block = await fileToContentBlock(file);
-        if (file.type.startsWith("image/")) {
-          // Generate a unique ID for this file upload
-          const fileId = `${file.name}-${file.size}-${file.lastModified}`;
-
-          // Mark this file as uploading
-          setUploadingFiles(prev => ({ ...prev, [fileId]: true }));
-
-          try {
-            const formData = new FormData();
-            formData.append("file", file);
-            const url = await uploadImageAction(formData);
-            block.metadata = { ...block.metadata, url, uploading: false, fileId };
-          } catch (error) {
-            console.error("Failed to upload image to Supabase:", error);
-            block.metadata = { ...block.metadata, uploading: false, fileId };
-          } finally {
-            // Mark this file as no longer uploading
-            setUploadingFiles(prev => {
-              const newState = { ...prev };
-              delete newState[fileId];
-              return newState;
-            });
-          }
-        }
-        return block;
-      }),
-    );
-
-    if (newBlocks.length > 0) {
-      setContentBlocks((prev) => [...prev, ...newBlocks]);
-    }
-
+    await processFiles(validation.uniqueFiles);
     e.target.value = "";
   };
 
@@ -113,40 +125,7 @@ export function useFileUpload({
       const validation = validateFiles(files, contentBlocks);
       showFileValidationErrors(validation, false);
 
-      const newBlocks = await Promise.all(
-        validation.uniqueFiles.map(async (file) => {
-          const block = await fileToContentBlock(file);
-          if (file.type.startsWith("image/")) {
-            // Generate a unique ID for this file upload
-            const fileId = `${file.name}-${file.size}-${file.lastModified}`;
-
-            // Mark this file as uploading
-            setUploadingFiles(prev => ({ ...prev, [fileId]: true }));
-
-            try {
-              const formData = new FormData();
-              formData.append("file", file);
-              const url = await uploadImageAction(formData);
-              block.metadata = { ...block.metadata, url, uploading: false, fileId };
-            } catch (error) {
-              console.error("Failed to upload image to Supabase:", error);
-              block.metadata = { ...block.metadata, uploading: false, fileId };
-            } finally {
-              // Mark this file as no longer uploading
-              setUploadingFiles(prev => {
-                const newState = { ...prev };
-                delete newState[fileId];
-                return newState;
-              });
-            }
-          }
-          return block;
-        }),
-      );
-
-      if (newBlocks.length > 0) {
-        setContentBlocks((prev) => [...prev, ...newBlocks]);
-      }
+      await processFiles(validation.uniqueFiles);
     };
     const handleWindowDragEnd = (e: DragEvent) => {
       dragCounter.current = 0;
@@ -232,40 +211,7 @@ export function useFileUpload({
     const validation = validateFiles(files, contentBlocks);
     showFileValidationErrors(validation, true);
 
-    const newBlocks = await Promise.all(
-      validation.uniqueFiles.map(async (file) => {
-        const block = await fileToContentBlock(file);
-        if (file.type.startsWith("image/")) {
-          // Generate a unique ID for this file upload
-          const fileId = `${file.name}-${file.size}-${file.lastModified}`;
-
-          // Mark this file as uploading
-          setUploadingFiles(prev => ({ ...prev, [fileId]: true }));
-
-          try {
-            const formData = new FormData();
-            formData.append("file", file);
-            const url = await uploadImageAction(formData);
-            block.metadata = { ...block.metadata, url, uploading: false, fileId };
-          } catch (error) {
-            console.error("Failed to upload image to Supabase:", error);
-            block.metadata = { ...block.metadata, uploading: false, fileId };
-          } finally {
-            // Mark this file as no longer uploading
-            setUploadingFiles(prev => {
-              const newState = { ...prev };
-              delete newState[fileId];
-              return newState;
-            });
-          }
-        }
-        return block;
-      }),
-    );
-
-    if (newBlocks.length > 0) {
-      setContentBlocks((prev) => [...prev, ...newBlocks]);
-    }
+    await processFiles(validation.uniqueFiles);
   };
 
   return {

@@ -10,7 +10,6 @@ export const SUPPORTED_FILE_TYPES = [
   "image/png",
   "image/gif",
   "image/webp",
-  "application/pdf",
 ] as const;
 
 /**
@@ -18,9 +17,9 @@ export const SUPPORTED_FILE_TYPES = [
  */
 const ERROR_MESSAGES = {
   INVALID_FILE_TYPE:
-    "You have uploaded invalid file type. Please upload a JPEG, PNG, GIF, WEBP image or a PDF.",
+    "Tipe file tidak didukung. Unggah gambar JPEG, PNG, GIF, atau WEBP.",
   INVALID_FILE_TYPE_PASTE:
-    "You have pasted an invalid file type. Please paste a JPEG, PNG, GIF, WEBP image or a PDF.",
+    "Tipe file tidak didukung. Tempel gambar JPEG, PNG, GIF, atau WEBP.",
   DUPLICATE_FILES: (fileNames: string[]) =>
     `Duplicate file(s) detected: ${fileNames.join(", ")}. Each file can only be uploaded once per message.`,
 } as const;
@@ -32,15 +31,6 @@ export function isDuplicate(
   file: File,
   existingBlocks: Base64ContentBlock[],
 ): boolean {
-  if (file.type === "application/pdf") {
-    return existingBlocks.some(
-      (block) =>
-        block.type === "file" &&
-        block.mime_type === "application/pdf" &&
-        block.metadata?.filename === file.name,
-    );
-  }
-
   if (SUPPORTED_FILE_TYPES.includes(file.type as (typeof SUPPORTED_FILE_TYPES)[number])) {
     return existingBlocks.some(
       (block) =>
