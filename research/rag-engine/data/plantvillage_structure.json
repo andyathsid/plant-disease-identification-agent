@@ -1,0 +1,13 @@
+{
+  "plant": "string",
+  "description": "string",
+  "propagation": "string",
+  "pests_and_diseases": [
+    {
+      "category": "fungal | bacterial | viral | pest",
+      "name": "string",
+      "symptoms": "string",
+      "management": "string"
+    }
+  ]
+}

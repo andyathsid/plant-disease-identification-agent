@@ -1,0 +1,7 @@
+{
+  "plant": "string",
+  "description": "string",
+  "cultivation": "string",
+  "propagation": "string",
+  "pests_and_diseases": "string"
+}
