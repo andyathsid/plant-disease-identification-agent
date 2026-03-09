@@ -31,7 +31,6 @@ try:
     from rfdetr import RFDETRNano, RFDETRSmall, RFDETRMedium
     RFDETR_AVAILABLE = True
 except ImportError:
-    print("Warning: rfdetr not available. RF-DETR export will be skipped.")
     RFDETR_AVAILABLE = False
 
 # Base project directory (thesis). Use parents to make paths robust when script
@@ -282,7 +281,7 @@ def export_yolo_models():
             
             # Export non-simplified version to its own directory
             print(f"Exporting {model_name} to non-simplified version...")
-            model.export(format="onnx", simplify=False, device="cpu", imgsz=(416, 320), dynamic=False)
+            model.export(format="onnx", simplify=False, device="cpu", imgsz=(416, 416), dynamic=False)
             
             # Move the exported file to the non-simplified directory
             default_onnx = model_path.with_suffix('.onnx')
@@ -297,7 +296,7 @@ def export_yolo_models():
 
             # Export simplified version to its own directory
             print(f"Exporting {model_name} to simplified version...")
-            model.export(format="onnx", simplify=True, device="cpu", imgsz=(416, 320), dynamic=False)
+            model.export(format="onnx", simplify=True, device="cpu", imgsz=(416, 416), dynamic=False)
             
             # Move the exported file to the simplified directory
             default_onnx = model_path.with_suffix('.onnx')

@@ -16,7 +16,7 @@ import onnxruntime as ort
 ROOT_DIR = Path(__file__).resolve().parent
 DATA_DIR = Path(r"D:\Workspace\Repository\thesis\research\object-detection-engine\data\plantdoc")
 
-YOLOV11_DIR = Path(r"D:\Workspace\Repository\thesis\research\object-detection-engine\models\yolov11")
+YOLOV11_DIR = Path(r"D:\Workspace\Repository\thesis\research\object-detection-engine\models\yolov11\simplified")  
 
 # Update these patterns if your dataset is organised differently
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png")
@@ -130,8 +130,8 @@ def load_random_image(image_paths):
 
 def create_session(model_path: Path):
     so = ort.SessionOptions()
-    so.intra_op_num_threads = 4
-    so.inter_op_num_threads = 4
+    so.intra_op_num_threads = 8  
+    so.inter_op_num_threads = 1  # minimize contention
     providers = ["CPUExecutionProvider"]
     return ort.InferenceSession(str(model_path), sess_options=so, providers=providers)
 
@@ -225,7 +225,7 @@ def main():
 
     # YOLOv11 ONNX (use 416x416 for all)
     for size_name in ["n", "s", "m"]:
-        onnx_file = YOLOV11_DIR / f"yolo11{size_name}.sim.onnx"
+        onnx_file = YOLOV11_DIR / f"yolo11{size_name}.onnx"
         if onnx_file.exists():
             models.append((f"YOLOv11-{size_name}", 416, onnx_file))
         else:
