@@ -1,11 +1,37 @@
-models
-qdrant_storage
+# Models
+*.onnx
+*.pt
+yolov12/
+
+# Misc & Caches
 *-venv/
 __pycache__
 scraping/automation
-.env
 .github
 corpus
 vespa_storage
 .vercel
+.langgraph_api
+react_agent_engine.egg-info/
+.deepeval/
+.vscode/
+.fastembed_cache
+
+# Env
+.env
 .env*.local
+
+# Data
+data/plantwild/evaluation/images/*
+!data/plantwild/evaluation/images/.gitkeep
+data/knowledge_base/
+data/corpus
+data/evaluation_cache
+qdrant_storage/*
+!qdrant_storage/.gitkeep
+
+# Unused Files & Directories
+old/
+mwe/
+backup/
+prompts/
