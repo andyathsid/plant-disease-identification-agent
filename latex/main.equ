@@ -133,7 +133,12 @@
  \cftsetpnumwidth {\widthof {112}-.2em} 
  \cftsetpnumwidth {\widthof {113}-.2em} 
  \cftsetpnumwidth {\widthof {114}-.2em} 
+\contentsline {equations}{\numberline {3.1}Intersection over Union (IoU)}{114}{equation.3.1}%
+\contentsline {equations}{\numberline {3.2}Precision}{114}{equation.3.2}%
+\contentsline {equations}{\numberline {3.3}Recall}{114}{equation.3.3}%
  \cftsetpnumwidth {\widthof {115}-.2em} 
+\contentsline {equations}{\numberline {3.4}F1-score}{115}{equation.3.4}%
+\contentsline {equations}{\numberline {3.5}Mean Average Precision (mAP)}{115}{equation.3.5}%
  \cftsetpnumwidth {\widthof {116}-.2em} 
  \cftsetpnumwidth {\widthof {117}-.2em} 
  \cftsetpnumwidth {\widthof {118}-.2em} 
@@ -146,10 +151,10 @@
  \cftsetpnumwidth {\widthof {125}-.2em} 
  \cftsetpnumwidth {\widthof {126}-.2em} 
  \cftsetpnumwidth {\widthof {127}-.2em} 
-\contentsline {equations}{Persamaan 3.1\hskip 1em\relax Reciprocal Rank Fusion (RRF)}{127}{equation.3.1}%
  \cftsetpnumwidth {\widthof {128}-.2em} 
  \cftsetpnumwidth {\widthof {129}-.2em} 
  \cftsetpnumwidth {\widthof {130}-.2em} 
+\contentsline {equations}{\numberline {3.6}Reciprocal Rank Fusion (RRF)}{130}{equation.3.6}%
  \cftsetpnumwidth {\widthof {131}-.2em} 
  \cftsetpnumwidth {\widthof {132}-.2em} 
  \cftsetpnumwidth {\widthof {133}-.2em} 
@@ -166,24 +171,19 @@
  \cftsetpnumwidth {\widthof {144}-.2em} 
  \cftsetpnumwidth {\widthof {145}-.2em} 
  \cftsetpnumwidth {\widthof {146}-.2em} 
-\contentsline {equations}{Persamaan 3.2\hskip 1em\relax Intersection over Union (IoU)}{146}{equation.3.2}%
-\contentsline {equations}{Persamaan 3.3\hskip 1em\relax Precision}{146}{equation.3.3}%
+\contentsline {equations}{\numberline {3.7}Latensi p50 (Median)}{146}{equation.3.7}%
+\contentsline {equations}{\numberline {3.8}Latensi p95 (Persentil ke-95)}{146}{equation.3.8}%
  \cftsetpnumwidth {\widthof {147}-.2em} 
-\contentsline {equations}{Persamaan 3.4\hskip 1em\relax Recall}{147}{equation.3.4}%
-\contentsline {equations}{Persamaan 3.5\hskip 1em\relax F1-score}{147}{equation.3.5}%
-\contentsline {equations}{Persamaan 3.6\hskip 1em\relax Mean Average Precision (mAP)}{147}{equation.3.6}%
  \cftsetpnumwidth {\widthof {148}-.2em} 
  \cftsetpnumwidth {\widthof {149}-.2em} 
-\contentsline {equations}{Persamaan 3.7\hskip 1em\relax Latensi p50 (Median)}{149}{equation.3.7}%
-\contentsline {equations}{Persamaan 3.8\hskip 1em\relax Latensi p95 (Persentil ke-95)}{149}{equation.3.8}%
  \cftsetpnumwidth {\widthof {150}-.2em} 
+\contentsline {equations}{\numberline {3.9}Mean Reciprocal Rank (MRR)}{150}{equation.3.9}%
  \cftsetpnumwidth {\widthof {151}-.2em} 
-\contentsline {equations}{Persamaan 3.9\hskip 1em\relax Mean Reciprocal Rank (MRR)}{151}{equation.3.9}%
-\contentsline {equations}{Persamaan 3.10\hskip 1em\relax Discounted Cumulative Gain (DCG@k)}{151}{equation.3.10}%
-\contentsline {equations}{Persamaan 3.11\hskip 1em\relax Ideal Discounted Cumulative Gain (IDCG@k)}{151}{equation.3.11}%
+\contentsline {equations}{\numberline {3.10}Discounted Cumulative Gain (DCG@k)}{151}{equation.3.10}%
+\contentsline {equations}{\numberline {3.11}Ideal Discounted Cumulative Gain (IDCG@k)}{151}{equation.3.11}%
+\contentsline {equations}{\numberline {3.12}Normalized Discounted Cumulative Gain (NDCG@k)}{151}{equation.3.12}%
  \cftsetpnumwidth {\widthof {152}-.2em} 
-\contentsline {equations}{Persamaan 3.12\hskip 1em\relax Normalized Discounted Cumulative Gain (NDCG@k)}{152}{equation.3.12}%
-\contentsline {equations}{Persamaan 3.13\hskip 1em\relax Recall@k}{152}{equation.3.13}%
+\contentsline {equations}{\numberline {3.13}Recall@k}{152}{equation.3.13}%
  \cftsetpnumwidth {\widthof {153}-.2em} 
  \cftsetpnumwidth {\widthof {154}-.2em} 
  \cftsetpnumwidth {\widthof {155}-.2em} 
@@ -256,3 +256,42 @@
  \cftsetpnumwidth {\widthof {222}-.2em} 
  \cftsetpnumwidth {\widthof {223}-.2em} 
  \cftsetpnumwidth {\widthof {224}-.2em} 
+ \cftsetpnumwidth {\widthof {225}-.2em} 
+ \cftsetpnumwidth {\widthof {226}-.2em} 
+ \cftsetpnumwidth {\widthof {227}-.2em} 
+ \cftsetpnumwidth {\widthof {228}-.2em} 
+ \cftsetpnumwidth {\widthof {229}-.2em} 
+ \cftsetpnumwidth {\widthof {230}-.2em} 
+ \cftsetpnumwidth {\widthof {231}-.2em} 
+ \cftsetpnumwidth {\widthof {232}-.2em} 
+ \cftsetpnumwidth {\widthof {233}-.2em} 
+ \cftsetpnumwidth {\widthof {234}-.2em} 
+ \cftsetpnumwidth {\widthof {235}-.2em} 
+ \cftsetpnumwidth {\widthof {236}-.2em} 
+ \cftsetpnumwidth {\widthof {237}-.2em} 
+ \cftsetpnumwidth {\widthof {238}-.2em} 
+ \cftsetpnumwidth {\widthof {239}-.2em} 
+ \cftsetpnumwidth {\widthof {240}-.2em} 
+ \cftsetpnumwidth {\widthof {241}-.2em} 
+ \cftsetpnumwidth {\widthof {242}-.2em} 
+ \cftsetpnumwidth {\widthof {243}-.2em} 
+ \cftsetpnumwidth {\widthof {244}-.2em} 
+ \cftsetpnumwidth {\widthof {245}-.2em} 
+ \cftsetpnumwidth {\widthof {246}-.2em} 
+ \cftsetpnumwidth {\widthof {247}-.2em} 
+ \cftsetpnumwidth {\widthof {248}-.2em} 
+ \cftsetpnumwidth {\widthof {249}-.2em} 
+ \cftsetpnumwidth {\widthof {250}-.2em} 
+ \cftsetpnumwidth {\widthof {251}-.2em} 
+ \cftsetpnumwidth {\widthof {252}-.2em} 
+ \cftsetpnumwidth {\widthof {253}-.2em} 
+ \cftsetpnumwidth {\widthof {254}-.2em} 
+ \cftsetpnumwidth {\widthof {255}-.2em} 
+ \cftsetpnumwidth {\widthof {256}-.2em} 
+ \cftsetpnumwidth {\widthof {257}-.2em} 
+ \cftsetpnumwidth {\widthof {258}-.2em} 
+ \cftsetpnumwidth {\widthof {259}-.2em} 
+ \cftsetpnumwidth {\widthof {260}-.2em} 
+ \cftsetpnumwidth {\widthof {261}-.2em} 
+ \cftsetpnumwidth {\widthof {262}-.2em} 
+ \cftsetpnumwidth {\widthof {263}-.2em} 

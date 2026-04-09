@@ -149,6 +149,22 @@
      {\addspace\bibstring{and}\space}
      {\finalandcomma\addspace\bibstring{and}\space}}}
 
+\DeclareDelimFormat[cite]{finalnamedelim}{%
+  \ifthenelse{\value{liststop}>2}
+    {\finalandcomma\addspace\bibstring{and}\space}
+    {\addspace\bibstring{and}\space}}
+
+\DeclareDelimFormat[cite]{finalnamedelim:apa:family-given}{%
+  \ifthenelse{\ifcurrentname{groupauthor}\AND%
+              \value{liststop}=2}
+    {\addspace\bibstring{and}\space}
+    {\finalandcomma\addspace\bibstring{and}\space}}
+
+\DeclareDelimFormat[cite]{finalnamedelim}{%
+  \ifthenelse{\value{liststop}>2}
+    {\finalandcomma\addspace\bibstring{and}\space}
+    {\addspace\bibstring{and}\space}}
+
 
 
 \endinput

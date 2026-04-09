@@ -1,4 +1,7 @@
-\contentsline {lampiran}{Lampiran 1\ Jadwal Penelitian}{221}{lampiran.1}%
-\contentsline {lampiran}{Lampiran 2\ Hasil Pengujian VQA ID}{222}{lampiran.2}%
-\contentsline {lampiran}{Lampiran 3\ Hasil Pengujian VQA OOD}{223}{lampiran.3}%
-\contentsline {lampiran}{Lampiran 4\ Hasil Pengujian Domain Boundary}{224}{lampiran.4}%
+\contentsline {lampiran}{\numberline {1}Jadwal Penelitian}{260}{lampiran.1}%
+\contentsline {lampiran}{\numberline {2}Repositori Kode Sumber Hasil Penelitian}{260}{lampiran.2}%
+\contentsline {lampiran}{\numberline {3}Hasil Pengujian Satu Tahap pada Dataset \textit {In-Distribution} (ID)}{260}{lampiran.3}%
+\contentsline {lampiran}{\numberline {4}Hasil Pengujian Satu Tahap pada Dataset \textit {Out-of-Distribution} (OOD)}{261}{lampiran.4}%
+\contentsline {lampiran}{\numberline {5}Hasil Pengujian Multi-Tahap}{261}{lampiran.5}%
+\contentsline {lampiran}{\numberline {6}Hasil Uji Similaritas Turnitin}{262}{lampiran.6}%
+\contentsline {lampiran}{\numberline {7}Hasil Uji Deteksi AI}{263}{lampiran.7}%

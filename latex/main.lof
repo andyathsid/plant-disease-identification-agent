@@ -67,306 +67,365 @@
  \cftsetpnumwidth {\widthof {29}-.2em} 
 \contentsline {figure}{\numberline {2.15}{\ignorespaces Dekomposisi dan representasi operasi matriks pada mekanisme \textit {self-attention}}}{29}{figure.caption.16}%
  \cftsetpnumwidth {\widthof {30}-.2em} 
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Arsitektur \textit {Transformer}}}{30}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Arsitektur Transformer}}{30}{figure.caption.17}%
  \cftsetpnumwidth {\widthof {31}-.2em} 
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Tiga varian arsitektur \textit {Transformer}}}{31}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Tiga varian arsitektur Transformer}}{31}{figure.caption.18}%
  \cftsetpnumwidth {\widthof {32}-.2em} 
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Representasi visual arsitektur \textit {encoder} pada BERT dan \textit {decoder} pada GPT}}{32}{figure.caption.19}%
  \cftsetpnumwidth {\widthof {33}-.2em} 
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Arsitektur \textit {Vision Transformer}}}{33}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Arsitektur Vision Transformer}}{33}{figure.caption.19}%
  \cftsetpnumwidth {\widthof {34}-.2em} 
  \cftsetpnumwidth {\widthof {35}-.2em} 
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Perbandingan arsitektur \textit {Transformer} standar dan MoE pada GShard}}{35}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Perbandingan arsitektur Transformer standar dan MoE pada GShard}}{35}{figure.caption.20}%
  \cftsetpnumwidth {\widthof {36}-.2em} 
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Mekanisme \textit {routing} pada \textit {Switch Transformer}}}{36}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Mekanisme \textit {routing} pada Switch Transformer}}{36}{figure.caption.21}%
  \cftsetpnumwidth {\widthof {37}-.2em} 
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Visualisasi definisi \textit {multimodal}}}{37}{figure.caption.23}%
  \cftsetpnumwidth {\widthof {38}-.2em} 
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Aspek utama dalam model \textit {multimodal}}}{38}{figure.caption.24}%
  \cftsetpnumwidth {\widthof {39}-.2em} 
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Ilustrasi arsitektur tipikal MLLM}}{39}{figure.caption.22}%
  \cftsetpnumwidth {\widthof {40}-.2em} 
-\contentsline {figure}{\numberline {2.24}{\ignorespaces Ilustrasi arsitektur tipikal MLLM}}{40}{figure.caption.25}%
  \cftsetpnumwidth {\widthof {41}-.2em} 
  \cftsetpnumwidth {\widthof {42}-.2em} 
-\contentsline {figure}{\numberline {2.25}{\ignorespaces Empat Kategori Utama \textit {Vision-Language Models}}}{42}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Empat Kategori Utama \textit {Vision-Language Models}}}{42}{figure.caption.23}%
  \cftsetpnumwidth {\widthof {43}-.2em} 
-\contentsline {figure}{\numberline {2.26}{\ignorespaces Taksonomi Evaluasi \textit {Vision-Language Models}}}{43}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Taksonomi Evaluasi \textit {Vision-Language Models}}}{43}{figure.caption.24}%
  \cftsetpnumwidth {\widthof {44}-.2em} 
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Arsitektur dan mekanisme pelatihan CLIP}}{44}{figure.caption.25}%
  \cftsetpnumwidth {\widthof {45}-.2em} 
-\contentsline {figure}{\numberline {2.27}{\ignorespaces Arsitektur dan mekanisme pelatihan CLIP}}{45}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Arsitektur SCOLD}}{45}{figure.caption.26}%
  \cftsetpnumwidth {\widthof {46}-.2em} 
-\contentsline {figure}{\numberline {2.28}{\ignorespaces Arsitektur SCOLD}}{46}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.26}{\ignorespaces Gambaran umum kemampuan \textit {multimodal} Gemini}}{46}{figure.caption.28}%
  \cftsetpnumwidth {\widthof {47}-.2em} 
-\contentsline {figure}{\numberline {2.29}{\ignorespaces Gambaran umum kemampuan \textit {multimodal} Gemini}}{47}{figure.caption.31}%
  \cftsetpnumwidth {\widthof {48}-.2em} 
  \cftsetpnumwidth {\widthof {49}-.2em} 
+\contentsline {figure}{\numberline {2.27}{\ignorespaces Perbandingan kecepatan Gemini 2.5 Flash}}{49}{figure.caption.29}%
  \cftsetpnumwidth {\widthof {50}-.2em} 
-\contentsline {figure}{\numberline {2.30}{\ignorespaces Perbandingan kecepatan Gemini 2.5 Flash}}{50}{figure.caption.32}%
  \cftsetpnumwidth {\widthof {51}-.2em} 
  \cftsetpnumwidth {\widthof {52}-.2em} 
  \cftsetpnumwidth {\widthof {53}-.2em} 
  \cftsetpnumwidth {\widthof {54}-.2em} 
  \cftsetpnumwidth {\widthof {55}-.2em} 
+\contentsline {figure}{\numberline {2.28}{\ignorespaces Contoh \textit {System Prompt}}}{55}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.29}{\ignorespaces Perbandingan \textit {standard prompting} dan \textit {chain-of-thought prompting}}}{55}{figure.caption.31}%
  \cftsetpnumwidth {\widthof {56}-.2em} 
-\contentsline {figure}{\numberline {2.31}{\ignorespaces Contoh \textit {System Prompt}}}{56}{figure.caption.33}%
  \cftsetpnumwidth {\widthof {57}-.2em} 
-\contentsline {figure}{\numberline {2.32}{\ignorespaces Perbandingan \textit {standard prompting} dan \textit {chain-of-thought prompting}}}{57}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.30}{\ignorespaces Ilustrasi metode ReAct}}{57}{figure.caption.32}%
  \cftsetpnumwidth {\widthof {58}-.2em} 
-\contentsline {figure}{\numberline {2.33}{\ignorespaces Ilustrasi metode ReAct}}{58}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.31}{\ignorespaces Perbedaan Antara \textit {Image Recognition} dan \textit {Object Detection}}}{58}{figure.caption.33}%
  \cftsetpnumwidth {\widthof {59}-.2em} 
-\contentsline {figure}{\numberline {2.34}{\ignorespaces Perbedaan Antara \textit {Image Recognition} dan \textit {Object Detection}}}{59}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.32}{\ignorespaces Perbedaan \textit {closed-set} dan \textit {open-vocabulary object detection}}}{59}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.33}{\ignorespaces Arsitektur YOLO}}{59}{figure.caption.35}%
  \cftsetpnumwidth {\widthof {60}-.2em} 
-\contentsline {figure}{\numberline {2.35}{\ignorespaces Perbedaan \textit {closed-set} dan \textit {open-vocabulary object detection}}}{60}{figure.caption.37}%
  \cftsetpnumwidth {\widthof {61}-.2em} 
-\contentsline {figure}{\numberline {2.36}{\ignorespaces Arsitektur YOLO}}{61}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.34}{\ignorespaces Arsitektur YOLOv11}}{61}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.35}{\ignorespaces Perbandingan performa YOLOv11}}{61}{figure.caption.37}%
  \cftsetpnumwidth {\widthof {62}-.2em} 
-\contentsline {figure}{\numberline {2.37}{\ignorespaces Arsitektur YOLOv11}}{62}{figure.caption.39}%
  \cftsetpnumwidth {\widthof {63}-.2em} 
-\contentsline {figure}{\numberline {2.38}{\ignorespaces Perbandingan performa YOLOv11}}{63}{figure.caption.40}%
  \cftsetpnumwidth {\widthof {64}-.2em} 
+\contentsline {figure}{\numberline {2.36}{\ignorespaces Arsitektur OWLv2}}{64}{figure.caption.38}%
  \cftsetpnumwidth {\widthof {65}-.2em} 
+\contentsline {figure}{\numberline {2.37}{\ignorespaces Komponen inti arsitektur RAG}}{65}{figure.caption.39}%
  \cftsetpnumwidth {\widthof {66}-.2em} 
-\contentsline {figure}{\numberline {2.39}{\ignorespaces Arsitektur OWLv2}}{66}{figure.caption.41}%
  \cftsetpnumwidth {\widthof {67}-.2em} 
-\contentsline {figure}{\numberline {2.40}{\ignorespaces Komponen inti arsitektur RAG}}{67}{figure.caption.42}%
+\contentsline {figure}{\numberline {2.38}{\ignorespaces Kerangka kerja \textit {Vanilla RAG}}}{67}{figure.caption.40}%
  \cftsetpnumwidth {\widthof {68}-.2em} 
-\contentsline {figure}{\numberline {2.41}{\ignorespaces Kerangka kerja \textit {Vanilla RAG}}}{68}{figure.caption.43}%
+\contentsline {figure}{\numberline {2.39}{\ignorespaces Kerangka kerja \textit {Advanced RAG}}}{68}{figure.caption.41}%
  \cftsetpnumwidth {\widthof {69}-.2em} 
  \cftsetpnumwidth {\widthof {70}-.2em} 
-\contentsline {figure}{\numberline {2.42}{\ignorespaces Kerangka kerja \textit {Advanced RAG}}}{70}{figure.caption.44}%
  \cftsetpnumwidth {\widthof {71}-.2em} 
+\contentsline {figure}{\numberline {2.40}{\ignorespaces Arsitektur sistem \textit {ad hoc information retrieval}}}{71}{figure.caption.42}%
  \cftsetpnumwidth {\widthof {72}-.2em} 
  \cftsetpnumwidth {\widthof {73}-.2em} 
-\contentsline {figure}{\numberline {2.43}{\ignorespaces Arsitektur sistem \textit {ad hoc information retrieval}}}{73}{figure.caption.45}%
+\contentsline {figure}{\numberline {2.41}{\ignorespaces Arsitektur Sentence-BERT}}{73}{figure.caption.43}%
  \cftsetpnumwidth {\widthof {74}-.2em} 
  \cftsetpnumwidth {\widthof {75}-.2em} 
-\contentsline {figure}{\numberline {2.44}{\ignorespaces Arsitektur Sentence-BERT}}{75}{figure.caption.46}%
  \cftsetpnumwidth {\widthof {76}-.2em} 
+\contentsline {figure}{\numberline {2.42}{\ignorespaces Perbandingan arsitektur \textit {bi-encoder} dan \textit {cross-encoder}}}{76}{figure.caption.44}%
  \cftsetpnumwidth {\widthof {77}-.2em} 
+\contentsline {figure}{\numberline {2.43}{\ignorespaces Ilustrasi mekanisme \textit {late interaction} pada ColBERT}}{77}{figure.caption.45}%
  \cftsetpnumwidth {\widthof {78}-.2em} 
-\contentsline {figure}{\numberline {2.45}{\ignorespaces Perbandingan arsitektur \textit {bi-encoder} dan \textit {cross-encoder}}}{78}{figure.caption.47}%
+\contentsline {figure}{\numberline {2.44}{\ignorespaces Struktur Data \textit {Point} pada Qdrant}}{78}{figure.caption.46}%
  \cftsetpnumwidth {\widthof {79}-.2em} 
-\contentsline {figure}{\numberline {2.46}{\ignorespaces Ilustrasi mekanisme \textit {late interaction} pada ColBERT}}{79}{figure.caption.48}%
  \cftsetpnumwidth {\widthof {80}-.2em} 
-\contentsline {figure}{\numberline {2.47}{\ignorespaces Struktur Data \textit {Point} pada Qdrant}}{80}{figure.caption.49}%
+\contentsline {figure}{\numberline {2.45}{\ignorespaces Komponen-komponen sistem agentik}}{80}{figure.caption.47}%
  \cftsetpnumwidth {\widthof {81}-.2em} 
  \cftsetpnumwidth {\widthof {82}-.2em} 
-\contentsline {figure}{\numberline {2.48}{\ignorespaces Komponen-komponen sistem agentik}}{82}{figure.caption.50}%
  \cftsetpnumwidth {\widthof {83}-.2em} 
  \cftsetpnumwidth {\widthof {84}-.2em} 
  \cftsetpnumwidth {\widthof {85}-.2em} 
  \cftsetpnumwidth {\widthof {86}-.2em} 
+\contentsline {figure}{\numberline {2.46}{\ignorespaces Arsitektur LangSmith Deployment}}{86}{figure.caption.48}%
  \cftsetpnumwidth {\widthof {87}-.2em} 
  \cftsetpnumwidth {\widthof {88}-.2em} 
-\contentsline {figure}{\numberline {2.49}{\ignorespaces Arsitektur LangSmith Deployment}}{88}{figure.caption.51}%
+\contentsline {figure}{\numberline {2.47}{\ignorespaces Kerangka kerja G-Eval}}{88}{figure.caption.49}%
  \cftsetpnumwidth {\widthof {89}-.2em} 
  \cftsetpnumwidth {\widthof {90}-.2em} 
-\contentsline {figure}{\numberline {2.50}{\ignorespaces Kerangka kerja G-Eval}}{90}{figure.caption.52}%
  \cftsetpnumwidth {\widthof {91}-.2em} 
+\contentsline {figure}{\numberline {2.48}{\ignorespaces Contoh arsitektur metrik DAG pada DeepEval}}{91}{figure.caption.50}%
  \cftsetpnumwidth {\widthof {92}-.2em} 
  \cftsetpnumwidth {\widthof {93}-.2em} 
-\contentsline {figure}{\numberline {2.51}{\ignorespaces Contoh arsitektur metrik DAG pada DeepEval}}{93}{figure.caption.53}%
  \cftsetpnumwidth {\widthof {94}-.2em} 
  \cftsetpnumwidth {\widthof {95}-.2em} 
  \cftsetpnumwidth {\widthof {96}-.2em} 
  \cftsetpnumwidth {\widthof {97}-.2em} 
- \cftsetpnumwidth {\widthof {98}-.2em} 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Tahapan penelitian metode \textit {Design and Development} (D\&D)}}{98}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Tahapan penelitian metode \textit {Design and Development} (D\&D)}}{97}{figure.caption.51}%
+ \cftsetpnumwidth {\widthof {98}-.2em} 
  \cftsetpnumwidth {\widthof {99}-.2em} 
  \cftsetpnumwidth {\widthof {100}-.2em} 
  \cftsetpnumwidth {\widthof {101}-.2em} 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Arsitektur sistem agentik dengan kemampuan multimodal}}{101}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Visualisasi sistem agentik}}{101}{figure.caption.52}%
  \cftsetpnumwidth {\widthof {102}-.2em} 
  \cftsetpnumwidth {\widthof {103}-.2em} 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Perbandingan antara (a) desain teoritis ReAct dan (b) implementasi berbasis graf pada LangGraph}}{103}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Perbandingan desain teoritis ReAct dan implementasi LangGraph}}{103}{figure.caption.53}%
  \cftsetpnumwidth {\widthof {104}-.2em} 
  \cftsetpnumwidth {\widthof {105}-.2em} 
  \cftsetpnumwidth {\widthof {106}-.2em} 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Visualisasi kerangka kerja CO-STAR}}{106}{figure.caption.54}%
  \cftsetpnumwidth {\widthof {107}-.2em} 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Visualisasi kerangka kerja CO-STAR}}{107}{figure.caption.59}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Alur kerja modul deteksi objek}}{107}{figure.caption.55}%
  \cftsetpnumwidth {\widthof {108}-.2em} 
  \cftsetpnumwidth {\widthof {109}-.2em} 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Alur Kerja Modul Deteksi Objek Tanaman}}{109}{figure.caption.60}%
  \cftsetpnumwidth {\widthof {110}-.2em} 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Dataset PlantDoc: (a) Sampel citra dan (b) Distribusi kelas}}{110}{figure.caption.61}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Dataset PlantDoc: (a) tampilan repositori dan (b) sampel citra}}{110}{figure.caption.56}%
  \cftsetpnumwidth {\widthof {111}-.2em} 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Distribusi kelas pada dataset PlantDoc}}{111}{figure.caption.57}%
  \cftsetpnumwidth {\widthof {112}-.2em} 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Arsitektur Model OWLv2 yang Digunakan}}{112}{figure.caption.63}%
  \cftsetpnumwidth {\widthof {113}-.2em} 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Alur Kerja Modul Pencarian Gambar-Teks Penyakit Tanaman}}{113}{figure.caption.64}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Distribusi Kelas pada Dataset PlantWild}}{113}{figure.caption.65}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Model OWLv2}}{113}{figure.caption.58}%
  \cftsetpnumwidth {\widthof {114}-.2em} 
  \cftsetpnumwidth {\widthof {115}-.2em} 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Visualisasi Mekanisme Penyaringan}}{115}{figure.caption.67}%
  \cftsetpnumwidth {\widthof {116}-.2em} 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Visualisasi empat strategi pencarian multimodal: (a) \textit {Text-to-Text}, (b) \textit {Text-to-Image}, (c) \textit {Image-to-Image}, dan (d) \textit {Image-to-Text}}}{116}{figure.caption.68}%
  \cftsetpnumwidth {\widthof {117}-.2em} 
  \cftsetpnumwidth {\widthof {118}-.2em} 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Alur Kerja Modul Pencarian Informasi}}{118}{figure.caption.69}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Alur kerja modul pengambilan informasi}}{118}{figure.caption.59}%
  \cftsetpnumwidth {\widthof {119}-.2em} 
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Peringkat \textit {gemini-embedding-001} dan \textit {text-embedding-3-large} pada MTEB}}{119}{figure.caption.70}%
  \cftsetpnumwidth {\widthof {120}-.2em} 
  \cftsetpnumwidth {\widthof {121}-.2em} 
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Diagram Alur Pengujian Komponen Alat Pencarian Basis Data Pengetahuan}}{121}{figure.caption.71}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Dataset PlantWild dari \citeauthor {weiBenchmarkingInthewildMultimodal2024}}}{121}{figure.caption.60}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Alur kerja persiapan data RAG}}{121}{figure.caption.61}%
  \cftsetpnumwidth {\widthof {122}-.2em} 
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Alur Kerja Persiapan Data Dari Crawling hingga Pembangkitan Dataset QA}}{122}{figure.caption.72}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Tampilan antarmuka situs sumber data: (a) plantvillage.psu.edu dan (b) gardenology.org}}{122}{figure.caption.62}%
  \cftsetpnumwidth {\widthof {123}-.2em} 
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Tampilan antarmuka situs sumber data: (a) PlantVillage dan (b) Gardenology}}{123}{figure.caption.73}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Sampel korpus dokumen hasil \textit {semantic chunking}}}{123}{figure.caption.63}%
  \cftsetpnumwidth {\widthof {124}-.2em} 
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Sampel korpus dokumen hasil pemotongan semantik}}{124}{figure.caption.75}%
  \cftsetpnumwidth {\widthof {125}-.2em} 
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Tampilan model SCOLD di Hugging Face}}{125}{figure.caption.64}%
  \cftsetpnumwidth {\widthof {126}-.2em} 
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Visualisasi mekanisme penyaringan \textit {payload} berbasis \textit {full-text index}}}{126}{figure.caption.65}%
  \cftsetpnumwidth {\widthof {127}-.2em} 
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Visualisasi Alur Kerja Strategi Pencarian Hibrida pada Basis Data Pengetahuan}}{127}{figure.caption.78}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Empat teknik pengambilan \textit {multimodal} pada alat pengambilan citra-teks}}{127}{figure.caption.66}%
  \cftsetpnumwidth {\widthof {128}-.2em} 
  \cftsetpnumwidth {\widthof {129}-.2em} 
  \cftsetpnumwidth {\widthof {130}-.2em} 
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Arsitektur antarmuka sistem agentik}}{130}{figure.caption.80}%
  \cftsetpnumwidth {\widthof {131}-.2em} 
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Use Case Diagram Antarmuka Sistem Agentik}}{131}{figure.caption.81}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Alur kerja teknik pencarian hibrida pada alat pengambilan basis pengetahuan}}{131}{figure.caption.67}%
  \cftsetpnumwidth {\widthof {132}-.2em} 
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Diagram Urutan Interaksi Identifikasi Penyakit Tanaman}}{132}{figure.caption.82}%
  \cftsetpnumwidth {\widthof {133}-.2em} 
  \cftsetpnumwidth {\widthof {134}-.2em} 
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Diagram Urutan Pengiriman Pesan Baru}}{134}{figure.caption.83}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Konfigurasi \textit {cluster} di Qdrant Cloud}}{134}{figure.caption.68}%
  \cftsetpnumwidth {\widthof {135}-.2em} 
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Diagram Urutan Akses \textit {Thread} Sebelumnya}}{135}{figure.caption.84}%
  \cftsetpnumwidth {\widthof {136}-.2em} 
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Diagram Urutan Melanjutkan Percakapan pada \textit {Thread} Lama}}{136}{figure.caption.85}%
  \cftsetpnumwidth {\widthof {137}-.2em} 
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Tampilan prototipe antarmuka sistem agentik}}{137}{figure.caption.86}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Arsitektur antarmuka sistem agentik}}{137}{figure.caption.69}%
  \cftsetpnumwidth {\widthof {138}-.2em} 
+\contentsline {figure}{\numberline {3.20}{\ignorespaces \textit {Use case diagram} antarmuka sistem agentik}}{138}{figure.caption.70}%
  \cftsetpnumwidth {\widthof {139}-.2em} 
+\contentsline {figure}{\numberline {3.21}{\ignorespaces \textit {Sequence diagram} interaksi sistem agentik dalam identifikasi penyakit tanaman}}{139}{figure.caption.71}%
  \cftsetpnumwidth {\widthof {140}-.2em} 
+\contentsline {figure}{\numberline {3.22}{\ignorespaces \textit {sequence diagram} pengiriman pesan baru}}{140}{figure.caption.72}%
  \cftsetpnumwidth {\widthof {141}-.2em} 
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Contoh Entri Dataset Evaluasi OOD dalam Format JSON}}{141}{figure.caption.89}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces \textit {Sequence diagram} akses \textit {thread} sebelumnya}}{141}{figure.caption.73}%
  \cftsetpnumwidth {\widthof {142}-.2em} 
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Contoh Prompt Few-Shot untuk Skenario 1}}{142}{figure.caption.90}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces \textit {Sequence diagram} melanjutkan percakapan pada \textit {thread} lama}}{142}{figure.caption.74}%
  \cftsetpnumwidth {\widthof {143}-.2em} 
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Alur instruksi pembangkitan dataset sintetis dengan LLM}}{143}{figure.caption.91}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Tampilan prototipe antarmuka sistem agentik}}{143}{figure.caption.75}%
  \cftsetpnumwidth {\widthof {144}-.2em} 
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Contoh Entri Dataset Evaluasi Sintetis: (a) Skenario 1, (b) Skenario 2, dan (c) Skenario 3}}{144}{figure.caption.92}%
  \cftsetpnumwidth {\widthof {145}-.2em} 
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Diagram alur prosedur \textit {benchmarking} latensi model}}{145}{figure.caption.76}%
  \cftsetpnumwidth {\widthof {146}-.2em} 
  \cftsetpnumwidth {\widthof {147}-.2em} 
  \cftsetpnumwidth {\widthof {148}-.2em} 
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Diagram Alur Prosedur \textit {Benchmarking} Latensi Model}}{148}{figure.caption.93}%
  \cftsetpnumwidth {\widthof {149}-.2em} 
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Diagram alur pengujian komponen alat pencarian basis data pengetahuan}}{149}{figure.caption.77}%
  \cftsetpnumwidth {\widthof {150}-.2em} 
-\contentsline {figure}{\numberline {3.31}{\ignorespaces Contoh Grafik \textit {Pareto Frontier} mAP vs Latensi}}{150}{figure.caption.94}%
  \cftsetpnumwidth {\widthof {151}-.2em} 
  \cftsetpnumwidth {\widthof {152}-.2em} 
  \cftsetpnumwidth {\widthof {153}-.2em} 
  \cftsetpnumwidth {\widthof {154}-.2em} 
-\contentsline {figure}{\numberline {3.32}{\ignorespaces Diagram Alur Logika Evaluasi Disease Accuracy menggunakan DAG}}{154}{figure.caption.96}%
  \cftsetpnumwidth {\widthof {155}-.2em} 
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Contoh entri dataset evaluasi OOD dalam format JSON}}{155}{figure.caption.78}%
  \cftsetpnumwidth {\widthof {156}-.2em} 
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Contoh \textit {prompt} \textit {few-shot} untuk Skenario 1}}{156}{figure.caption.79}%
  \cftsetpnumwidth {\widthof {157}-.2em} 
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Alur instruksi menghasilkan dataset sintetis dengan LLM}}{157}{figure.caption.80}%
  \cftsetpnumwidth {\widthof {158}-.2em} 
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Contoh entri dataset evaluasi sintetis}}{158}{figure.caption.81}%
  \cftsetpnumwidth {\widthof {159}-.2em} 
  \cftsetpnumwidth {\widthof {160}-.2em} 
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Diagram logika penilaian DAG dari \textit {disease accuracy}}}{160}{figure.caption.82}%
  \cftsetpnumwidth {\widthof {161}-.2em} 
  \cftsetpnumwidth {\widthof {162}-.2em} 
  \cftsetpnumwidth {\widthof {163}-.2em} 
-\contentsline {figure}{\numberline {3.33}{\ignorespaces \textit {Prompt} Evaluasi untuk Metrik Domain Adherence}}{163}{figure.caption.104}%
  \cftsetpnumwidth {\widthof {164}-.2em} 
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Representasi graf sistem agentik setelah proses kompilasi}}{164}{figure.caption.105}%
  \cftsetpnumwidth {\widthof {165}-.2em} 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Visualisasi graf agen pada LangSmith Studio}}{165}{figure.caption.106}%
  \cftsetpnumwidth {\widthof {166}-.2em} 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Contoh keluaran agen saat diuji di LangSmith Studio}}{166}{figure.caption.107}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Jejak eksekusi (\textit {trace}) agen yang menampilkan pemanggilan alat}}{166}{figure.caption.108}%
  \cftsetpnumwidth {\widthof {167}-.2em} 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Tampilan antarmuka manajemen prompt pada LangSmith Prompt Hub}}{167}{figure.caption.109}%
  \cftsetpnumwidth {\widthof {168}-.2em} 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Realisasi instruksi Context dan Objective pada sistem}}{168}{figure.caption.110}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Realisasi instruksi Style, Tone, dan Audience pada sistem}}{168}{figure.caption.111}%
  \cftsetpnumwidth {\widthof {169}-.2em} 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Realisasi instruksi Response Structure pada sistem}}{169}{figure.caption.112}%
  \cftsetpnumwidth {\widthof {170}-.2em} 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Realisasi referensi teknis alat pada sistem}}{170}{figure.caption.113}%
+\contentsline {figure}{\numberline {3.33}{\ignorespaces \textit {Prompt} penilaian untuk metrik \textit {Domain Adherence}}}{170}{figure.caption.83}%
  \cftsetpnumwidth {\widthof {171}-.2em} 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Diagram alir kebijakan penggunaan alat (\textit {Tool Decision Policy})}}{171}{figure.caption.114}%
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Contoh grafik \textit {Pareto Frontier} mAP berbanding latensi}}{171}{figure.caption.84}%
  \cftsetpnumwidth {\widthof {172}-.2em} 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Diagram alir mekanisme aturan kebenaran (\textit {Hard Truthfulness Rules})}}{172}{figure.caption.115}%
  \cftsetpnumwidth {\widthof {173}-.2em} 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Sampel citra dan anotasi dari dataset PlantDoc}}{173}{figure.caption.116}%
  \cftsetpnumwidth {\widthof {174}-.2em} 
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Contoh sampel \textit {batch} pelatihan pada model YOLOv11-nano}}{174}{figure.caption.118}%
  \cftsetpnumwidth {\widthof {175}-.2em} 
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Kurva metrik pelatihan dan validasi untuk model (a) YOLOv11-nano, (b) YOLOv11-small, dan (c) YOLOv11-medium}}{175}{figure.caption.119}%
- \cftsetpnumwidth {\widthof {176}-.2em} 
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Hasil prediksi deteksi daun pada data uji menggunakan model (a) YOLOv11-nano, (b) YOLOv11-small, dan (c) YOLOv11-medium}}{176}{figure.caption.120}%
- \cftsetpnumwidth {\widthof {177}-.2em} 
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Perbandingan performa deteksi (mAP) antar varian YOLOv11}}{177}{figure.caption.122}%
- \cftsetpnumwidth {\widthof {178}-.2em} 
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Perbandingan latensi inferensi (p50 dan p95) antar varian YOLOv11}}{178}{figure.caption.123}%
- \cftsetpnumwidth {\widthof {179}-.2em} 
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Analisis \textit {Pareto Frontier} pada (a) mAP@50 vs Latensi p50 dan (b) mAP@50-95 vs Latensi p95 untuk pemilihan model terbaik}}{179}{figure.caption.124}%
- \cftsetpnumwidth {\widthof {180}-.2em} 
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Contoh hasil deteksi buah menggunakan model OWLv2}}{180}{figure.caption.125}%
- \cftsetpnumwidth {\widthof {181}-.2em} 
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Tampilan dasbor Qdrant yang menunjukkan status koleksi data PlantWild}}{181}{figure.caption.127}%
- \cftsetpnumwidth {\widthof {182}-.2em} 
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Struktur poin data yang menyimpan vektor ganda dan metadata}}{182}{figure.caption.128}%
- \cftsetpnumwidth {\widthof {183}-.2em} 
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Hasil verifikasi fungsionalitas pencarian multimodal: (a) Text-to-Image, (b) Image-to-Image, (c) Text-to-Text, dan (d) Image-to-Text}}{183}{figure.caption.129}%
- \cftsetpnumwidth {\widthof {184}-.2em} 
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Perbandingan hasil pencarian: (a) Tanpa filter metadata dan (b) Dengan filter metadata tanaman 'Apple'}}{184}{figure.caption.130}%
- \cftsetpnumwidth {\widthof {185}-.2em} 
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Perbandingan kinerja reranker pada top-5 dokumen: tanpa reranker, late interaction, dan cross-encoder.}}{185}{figure.caption.132}%
- \cftsetpnumwidth {\widthof {186}-.2em} 
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Tampilan antarmuka utama sistem agentik}}{186}{figure.caption.133}%
- \cftsetpnumwidth {\widthof {187}-.2em} 
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Implementasi antarmuka untuk fitur interaksi utama dan transparansi}}{187}{figure.caption.134}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Implementasi antarmuka untuk pengelolaan riwayat percakapan (UC4)}}{187}{figure.caption.135}%
- \cftsetpnumwidth {\widthof {188}-.2em} 
- \cftsetpnumwidth {\widthof {189}-.2em} 
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Tampilan dataset ID, OOD, dan Domain Boundary yang terintegrasi di LangSmith}}{189}{figure.caption.137}%
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Detail contoh data evaluasi dalam LangSmith yang mencakup input dan referensi}}{189}{figure.caption.138}%
- \cftsetpnumwidth {\widthof {190}-.2em} 
- \cftsetpnumwidth {\widthof {191}-.2em} 
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Tangkapan layar hasil eksperimen pada dashboard LangSmith. Kolom kiri menampilkan hasil pengujian pada dataset \textit {In-Distribution} (ID), sedangkan kolom kanan menampilkan hasil pada dataset \textit {Out-of-Distribution} (OOD). Urutan baris dari atas ke bawah merepresentasikan Skenario 1, Skenario 2, dan Skenario 3.}}{191}{figure.caption.140}%
- \cftsetpnumwidth {\widthof {192}-.2em} 
-\contentsline {figure}{\numberline {4.31}{\ignorespaces Contoh eksekusi sukses pada input citra daun menggunakan alat deteksi \textit {closed-set}}}{192}{figure.caption.141}%
-\contentsline {figure}{\numberline {4.32}{\ignorespaces Contoh eksekusi sukses pada input citra buah menggunakan alat deteksi \textit {open-vocabulary}}}{192}{figure.caption.142}%
- \cftsetpnumwidth {\widthof {193}-.2em} 
-\contentsline {figure}{\numberline {4.33}{\ignorespaces Sampel kasus dengan skor rendah pada Skenario 3, didominasi oleh penyakit jamur}}{193}{figure.caption.143}%
- \cftsetpnumwidth {\widthof {194}-.2em} 
-\contentsline {figure}{\numberline {4.34}{\ignorespaces Contoh kegagalan identifikasi akibat kesalahan pengenalan tanaman yang mempengaruhi filter pencarian}}{194}{figure.caption.144}%
- \cftsetpnumwidth {\widthof {195}-.2em} 
-\contentsline {figure}{\numberline {4.35}{\ignorespaces Visualisasi skor \textit {Domain Adherence}, latensi, dan penggunaan token pada eksperimen Domain Boundary}}{195}{figure.caption.145}%
-\contentsline {figure}{\numberline {4.36}{\ignorespaces Daftar eksekusi eksperimen Domain Boundary dengan variasi persona pengguna}}{195}{figure.caption.146}%
- \cftsetpnumwidth {\widthof {196}-.2em} 
-\contentsline {figure}{\numberline {4.37}{\ignorespaces Contoh penanganan kasus batas (\textit {Edge Case}) dan penilaian evaluator otomatis terhadap respons agen}}{196}{figure.caption.147}%
- \cftsetpnumwidth {\widthof {197}-.2em} 
- \cftsetpnumwidth {\widthof {198}-.2em} 
- \cftsetpnumwidth {\widthof {199}-.2em} 
- \cftsetpnumwidth {\widthof {200}-.2em} 
 \addvspace {10\p@ }
+ \cftsetpnumwidth {\widthof {176}-.2em} 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Representasi graf sistem agentik}}{176}{figure.caption.85}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Visualisasi graf agen}}{176}{figure.caption.86}%
+ \cftsetpnumwidth {\widthof {177}-.2em} 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Tampilan antarmuka manajemen \textit {prompt}}}{177}{figure.caption.87}%
+ \cftsetpnumwidth {\widthof {178}-.2em} 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Realisasi instruksi \textit {context} dan \textit {objective}}}{178}{figure.caption.88}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Realisasi instruksi \textit {style}, \textit {tone}, dan \textit {audience}}}{178}{figure.caption.89}%
+ \cftsetpnumwidth {\widthof {179}-.2em} 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Realisasi instruksi \textit {response structure}}}{179}{figure.caption.90}%
+ \cftsetpnumwidth {\widthof {180}-.2em} 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Realisasi referensi teknis alat}}{180}{figure.caption.91}%
+ \cftsetpnumwidth {\widthof {181}-.2em} 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Realisasi \textit {tool decision policy} dalam instruksi sistem agen}}{181}{figure.caption.92}%
+ \cftsetpnumwidth {\widthof {182}-.2em} 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Realisasi \textit {hard truthfulness rules} pada instruksi sistem agen}}{182}{figure.caption.93}%
+ \cftsetpnumwidth {\widthof {183}-.2em} 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Sampel dataset PlantDoc}}{183}{figure.caption.94}%
+ \cftsetpnumwidth {\widthof {184}-.2em} 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Sampel \textit {batch} pelatihan YOLOv11n}}{184}{figure.caption.95}%
+ \cftsetpnumwidth {\widthof {185}-.2em} 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Konversi dan spesifikasi model ONNX YOLOv11}}{185}{figure.caption.96}%
+ \cftsetpnumwidth {\widthof {186}-.2em} 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Konversi dan spesifikasi model ONNX OWLv2}}{186}{figure.caption.97}%
+ \cftsetpnumwidth {\widthof {187}-.2em} 
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Status koleksi data PlantWild pada Qdrant}}{187}{figure.caption.98}%
+ \cftsetpnumwidth {\widthof {188}-.2em} 
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Struktur \textit {point} data PlantWild}}{188}{figure.caption.99}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Status koleksi basis pengetahuan pada Qdrant}}{188}{figure.caption.100}%
+ \cftsetpnumwidth {\widthof {189}-.2em} 
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Struktur \textit {point} basis pengetahuan}}{189}{figure.caption.101}%
+ \cftsetpnumwidth {\widthof {190}-.2em} 
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Dasbor layanan Tavily}}{190}{figure.caption.102}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Antarmuka utama sistem agentik}}{190}{figure.caption.103}%
+ \cftsetpnumwidth {\widthof {191}-.2em} 
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Status \textit {deployment} sistem}}{191}{figure.caption.104}%
+ \cftsetpnumwidth {\widthof {192}-.2em} 
+ \cftsetpnumwidth {\widthof {193}-.2em} 
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Kurva pelatihan dan validasi varian YOLOv11}}{193}{figure.caption.105}%
+ \cftsetpnumwidth {\widthof {194}-.2em} 
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Hasil prediksi deteksi daun pada data uji}}{194}{figure.caption.106}%
+ \cftsetpnumwidth {\widthof {195}-.2em} 
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Perbandingan performa varian YOLOv11}}{195}{figure.caption.107}%
+ \cftsetpnumwidth {\widthof {196}-.2em} 
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Proses \textit {benchmarking} latensi model ONNX}}{196}{figure.caption.108}%
+ \cftsetpnumwidth {\widthof {197}-.2em} 
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Perbandingan latensi varian YOLOv11}}{197}{figure.caption.109}%
+ \cftsetpnumwidth {\widthof {198}-.2em} 
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Analisis \textit {Pareto Frontier} untuk pemilihan model}}{198}{figure.caption.110}%
+ \cftsetpnumwidth {\widthof {199}-.2em} 
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Hasil deteksi buah dengan OWLv2}}{199}{figure.caption.111}%
+ \cftsetpnumwidth {\widthof {200}-.2em} 
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Proses pengukuran latensi OWLv2}}{200}{figure.caption.112}%
  \cftsetpnumwidth {\widthof {201}-.2em} 
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Pengujian terisolasi alat deteksi}}{201}{figure.caption.113}%
  \cftsetpnumwidth {\widthof {202}-.2em} 
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Pengujian integrasi agen pada alat deteksi}}{202}{figure.caption.114}%
  \cftsetpnumwidth {\widthof {203}-.2em} 
  \cftsetpnumwidth {\widthof {204}-.2em} 
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Verifikasi pengambilan dengan masukan citra}}{204}{figure.caption.115}%
  \cftsetpnumwidth {\widthof {205}-.2em} 
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Verifikasi pengambilan dengan masukan teks}}{205}{figure.caption.116}%
  \cftsetpnumwidth {\widthof {206}-.2em} 
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Perbandingan hasil pengambilan citra-teks}}{206}{figure.caption.117}%
  \cftsetpnumwidth {\widthof {207}-.2em} 
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Pengujian alat pengambilan citra-teks tanpa deteksi}}{207}{figure.caption.118}%
  \cftsetpnumwidth {\widthof {208}-.2em} 
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Pengujian alat pengambilan citra-teks dengan deteksi}}{208}{figure.caption.119}%
  \cftsetpnumwidth {\widthof {209}-.2em} 
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Perbandingan kinerja \textit {hybrid search}}}{209}{figure.caption.120}%
  \cftsetpnumwidth {\widthof {210}-.2em} 
+\contentsline {figure}{\numberline {4.37}{\ignorespaces Perbandingan kinerja metode \textit {reranking}}}{210}{figure.caption.121}%
  \cftsetpnumwidth {\widthof {211}-.2em} 
+\contentsline {figure}{\numberline {4.38}{\ignorespaces Verifikasi alat pengambilan basis pengetahuan}}{211}{figure.caption.122}%
  \cftsetpnumwidth {\widthof {212}-.2em} 
+\contentsline {figure}{\numberline {4.39}{\ignorespaces Pengujian alat pencarian internet}}{212}{figure.caption.123}%
  \cftsetpnumwidth {\widthof {213}-.2em} 
+\contentsline {figure}{\numberline {4.40}{\ignorespaces Integrasi agen pada alat pengambilan citra-teks}}{213}{figure.caption.124}%
  \cftsetpnumwidth {\widthof {214}-.2em} 
+\contentsline {figure}{\numberline {4.41}{\ignorespaces Integrasi agen pada alat pengambilan basis pengetahuan}}{214}{figure.caption.125}%
  \cftsetpnumwidth {\widthof {215}-.2em} 
+\contentsline {figure}{\numberline {4.42}{\ignorespaces Integrasi agen pada alat pencarian internet}}{215}{figure.caption.126}%
  \cftsetpnumwidth {\widthof {216}-.2em} 
  \cftsetpnumwidth {\widthof {217}-.2em} 
  \cftsetpnumwidth {\widthof {218}-.2em} 
+\contentsline {figure}{\numberline {4.43}{\ignorespaces Antarmuka interaksi dasar pengguna}}{218}{figure.caption.127}%
  \cftsetpnumwidth {\widthof {219}-.2em} 
+\contentsline {figure}{\numberline {4.44}{\ignorespaces Antarmuka hasil diagnosis dan transparansi}}{219}{figure.caption.128}%
  \cftsetpnumwidth {\widthof {220}-.2em} 
+\contentsline {figure}{\numberline {4.45}{\ignorespaces Antarmuka pengelolaan riwayat percakapan}}{220}{figure.caption.129}%
  \cftsetpnumwidth {\widthof {221}-.2em} 
+\contentsline {figure}{\numberline {4.46}{\ignorespaces Keluaran agen di LangSmith Studio}}{221}{figure.caption.131}%
  \cftsetpnumwidth {\widthof {222}-.2em} 
+\contentsline {figure}{\numberline {4.47}{\ignorespaces Jejak eksekusi pemanggilan alat agen}}{222}{figure.caption.132}%
  \cftsetpnumwidth {\widthof {223}-.2em} 
+\contentsline {figure}{\numberline {4.48}{\ignorespaces Dataset evaluasi di LangSmith}}{223}{figure.caption.133}%
+\contentsline {figure}{\numberline {4.49}{\ignorespaces Data evaluasi dalam LangSmith}}{223}{figure.caption.134}%
  \cftsetpnumwidth {\widthof {224}-.2em} 
+ \cftsetpnumwidth {\widthof {225}-.2em} 
+\contentsline {figure}{\numberline {4.50}{\ignorespaces Tangkapan layar hasil eksperimen Skenario 1 pada dasbor LangSmith}}{225}{figure.caption.135}%
+ \cftsetpnumwidth {\widthof {226}-.2em} 
+\contentsline {figure}{\numberline {4.51}{\ignorespaces Tangkapan layar hasil eksperimen Skenario 2 pada dasbor LangSmith}}{226}{figure.caption.136}%
+ \cftsetpnumwidth {\widthof {227}-.2em} 
+\contentsline {figure}{\numberline {4.52}{\ignorespaces Tangkapan layar hasil eksperimen Skenario 3 pada dasbor LangSmith}}{227}{figure.caption.137}%
+ \cftsetpnumwidth {\widthof {228}-.2em} 
+\contentsline {figure}{\numberline {4.53}{\ignorespaces Eksekusi sukses dengan deteksi \textit {closed-set}}}{228}{figure.caption.138}%
+\contentsline {figure}{\numberline {4.54}{\ignorespaces Eksekusi sukses dengan deteksi OVD}}{228}{figure.caption.139}%
+ \cftsetpnumwidth {\widthof {229}-.2em} 
+\contentsline {figure}{\numberline {4.55}{\ignorespaces Kasus Skenario 3 dengan skor rendah}}{229}{figure.caption.140}%
+ \cftsetpnumwidth {\widthof {230}-.2em} 
+\contentsline {figure}{\numberline {4.56}{\ignorespaces Kegagalan identifikasi akibat kesalahan filter}}{230}{figure.caption.141}%
+\contentsline {figure}{\numberline {4.57}{\ignorespaces Hasil eksperimen \textit {Domain Boundary}}}{230}{figure.caption.142}%
+ \cftsetpnumwidth {\widthof {231}-.2em} 
+\contentsline {figure}{\numberline {4.58}{\ignorespaces Eksekusi eksperimen \textit {Domain Boundary}}}{231}{figure.caption.143}%
+ \cftsetpnumwidth {\widthof {232}-.2em} 
+\contentsline {figure}{\numberline {4.59}{\ignorespaces Penanganan \textit {Edge Case} oleh agen}}{232}{figure.caption.144}%
+ \cftsetpnumwidth {\widthof {233}-.2em} 
+ \cftsetpnumwidth {\widthof {234}-.2em} 
+ \cftsetpnumwidth {\widthof {235}-.2em} 
+ \cftsetpnumwidth {\widthof {236}-.2em} 
+ \cftsetpnumwidth {\widthof {237}-.2em} 
+\addvspace {10\p@ }
+ \cftsetpnumwidth {\widthof {238}-.2em} 
+ \cftsetpnumwidth {\widthof {239}-.2em} 
+ \cftsetpnumwidth {\widthof {240}-.2em} 
+ \cftsetpnumwidth {\widthof {241}-.2em} 
+ \cftsetpnumwidth {\widthof {242}-.2em} 
+ \cftsetpnumwidth {\widthof {243}-.2em} 
+ \cftsetpnumwidth {\widthof {244}-.2em} 
+ \cftsetpnumwidth {\widthof {245}-.2em} 
+ \cftsetpnumwidth {\widthof {246}-.2em} 
+ \cftsetpnumwidth {\widthof {247}-.2em} 
+ \cftsetpnumwidth {\widthof {248}-.2em} 
+ \cftsetpnumwidth {\widthof {249}-.2em} 
+ \cftsetpnumwidth {\widthof {250}-.2em} 
+ \cftsetpnumwidth {\widthof {251}-.2em} 
+ \cftsetpnumwidth {\widthof {252}-.2em} 
+ \cftsetpnumwidth {\widthof {253}-.2em} 
+ \cftsetpnumwidth {\widthof {254}-.2em} 
+ \cftsetpnumwidth {\widthof {255}-.2em} 
+ \cftsetpnumwidth {\widthof {256}-.2em} 
+ \cftsetpnumwidth {\widthof {257}-.2em} 
+ \cftsetpnumwidth {\widthof {258}-.2em} 
+ \cftsetpnumwidth {\widthof {259}-.2em} 
+ \cftsetpnumwidth {\widthof {260}-.2em} 
+ \cftsetpnumwidth {\widthof {261}-.2em} 
+ \cftsetpnumwidth {\widthof {262}-.2em} 
+ \cftsetpnumwidth {\widthof {263}-.2em} 

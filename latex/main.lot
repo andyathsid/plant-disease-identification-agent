@@ -67,19 +67,19 @@
  \cftsetpnumwidth {\widthof {43}-.2em} 
  \cftsetpnumwidth {\widthof {44}-.2em} 
  \cftsetpnumwidth {\widthof {45}-.2em} 
+\contentsline {table}{\numberline {2.1}{\ignorespaces Perbandingan performa retrieval SCOLD dan CLIP}}{45}{table.caption.27}%
  \cftsetpnumwidth {\widthof {46}-.2em} 
-\contentsline {table}{\numberline {2.1}{\ignorespaces Perbandingan performa retrieval SCOLD dan CLIP}}{46}{table.caption.30}%
  \cftsetpnumwidth {\widthof {47}-.2em} 
+\contentsline {table}{\numberline {2.2}{Hasil \textit {benchmark} Gemini 2.5 Pro pada berbagai tugas}}{47}{table.2.2}%
  \cftsetpnumwidth {\widthof {48}-.2em} 
-\contentsline {table}{\numberline {2.2}{Hasil \textit {benchmark} Gemini 2.5 Pro pada berbagai tugas}}{48}{table.2.2}%
  \cftsetpnumwidth {\widthof {49}-.2em} 
  \cftsetpnumwidth {\widthof {50}-.2em} 
+\contentsline {table}{\numberline {2.3}{Perbandingan kemampuan keluarga model Gemini}}{50}{table.2.3}%
  \cftsetpnumwidth {\widthof {51}-.2em} 
-\contentsline {table}{\numberline {2.3}{Perbandingan kemampuan keluarga model Gemini}}{51}{table.2.3}%
+\contentsline {table}{\numberline {2.4}{Hasil \textit {benchmark} Gemini 3 Pro}}{51}{table.2.4}%
  \cftsetpnumwidth {\widthof {52}-.2em} 
-\contentsline {table}{\numberline {2.4}{Hasil \textit {benchmark} Gemini 3 Pro}}{52}{table.2.4}%
+\contentsline {table}{\numberline {2.5}{Hasil \textit {benchmark} model \textit {embedding} Gemini}}{52}{table.2.5}%
  \cftsetpnumwidth {\widthof {53}-.2em} 
-\contentsline {table}{\numberline {2.5}{Hasil \textit {benchmark} model \textit {embedding} Gemini}}{53}{table.2.5}%
  \cftsetpnumwidth {\widthof {54}-.2em} 
  \cftsetpnumwidth {\widthof {55}-.2em} 
  \cftsetpnumwidth {\widthof {56}-.2em} 
@@ -89,8 +89,8 @@
  \cftsetpnumwidth {\widthof {60}-.2em} 
  \cftsetpnumwidth {\widthof {61}-.2em} 
  \cftsetpnumwidth {\widthof {62}-.2em} 
+\contentsline {table}{\numberline {2.6}{Hasil \textit {benchmark} berbagai varian YOLO}}{62}{table.2.6}%
  \cftsetpnumwidth {\widthof {63}-.2em} 
-\contentsline {table}{\numberline {2.6}{Hasil \textit {benchmark} berbagai varian YOLO}}{63}{table.2.6}%
  \cftsetpnumwidth {\widthof {64}-.2em} 
  \cftsetpnumwidth {\widthof {65}-.2em} 
  \cftsetpnumwidth {\widthof {66}-.2em} 
@@ -112,9 +112,9 @@
  \cftsetpnumwidth {\widthof {82}-.2em} 
  \cftsetpnumwidth {\widthof {83}-.2em} 
  \cftsetpnumwidth {\widthof {84}-.2em} 
+\contentsline {table}{\numberline {2.7}{Perbandingan komponen ekosistem LangChain}}{84}{table.2.7}%
  \cftsetpnumwidth {\widthof {85}-.2em} 
  \cftsetpnumwidth {\widthof {86}-.2em} 
-\contentsline {table}{\numberline {2.7}{Perbandingan komponen ekosistem LangChain}}{86}{table.2.7}%
  \cftsetpnumwidth {\widthof {87}-.2em} 
  \cftsetpnumwidth {\widthof {88}-.2em} 
  \cftsetpnumwidth {\widthof {89}-.2em} 
@@ -124,31 +124,31 @@
  \cftsetpnumwidth {\widthof {93}-.2em} 
  \cftsetpnumwidth {\widthof {94}-.2em} 
  \cftsetpnumwidth {\widthof {95}-.2em} 
+\contentsline {table}{\numberline {2.8}{Rangkuman penelitian terkait}}{95}{table.2.8}%
  \cftsetpnumwidth {\widthof {96}-.2em} 
  \cftsetpnumwidth {\widthof {97}-.2em} 
-\contentsline {table}{\numberline {2.8}{Rangkuman penelitian terkait}}{97}{table.2.8}%
- \cftsetpnumwidth {\widthof {98}-.2em} 
 \addvspace {10\p@ }
+ \cftsetpnumwidth {\widthof {98}-.2em} 
  \cftsetpnumwidth {\widthof {99}-.2em} 
+\contentsline {table}{\numberline {3.1}{Spesifikasi perangkat pendukung pengembangan}}{99}{table.3.1}%
  \cftsetpnumwidth {\widthof {100}-.2em} 
  \cftsetpnumwidth {\widthof {101}-.2em} 
  \cftsetpnumwidth {\widthof {102}-.2em} 
  \cftsetpnumwidth {\widthof {103}-.2em} 
  \cftsetpnumwidth {\widthof {104}-.2em} 
+\contentsline {table}{\numberline {3.2}{Komponen status (\textit {state}) pada agen LLM}}{104}{table.3.2}%
  \cftsetpnumwidth {\widthof {105}-.2em} 
-\contentsline {table}{\numberline {3.1}{\ignorespaces Komponen Status (\textit {State}) pada Agen LLM}}{105}{table.caption.57}%
+\contentsline {table}{\numberline {3.3}{Komponen \textit {middleware} pada agen LLM}}{105}{table.3.3}%
  \cftsetpnumwidth {\widthof {106}-.2em} 
-\contentsline {table}{\numberline {3.2}{\ignorespaces Komponen \textit {Middleware} pada Agen LLM}}{106}{table.caption.58}%
  \cftsetpnumwidth {\widthof {107}-.2em} 
  \cftsetpnumwidth {\widthof {108}-.2em} 
  \cftsetpnumwidth {\widthof {109}-.2em} 
  \cftsetpnumwidth {\widthof {110}-.2em} 
  \cftsetpnumwidth {\widthof {111}-.2em} 
-\contentsline {table}{\numberline {3.3}{\ignorespaces Konfigurasi Hiperparameter Pelatihan YOLOv11}}{111}{table.caption.62}%
  \cftsetpnumwidth {\widthof {112}-.2em} 
+\contentsline {table}{\numberline {3.4}{Konfigurasi hiperparameter pelatihan YOLOv11}}{112}{table.3.4}%
  \cftsetpnumwidth {\widthof {113}-.2em} 
  \cftsetpnumwidth {\widthof {114}-.2em} 
-\contentsline {table}{\numberline {3.4}{\ignorespaces Skema Poin (Vektor dan Payload) pada Indeks Qdrant}}{114}{table.caption.66}%
  \cftsetpnumwidth {\widthof {115}-.2em} 
  \cftsetpnumwidth {\widthof {116}-.2em} 
  \cftsetpnumwidth {\widthof {117}-.2em} 
@@ -157,115 +157,116 @@
  \cftsetpnumwidth {\widthof {120}-.2em} 
  \cftsetpnumwidth {\widthof {121}-.2em} 
  \cftsetpnumwidth {\widthof {122}-.2em} 
+\contentsline {table}{\numberline {3.5}{Skema ekstraksi data dari plantvillage.psu.edu dan gardenology.org}}{122}{table.3.5}%
  \cftsetpnumwidth {\widthof {123}-.2em} 
-\contentsline {table}{\numberline {3.5}{\ignorespaces Skema Ekstraksi Data dari PlantVillage dan Gardenology}}{123}{table.caption.74}%
+\contentsline {table}{\numberline {3.6}{Jenis pertanyaan pada dataset QA sintetis}}{123}{table.3.6}%
  \cftsetpnumwidth {\widthof {124}-.2em} 
  \cftsetpnumwidth {\widthof {125}-.2em} 
-\contentsline {table}{\numberline {3.6}{\ignorespaces Jenis Pertanyaan pada Dataset Evaluasi QA Sintetis}}{125}{table.caption.76}%
+\contentsline {table}{\numberline {3.7}{Skema \textit {point} (vektor dan \textit {payload}) pada indeks Qdrant alat pengambilan citra-teks}}{125}{table.3.7}%
  \cftsetpnumwidth {\widthof {126}-.2em} 
-\contentsline {table}{\numberline {3.7}{\ignorespaces Skema Poin dengan Vektor Jamak dan Metadata pada Basis Data Pengetahuan}}{126}{table.caption.77}%
  \cftsetpnumwidth {\widthof {127}-.2em} 
  \cftsetpnumwidth {\widthof {128}-.2em} 
-\contentsline {table}{\numberline {3.8}{\ignorespaces Konfigurasi Parameter Tavily Search API}}{128}{table.caption.79}%
  \cftsetpnumwidth {\widthof {129}-.2em} 
+\contentsline {table}{\numberline {3.8}{Skema \textit {point} dengan vektor jamak dan metadata pada indeks basis pengetahuan}}{129}{table.3.8}%
  \cftsetpnumwidth {\widthof {130}-.2em} 
  \cftsetpnumwidth {\widthof {131}-.2em} 
  \cftsetpnumwidth {\widthof {132}-.2em} 
+\contentsline {table}{\numberline {3.9}{Konfigurasi parameter Tavily Search API}}{132}{table.3.9}%
  \cftsetpnumwidth {\widthof {133}-.2em} 
  \cftsetpnumwidth {\widthof {134}-.2em} 
  \cftsetpnumwidth {\widthof {135}-.2em} 
  \cftsetpnumwidth {\widthof {136}-.2em} 
  \cftsetpnumwidth {\widthof {137}-.2em} 
  \cftsetpnumwidth {\widthof {138}-.2em} 
-\contentsline {table}{\numberline {3.9}{\ignorespaces Pengujian \textit {Black Box} Antarmuka Sistem Agentik}}{138}{table.caption.87}%
  \cftsetpnumwidth {\widthof {139}-.2em} 
  \cftsetpnumwidth {\widthof {140}-.2em} 
-\contentsline {table}{\numberline {3.10}{\ignorespaces \textit {Rincian Dataset Out-of-Distribution} (OOD)}}{140}{table.caption.88}%
  \cftsetpnumwidth {\widthof {141}-.2em} 
  \cftsetpnumwidth {\widthof {142}-.2em} 
  \cftsetpnumwidth {\widthof {143}-.2em} 
  \cftsetpnumwidth {\widthof {144}-.2em} 
+\contentsline {table}{\numberline {3.10}{Pengujian \textit {black box} Integrasi Modul Deteksi Objek}}{144}{table.3.10}%
  \cftsetpnumwidth {\widthof {145}-.2em} 
  \cftsetpnumwidth {\widthof {146}-.2em} 
  \cftsetpnumwidth {\widthof {147}-.2em} 
+\contentsline {table}{\numberline {3.11}{Pengujian \textit {black box} Fungsionalitas dan Integrasi Modul Pengambilan Informasi}}{147}{table.3.11}%
  \cftsetpnumwidth {\widthof {148}-.2em} 
  \cftsetpnumwidth {\widthof {149}-.2em} 
  \cftsetpnumwidth {\widthof {150}-.2em} 
  \cftsetpnumwidth {\widthof {151}-.2em} 
  \cftsetpnumwidth {\widthof {152}-.2em} 
+\contentsline {table}{\numberline {3.12}{Pengujian \textit {black box} Antarmuka Sistem Agentik}}{152}{table.3.12}%
  \cftsetpnumwidth {\widthof {153}-.2em} 
-\contentsline {table}{\numberline {3.11}{\ignorespaces Kebutuhan Data untuk Evaluasi Disease Accuracy}}{153}{table.caption.95}%
  \cftsetpnumwidth {\widthof {154}-.2em} 
+\contentsline {table}{\numberline {3.13}{Rincian dataset \textit {out-of-distribution} (OOD)}}{154}{table.3.13}%
  \cftsetpnumwidth {\widthof {155}-.2em} 
-\contentsline {table}{\numberline {3.12}{\ignorespaces Kebutuhan Data untuk Evaluasi Trajectory Accuracy}}{155}{table.caption.97}%
  \cftsetpnumwidth {\widthof {156}-.2em} 
-\contentsline {table}{\numberline {3.13}{\ignorespaces Logika Evaluasi dan Rubrik Penilaian Trajectory Accuracy}}{156}{table.caption.98}%
  \cftsetpnumwidth {\widthof {157}-.2em} 
-\contentsline {table}{\numberline {3.14}{\ignorespaces Kebutuhan Data untuk Evaluasi Agent Goal Accuracy}}{157}{table.caption.99}%
  \cftsetpnumwidth {\widthof {158}-.2em} 
-\contentsline {table}{\numberline {3.15}{\ignorespaces Desain Evaluator Agent Goal Accuracy}}{158}{table.caption.100}%
  \cftsetpnumwidth {\widthof {159}-.2em} 
-\contentsline {table}{\numberline {3.16}{\ignorespaces Kebutuhan Data untuk Evaluasi Faithfulness}}{159}{table.caption.101}%
+\contentsline {table}{\numberline {3.14}{Kebutuhan data untuk pengukuran \textit {disease accuracy}}}{159}{table.3.14}%
  \cftsetpnumwidth {\widthof {160}-.2em} 
-\contentsline {table}{\numberline {3.17}{\ignorespaces Desain Evaluator Faithfulness}}{160}{table.caption.102}%
  \cftsetpnumwidth {\widthof {161}-.2em} 
+\contentsline {table}{\numberline {3.15}{Kebutuhan data untuk pengukuran \textit {trajectory accuracy}}}{161}{table.3.15}%
  \cftsetpnumwidth {\widthof {162}-.2em} 
-\contentsline {table}{\numberline {3.18}{\ignorespaces Kebutuhan Data untuk Evaluasi Context Relevance}}{162}{table.caption.103}%
+\contentsline {table}{\numberline {3.16}{Logika penilaian dan rubrik skor \textit {trajectory accuracy}}}{162}{table.3.16}%
  \cftsetpnumwidth {\widthof {163}-.2em} 
+\contentsline {table}{\numberline {3.17}{Kebutuhan data untuk pengukuran \textit {agent goal accuracy}}}{163}{table.3.17}%
  \cftsetpnumwidth {\widthof {164}-.2em} 
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.18}{Desain evaluator \textit {agent goal accuracy}}}{164}{table.3.18}%
  \cftsetpnumwidth {\widthof {165}-.2em} 
+\contentsline {table}{\numberline {3.19}{Kebutuhan data untuk pengukuran \textit {faithfulness}}}{165}{table.3.19}%
  \cftsetpnumwidth {\widthof {166}-.2em} 
+\contentsline {table}{\numberline {3.20}{Desain evaluator \textit {faithfulness}}}{166}{table.3.20}%
  \cftsetpnumwidth {\widthof {167}-.2em} 
  \cftsetpnumwidth {\widthof {168}-.2em} 
+\contentsline {table}{\numberline {3.21}{Kebutuhan data untuk pengukuran \textit {context relevance}}}{168}{table.3.21}%
  \cftsetpnumwidth {\widthof {169}-.2em} 
  \cftsetpnumwidth {\widthof {170}-.2em} 
  \cftsetpnumwidth {\widthof {171}-.2em} 
  \cftsetpnumwidth {\widthof {172}-.2em} 
+\contentsline {table}{\numberline {3.22}{Pengujian \textit {black box} Modul Pengambilan Informasi}}{172}{table.3.22}%
  \cftsetpnumwidth {\widthof {173}-.2em} 
  \cftsetpnumwidth {\widthof {174}-.2em} 
-\contentsline {table}{\numberline {4.1}{\ignorespaces Konfigurasi Hiperparameter Pelatihan Final}}{174}{table.caption.117}%
  \cftsetpnumwidth {\widthof {175}-.2em} 
+\addvspace {10\p@ }
  \cftsetpnumwidth {\widthof {176}-.2em} 
-\contentsline {table}{\numberline {4.2}{\ignorespaces Rangkuman Hasil Evaluasi Performa dan Latensi Model YOLOv11}}{176}{table.caption.121}%
  \cftsetpnumwidth {\widthof {177}-.2em} 
  \cftsetpnumwidth {\widthof {178}-.2em} 
  \cftsetpnumwidth {\widthof {179}-.2em} 
  \cftsetpnumwidth {\widthof {180}-.2em} 
  \cftsetpnumwidth {\widthof {181}-.2em} 
-\contentsline {table}{\numberline {4.3}{\ignorespaces Perbandingan Latensi Model Deteksi Closed-Set dan Open-Vocabulary}}{181}{table.caption.126}%
  \cftsetpnumwidth {\widthof {182}-.2em} 
  \cftsetpnumwidth {\widthof {183}-.2em} 
+\contentsline {table}{\numberline {4.1}{Konfigurasi Hiperparameter Pelatihan Final}}{183}{table.4.1}%
  \cftsetpnumwidth {\widthof {184}-.2em} 
  \cftsetpnumwidth {\widthof {185}-.2em} 
-\contentsline {table}{\numberline {4.4}{\ignorespaces Perbandingan performa empat konfigurasi hybrid search pada benchmark QA}}{185}{table.caption.131}%
  \cftsetpnumwidth {\widthof {186}-.2em} 
  \cftsetpnumwidth {\widthof {187}-.2em} 
  \cftsetpnumwidth {\widthof {188}-.2em} 
-\contentsline {table}{\numberline {4.5}{\ignorespaces Pengujian \textit {Black Box} Antarmuka Sistem Agentik}}{188}{table.caption.136}%
  \cftsetpnumwidth {\widthof {189}-.2em} 
  \cftsetpnumwidth {\widthof {190}-.2em} 
-\contentsline {table}{\numberline {4.6}{\ignorespaces Rangkuman Hasil Evaluasi Metrik Pengujian Satu Tahap}}{190}{table.caption.139}%
  \cftsetpnumwidth {\widthof {191}-.2em} 
  \cftsetpnumwidth {\widthof {192}-.2em} 
  \cftsetpnumwidth {\widthof {193}-.2em} 
  \cftsetpnumwidth {\widthof {194}-.2em} 
  \cftsetpnumwidth {\widthof {195}-.2em} 
+\contentsline {table}{\numberline {4.2}{Hasil Evaluasi Performa dan Latensi YOLOv11}}{195}{table.4.2}%
  \cftsetpnumwidth {\widthof {196}-.2em} 
  \cftsetpnumwidth {\widthof {197}-.2em} 
-\contentsline {table}{\numberline {4.7}{\ignorespaces Rangkuman Hasil Evaluasi Kualitatif Eksperimen Domain Boundary}}{197}{table.caption.148}%
  \cftsetpnumwidth {\widthof {198}-.2em} 
  \cftsetpnumwidth {\widthof {199}-.2em} 
  \cftsetpnumwidth {\widthof {200}-.2em} 
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.3}{Perbandingan Latensi Model Deteksi YOLOv11 dan OWLv2}}{200}{table.4.3}%
  \cftsetpnumwidth {\widthof {201}-.2em} 
  \cftsetpnumwidth {\widthof {202}-.2em} 
+\contentsline {table}{\numberline {4.4}{Hasil pengujian \textit {black box} Integrasi Modul Deteksi Objek}}{202}{table.4.4}%
  \cftsetpnumwidth {\widthof {203}-.2em} 
  \cftsetpnumwidth {\widthof {204}-.2em} 
  \cftsetpnumwidth {\widthof {205}-.2em} 
  \cftsetpnumwidth {\widthof {206}-.2em} 
  \cftsetpnumwidth {\widthof {207}-.2em} 
  \cftsetpnumwidth {\widthof {208}-.2em} 
+\contentsline {table}{\numberline {4.5}{Perbandingan performa konfigurasi hybrid search}}{208}{table.4.5}%
  \cftsetpnumwidth {\widthof {209}-.2em} 
  \cftsetpnumwidth {\widthof {210}-.2em} 
  \cftsetpnumwidth {\widthof {211}-.2em} 
@@ -274,11 +275,55 @@
  \cftsetpnumwidth {\widthof {214}-.2em} 
  \cftsetpnumwidth {\widthof {215}-.2em} 
  \cftsetpnumwidth {\widthof {216}-.2em} 
+\contentsline {table}{\numberline {4.6}{Pengujian \textit {black box} Fungsionalitas dan Integrasi Modul Pengambilan Informasi}}{216}{table.4.6}%
  \cftsetpnumwidth {\widthof {217}-.2em} 
  \cftsetpnumwidth {\widthof {218}-.2em} 
  \cftsetpnumwidth {\widthof {219}-.2em} 
  \cftsetpnumwidth {\widthof {220}-.2em} 
+\contentsline {table}{\numberline {4.7}{\ignorespaces Pengujian \textit {black box} antarmuka sistem}}{220}{table.caption.130}%
  \cftsetpnumwidth {\widthof {221}-.2em} 
  \cftsetpnumwidth {\widthof {222}-.2em} 
  \cftsetpnumwidth {\widthof {223}-.2em} 
  \cftsetpnumwidth {\widthof {224}-.2em} 
+\contentsline {table}{\numberline {4.8}{Rangkuman hasil evaluasi metrik pengujian satu tahap}}{224}{table.4.8}%
+ \cftsetpnumwidth {\widthof {225}-.2em} 
+ \cftsetpnumwidth {\widthof {226}-.2em} 
+ \cftsetpnumwidth {\widthof {227}-.2em} 
+ \cftsetpnumwidth {\widthof {228}-.2em} 
+ \cftsetpnumwidth {\widthof {229}-.2em} 
+ \cftsetpnumwidth {\widthof {230}-.2em} 
+ \cftsetpnumwidth {\widthof {231}-.2em} 
+ \cftsetpnumwidth {\widthof {232}-.2em} 
+\contentsline {table}{\numberline {4.9}{Rangkuman hasil evaluasi kualitatif eksperimen \textit {Domain Boundary}}}{232}{table.4.9}%
+ \cftsetpnumwidth {\widthof {233}-.2em} 
+ \cftsetpnumwidth {\widthof {234}-.2em} 
+ \cftsetpnumwidth {\widthof {235}-.2em} 
+ \cftsetpnumwidth {\widthof {236}-.2em} 
+ \cftsetpnumwidth {\widthof {237}-.2em} 
+\addvspace {10\p@ }
+ \cftsetpnumwidth {\widthof {238}-.2em} 
+ \cftsetpnumwidth {\widthof {239}-.2em} 
+ \cftsetpnumwidth {\widthof {240}-.2em} 
+ \cftsetpnumwidth {\widthof {241}-.2em} 
+ \cftsetpnumwidth {\widthof {242}-.2em} 
+ \cftsetpnumwidth {\widthof {243}-.2em} 
+ \cftsetpnumwidth {\widthof {244}-.2em} 
+ \cftsetpnumwidth {\widthof {245}-.2em} 
+ \cftsetpnumwidth {\widthof {246}-.2em} 
+ \cftsetpnumwidth {\widthof {247}-.2em} 
+ \cftsetpnumwidth {\widthof {248}-.2em} 
+ \cftsetpnumwidth {\widthof {249}-.2em} 
+ \cftsetpnumwidth {\widthof {250}-.2em} 
+ \cftsetpnumwidth {\widthof {251}-.2em} 
+ \cftsetpnumwidth {\widthof {252}-.2em} 
+ \cftsetpnumwidth {\widthof {253}-.2em} 
+ \cftsetpnumwidth {\widthof {254}-.2em} 
+ \cftsetpnumwidth {\widthof {255}-.2em} 
+ \cftsetpnumwidth {\widthof {256}-.2em} 
+ \cftsetpnumwidth {\widthof {257}-.2em} 
+ \cftsetpnumwidth {\widthof {258}-.2em} 
+ \cftsetpnumwidth {\widthof {259}-.2em} 
+ \cftsetpnumwidth {\widthof {260}-.2em} 
+ \cftsetpnumwidth {\widthof {261}-.2em} 
+ \cftsetpnumwidth {\widthof {262}-.2em} 
+ \cftsetpnumwidth {\widthof {263}-.2em} 

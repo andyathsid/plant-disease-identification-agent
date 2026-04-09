@@ -1,0 +1,27 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'main.blg'
+[85] biber-MSWIN64:342> INFO - === 
+[118] Biber.pm:421> INFO - Reading 'main.bcf'
+[499] Biber.pm:1002> INFO - Found 179 citekeys in bib section 0
+[514] Biber.pm:4487> INFO - Processing section 0
+[522] Biber.pm:4678> INFO - Looking for bibtex file 'Thesis.bib' for section 0
+[585] bibtex.pm:1713> INFO - LaTeX decoding ...
+[903] bibtex.pm:1519> INFO - Found BibTeX data source 'Thesis.bib'
+[5400] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[5400] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'variable = shifted' with 'variable = non-ignorable'
+[5400] Biber.pm:4307> INFO - Sorting list 'nyt/apasortcite//global/global/global' of type 'entry' with template 'nyt' and locale 'indonesian'
+[5400] Biber.pm:4313> INFO - No sort tailoring available for locale 'indonesian'
+[6418] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'variable = shifted' with 'variable = non-ignorable'
+[6418] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[6418] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'indonesian'
+[6418] Biber.pm:4313> INFO - No sort tailoring available for locale 'indonesian'
+[6961] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[55673] bbl.pm:779> INFO - Output to main.bbl
+[55673] Biber.pm:132> WARN - ISBN '979-8-3503-7666-1 979-8-3503-7668-5' in entry 'abhiramNovelTwoStageDeep2024' is invalid - run biber with '--validate_datamodel' for details.
+[55674] Biber.pm:132> WARN - ISBN '978-3-031-72969-0 978-3-031-72970-6' in entry 'liuGroundingDINOMarrying2025' is invalid - run biber with '--validate_datamodel' for details.
+[55674] Biber.pm:132> WARN - ISBN '978-1-63343-658-9 978-1-63835-777-3' in entry 'cholletDeepLearningPython2026' is invalid - run biber with '--validate_datamodel' for details.
+[55674] Biber.pm:132> WARN - ISBN '978-1-83620-007-9 978-1-83620-006-2' in entry 'iusztinLLMEngineersHandbook2024' is invalid - run biber with '--validate_datamodel' for details.
+[55674] Biber.pm:132> WARN - ISBN '978-3-030-99738-0 978-3-030-99739-7' in entry 'bassaniRanxBlazingFastPython2022' is invalid - run biber with '--validate_datamodel' for details.
+[55674] Biber.pm:132> WARN - ISBN '979-8-8688-1717-5 979-8-8688-1718-2' in entry 'narayanMasteringLangChainComprehensive2025' is invalid - run biber with '--validate_datamodel' for details.
+[55674] Biber.pm:132> WARN - ISBN '978-1-260-54800-6 978-1-259-87297-6' in entry 'pressmanSoftwareEngineeringPractitioners2020' is invalid - run biber with '--validate_datamodel' for details.
+[55674] Biber.pm:134> INFO - WARNINGS: 7

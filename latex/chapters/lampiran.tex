@@ -4,75 +4,74 @@
 
 \buatlampiran{Jadwal Penelitian}
 
-\begin{table}[h!]
-    \centering
-    \begin{tabularx}{\textwidth}{|c|X|c|c|c|c|c|}
-        \hline
-        \multirow{2}{*}{\textbf{No}} & \multirow{2}{*}{\textbf{Jenis Kegiatan}} & \multicolumn{5}{c|}{\textbf{Waktu Pelaksanaan}} \\ \cline{3-7} 
-         & & \textbf{Sept} & \textbf{Okt} & \textbf{Nov} & \textbf{Des} & \textbf{Jan} \\ \hline
-        1 & Identifikasi Masalah & \cellcolor{green!25} & & & & \\ \hline
-        2 & Studi Literatur & \cellcolor{green!25} & \cellcolor{green!25} & & & \\ \hline
-        3 & Pengumpulan Data & \cellcolor{green!25} & \cellcolor{green!25} & & & \\ \hline
-        4 & Perancangan Sistem & & \cellcolor{green!25} & & & \\ \hline
-        5 & Pengembangan Sistem & & & \cellcolor{green!25} & \cellcolor{green!25} & \\ \hline
-        6 & Pengujian dan Evaluasi & & & & \cellcolor{green!25} & \\ \hline
-        7 & Penyusunan Laporan & & & & \cellcolor{green!25} & \cellcolor{green!25} \\ \hline
-    \end{tabularx}
-\end{table}
+\noindent
+{
+\setstretch{1.0}
+\begin{tblr}{
+    width = \linewidth,
+    colspec = {c X[l] *{5}{c}},
+    hlines, vlines,
+    rows = {m},
+    rowhead = 3,
+    row{1,2,3} = {font=\bfseries, halign=c, valign=m},
+}
+    \SetCell[r=3]{c} No & \SetCell[r=3]{c} Jenis Kegiatan & \SetCell[c=5]{c} Waktu Pelaksanaan & & & & \\
+    & & \SetCell[c=4]{c} 2025 & & & & 2026 \\
+    & & Sept & Okt & Nov & Des & Jan \\
+    1 & Identifikasi Masalah & \SetCell{bg=green!25} & \SetCell{bg=green!25} & & & \\
+    2 & Studi Literatur & \SetCell{bg=green!25} & \SetCell{bg=green!25} & & & \\
+    3 & Pengumpulan Data & \SetCell{bg=green!25} & \SetCell{bg=green!25} & & & \\
+    4 & Perancangan Sistem & & & \SetCell{bg=green!25} & & \\
+    5 & Pengembangan Sistem & & & \SetCell{bg=green!25} & \SetCell{bg=green!25} & \\
+    6 & Pengujian dan Evaluasi & & & & \SetCell{bg=green!25} & \SetCell{bg=green!25} \\
+    7 & Penyusunan Laporan & & & & \SetCell{bg=green!25} & \SetCell{bg=green!25} \\
+\end{tblr}
+}
 
-\newpage
-\buatlampiran{Hasil Pengujian VQA ID}
-\begin{figure}[h!]
-    \centering
-    \begin{subfigure}[b]{0.45\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{lampiran/55611489-VQA_ID_Scenario_1.png}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.45\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{lampiran/55611489-VQA_ID_Scenario_2.png}
-    \end{subfigure}
-    
-    \vspace{1cm}
-    
-    \begin{subfigure}[b]{0.45\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{lampiran/55611628-VQA_ID_Scenario_3.png}
-    \end{subfigure}
-    \hfill
-    \begin{minipage}[b]{0.45\textwidth}
-    \end{minipage}
-\end{figure}
+\buatlampiran{Repositori Kode Sumber Hasil Penelitian}
 
-\newpage
-\buatlampiran{Hasil Pengujian VQA OOD}
-\begin{figure}[h!]
-    \centering
-    \begin{subfigure}[b]{0.45\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{lampiran/55611642-VQA_OOD_Scenario_1.png}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.45\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{lampiran/55611672-VQA_OOD_Scenario_2.png}
-    \end{subfigure}
-    
-    \vspace{1cm}
-    
-    \begin{subfigure}[b]{0.45\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{lampiran/55611689-VQA_OOD_Scenario_3.png}
-    \end{subfigure}
-    \hfill
-    \begin{minipage}[b]{0.45\textwidth}
-    \end{minipage}
-\end{figure}
+\noindent Seluruh kode implementasi penelitian hingga hasil pengujian dapat diakses pada tautan dan pemindaian kode QR berikut: \url{https://github.com/andyathsid/thesis}
 
-\newpage
-\buatlampiran{Hasil Pengujian Domain Boundary}
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.8\textwidth]{lampiran/55611697-Domain_Boundary.png}
-\end{figure}
+\vspace{0.5cm}
+
+\noindent \includegraphics[width=4.5cm]{lampiran/repository_monorepo.png}  
+
+\buatlampiran{Hasil Pengujian Satu Tahap pada Dataset \textit{In-Distribution} (ID)}
+
+\noindent Seluruh rekam jejak dan hasil pengujian satu tahap pada dataset \textit{In-Distribution} (ID) melalui platform LangSmith dapat diakses menggunakan pemindaian kode QR berikut.
+
+\vspace{0.5cm}
+
+\noindent \includegraphics[width=\linewidth]{lampiran/pengujian-satu-tahap-id.png}
+
+\buatlampiran{Hasil Pengujian Satu Tahap pada Dataset \textit{Out-of-Distribution} (OOD)}
+
+\noindent Seluruh rekam jejak dan hasil pengujian satu tahap pada dataset \textit{Out-of-Distribution} (OOD) melalui platform LangSmith dapat diakses menggunakan pemindaian kode QR berikut.
+
+\vspace{0.5cm}
+
+\noindent \includegraphics[width=\linewidth]{lampiran/pengujian-satu-tahap-ood.png}
+
+\buatlampiran{Hasil Pengujian Multi-Tahap}
+
+\noindent Seluruh rekam jejak dan hasil pengujian multi-tahap melalui platform LangSmith dapat diakses menggunakan pemindaian kode QR berikut.
+
+\vspace{0.5cm}
+
+\noindent \includegraphics[width=4.5cm]{lampiran/pengujian-multi-tahap.png}
+
+\buatlampiran{Hasil Uji Similaritas Turnitin}
+
+\noindent Hasil pemeriksaan similaritas dokumen tugas akhir menggunakan layanan Turnitin dilampirkan sebagai berikut.
+
+\vspace{0.5cm}
+
+\noindent \includegraphics[width=0.8\linewidth]{lampiran/uji-similaritas-turnitin.png}
+
+\buatlampiran{Hasil Uji Deteksi AI}
+
+\noindent Hasil pemeriksaan deteksi teks kecerdasan buatan (AI) pada dokumen tugas akhir menggunakan layanan GPTZero dilampirkan sebagai berikut.
+
+\vspace{0.5cm}
+
+\noindent \includegraphics[width=0.8\linewidth]{lampiran/uji-deteksi-ai.jpg}

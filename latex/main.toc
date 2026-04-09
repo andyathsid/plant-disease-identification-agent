@@ -3,7 +3,7 @@
  \cftsetpnumwidth {\widthof {i}-.2em} 
 \contentsline {chapter}{HALAMAN HAK CIPTA}{i}{Doc-Start}%
  \cftsetpnumwidth {\widthof {ii}-.2em} 
-\contentsline {chapter}{HALAMAN PENGESAHAN}{ii}{Doc-Start}%
+\contentsline {chapter}{HALAMAN PENGESAHAN SKRIPSI}{ii}{Doc-Start}%
  \cftsetpnumwidth {\widthof {iii}-.2em} 
 \contentsline {chapter}{PERNYATAAN BEBAS PLAGIARISME}{iii}{Doc-Start}%
  \cftsetpnumwidth {\widthof {iv}-.2em} 
@@ -14,6 +14,7 @@
  \cftsetpnumwidth {\widthof {vii}-.2em} 
 \contentsline {chapter}{ABSTRACT}{vii}{Item.8}%
  \cftsetpnumwidth {\widthof {viii}-.2em} 
+\contentsline {chapter}{DAFTAR ISI}{viii}{Item.8}%
  \cftsetpnumwidth {\widthof {ix}-.2em} 
  \cftsetpnumwidth {\widthof {x}-.2em} 
  \cftsetpnumwidth {\widthof {xi}-.2em} 
@@ -54,7 +55,7 @@
 \contentsline {section}{\numberline {2.1}Penyakit Tanaman}{12}{section.2.1}%
  \cftsetpnumwidth {\widthof {13}-.2em} 
  \cftsetpnumwidth {\widthof {14}-.2em} 
-\contentsline {section}{\numberline {2.2}\textit {Artificial Intelligence}}{14}{section.2.2}%
+\contentsline {section}{\numberline {2.2}\textit {Artificial Intelligence} (AI)}{14}{section.2.2}%
  \cftsetpnumwidth {\widthof {15}-.2em} 
  \cftsetpnumwidth {\widthof {16}-.2em} 
  \cftsetpnumwidth {\widthof {17}-.2em} 
@@ -65,35 +66,35 @@
  \cftsetpnumwidth {\widthof {21}-.2em} 
  \cftsetpnumwidth {\widthof {22}-.2em} 
  \cftsetpnumwidth {\widthof {23}-.2em} 
-\contentsline {section}{\numberline {2.4}\textit {Large-Language Models}}{23}{section.2.4}%
+\contentsline {section}{\numberline {2.4}\textit {Large-Language Models} (LLM)}{23}{section.2.4}%
  \cftsetpnumwidth {\widthof {24}-.2em} 
  \cftsetpnumwidth {\widthof {25}-.2em} 
  \cftsetpnumwidth {\widthof {26}-.2em} 
  \cftsetpnumwidth {\widthof {27}-.2em} 
  \cftsetpnumwidth {\widthof {28}-.2em} 
-\contentsline {subsection}{\numberline {2.4.1}Arsitektur \textit {Transformer}}{28}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.1}Arsitektur Transformer}{28}{subsection.2.4.1}%
  \cftsetpnumwidth {\widthof {29}-.2em} 
  \cftsetpnumwidth {\widthof {30}-.2em} 
  \cftsetpnumwidth {\widthof {31}-.2em} 
  \cftsetpnumwidth {\widthof {32}-.2em} 
-\contentsline {subsection}{\numberline {2.4.2}Arsitektur \textit {Vision Transformer}}{32}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.2}Arsitektur Vision Transformer (ViT)}{32}{subsection.2.4.2}%
  \cftsetpnumwidth {\widthof {33}-.2em} 
+\contentsline {subsection}{\numberline {2.4.3}\textit {Mixture-of-Experts} (MoE)}{33}{subsection.2.4.3}%
  \cftsetpnumwidth {\widthof {34}-.2em} 
-\contentsline {subsection}{\numberline {2.4.3}\textit {Mixture-of-Experts}}{34}{subsection.2.4.3}%
  \cftsetpnumwidth {\widthof {35}-.2em} 
  \cftsetpnumwidth {\widthof {36}-.2em} 
+\contentsline {section}{\numberline {2.5}Model \textit {Multimodal}}{36}{section.2.5}%
  \cftsetpnumwidth {\widthof {37}-.2em} 
-\contentsline {section}{\numberline {2.5}Model \textit {Multimodal}}{37}{section.2.5}%
  \cftsetpnumwidth {\widthof {38}-.2em} 
+\contentsline {subsection}{\numberline {2.5.1}\textit {Multimodal Large Language Models} (MLLM)}{38}{subsection.2.5.1}%
  \cftsetpnumwidth {\widthof {39}-.2em} 
-\contentsline {subsection}{\numberline {2.5.1}\textit {Multimodal Large Language Models} (MLLM)}{39}{subsection.2.5.1}%
  \cftsetpnumwidth {\widthof {40}-.2em} 
+\contentsline {subsection}{\numberline {2.5.2}\textit {Vision-Language Models} (VLM)}{40}{subsection.2.5.2}%
  \cftsetpnumwidth {\widthof {41}-.2em} 
-\contentsline {subsection}{\numberline {2.5.2}\textit {Vision-Language Models} (VLM)}{41}{subsection.2.5.2}%
  \cftsetpnumwidth {\widthof {42}-.2em} 
  \cftsetpnumwidth {\widthof {43}-.2em} 
+\contentsline {subsection}{\numberline {2.5.3}Contrastive Language-Image Pre-training (CLIP)}{43}{subsection.2.5.3}%
  \cftsetpnumwidth {\widthof {44}-.2em} 
-\contentsline {subsection}{\numberline {2.5.3}\textit {Contrastive Language-Image Pre-training} (CLIP)}{44}{subsection.2.5.3}%
  \cftsetpnumwidth {\widthof {45}-.2em} 
  \cftsetpnumwidth {\widthof {46}-.2em} 
 \contentsline {subsection}{\numberline {2.5.4}Keluarga Model Gemini}{46}{subsection.2.5.4}%
@@ -105,79 +106,80 @@
  \cftsetpnumwidth {\widthof {52}-.2em} 
  \cftsetpnumwidth {\widthof {53}-.2em} 
  \cftsetpnumwidth {\widthof {54}-.2em} 
+\contentsline {section}{\numberline {2.6}\textit {Prompt Engineering}}{54}{section.2.6}%
  \cftsetpnumwidth {\widthof {55}-.2em} 
-\contentsline {section}{\numberline {2.6}\textit {Prompt Engineering}}{55}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}\textit {Chain-of-Thought} (CoT)}{55}{subsection.2.6.1}%
  \cftsetpnumwidth {\widthof {56}-.2em} 
-\contentsline {subsection}{\numberline {2.6.1}\textit {Chain-of-Thought}}{56}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}\textit {Reasoning and Acting} (ReAct)}{56}{subsection.2.6.2}%
  \cftsetpnumwidth {\widthof {57}-.2em} 
-\contentsline {subsection}{\numberline {2.6.2}\textit {Reasoning and Acting}}{57}{subsection.2.6.2}%
  \cftsetpnumwidth {\widthof {58}-.2em} 
+\contentsline {section}{\numberline {2.7}Deteksi Objek}{58}{section.2.7}%
  \cftsetpnumwidth {\widthof {59}-.2em} 
-\contentsline {section}{\numberline {2.7}\textit {Object Detection}}{59}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}You Only Look Once (YOLO)}{59}{subsection.2.7.1}%
  \cftsetpnumwidth {\widthof {60}-.2em} 
-\contentsline {subsection}{\numberline {2.7.1}\textit {You Only Look Once}}{60}{subsection.2.7.1}%
  \cftsetpnumwidth {\widthof {61}-.2em} 
  \cftsetpnumwidth {\widthof {62}-.2em} 
  \cftsetpnumwidth {\widthof {63}-.2em} 
+\contentsline {subsection}{\numberline {2.7.2}Open-World Localization version 2 (OWLv2)}{63}{subsection.2.7.2}%
  \cftsetpnumwidth {\widthof {64}-.2em} 
  \cftsetpnumwidth {\widthof {65}-.2em} 
-\contentsline {subsection}{\numberline {2.7.2}OWLv2}{65}{subsection.2.7.2}%
+\contentsline {section}{\numberline {2.8}\textit {Retrieval-Augmented Generation} (RAG)}{65}{section.2.8}%
  \cftsetpnumwidth {\widthof {66}-.2em} 
-\contentsline {section}{\numberline {2.8}\textit {Retrieval-Augmented Generation}}{66}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}\textit {Vanilla RAG}}{66}{subsection.2.8.1}%
  \cftsetpnumwidth {\widthof {67}-.2em} 
  \cftsetpnumwidth {\widthof {68}-.2em} 
-\contentsline {subsection}{\numberline {2.8.1}\textit {Vanilla RAG}}{68}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}\textit {Advanced RAG}}{68}{subsection.2.8.2}%
  \cftsetpnumwidth {\widthof {69}-.2em} 
-\contentsline {subsection}{\numberline {2.8.2}\textit {Advanced RAG}}{69}{subsection.2.8.2}%
  \cftsetpnumwidth {\widthof {70}-.2em} 
+\contentsline {subsection}{\numberline {2.8.3}\textit {Information Retrieval} (IR)}{70}{subsection.2.8.3}%
  \cftsetpnumwidth {\widthof {71}-.2em} 
+\contentsline {subsubsection}{\numberline {2.8.3.1}\textit {Sparse Retrieval}}{71}{subsubsection.2.8.3.1}%
  \cftsetpnumwidth {\widthof {72}-.2em} 
-\contentsline {subsection}{\numberline {2.8.3}\textit {Information Retrieval}}{72}{subsection.2.8.3}%
+\contentsline {subsubsection}{\numberline {2.8.3.2}\textit {Dense Retrieval}}{72}{subsubsection.2.8.3.2}%
  \cftsetpnumwidth {\widthof {73}-.2em} 
-\contentsline {subsubsection}{\numberline {2.8.3.1}\textit {Sparse Retrieval}}{73}{subsubsection.2.8.3.1}%
  \cftsetpnumwidth {\widthof {74}-.2em} 
-\contentsline {subsubsection}{\numberline {2.8.3.2}\textit {Dense Retrieval}}{74}{subsubsection.2.8.3.2}%
+\contentsline {subsection}{\numberline {2.8.4}\textit {Hybrid Search}}{74}{subsection.2.8.4}%
  \cftsetpnumwidth {\widthof {75}-.2em} 
+\contentsline {subsection}{\numberline {2.8.5}\textit {Reranking}}{75}{subsection.2.8.5}%
  \cftsetpnumwidth {\widthof {76}-.2em} 
-\contentsline {subsection}{\numberline {2.8.4}\textit {Hybrid Search}}{76}{subsection.2.8.4}%
  \cftsetpnumwidth {\widthof {77}-.2em} 
-\contentsline {subsection}{\numberline {2.8.5}\textit {Reranking}}{77}{subsection.2.8.5}%
+\contentsline {subsection}{\numberline {2.8.6}Qdrant}{77}{subsection.2.8.6}%
  \cftsetpnumwidth {\widthof {78}-.2em} 
+\contentsline {subsection}{\numberline {2.8.7}Evaluasi Sistem \textit {Information Retrieval}}{78}{subsection.2.8.7}%
  \cftsetpnumwidth {\widthof {79}-.2em} 
-\contentsline {subsection}{\numberline {2.8.6}Qdrant}{79}{subsection.2.8.6}%
+\contentsline {section}{\numberline {2.9}Sistem Agentik}{79}{section.2.9}%
  \cftsetpnumwidth {\widthof {80}-.2em} 
-\contentsline {subsection}{\numberline {2.8.7}Evaluasi Sistem \textit {Information Retrieval}}{80}{subsection.2.8.7}%
  \cftsetpnumwidth {\widthof {81}-.2em} 
-\contentsline {section}{\numberline {2.9}Sistem Agentik}{81}{section.2.9}%
  \cftsetpnumwidth {\widthof {82}-.2em} 
+\contentsline {subsection}{\numberline {2.9.1}Ekosistem LangChain}{82}{subsection.2.9.1}%
  \cftsetpnumwidth {\widthof {83}-.2em} 
  \cftsetpnumwidth {\widthof {84}-.2em} 
-\contentsline {subsection}{\numberline {2.9.1}Ekosistem LangChain}{84}{subsection.2.9.1}%
+\contentsline {subsubsection}{\numberline {2.9.1.1}LangChain 1.0}{84}{subsubsection.2.9.1.1}%
  \cftsetpnumwidth {\widthof {85}-.2em} 
+\contentsline {subsubsection}{\numberline {2.9.1.2}LangSmith Deployment}{85}{subsubsection.2.9.1.2}%
  \cftsetpnumwidth {\widthof {86}-.2em} 
-\contentsline {subsubsection}{\numberline {2.9.1.1}LangChain 1.0}{86}{subsubsection.2.9.1.1}%
+\contentsline {section}{\numberline {2.10}\textit {LLM-as-a-judge}}{86}{section.2.10}%
  \cftsetpnumwidth {\widthof {87}-.2em} 
-\contentsline {subsubsection}{\numberline {2.9.1.2}LangSmith Deployment}{87}{subsubsection.2.9.1.2}%
  \cftsetpnumwidth {\widthof {88}-.2em} 
-\contentsline {section}{\numberline {2.10}\textit {LLM-as-a-judge}}{88}{section.2.10}%
  \cftsetpnumwidth {\widthof {89}-.2em} 
+\contentsline {subsection}{\numberline {2.10.1}Ragas (\textit {Retrieval Augmented Generation Assessment})}{89}{subsection.2.10.1}%
  \cftsetpnumwidth {\widthof {90}-.2em} 
+\contentsline {subsection}{\numberline {2.10.2}DeepEval}{90}{subsection.2.10.2}%
  \cftsetpnumwidth {\widthof {91}-.2em} 
-\contentsline {subsection}{\numberline {2.10.1}Ragas (\textit {Retrieval Augmented Generation Assessment})}{91}{subsection.2.10.1}%
+\contentsline {section}{\numberline {2.11}Docker}{91}{section.2.11}%
  \cftsetpnumwidth {\widthof {92}-.2em} 
-\contentsline {subsection}{\numberline {2.10.2}DeepEval}{92}{subsection.2.10.2}%
+\contentsline {section}{\numberline {2.12}Penelitian Terkait}{92}{section.2.12}%
  \cftsetpnumwidth {\widthof {93}-.2em} 
-\contentsline {section}{\numberline {2.11}Penelitian Terkait}{93}{section.2.11}%
  \cftsetpnumwidth {\widthof {94}-.2em} 
  \cftsetpnumwidth {\widthof {95}-.2em} 
  \cftsetpnumwidth {\widthof {96}-.2em} 
  \cftsetpnumwidth {\widthof {97}-.2em} 
+\contentsline {chapter}{\numberline {III}METODE PENELITIAN}{97}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Desain Penelitian}{97}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Identifikasi Masalah}{97}{section.3.2}%
  \cftsetpnumwidth {\widthof {98}-.2em} 
-\contentsline {chapter}{\numberline {III}METODE PENELITIAN}{98}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Desain Penelitian}{98}{section.3.1}%
+\contentsline {section}{\numberline {3.3}Deskripsi Tujuan}{98}{section.3.3}%
  \cftsetpnumwidth {\widthof {99}-.2em} 
-\contentsline {section}{\numberline {3.2}Identifikasi Masalah}{99}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Deskripsi Tujuan}{99}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Perancangan dan Pengembangan}{99}{section.3.4}%
  \cftsetpnumwidth {\widthof {100}-.2em} 
 \contentsline {subsection}{\numberline {3.4.1}Sistem Agentik}{100}{subsection.3.4.1}%
@@ -188,165 +190,147 @@
 \contentsline {subsubsection}{\numberline {3.4.2.1}Konfigurasi}{103}{subsubsection.3.4.2.1}%
  \cftsetpnumwidth {\widthof {104}-.2em} 
  \cftsetpnumwidth {\widthof {105}-.2em} 
+\contentsline {subsubsection}{\numberline {3.4.2.2}\textit {Prompt Engineering}}{105}{subsubsection.3.4.2.2}%
  \cftsetpnumwidth {\widthof {106}-.2em} 
-\contentsline {subsubsection}{\numberline {3.4.2.2}\textit {Prompt Engineering}}{106}{subsubsection.3.4.2.2}%
  \cftsetpnumwidth {\widthof {107}-.2em} 
+\contentsline {subsection}{\numberline {3.4.3}Modul Deteksi Objek}{107}{subsection.3.4.3}%
  \cftsetpnumwidth {\widthof {108}-.2em} 
-\contentsline {subsection}{\numberline {3.4.3}Modul Deteksi Objek Tanaman}{108}{subsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.3.1}\textit {Problem Formulation}}{108}{subsubsection.3.4.3.1}%
  \cftsetpnumwidth {\widthof {109}-.2em} 
-\contentsline {subsubsection}{\numberline {3.4.3.1}Alat Deteksi \textit {Closed-Set}}{109}{subsubsection.3.4.3.1}%
-\contentsline {paragraph}{\numberline {3.4.3.1.1}Persiapan Dataset Pemodelan}{109}{paragraph.3.4.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.4.3.2}\textit {Data Acquisition}}{109}{subsubsection.3.4.3.2}%
  \cftsetpnumwidth {\widthof {110}-.2em} 
-\contentsline {paragraph}{\numberline {3.4.3.1.2}Pemodelan}{110}{paragraph.3.4.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.4.3.3}\textit {Data Preparation}}{110}{subsubsection.3.4.3.3}%
  \cftsetpnumwidth {\widthof {111}-.2em} 
-\contentsline {subsubsection}{\numberline {3.4.3.2}Alat Deteksi Open-Vocabulary}{111}{subsubsection.3.4.3.2}%
+\contentsline {subsubsection}{\numberline {3.4.3.4}\textit {Modeling}}{111}{subsubsection.3.4.3.4}%
  \cftsetpnumwidth {\widthof {112}-.2em} 
-\contentsline {subsection}{\numberline {3.4.4}Modul Pencarian Gambar-Teks Penyakit}{112}{subsection.3.4.4}%
  \cftsetpnumwidth {\widthof {113}-.2em} 
-\contentsline {subsubsection}{\numberline {3.4.4.1}Persiapan Data Indeks}{113}{subsubsection.3.4.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.3.5}\textit {Evaluation}}{113}{subsubsection.3.4.3.5}%
  \cftsetpnumwidth {\widthof {114}-.2em} 
-\contentsline {subsubsection}{\numberline {3.4.4.2}\textit {Indexing}}{114}{subsubsection.3.4.4.2}%
  \cftsetpnumwidth {\widthof {115}-.2em} 
-\contentsline {subsubsection}{\numberline {3.4.4.3}Strategi Pencarian}{115}{subsubsection.3.4.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.3.6}\textit {Deployment}}{115}{subsubsection.3.4.3.6}%
  \cftsetpnumwidth {\widthof {116}-.2em} 
+\contentsline {subsection}{\numberline {3.4.4}Modul Pengambilan Informasi}{116}{subsection.3.4.4}%
  \cftsetpnumwidth {\widthof {117}-.2em} 
-\contentsline {subsection}{\numberline {3.4.5}Modul Pencarian Informasi}{117}{subsection.3.4.5}%
  \cftsetpnumwidth {\widthof {118}-.2em} 
-\contentsline {subsubsection}{\numberline {3.4.5.1}Alat Pencarian Basis Data Pengetahuan}{118}{subsubsection.3.4.5.1}%
+\contentsline {subsubsection}{\numberline {3.4.4.1}\textit {Communication}}{118}{subsubsection.3.4.4.1}%
  \cftsetpnumwidth {\widthof {119}-.2em} 
+\contentsline {subsubsection}{\numberline {3.4.4.2}\textit {Planning}}{119}{subsubsection.3.4.4.2}%
  \cftsetpnumwidth {\widthof {120}-.2em} 
  \cftsetpnumwidth {\widthof {121}-.2em} 
-\contentsline {paragraph}{\numberline {3.4.5.1.1}Persiapan Data Korpus}{121}{paragraph.3.4.5.1.1}%
  \cftsetpnumwidth {\widthof {122}-.2em} 
  \cftsetpnumwidth {\widthof {123}-.2em} 
  \cftsetpnumwidth {\widthof {124}-.2em} 
+\contentsline {subsubsection}{\numberline {3.4.4.3}\textit {Modeling}}{124}{subsubsection.3.4.4.3}%
  \cftsetpnumwidth {\widthof {125}-.2em} 
-\contentsline {paragraph}{\numberline {3.4.5.1.2}Indexing}{125}{paragraph.3.4.5.1.2}%
  \cftsetpnumwidth {\widthof {126}-.2em} 
-\contentsline {paragraph}{\numberline {3.4.5.1.3}Strategi Pencarian}{126}{paragraph.3.4.5.1.3}%
  \cftsetpnumwidth {\widthof {127}-.2em} 
-\contentsline {subsubsection}{\numberline {3.4.5.2}Alat Pencarian Internet}{127}{subsubsection.3.4.5.2}%
  \cftsetpnumwidth {\widthof {128}-.2em} 
-\contentsline {subsection}{\numberline {3.4.6}Antarmuka Sistem Agentik}{128}{subsection.3.4.6}%
-\contentsline {subsubsection}{\numberline {3.4.6.1}Arsitektur Antarmuka}{128}{subsubsection.3.4.6.1}%
  \cftsetpnumwidth {\widthof {129}-.2em} 
  \cftsetpnumwidth {\widthof {130}-.2em} 
-\contentsline {subsubsection}{\numberline {3.4.6.2}Use Case Diagram}{130}{subsubsection.3.4.6.2}%
  \cftsetpnumwidth {\widthof {131}-.2em} 
  \cftsetpnumwidth {\widthof {132}-.2em} 
-\contentsline {subsubsection}{\numberline {3.4.6.3}Sequence Diagram}{132}{subsubsection.3.4.6.3}%
+\contentsline {subsubsection}{\numberline {3.4.4.4}\textit {Construction}}{132}{subsubsection.3.4.4.4}%
  \cftsetpnumwidth {\widthof {133}-.2em} 
+\contentsline {subsubsection}{\numberline {3.4.4.5}\textit {Deployment}}{133}{subsubsection.3.4.4.5}%
  \cftsetpnumwidth {\widthof {134}-.2em} 
+\contentsline {subsection}{\numberline {3.4.5}Antarmuka Sistem Agentik}{134}{subsection.3.4.5}%
+\contentsline {subsubsection}{\numberline {3.4.5.1}\textit {Communication}}{134}{subsubsection.3.4.5.1}%
  \cftsetpnumwidth {\widthof {135}-.2em} 
+\contentsline {subsubsection}{\numberline {3.4.5.2}\textit {Planning}}{135}{subsubsection.3.4.5.2}%
  \cftsetpnumwidth {\widthof {136}-.2em} 
-\contentsline {subsubsection}{\numberline {3.4.6.4}Prototipe Antarmuka}{136}{subsubsection.3.4.6.4}%
+\contentsline {subsubsection}{\numberline {3.4.5.3}\textit {Modeling}}{136}{subsubsection.3.4.5.3}%
  \cftsetpnumwidth {\widthof {137}-.2em} 
-\contentsline {section}{\numberline {3.5}Pengujian}{137}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Modul Deteksi Objek Tanaman}{137}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Modul Pencarian Gambar-Teks Penyakit}{137}{subsection.3.5.2}%
  \cftsetpnumwidth {\widthof {138}-.2em} 
-\contentsline {subsection}{\numberline {3.5.3}Modul Pencarian Informasi}{138}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}Antarmuka Sistem Agentik}{138}{subsection.3.5.4}%
  \cftsetpnumwidth {\widthof {139}-.2em} 
-\contentsline {subsection}{\numberline {3.5.5}Sistem Agentik}{139}{subsection.3.5.5}%
-\contentsline {subsubsection}{\numberline {3.5.5.1}Pengujian Satu Tahap}{139}{subsubsection.3.5.5.1}%
-\contentsline {paragraph}{\numberline {3.5.5.1.1}Persiapan Data}{139}{paragraph.3.5.5.1.1}%
-\contentsline {subparagraph}{\numberline {3.5.5.1.1.1}\textit {Dataset In-Distribution} (ID)}{139}{subparagraph.3.5.5.1.1.1}%
  \cftsetpnumwidth {\widthof {140}-.2em} 
-\contentsline {subparagraph}{\numberline {3.5.5.1.1.2}\textit {Dataset Out-of-Distribution} (OOD)}{140}{subparagraph.3.5.5.1.1.2}%
  \cftsetpnumwidth {\widthof {141}-.2em} 
  \cftsetpnumwidth {\widthof {142}-.2em} 
  \cftsetpnumwidth {\widthof {143}-.2em} 
+\contentsline {subsubsection}{\numberline {3.4.5.4}\textit {Construction}}{143}{subsubsection.3.4.5.4}%
+\contentsline {subsubsection}{\numberline {3.4.5.5}\textit {Deployment}}{143}{subsubsection.3.4.5.5}%
+\contentsline {section}{\numberline {3.5}Pengujian}{143}{section.3.5}%
  \cftsetpnumwidth {\widthof {144}-.2em} 
+\contentsline {subsection}{\numberline {3.5.1}Modul Deteksi Objek}{144}{subsection.3.5.1}%
  \cftsetpnumwidth {\widthof {145}-.2em} 
-\contentsline {subsubsection}{\numberline {3.5.5.2}Pengujian Multi-Tahap}{145}{subsubsection.3.5.5.2}%
-\contentsline {paragraph}{\numberline {3.5.5.2.1}Persiapan Data}{145}{paragraph.3.5.5.2.1}%
  \cftsetpnumwidth {\widthof {146}-.2em} 
-\contentsline {section}{\numberline {3.6}Evaluasi}{146}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Modul Deteksi Objek Tanaman}{146}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.5.2}Modul Pengambilan Informasi}{146}{subsection.3.5.2}%
  \cftsetpnumwidth {\widthof {147}-.2em} 
  \cftsetpnumwidth {\widthof {148}-.2em} 
  \cftsetpnumwidth {\widthof {149}-.2em} 
  \cftsetpnumwidth {\widthof {150}-.2em} 
-\contentsline {subsection}{\numberline {3.6.2}Modul Pencarian Informasi}{150}{subsection.3.6.2}%
  \cftsetpnumwidth {\widthof {151}-.2em} 
  \cftsetpnumwidth {\widthof {152}-.2em} 
-\contentsline {subsection}{\numberline {3.6.3}Sistem Agentik}{152}{subsection.3.6.3}%
-\contentsline {subsubsection}{\numberline {3.6.3.1}Evaluasi Pengujian Satu Tahap}{152}{subsubsection.3.6.3.1}%
+\contentsline {subsection}{\numberline {3.5.3}Antarmuka Sistem Agentik}{152}{subsection.3.5.3}%
  \cftsetpnumwidth {\widthof {153}-.2em} 
-\contentsline {paragraph}{\numberline {3.6.3.1.1}Disease Accuracy}{153}{paragraph.3.6.3.1.1}%
+\contentsline {subsection}{\numberline {3.5.4}Sistem Agentik}{153}{subsection.3.5.4}%
+\contentsline {subsubsection}{\numberline {3.5.4.1}Pengujian Satu Tahap}{153}{subsubsection.3.5.4.1}%
  \cftsetpnumwidth {\widthof {154}-.2em} 
-\contentsline {paragraph}{\numberline {3.6.3.1.2}Trajectory Accuracy}{154}{paragraph.3.6.3.1.2}%
  \cftsetpnumwidth {\widthof {155}-.2em} 
  \cftsetpnumwidth {\widthof {156}-.2em} 
-\contentsline {paragraph}{\numberline {3.6.3.1.3}Agent Goal Accuracy}{156}{paragraph.3.6.3.1.3}%
  \cftsetpnumwidth {\widthof {157}-.2em} 
  \cftsetpnumwidth {\widthof {158}-.2em} 
-\contentsline {paragraph}{\numberline {3.6.3.1.4}Faithfulness}{158}{paragraph.3.6.3.1.4}%
  \cftsetpnumwidth {\widthof {159}-.2em} 
  \cftsetpnumwidth {\widthof {160}-.2em} 
  \cftsetpnumwidth {\widthof {161}-.2em} 
-\contentsline {paragraph}{\numberline {3.6.3.1.5}Context Relevance}{161}{paragraph.3.6.3.1.5}%
  \cftsetpnumwidth {\widthof {162}-.2em} 
-\contentsline {subsubsection}{\numberline {3.6.3.2}Evaluasi Pengujian Multi-Tahap}{162}{subsubsection.3.6.3.2}%
  \cftsetpnumwidth {\widthof {163}-.2em} 
-\contentsline {section}{\numberline {3.7}Penyampaian Hasil}{163}{section.3.7}%
  \cftsetpnumwidth {\widthof {164}-.2em} 
-\contentsline {chapter}{\numberline {IV}HASIL DAN PEMBAHASAN}{164}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Hasil Perancangan dan Pengembangan Sistem Agentik}{164}{section.4.1}%
  \cftsetpnumwidth {\widthof {165}-.2em} 
  \cftsetpnumwidth {\widthof {166}-.2em} 
  \cftsetpnumwidth {\widthof {167}-.2em} 
-\contentsline {section}{\numberline {4.2}Hasil Perancangan dan Pengembangan Agen LLM}{167}{section.4.2}%
  \cftsetpnumwidth {\widthof {168}-.2em} 
  \cftsetpnumwidth {\widthof {169}-.2em} 
+\contentsline {subsubsection}{\numberline {3.5.4.2}Pengujian Multi-Tahap}{169}{subsubsection.3.5.4.2}%
  \cftsetpnumwidth {\widthof {170}-.2em} 
  \cftsetpnumwidth {\widthof {171}-.2em} 
+\contentsline {section}{\numberline {3.6}Evaluasi}{171}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Modul Deteksi Objek}{171}{subsection.3.6.1}%
  \cftsetpnumwidth {\widthof {172}-.2em} 
-\contentsline {section}{\numberline {4.3}Hasil Perancangan dan Pengembangan Modul Deteksi Objek Tanaman}{172}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Alat Deteksi Closed-Set}{172}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {3.6.2}Modul Pengambilan Informasi}{172}{subsection.3.6.2}%
  \cftsetpnumwidth {\widthof {173}-.2em} 
+\contentsline {subsection}{\numberline {3.6.3}Antarmuka Sistem Agentik}{173}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Sistem Agentik}{173}{subsection.3.6.4}%
  \cftsetpnumwidth {\widthof {174}-.2em} 
+\contentsline {section}{\numberline {3.7}Penyampaian Hasil}{174}{section.3.7}%
  \cftsetpnumwidth {\widthof {175}-.2em} 
+\contentsline {chapter}{\numberline {IV}HASIL DAN PEMBAHASAN}{175}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Hasil Perancangan dan Pengembangan}{175}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Sistem Agentik}{175}{subsection.4.1.1}%
  \cftsetpnumwidth {\widthof {176}-.2em} 
+\contentsline {subsection}{\numberline {4.1.2}Agen LLM}{176}{subsection.4.1.2}%
  \cftsetpnumwidth {\widthof {177}-.2em} 
  \cftsetpnumwidth {\widthof {178}-.2em} 
  \cftsetpnumwidth {\widthof {179}-.2em} 
-\contentsline {subsection}{\numberline {4.3.2}Alat Deteksi Open-Vocabulary}{179}{subsection.4.3.2}%
  \cftsetpnumwidth {\widthof {180}-.2em} 
  \cftsetpnumwidth {\widthof {181}-.2em} 
-\contentsline {section}{\numberline {4.4}Hasil Perancangan dan Pengembangan Modul Gambar-Teks Penyakit Tanaman}{181}{section.4.4}%
  \cftsetpnumwidth {\widthof {182}-.2em} 
+\contentsline {subsection}{\numberline {4.1.3}Modul Deteksi Objek}{182}{subsection.4.1.3}%
  \cftsetpnumwidth {\widthof {183}-.2em} 
  \cftsetpnumwidth {\widthof {184}-.2em} 
-\contentsline {section}{\numberline {4.5}Hasil Perancangan dan Pengembangan Modul Pencarian Informasi}{184}{section.4.5}%
  \cftsetpnumwidth {\widthof {185}-.2em} 
  \cftsetpnumwidth {\widthof {186}-.2em} 
-\contentsline {section}{\numberline {4.6}Hasil Perancangan dan Pengembangan Antarmuka Sistem Agentik}{186}{section.4.6}%
  \cftsetpnumwidth {\widthof {187}-.2em} 
+\contentsline {subsection}{\numberline {4.1.4}Modul Pengambilan Informasi}{187}{subsection.4.1.4}%
  \cftsetpnumwidth {\widthof {188}-.2em} 
-\contentsline {section}{\numberline {4.7}Hasil Pengujian dan Evaluasi Sistem Agentik}{188}{section.4.7}%
  \cftsetpnumwidth {\widthof {189}-.2em} 
-\contentsline {subsection}{\numberline {4.7.1}Pengujian Satu Tahap}{189}{subsection.4.7.1}%
  \cftsetpnumwidth {\widthof {190}-.2em} 
+\contentsline {subsection}{\numberline {4.1.5}Antarmuka Sistem Agentik}{190}{subsection.4.1.5}%
  \cftsetpnumwidth {\widthof {191}-.2em} 
+\contentsline {section}{\numberline {4.2}Hasil Pengujian dan Evaluasi}{191}{section.4.2}%
  \cftsetpnumwidth {\widthof {192}-.2em} 
+\contentsline {subsection}{\numberline {4.2.1}Modul Deteksi Objek}{192}{subsection.4.2.1}%
  \cftsetpnumwidth {\widthof {193}-.2em} 
  \cftsetpnumwidth {\widthof {194}-.2em} 
-\contentsline {subsection}{\numberline {4.7.2}Pengujian Multi-Tahap}{194}{subsection.4.7.2}%
  \cftsetpnumwidth {\widthof {195}-.2em} 
  \cftsetpnumwidth {\widthof {196}-.2em} 
  \cftsetpnumwidth {\widthof {197}-.2em} 
-\contentsline {section}{\numberline {4.8}Hasil Analisis}{197}{section.4.8}%
  \cftsetpnumwidth {\widthof {198}-.2em} 
  \cftsetpnumwidth {\widthof {199}-.2em} 
  \cftsetpnumwidth {\widthof {200}-.2em} 
-\contentsline {chapter}{\numberline {V}SIMPULAN DAN SARAN}{200}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Simpulan}{200}{section.5.1}%
  \cftsetpnumwidth {\widthof {201}-.2em} 
-\contentsline {section}{\numberline {5.2}Saran}{201}{section.5.2}%
  \cftsetpnumwidth {\widthof {202}-.2em} 
  \cftsetpnumwidth {\widthof {203}-.2em} 
+\contentsline {subsection}{\numberline {4.2.2}Modul Pengambilan Informasi}{203}{subsection.4.2.2}%
  \cftsetpnumwidth {\widthof {204}-.2em} 
  \cftsetpnumwidth {\widthof {205}-.2em} 
  \cftsetpnumwidth {\widthof {206}-.2em} 
@@ -362,11 +346,58 @@
  \cftsetpnumwidth {\widthof {216}-.2em} 
  \cftsetpnumwidth {\widthof {217}-.2em} 
  \cftsetpnumwidth {\widthof {218}-.2em} 
+\contentsline {subsection}{\numberline {4.2.3}Antarmuka Sistem Agentik}{218}{subsection.4.2.3}%
  \cftsetpnumwidth {\widthof {219}-.2em} 
  \cftsetpnumwidth {\widthof {220}-.2em} 
-\contentsline {chapter}{DAFTAR PUSTAKA}{220}{chapter*.149}%
+\contentsline {subsection}{\numberline {4.2.4}Sistem Agentik}{220}{subsection.4.2.4}%
  \cftsetpnumwidth {\widthof {221}-.2em} 
-\contentsline {chapter}{LAMPIRAN}{221}{chapter*.150}%
  \cftsetpnumwidth {\widthof {222}-.2em} 
  \cftsetpnumwidth {\widthof {223}-.2em} 
+\contentsline {subsubsection}{\numberline {4.2.4.1}Pengujian Satu Tahap}{223}{subsubsection.4.2.4.1}%
  \cftsetpnumwidth {\widthof {224}-.2em} 
+ \cftsetpnumwidth {\widthof {225}-.2em} 
+ \cftsetpnumwidth {\widthof {226}-.2em} 
+ \cftsetpnumwidth {\widthof {227}-.2em} 
+ \cftsetpnumwidth {\widthof {228}-.2em} 
+ \cftsetpnumwidth {\widthof {229}-.2em} 
+ \cftsetpnumwidth {\widthof {230}-.2em} 
+\contentsline {subsubsection}{\numberline {4.2.4.2}Pengujian Multi-Tahap}{230}{subsubsection.4.2.4.2}%
+ \cftsetpnumwidth {\widthof {231}-.2em} 
+ \cftsetpnumwidth {\widthof {232}-.2em} 
+ \cftsetpnumwidth {\widthof {233}-.2em} 
+\contentsline {section}{\numberline {4.3}Analisis Hasil}{233}{section.4.3}%
+ \cftsetpnumwidth {\widthof {234}-.2em} 
+ \cftsetpnumwidth {\widthof {235}-.2em} 
+ \cftsetpnumwidth {\widthof {236}-.2em} 
+ \cftsetpnumwidth {\widthof {237}-.2em} 
+\contentsline {chapter}{\numberline {V}SIMPULAN DAN SARAN}{237}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Simpulan}{237}{section.5.1}%
+ \cftsetpnumwidth {\widthof {238}-.2em} 
+\contentsline {section}{\numberline {5.2}Saran}{238}{section.5.2}%
+ \cftsetpnumwidth {\widthof {239}-.2em} 
+ \cftsetpnumwidth {\widthof {240}-.2em} 
+ \cftsetpnumwidth {\widthof {241}-.2em} 
+ \cftsetpnumwidth {\widthof {242}-.2em} 
+ \cftsetpnumwidth {\widthof {243}-.2em} 
+ \cftsetpnumwidth {\widthof {244}-.2em} 
+ \cftsetpnumwidth {\widthof {245}-.2em} 
+ \cftsetpnumwidth {\widthof {246}-.2em} 
+ \cftsetpnumwidth {\widthof {247}-.2em} 
+ \cftsetpnumwidth {\widthof {248}-.2em} 
+ \cftsetpnumwidth {\widthof {249}-.2em} 
+ \cftsetpnumwidth {\widthof {250}-.2em} 
+ \cftsetpnumwidth {\widthof {251}-.2em} 
+ \cftsetpnumwidth {\widthof {252}-.2em} 
+ \cftsetpnumwidth {\widthof {253}-.2em} 
+ \cftsetpnumwidth {\widthof {254}-.2em} 
+ \cftsetpnumwidth {\widthof {255}-.2em} 
+ \cftsetpnumwidth {\widthof {256}-.2em} 
+ \cftsetpnumwidth {\widthof {257}-.2em} 
+ \cftsetpnumwidth {\widthof {258}-.2em} 
+ \cftsetpnumwidth {\widthof {259}-.2em} 
+\contentsline {chapter}{DAFTAR PUSTAKA}{259}{chapter*.145}%
+ \cftsetpnumwidth {\widthof {260}-.2em} 
+\contentsline {chapter}{LAMPIRAN}{260}{chapter*.146}%
+ \cftsetpnumwidth {\widthof {261}-.2em} 
+ \cftsetpnumwidth {\widthof {262}-.2em} 
+ \cftsetpnumwidth {\widthof {263}-.2em} 

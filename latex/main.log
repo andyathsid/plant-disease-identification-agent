@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.17)  3 MAR 2026 01:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.17)  13 MAR 2026 14:52
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1609,53 +1609,57 @@ Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 \c@equdepth=\count634
 \cftbeforeequtitleskip=\skip145
 \cftafterequtitleskip=\skip146
-LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line 417.
+LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line 431.
  (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\t1ntxtlf.fd
 File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.04504pt on input line 417.
- (main.aux (chapters/bab1.aux) (chapters/bab2.aux) (chapters/bab3.aux) (chapters/bab4.aux) (chapters/bab5.aux) (chapters/lampiran.aux))
+(Font)              scaled to size 12.04504pt on input line 431.
+ (main.aux (chapters/bab1.aux) (chapters/bab2.aux) (chapters/bab3.aux) (chapters/bab4.aux
+
+LaTeX Warning: Label `tab:black_box_testing_retrieval' multiply defined.
+
+) (chapters/bab5.aux) (chapters/lampiran.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 417.
-LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 417.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 431.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 431.
  (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 417.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 417.
-LaTeX Font Info:    ... okay on input line 417.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 417.
-LaTeX Font Info:    ... okay on input line 417.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 417.
-LaTeX Font Info:    ... okay on input line 417.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 417.
-LaTeX Font Info:    ... okay on input line 417.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 417.
-LaTeX Font Info:    ... okay on input line 417.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 417.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 417.
+LaTeX Font Info:    ... okay on input line 431.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 431.
+LaTeX Font Info:    ... okay on input line 431.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 431.
+LaTeX Font Info:    ... okay on input line 431.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 431.
+LaTeX Font Info:    ... okay on input line 431.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 431.
+LaTeX Font Info:    ... okay on input line 431.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 431.
+LaTeX Font Info:    ... okay on input line 431.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 431.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 431.
  (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 417.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 417.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 417.
+LaTeX Font Info:    ... okay on input line 431.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 431.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 431.
  (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 417.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 417.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 417.
+LaTeX Font Info:    ... okay on input line 431.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 431.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 431.
  (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 417.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 417.
-LaTeX Font Info:    ... okay on input line 417.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 417.
-LaTeX Font Info:    ... okay on input line 417.
+LaTeX Font Info:    ... okay on input line 431.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 431.
+LaTeX Font Info:    ... okay on input line 431.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 431.
+LaTeX Font Info:    ... okay on input line 431.
  (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count635
@@ -1677,8 +1681,8 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@mv@tabular=\count641
 \c@mv@boldtabular=\count642
-LaTeX Info: Command `\dddot' is already robust on input line 417.
-LaTeX Info: Command `\ddddot' is already robust on input line 417.
+LaTeX Info: Command `\dddot' is already robust on input line 431.
+LaTeX Info: Command `\ddddot' is already robust on input line 431.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1720,8 +1724,8 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count643
-Package translations Info: no dictionary file `translations-basic-dictionary-malay.trsl' found. on input line 417.
-Package hyperref Info: Link coloring OFF on input line 417.
+Package translations Info: no dictionary file `translations-basic-dictionary-malay.trsl' found. on input line 431.
+Package hyperref Info: Link coloring OFF on input line 431.
 (main.out) (main.out)
 \@outlinefile=\write7
 \openout7 = `main.out'.
@@ -1779,6 +1783,7 @@ Package biblatex Info: ... file 'english.lbx' found.
 File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 ))))
 Package biblatex Info: Delimiter 'finalnamedelim' in context 'bib' already defined, overwriting on input line 142.
+Package biblatex Info: Delimiter 'finalnamedelim' in context 'cite' already defined, overwriting on input line 166.
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -1787,177 +1792,170 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                getachewWheatLeafDataset2021
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
-Package biblatex Info: Reference section=0 on input line 417.
-Package biblatex Info: Reference segment=0 on input line 417.
+ (main.bbl)
+Package biblatex Info: Reference section=0 on input line 431.
+Package biblatex Info: Reference segment=0 on input line 431.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.04504pt on input line 427.
-<logo_upi.png, id=531, 134.028pt x 134.028pt>
+(Font)              scaled to size 12.04504pt on input line 447.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
+(Font)              scaled to size 12.04504pt on input line 450.
+<logo_upi.png, id=506, 134.028pt x 134.028pt>
 File: logo_upi.png Graphic file (type png)
 <use logo_upi.png>
-Package pdftex.def Info: logo_upi.png  used on input line 429.
+Package pdftex.def Info: logo_upi.png  used on input line 452.
 (pdftex.def)             Requested size: 113.81102pt x 113.81389pt.
  [1
 
 {C:/Users/Andakara/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc} <./logo_upi.png>]
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 462.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 490.
  (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.04504pt on input line 462.
+(Font)              scaled to size 12.04504pt on input line 490.
  [1
 
 {C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}] [2
 
 
 ]
-LaTeX Font Info:    Trying to load font information for OT1+minntx on input line 515.
+LaTeX Font Info:    Trying to load font information for OT1+minntx on input line 545.
  (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ot1minntx.fd
 File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
 )
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 12.04504pt on input line 515.
+(Font)              scaled to size 12.04504pt on input line 545.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 8.83302pt on input line 515.
+(Font)              scaled to size 8.83302pt on input line 545.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 6.62477pt on input line 515.
+(Font)              scaled to size 6.62477pt on input line 545.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 12.04504pt on input line 515.
+(Font)              scaled to size 12.04504pt on input line 545.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 8.83302pt on input line 515.
+(Font)              scaled to size 8.83302pt on input line 545.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 6.62477pt on input line 515.
+(Font)              scaled to size 6.62477pt on input line 545.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 12.04504pt on input line 515.
+(Font)              scaled to size 12.04504pt on input line 545.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 8.83302pt on input line 515.
+(Font)              scaled to size 8.83302pt on input line 545.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.62477pt on input line 515.
+(Font)              scaled to size 6.62477pt on input line 545.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 12.04504pt on input line 515.
+(Font)              scaled to size 12.04504pt on input line 545.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 8.83302pt on input line 515.
+(Font)              scaled to size 8.83302pt on input line 545.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.62477pt on input line 515.
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 515.
+(Font)              scaled to size 6.62477pt on input line 545.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 545.
  (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxmia.fd
 File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 12.04504pt on input line 515.
+(Font)              scaled to size 12.04504pt on input line 545.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 8.83302pt on input line 515.
+(Font)              scaled to size 8.83302pt on input line 545.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.62477pt on input line 515.
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 515.
+(Font)              scaled to size 6.62477pt on input line 545.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 545.
  (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsym.fd
 File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 12.04504pt on input line 515.
+(Font)              scaled to size 12.04504pt on input line 545.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 8.83302pt on input line 515.
+(Font)              scaled to size 8.83302pt on input line 545.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.62477pt on input line 515.
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 515.
+(Font)              scaled to size 6.62477pt on input line 545.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 545.
  (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 12.04504pt on input line 515.
+(Font)              scaled to size 12.04504pt on input line 545.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 8.83302pt on input line 515.
+(Font)              scaled to size 8.83302pt on input line 545.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.62477pt on input line 515.
+(Font)              scaled to size 6.62477pt on input line 545.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 12.04504pt on input line 515.
+(Font)              scaled to size 12.04504pt on input line 545.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 8.83302pt on input line 515.
+(Font)              scaled to size 8.83302pt on input line 545.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.62477pt on input line 515.
+(Font)              scaled to size 6.62477pt on input line 545.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.04504pt on input line 549.
 
-Overfull \hbox (20.14517pt too wide) in paragraph at lines 514--522
+Overfull \hbox (20.14517pt too wide) in paragraph at lines 544--552
 []
  []
 
 [3
 
 
-]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.04504pt on input line 541.
- [4
+] [4
 
 
 ] [5]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 11.04129pt on input line 566.
+(Font)              scaled to size 11.04129pt on input line 590.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 11.04129pt on input line 569.
+(Font)              scaled to size 11.04129pt on input line 593.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 11.04129pt on input line 577.
+(Font)              scaled to size 11.04129pt on input line 601.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 10.99109pt on input line 577.
+(Font)              scaled to size 10.99109pt on input line 601.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 8.03003pt on input line 577.
+(Font)              scaled to size 8.03003pt on input line 601.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 6.1229pt on input line 577.
+(Font)              scaled to size 6.1229pt on input line 601.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 10.99109pt on input line 577.
+(Font)              scaled to size 10.99109pt on input line 601.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 8.03003pt on input line 577.
+(Font)              scaled to size 8.03003pt on input line 601.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 6.1229pt on input line 577.
+(Font)              scaled to size 6.1229pt on input line 601.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 10.99109pt on input line 577.
+(Font)              scaled to size 10.99109pt on input line 601.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 8.03003pt on input line 577.
+(Font)              scaled to size 8.03003pt on input line 601.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.1229pt on input line 577.
+(Font)              scaled to size 6.1229pt on input line 601.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 10.99109pt on input line 577.
+(Font)              scaled to size 10.99109pt on input line 601.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 8.03003pt on input line 577.
+(Font)              scaled to size 8.03003pt on input line 601.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.1229pt on input line 577.
+(Font)              scaled to size 6.1229pt on input line 601.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 10.99109pt on input line 577.
+(Font)              scaled to size 10.99109pt on input line 601.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 8.03003pt on input line 577.
+(Font)              scaled to size 8.03003pt on input line 601.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.1229pt on input line 577.
+(Font)              scaled to size 6.1229pt on input line 601.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 10.99109pt on input line 577.
+(Font)              scaled to size 10.99109pt on input line 601.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 8.03003pt on input line 577.
+(Font)              scaled to size 8.03003pt on input line 601.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.1229pt on input line 577.
+(Font)              scaled to size 6.1229pt on input line 601.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 10.99109pt on input line 577.
+(Font)              scaled to size 10.99109pt on input line 601.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 8.03003pt on input line 577.
+(Font)              scaled to size 8.03003pt on input line 601.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.1229pt on input line 577.
+(Font)              scaled to size 6.1229pt on input line 601.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 10.99109pt on input line 577.
+(Font)              scaled to size 10.99109pt on input line 601.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 8.03003pt on input line 577.
+(Font)              scaled to size 8.03003pt on input line 601.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.1229pt on input line 577.
+(Font)              scaled to size 6.1229pt on input line 601.
  [6
 
 {C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 11.04129pt on input line 586.
+(Font)              scaled to size 11.04129pt on input line 622.
  [7
 
 ] (main.toc [8
@@ -2014,7 +2012,7 @@ Bab II.
 <images/bab2/abioticvsbiotic.jpg, id=1311, 232.56487pt x 138.0357pt>
 File: images/bab2/abioticvsbiotic.jpg Graphic file (type jpg)
 <use images/bab2/abioticvsbiotic.jpg>
-Package pdftex.def Info: images/bab2/abioticvsbiotic.jpg  used on input line 12.
+Package pdftex.def Info: images/bab2/abioticvsbiotic.jpg  used on input line 10.
 (pdftex.def)             Requested size: 398.3386pt x 236.42892pt.
 [12
 
@@ -2022,1109 +2020,1471 @@ Package pdftex.def Info: images/bab2/abioticvsbiotic.jpg  used on input line 12.
 
 
 ] [13 <./images/bab2/abioticvsbiotic.jpg>]
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 12.04504pt on input line 21.
 <images/bab2/rulebasedsystem.png, id=1328, 1931.215pt x 1160.335pt>
 File: images/bab2/rulebasedsystem.png Graphic file (type png)
 <use images/bab2/rulebasedsystem.png>
-Package pdftex.def Info: images/bab2/rulebasedsystem.png  used on input line 30.
+Package pdftex.def Info: images/bab2/rulebasedsystem.png  used on input line 26.
 (pdftex.def)             Requested size: 318.67209pt x 191.46472pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.99109pt on input line 31.
+(Font)              scaled to size 10.99109pt on input line 27.
 <images/bab2/learningbasedsystem.png, id=1329, 1931.215pt x 1132.23pt>
 File: images/bab2/learningbasedsystem.png Graphic file (type png)
 <use images/bab2/learningbasedsystem.png>
-Package pdftex.def Info: images/bab2/learningbasedsystem.png  used on input line 37.
+Package pdftex.def Info: images/bab2/learningbasedsystem.png  used on input line 33.
 (pdftex.def)             Requested size: 318.67209pt x 186.82716pt.
  [14] [15 <./images/bab2/rulebasedsystem.png> <./images/bab2/learningbasedsystem.png>]
 <images/bab2/kategoriml.png, id=1346, 750.805pt x 249.93375pt>
 File: images/bab2/kategoriml.png Graphic file (type png)
 <use images/bab2/kategoriml.png>
-Package pdftex.def Info: images/bab2/kategoriml.png  used on input line 58.
+Package pdftex.def Info: images/bab2/kategoriml.png  used on input line 54.
 (pdftex.def)             Requested size: 318.67209pt x 106.08505pt.
  [16]
-<images/bab2/hierarkiai.png, id=1363, 621.82312pt x 406.51875pt>
-File: images/bab2/hierarkiai.png Graphic file (type png)
-<use images/bab2/hierarkiai.png>
-Package pdftex.def Info: images/bab2/hierarkiai.png  used on input line 70.
-(pdftex.def)             Requested size: 179.25114pt x 117.18648pt.
- [17 <./images/bab2/kategoriml.png (PNG copy)> <./images/bab2/hierarkiai.png>]
+<images/bab2/hierarki_ai.png, id=1363, 606.01407pt x 616.55344pt>
+File: images/bab2/hierarki_ai.png Graphic file (type png)
+<use images/bab2/hierarki_ai.png>
+Package pdftex.def Info: images/bab2/hierarki_ai.png  used on input line 66.
+(pdftex.def)             Requested size: 179.25114pt x 182.3709pt.
+ [17 <./images/bab2/kategoriml.png (PNG copy)> <./images/bab2/hierarki_ai.png>]
 <images/bab2/ann.png, id=1375, 1204.5pt x 412.54124pt>
 File: images/bab2/ann.png Graphic file (type png)
 <use images/bab2/ann.png>
-Package pdftex.def Info: images/bab2/ann.png  used on input line 81.
+Package pdftex.def Info: images/bab2/ann.png  used on input line 77.
 (pdftex.def)             Requested size: 318.67209pt x 109.14665pt.
 <images/bab2/neuron.png, id=1376, 1204.5pt x 492.84125pt>
 File: images/bab2/neuron.png Graphic file (type png)
 <use images/bab2/neuron.png>
-Package pdftex.def Info: images/bab2/neuron.png  used on input line 87.
+Package pdftex.def Info: images/bab2/neuron.png  used on input line 83.
 (pdftex.def)             Requested size: 398.3386pt x 162.98402pt.
-<images/bab2/dllearning.png, id=1381, 855.195pt x 636.87938pt>
-File: images/bab2/dllearning.png Graphic file (type png)
-<use images/bab2/dllearning.png>
-Package pdftex.def Info: images/bab2/dllearning.png  used on input line 98.
-(pdftex.def)             Requested size: 278.83578pt x 207.65388pt.
- [18 <./images/bab2/ann.png> <./images/bab2/neuron.png>] [19 <./images/bab2/dllearning.png>]
-<images/bab2/dltechnique.png, id=1399, 1331.72531pt x 788.19469pt>
+ [18 <./images/bab2/ann.png> <./images/bab2/neuron.png>]
+<images/bab2/dl_learning.png, id=1390, 4460.665pt x 3424.795pt>
+File: images/bab2/dl_learning.png Graphic file (type png)
+<use images/bab2/dl_learning.png>
+Package pdftex.def Info: images/bab2/dl_learning.png  used on input line 94.
+(pdftex.def)             Requested size: 278.83578pt x 214.04916pt.
+ [19 <./images/bab2/dl_learning.png>]
+<images/bab2/dltechnique.png, id=1398, 1331.72531pt x 788.19469pt>
 File: images/bab2/dltechnique.png Graphic file (type png)
 <use images/bab2/dltechnique.png>
-Package pdftex.def Info: images/bab2/dltechnique.png  used on input line 107.
+Package pdftex.def Info: images/bab2/dltechnique.png  used on input line 103.
 (pdftex.def)             Requested size: 398.3386pt x 235.75064pt.
  [20 <./images/bab2/dltechnique.png>]
-<images/bab2/traditionalvsdeeplearning.png, id=1410, 402.00188pt x 560.0925pt>
+<images/bab2/traditionalvsdeeplearning.png, id=1409, 402.00188pt x 560.0925pt>
 File: images/bab2/traditionalvsdeeplearning.png Graphic file (type png)
 <use images/bab2/traditionalvsdeeplearning.png>
-Package pdftex.def Info: images/bab2/traditionalvsdeeplearning.png  used on input line 118.
+Package pdftex.def Info: images/bab2/traditionalvsdeeplearning.png  used on input line 114.
 (pdftex.def)             Requested size: 402.00089pt x 560.09113pt.
  [21 <./images/bab2/traditionalvsdeeplearning.png>]
-<images/bab2/transferlearningmechanisms.png, id=1420, 853.1875pt x 541.02126pt>
+<images/bab2/transferlearningmechanisms.png, id=1419, 853.1875pt x 541.02126pt>
 File: images/bab2/transferlearningmechanisms.png Graphic file (type png)
 <use images/bab2/transferlearningmechanisms.png>
-Package pdftex.def Info: images/bab2/transferlearningmechanisms.png  used on input line 127.
+Package pdftex.def Info: images/bab2/transferlearningmechanisms.png  used on input line 123.
 (pdftex.def)             Requested size: 398.3386pt x 252.59593pt.
- [22 <./images/bab2/transferlearningmechanisms.png (PNG copy)>]
-<images/bab2/llmnlp.png, id=1436, 687.56876pt x 485.815pt>
+ [22 <./images/bab2/transferlearningmechanisms.png (PNG copy)>] [23]
+<images/bab2/llmnlp.png, id=1441, 687.56876pt x 485.815pt>
 File: images/bab2/llmnlp.png Graphic file (type png)
 <use images/bab2/llmnlp.png>
-Package pdftex.def Info: images/bab2/llmnlp.png  used on input line 146.
+Package pdftex.def Info: images/bab2/llmnlp.png  used on input line 140.
 (pdftex.def)             Requested size: 239.00558pt x 168.87396pt.
- [23]
-<images/bab2/modelparameters.png, id=1451, 1084.80281pt x 449.42906pt>
+<images/bab2/modelparameters.png, id=1450, 1084.80281pt x 449.42906pt>
 File: images/bab2/modelparameters.png Graphic file (type png)
 <use images/bab2/modelparameters.png>
-Package pdftex.def Info: images/bab2/modelparameters.png  used on input line 164.
+Package pdftex.def Info: images/bab2/modelparameters.png  used on input line 158.
 (pdftex.def)             Requested size: 318.67209pt x 132.02493pt.
  [24 <./images/bab2/llmnlp.png (PNG copy)>]
-<images/bab2/encodedecode.png, id=1465, 8303.02pt x 798.985pt>
-File: images/bab2/encodedecode.png Graphic file (type png)
-<use images/bab2/encodedecode.png>
-Package pdftex.def Info: images/bab2/encodedecode.png  used on input line 174.
-(pdftex.def)             Requested size: 398.3386pt x 38.33011pt.
+<images/bab2/encode.png, id=1464, 734.745pt x 90.3375pt>
+File: images/bab2/encode.png Graphic file (type png)
+<use images/bab2/encode.png>
+Package pdftex.def Info: images/bab2/encode.png  used on input line 170.
+(pdftex.def)             Requested size: 191.20082pt x 23.50786pt.
+<images/bab2/decode.png, id=1465, 735.74875pt x 91.34125pt>
+File: images/bab2/decode.png Graphic file (type png)
+<use images/bab2/decode.png>
+Package pdftex.def Info: images/bab2/decode.png  used on input line 177.
+(pdftex.def)             Requested size: 191.20082pt x 23.737pt.
  [25 <./images/bab2/modelparameters.png>]
-<images/bab2/kingmanwomanqueen.png, id=1477, 736.7525pt x 358.33875pt>
+<images/bab2/kingmanwomanqueen.png, id=1475, 736.7525pt x 358.33875pt>
 File: images/bab2/kingmanwomanqueen.png Graphic file (type png)
 <use images/bab2/kingmanwomanqueen.png>
-Package pdftex.def Info: images/bab2/kingmanwomanqueen.png  used on input line 183.
+Package pdftex.def Info: images/bab2/kingmanwomanqueen.png  used on input line 189.
 (pdftex.def)             Requested size: 278.83578pt x 135.61789pt.
-<images/bab2/llmgeneration.png, id=1484, 986.9372pt x 550.30594pt>
+<images/bab2/llmgeneration.png, id=1482, 986.9372pt x 550.30594pt>
 File: images/bab2/llmgeneration.png Graphic file (type png)
 <use images/bab2/llmgeneration.png>
-Package pdftex.def Info: images/bab2/llmgeneration.png  used on input line 192.
+Package pdftex.def Info: images/bab2/llmgeneration.png  used on input line 198.
 (pdftex.def)             Requested size: 318.67209pt x 177.68852pt.
- [26 <./images/bab2/encodedecode.png> <./images/bab2/kingmanwomanqueen.png (PNG copy)>] [27 <./images/bab2/llmgeneration.png>] [28]
-<images/bab2/dekomposisimatriks.png, id=1515, 1018.55531pt x 636.12656pt>
+ [26 <./images/bab2/encode.png> <./images/bab2/decode.png> <./images/bab2/kingmanwomanqueen.png (PNG copy)>] [27 <./images/bab2/llmgeneration.png>] [28]
+<images/bab2/dekomposisimatriks.png, id=1514, 1688.3075pt x 1007.765pt>
 File: images/bab2/dekomposisimatriks.png Graphic file (type png)
 <use images/bab2/dekomposisimatriks.png>
-Package pdftex.def Info: images/bab2/dekomposisimatriks.png  used on input line 218.
-(pdftex.def)             Requested size: 179.25114pt x 111.94502pt.
-<images/bab2/representasimatriks.png, id=1516, 886.81313pt x 301.125pt>
+Package pdftex.def Info: images/bab2/dekomposisimatriks.png  used on input line 224.
+(pdftex.def)             Requested size: 179.25114pt x 106.9948pt.
+<images/bab2/representasimatriks.png, id=1515, 1583.9175pt x 511.9125pt>
 File: images/bab2/representasimatriks.png Graphic file (type png)
 <use images/bab2/representasimatriks.png>
-Package pdftex.def Info: images/bab2/representasimatriks.png  used on input line 225.
-(pdftex.def)             Requested size: 179.25114pt x 60.86719pt.
+Package pdftex.def Info: images/bab2/representasimatriks.png  used on input line 231.
+(pdftex.def)             Requested size: 179.25114pt x 57.92744pt.
  [29 <./images/bab2/dekomposisimatriks.png> <./images/bab2/representasimatriks.png>]
-<images/bab1/arsitekturtransformer.png, id=1527, 440.39531pt x 626.34pt>
+<images/bab1/arsitekturtransformer.png, id=1524, 440.39531pt x 626.34pt>
 File: images/bab1/arsitekturtransformer.png Graphic file (type png)
 <use images/bab1/arsitekturtransformer.png>
-Package pdftex.def Info: images/bab1/arsitekturtransformer.png  used on input line 237.
+Package pdftex.def Info: images/bab1/arsitekturtransformer.png  used on input line 243.
 (pdftex.def)             Requested size: 440.39423pt x 626.33846pt.
-<images/bab2/tigaarsitekturtransformer.png, id=1533, 889.07156pt x 302.63063pt>
+<images/bab2/tigaarsitekturtransformer.png, id=1530, 889.07156pt x 302.63063pt>
 File: images/bab2/tigaarsitekturtransformer.png Graphic file (type png)
 <use images/bab2/tigaarsitekturtransformer.png>
-Package pdftex.def Info: images/bab2/tigaarsitekturtransformer.png  used on input line 246.
+Package pdftex.def Info: images/bab2/tigaarsitekturtransformer.png  used on input line 252.
 (pdftex.def)             Requested size: 398.3386pt x 135.58682pt.
- [30 <./images/bab1/arsitekturtransformer.png>]
-<images/bab2/encoderbertdecodergpt.png, id=1543, 1262.46657pt x 782.17218pt>
-File: images/bab2/encoderbertdecodergpt.png Graphic file (type png)
-<use images/bab2/encoderbertdecodergpt.png>
-Package pdftex.def Info: images/bab2/encoderbertdecodergpt.png  used on input line 255.
-(pdftex.def)             Requested size: 1262.46349pt x 782.17027pt.
- [31 <./images/bab2/tigaarsitekturtransformer.png>] [32 <./images/bab2/encoderbertdecodergpt.png>]
-<images/bab2/arsitekturvisiontransformer.png, id=1564, 936.49875pt x 484.05844pt>
+ [30 <./images/bab1/arsitekturtransformer.png>] [31 <./images/bab2/tigaarsitekturtransformer.png>] [32]
+<images/bab2/arsitekturvisiontransformer.png, id=1555, 936.49875pt x 484.05844pt>
 File: images/bab2/arsitekturvisiontransformer.png Graphic file (type png)
 <use images/bab2/arsitekturvisiontransformer.png>
-Package pdftex.def Info: images/bab2/arsitekturvisiontransformer.png  used on input line 272.
+Package pdftex.def Info: images/bab2/arsitekturvisiontransformer.png  used on input line 270.
 (pdftex.def)             Requested size: 398.3386pt x 205.89568pt.
- [33 <./images/bab2/arsitekturvisiontransformer.png>] [34]
-<images/bab2/arsitekturmoe.png, id=1589, 762.59906pt x 479.54156pt>
+ [33 <./images/bab2/arsitekturvisiontransformer.png>]
+<images/bab2/arsitekturmoe.png, id=1572, 762.59906pt x 479.54156pt>
 File: images/bab2/arsitekturmoe.png Graphic file (type png)
 <use images/bab2/arsitekturmoe.png>
-Package pdftex.def Info: images/bab2/arsitekturmoe.png  used on input line 288.
+Package pdftex.def Info: images/bab2/arsitekturmoe.png  used on input line 286.
 (pdftex.def)             Requested size: 398.3386pt x 250.48257pt.
- [35 <./images/bab2/arsitekturmoe.png>]
-<images/bab2/arsitekturswitchtransformer.png, id=1601, 500.62032pt x 589.4522pt>
+ [34]
+<images/bab2/arsitekturswitchtransformer.png, id=1586, 500.62032pt x 589.4522pt>
 File: images/bab2/arsitekturswitchtransformer.png Graphic file (type png)
 <use images/bab2/arsitekturswitchtransformer.png>
-Package pdftex.def Info: images/bab2/arsitekturswitchtransformer.png  used on input line 297.
+Package pdftex.def Info: images/bab2/arsitekturswitchtransformer.png  used on input line 295.
 (pdftex.def)             Requested size: 318.67209pt x 375.2334pt.
- [36 <./images/bab2/arsitekturswitchtransformer.png>]
-<images/bab2/multimodal.png, id=1619, 500.62032pt x 253.69781pt>
-File: images/bab2/multimodal.png Graphic file (type png)
-<use images/bab2/multimodal.png>
-Package pdftex.def Info: images/bab2/multimodal.png  used on input line 309.
-(pdftex.def)             Requested size: 318.67209pt x 161.49892pt.
- [37 <./images/bab2/multimodal.png>]
-<images/bab2/multimodalmodelpoints.png, id=1632, 691.08188pt x 419.31656pt>
-File: images/bab2/multimodalmodelpoints.png Graphic file (type png)
-<use images/bab2/multimodalmodelpoints.png>
-Package pdftex.def Info: images/bab2/multimodalmodelpoints.png  used on input line 318.
-(pdftex.def)             Requested size: 318.67209pt x 193.35503pt.
- [38 <./images/bab2/multimodalmodelpoints.png>]
-<images/bab2/mllm.png, id=1647, 742.27313pt x 615.80063pt>
+ [35 <./images/bab2/arsitekturmoe.png>] [36 <./images/bab2/arsitekturswitchtransformer.png>] [37] [38]
+<images/bab2/mllm.png, id=1631, 742.27313pt x 615.80063pt>
 File: images/bab2/mllm.png Graphic file (type png)
 <use images/bab2/mllm.png>
-Package pdftex.def Info: images/bab2/mllm.png  used on input line 334.
+Package pdftex.def Info: images/bab2/mllm.png  used on input line 318.
 (pdftex.def)             Requested size: 398.3386pt x 330.46957pt.
- [39] [40 <./images/bab2/mllm.png>] [41]
-<images/bab2/vlmfamilies.png, id=1672, 1104.125pt x 993.7125pt>
+ [39 <./images/bab2/mllm.png>] [40]
+<images/bab2/vlmfamilies.png, id=1651, 1104.125pt x 993.7125pt>
 File: images/bab2/vlmfamilies.png Graphic file (type png)
 <use images/bab2/vlmfamilies.png>
-Package pdftex.def Info: images/bab2/vlmfamilies.png  used on input line 352.
+Package pdftex.def Info: images/bab2/vlmfamilies.png  used on input line 336.
 (pdftex.def)             Requested size: 278.83578pt x 250.94453pt.
- [42 <./images/bab2/vlmfamilies.png>]
-<images/bab2/vlmevaluation.png, id=1683, 1104.125pt x 1161.33875pt>
+ [41]
+<images/bab2/vlmevaluation.png, id=1661, 1104.125pt x 1161.33875pt>
 File: images/bab2/vlmevaluation.png Graphic file (type png)
 <use images/bab2/vlmevaluation.png>
-Package pdftex.def Info: images/bab2/vlmevaluation.png  used on input line 361.
+Package pdftex.def Info: images/bab2/vlmevaluation.png  used on input line 345.
 (pdftex.def)             Requested size: 318.67209pt x 335.18475pt.
- [43 <./images/bab2/vlmevaluation.png>]
-<images/bab2/arsitekturclip.png, id=1694, 1257.94969pt x 472.76625pt>
+ [42 <./images/bab2/vlmfamilies.png>] [43 <./images/bab2/vlmevaluation.png>]
+<images/bab2/arsitekturclip.png, id=1677, 1257.94969pt x 472.76625pt>
 File: images/bab2/arsitekturclip.png Graphic file (type png)
 <use images/bab2/arsitekturclip.png>
-Package pdftex.def Info: images/bab2/arsitekturclip.png  used on input line 373.
+Package pdftex.def Info: images/bab2/arsitekturclip.png  used on input line 357.
 (pdftex.def)             Requested size: 398.3386pt x 149.70125pt.
- [44]
-<images/bab2/arsitekturscold.png, id=1704, 1353.55687pt x 412.54124pt>
+ [44 <./images/bab2/arsitekturclip.png>]
+<images/bab2/arsitekturscold.png, id=1688, 1353.55687pt x 412.54124pt>
 File: images/bab2/arsitekturscold.png Graphic file (type png)
 <use images/bab2/arsitekturscold.png>
-Package pdftex.def Info: images/bab2/arsitekturscold.png  used on input line 384.
+Package pdftex.def Info: images/bab2/arsitekturscold.png  used on input line 368.
 (pdftex.def)             Requested size: 398.3386pt x 121.40276pt.
- [45 <./images/bab2/arsitekturclip.png>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.03754pt on input line 418.
- [46 <./images/bab2/arsitekturscold.png>]
-<images/bab2/geminimodeloverview.png, id=1726, 999.735pt x 432.11438pt>
+(Font)              scaled to size 10.03754pt on input line 402.
+ [45 <./images/bab2/arsitekturscold.png>]
+<images/bab2/geminimodeloverview.png, id=1703, 999.735pt x 432.11438pt>
 File: images/bab2/geminimodeloverview.png Graphic file (type png)
 <use images/bab2/geminimodeloverview.png>
-Package pdftex.def Info: images/bab2/geminimodeloverview.png  used on input line 429.
+Package pdftex.def Info: images/bab2/geminimodeloverview.png  used on input line 413.
 (pdftex.def)             Requested size: 318.67209pt x 137.73875pt.
- [47 <./images/bab2/geminimodeloverview.png>]
-Overfull \hbox (1.97284pt too wide) in paragraph at lines 498--498
+ [46 <./images/bab2/geminimodeloverview.png>]
+Overfull \hbox (1.97284pt too wide) in paragraph at lines 482--482
  \T1/ntxtlf/b/n/12 Thin-king 
  []
 
 
-Overfull \hbox (1.97284pt too wide) in paragraph at lines 498--498
+Overfull \hbox (1.97284pt too wide) in paragraph at lines 482--482
+ \T1/ntxtlf/b/n/12 Thin-king 
+ []
+
+[47]
+Overfull \hbox (1.97284pt too wide) in paragraph at lines 482--482
  \T1/ntxtlf/b/n/12 Thin-king 
  []
 
 [48]
-Overfull \hbox (1.97284pt too wide) in paragraph at lines 498--498
- \T1/ntxtlf/b/n/12 Thin-king 
- []
-
-[49]
-<images/bab2/gemini2.5flashisfast.png, id=1749, 1049.42062pt x 422.32782pt>
+<images/bab2/gemini2.5flashisfast.png, id=1728, 1049.42062pt x 422.32782pt>
 File: images/bab2/gemini2.5flashisfast.png Graphic file (type png)
 <use images/bab2/gemini2.5flashisfast.png>
-Package pdftex.def Info: images/bab2/gemini2.5flashisfast.png  used on input line 505.
+Package pdftex.def Info: images/bab2/gemini2.5flashisfast.png  used on input line 489.
 (pdftex.def)             Requested size: 318.67209pt x 128.24593pt.
 
-Overfull \hbox (5.09444pt too wide) in paragraph at lines 536--536
+Overfull \hbox (5.09444pt too wide) in paragraph at lines 520--520
 \T1/ntxtlf/b/n/12 pe-nge-ta-hu  
  []
 
 
-Overfull \hbox (5.9357pt too wide) in paragraph at lines 536--536
+Overfull \hbox (5.9357pt too wide) in paragraph at lines 520--520
  []\T1/ntxtlf/m/n/12 November 
  []
 
 
-Overfull \hbox (5.9357pt too wide) in paragraph at lines 536--536
+Overfull \hbox (5.9357pt too wide) in paragraph at lines 520--520
  []\T1/ntxtlf/m/n/12 November 
  []
 
-[50 <./images/bab2/gemini2.5flashisfast.png>]
-Overfull \hbox (5.09444pt too wide) in paragraph at lines 536--536
+[49 <./images/bab2/gemini2.5flashisfast.png>]
+Overfull \hbox (5.09444pt too wide) in paragraph at lines 520--520
 \T1/ntxtlf/b/n/12 pe-nge-ta-hu  
  []
 
 
-Overfull \hbox (5.9357pt too wide) in paragraph at lines 536--536
+Overfull \hbox (5.9357pt too wide) in paragraph at lines 520--520
  []\T1/ntxtlf/m/n/12 November 
  []
 
 
-Overfull \hbox (5.9357pt too wide) in paragraph at lines 536--536
+Overfull \hbox (5.9357pt too wide) in paragraph at lines 520--520
  []\T1/ntxtlf/m/n/12 November 
  []
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.03003pt on input line 577.
+(Font)              scaled to size 8.03003pt on input line 561.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.03003pt on input line 577.
+(Font)              scaled to size 8.03003pt on input line 561.
 
-Overfull \hbox (4.58733pt too wide) in paragraph at lines 577--577
+Overfull \hbox (4.58733pt too wide) in paragraph at lines 561--561
 \T1/ntxtlf/m/it/12 un-ders-tan-ding  
  []
 
 
-Overfull \hbox (4.87643pt too wide) in paragraph at lines 577--577
+Overfull \hbox (4.87643pt too wide) in paragraph at lines 561--561
 []\T1/ntxtlf/m/it/12 Commonsense 
+ []
+
+[50]
+Overfull \hbox (4.58733pt too wide) in paragraph at lines 561--561
+\T1/ntxtlf/m/it/12 un-ders-tan-ding  
  []
 
 [51]
-Overfull \hbox (4.58733pt too wide) in paragraph at lines 577--577
-\T1/ntxtlf/m/it/12 un-ders-tan-ding  
- []
-
-[52]
-Overfull \hbox (4.87643pt too wide) in paragraph at lines 577--577
+Overfull \hbox (4.87643pt too wide) in paragraph at lines 561--561
 []\T1/ntxtlf/m/it/12 Commonsense 
  []
 
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 6.02252pt on input line 618.
+(Font)              scaled to size 6.02252pt on input line 602.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 5.52065pt on input line 618.
+(Font)              scaled to size 5.52065pt on input line 602.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 6.02252pt on input line 618.
+(Font)              scaled to size 6.02252pt on input line 602.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 5.52065pt on input line 618.
+(Font)              scaled to size 5.52065pt on input line 602.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.02252pt on input line 618.
+(Font)              scaled to size 6.02252pt on input line 602.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 5.52065pt on input line 618.
+(Font)              scaled to size 5.52065pt on input line 602.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.02252pt on input line 618.
+(Font)              scaled to size 6.02252pt on input line 602.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 5.52065pt on input line 618.
+(Font)              scaled to size 5.52065pt on input line 602.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.02252pt on input line 618.
+(Font)              scaled to size 6.02252pt on input line 602.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 5.52065pt on input line 618.
+(Font)              scaled to size 5.52065pt on input line 602.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.02252pt on input line 618.
+(Font)              scaled to size 6.02252pt on input line 602.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 5.52065pt on input line 618.
+(Font)              scaled to size 5.52065pt on input line 602.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.02252pt on input line 618.
+(Font)              scaled to size 6.02252pt on input line 602.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 5.52065pt on input line 618.
+(Font)              scaled to size 5.52065pt on input line 602.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.02252pt on input line 618.
+(Font)              scaled to size 6.02252pt on input line 602.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 5.52065pt on input line 618.
+(Font)              scaled to size 5.52065pt on input line 602.
 
-Overfull \hbox (2.28848pt too wide) in paragraph at lines 618--618
+Overfull \hbox (2.28848pt too wide) in paragraph at lines 602--602
  []\T1/ntxtlf/b/n/8 Embedding$[]$ 
  []
 
 
-Overfull \hbox (3.68358pt too wide) in paragraph at lines 618--618
+Overfull \hbox (3.68358pt too wide) in paragraph at lines 602--602
  []\T1/ntxtlf/b/n/8 multilingual- 
  []
 
 
-Overfull \hbox (3.68358pt too wide) in paragraph at lines 618--618
+Overfull \hbox (3.68358pt too wide) in paragraph at lines 602--602
  []\T1/ntxtlf/b/n/8 multilingual- 
  []
 
 
-Overfull \hbox (2.28848pt too wide) in paragraph at lines 618--618
+Overfull \hbox (2.28848pt too wide) in paragraph at lines 602--602
  []\T1/ntxtlf/b/n/8 Embedding$[]$ 
  []
 
 
-Overfull \hbox (3.68358pt too wide) in paragraph at lines 618--618
+Overfull \hbox (3.68358pt too wide) in paragraph at lines 602--602
  []\T1/ntxtlf/b/n/8 multilingual- 
  []
 
 
-Overfull \hbox (3.68358pt too wide) in paragraph at lines 618--618
+Overfull \hbox (3.68358pt too wide) in paragraph at lines 602--602
  []\T1/ntxtlf/b/n/8 multilingual- 
  []
 
 
-Overfull \hbox (2.28848pt too wide) in paragraph at lines 618--618
+Overfull \hbox (2.28848pt too wide) in paragraph at lines 602--602
  []\T1/ntxtlf/b/n/8 Embedding$[]$ 
  []
 
 
-Overfull \hbox (3.68358pt too wide) in paragraph at lines 618--618
+Overfull \hbox (3.68358pt too wide) in paragraph at lines 602--602
  []\T1/ntxtlf/b/n/8 multilingual- 
  []
 
 
-Overfull \hbox (3.68358pt too wide) in paragraph at lines 618--618
+Overfull \hbox (3.68358pt too wide) in paragraph at lines 602--602
  []\T1/ntxtlf/b/n/8 multilingual- 
  []
 
-[53] [54]
-<images/bab2/exsystemprompt.png, id=1793, 934.99312pt x 112.92188pt>
+[52] [53]
+<images/bab2/exsystemprompt.png, id=1772, 934.99312pt x 112.92188pt>
 File: images/bab2/exsystemprompt.png Graphic file (type png)
 <use images/bab2/exsystemprompt.png>
-Package pdftex.def Info: images/bab2/exsystemprompt.png  used on input line 630.
+Package pdftex.def Info: images/bab2/exsystemprompt.png  used on input line 614.
 (pdftex.def)             Requested size: 278.83578pt x 33.67522pt.
- [55]
-<images/bab2/cotcomparison.png, id=1804, 877.77937pt x 445.665pt>
+ [54]
+<images/bab2/cotcomparison.png, id=1783, 877.77937pt x 445.665pt>
 File: images/bab2/cotcomparison.png Graphic file (type png)
 <use images/bab2/cotcomparison.png>
-Package pdftex.def Info: images/bab2/cotcomparison.png  used on input line 642.
+Package pdftex.def Info: images/bab2/cotcomparison.png  used on input line 626.
 (pdftex.def)             Requested size: 239.00558pt x 121.34439pt.
- [56 <./images/bab2/exsystemprompt.png>] [57 <./images/bab2/cotcomparison.png>]
-<images/bab2/ilustrasireact.png, id=1825, 398.4486pt x 340.6326pt>
+ [55 <./images/bab2/exsystemprompt.png> <./images/bab2/cotcomparison.png>]
+<images/bab2/ilustrasireact.png, id=1799, 398.4486pt x 340.6326pt>
 File: images/bab2/ilustrasireact.png Graphic file (type png)
 <use images/bab2/ilustrasireact.png>
-Package pdftex.def Info: images/bab2/ilustrasireact.png  used on input line 656.
+Package pdftex.def Info: images/bab2/ilustrasireact.png  used on input line 640.
 (pdftex.def)             Requested size: 278.83578pt x 238.37881pt.
- [58 <./images/bab2/ilustrasireact.png>]
-<images/bab2/Image-recognition-vs-object-detection.png, id=1843, 204.765pt x 171.2799pt>
+ [56] [57 <./images/bab2/ilustrasireact.png>]
+<images/bab2/Image-recognition-vs-object-detection.png, id=1821, 204.765pt x 171.2799pt>
 File: images/bab2/Image-recognition-vs-object-detection.png Graphic file (type png)
 <use images/bab2/Image-recognition-vs-object-detection.png>
-Package pdftex.def Info: images/bab2/Image-recognition-vs-object-detection.png  used on input line 670.
+Package pdftex.def Info: images/bab2/Image-recognition-vs-object-detection.png  used on input line 654.
 (pdftex.def)             Requested size: 159.333pt x 133.28677pt.
- [59 <./images/bab2/Image-recognition-vs-object-detection.png>]
-<images/bab2/closedsetvsopenvocab.png, id=1853, 1020.81375pt x 262.73157pt>
+ [58 <./images/bab2/Image-recognition-vs-object-detection.png>]
+<images/bab2/closedsetvsopenvocab.png, id=1833, 1020.81375pt x 262.73157pt>
 File: images/bab2/closedsetvsopenvocab.png Graphic file (type png)
 <use images/bab2/closedsetvsopenvocab.png>
-Package pdftex.def Info: images/bab2/closedsetvsopenvocab.png  used on input line 679.
+Package pdftex.def Info: images/bab2/closedsetvsopenvocab.png  used on input line 663.
 (pdftex.def)             Requested size: 398.3386pt x 102.52502pt.
-<images/bab2/arsitekturyolo.png, id=1859, 398.4486pt x 146.4672pt>
+<images/bab2/arsitekturyolo.png, id=1839, 398.4486pt x 146.4672pt>
 File: images/bab2/arsitekturyolo.png Graphic file (type png)
 <use images/bab2/arsitekturyolo.png>
-Package pdftex.def Info: images/bab2/arsitekturyolo.png  used on input line 689.
+Package pdftex.def Info: images/bab2/arsitekturyolo.png  used on input line 673.
 (pdftex.def)             Requested size: 318.67209pt x 117.14261pt.
- [60 <./images/bab2/closedsetvsopenvocab.png>] [61 <./images/bab2/arsitekturyolo.png>]
-<images/bab2/yolov11architecture.png, id=1890, 853.1875pt x 355.3275pt>
+ [59 <./images/bab2/closedsetvsopenvocab.png> <./images/bab2/arsitekturyolo.png>]
+<images/bab2/yolov11architecture.png, id=1860, 853.1875pt x 355.3275pt>
 File: images/bab2/yolov11architecture.png Graphic file (type png)
 <use images/bab2/yolov11architecture.png>
-Package pdftex.def Info: images/bab2/yolov11architecture.png  used on input line 702.
+Package pdftex.def Info: images/bab2/yolov11architecture.png  used on input line 686.
 (pdftex.def)             Requested size: 358.50229pt x 149.307pt.
-<images/bab2/yolov11benchmark.png, id=1895, 3854.4pt x 1686.3pt>
+ [60]
+<images/bab2/yolov11benchmark.png, id=1875, 3854.4pt x 1686.3pt>
 File: images/bab2/yolov11benchmark.png Graphic file (type png)
 <use images/bab2/yolov11benchmark.png>
-Package pdftex.def Info: images/bab2/yolov11benchmark.png  used on input line 711.
+Package pdftex.def Info: images/bab2/yolov11benchmark.png  used on input line 695.
 (pdftex.def)             Requested size: 318.67209pt x 139.40965pt.
- [62 <./images/bab2/yolov11architecture.png (PNG copy)>] [63 <./images/bab2/yolov11benchmark.png (PNG copy)>] [64]
-<images/bab2/arsitekturowlv2.png, id=1925, 1234.6125pt x 407.27156pt>
+ [61 <./images/bab2/yolov11architecture.png (PNG copy)> <./images/bab2/yolov11benchmark.png (PNG copy)>] [62] [63]
+<images/bab2/arsitekturowlv2.png, id=1904, 1234.6125pt x 407.27156pt>
 File: images/bab2/arsitekturowlv2.png Graphic file (type png)
 <use images/bab2/arsitekturowlv2.png>
-Package pdftex.def Info: images/bab2/arsitekturowlv2.png  used on input line 778.
+Package pdftex.def Info: images/bab2/arsitekturowlv2.png  used on input line 762.
 (pdftex.def)             Requested size: 398.3386pt x 131.40465pt.
- [65] [66 <./images/bab2/arsitekturowlv2.png>]
-<images/bab2/rag_component.png, id=1947, 893.58844pt x 234.8775pt>
+ [64 <./images/bab2/arsitekturowlv2.png>]
+<images/bab2/rag_component.png, id=1919, 893.58844pt x 234.8775pt>
 File: images/bab2/rag_component.png Graphic file (type png)
 <use images/bab2/rag_component.png>
-Package pdftex.def Info: images/bab2/rag_component.png  used on input line 793.
+Package pdftex.def Info: images/bab2/rag_component.png  used on input line 777.
 (pdftex.def)             Requested size: 318.67209pt x 83.76378pt.
- [67 <./images/bab2/rag_component.png>]
-<images/bab2/naiverag.png, id=1962, 933.4875pt x 873.2625pt>
+ [65 <./images/bab2/rag_component.png>]
+<images/bab2/naiverag.png, id=1937, 4613.235pt x 3637.59pt>
 File: images/bab2/naiverag.png Graphic file (type png)
 <use images/bab2/naiverag.png>
-Package pdftex.def Info: images/bab2/naiverag.png  used on input line 808.
-(pdftex.def)             Requested size: 278.83578pt x 260.84814pt.
- [68 <./images/bab2/naiverag.png>] [69]
-<images/bab2/advancedrag.png, id=1983, 913.91437pt x 898.85812pt>
+Package pdftex.def Info: images/bab2/naiverag.png  used on input line 792.
+(pdftex.def)             Requested size: 258.91765pt x 204.14769pt.
+ [66] [67 <./images/bab2/naiverag.png>]
+<images/bab2/advancedrag.png, id=1956, 4870.195pt x 3822.28pt>
 File: images/bab2/advancedrag.png Graphic file (type png)
 <use images/bab2/advancedrag.png>
-Package pdftex.def Info: images/bab2/advancedrag.png  used on input line 823.
-(pdftex.def)             Requested size: 398.3386pt x 391.76819pt.
- [70 <./images/bab2/advancedrag.png>] [71]
-<images/bab2/adhoc-ir.png, id=2005, 889.82437pt x 261.22594pt>
+Package pdftex.def Info: images/bab2/advancedrag.png  used on input line 807.
+(pdftex.def)             Requested size: 278.83578pt x 218.82872pt.
+ [68 <./images/bab2/advancedrag.png>] [69]
+<images/bab2/adhoc-ir.png, id=1975, 889.82437pt x 261.22594pt>
 File: images/bab2/adhoc-ir.png Graphic file (type png)
 <use images/bab2/adhoc-ir.png>
-Package pdftex.def Info: images/bab2/adhoc-ir.png  used on input line 841.
+Package pdftex.def Info: images/bab2/adhoc-ir.png  used on input line 825.
 (pdftex.def)             Requested size: 358.50229pt x 105.24585pt.
- [72] [73 <./images/bab2/adhoc-ir.png>] [74]
-<images/bab2/sentencetransformer.png, id=2036, 433.62pt x 342.5297pt>
+ [70] [71 <./images/bab2/adhoc-ir.png>] [72]
+<images/bab2/sentencetransformer.png, id=2007, 433.62pt x 342.5297pt>
 File: images/bab2/sentencetransformer.png Graphic file (type png)
 <use images/bab2/sentencetransformer.png>
-Package pdftex.def Info: images/bab2/sentencetransformer.png  used on input line 864.
+Package pdftex.def Info: images/bab2/sentencetransformer.png  used on input line 848.
 (pdftex.def)             Requested size: 239.00558pt x 188.79958pt.
- [75 <./images/bab2/sentencetransformer.png>] [76]
-<images/bab2/biencoder_vs_crossencoder.png, id=2063, 480.79625pt x 268.00125pt>
+ [73 <./images/bab2/sentencetransformer.png>] [74]
+<images/bab2/biencoder_vs_crossencoder.png, id=2033, 480.79625pt x 268.00125pt>
 File: images/bab2/biencoder_vs_crossencoder.png Graphic file (type png)
 <use images/bab2/biencoder_vs_crossencoder.png>
-Package pdftex.def Info: images/bab2/biencoder_vs_crossencoder.png  used on input line 885.
+Package pdftex.def Info: images/bab2/biencoder_vs_crossencoder.png  used on input line 869.
 (pdftex.def)             Requested size: 278.83578pt x 155.42856pt.
- [77]
-<images/bab2/colbert.png, id=2074, 941.01563pt x 767.86874pt>
+ [75]
+<images/bab2/colbert.png, id=2044, 941.01563pt x 767.86874pt>
 File: images/bab2/colbert.png Graphic file (type png)
 <use images/bab2/colbert.png>
-Package pdftex.def Info: images/bab2/colbert.png  used on input line 894.
+Package pdftex.def Info: images/bab2/colbert.png  used on input line 878.
 (pdftex.def)             Requested size: 159.333pt x 130.0087pt.
- [78 <./images/bab2/biencoder_vs_crossencoder.png>]
-<images/bab2/qdrantpoints.png, id=2087, 3721.905pt x 835.12pt>
+ [76 <./images/bab2/biencoder_vs_crossencoder.png>]
+<images/bab2/qdrantpoints.png, id=2058, 3721.905pt x 835.12pt>
 File: images/bab2/qdrantpoints.png Graphic file (type png)
 <use images/bab2/qdrantpoints.png>
-Package pdftex.def Info: images/bab2/qdrantpoints.png  used on input line 908.
+Package pdftex.def Info: images/bab2/qdrantpoints.png  used on input line 892.
 (pdftex.def)             Requested size: 318.67209pt x 71.50034pt.
- [79 <./images/bab2/colbert.png>] [80 <./images/bab2/qdrantpoints.png (PNG copy)>] [81]
-<images/bab2/arsitektur_sistem_agentik.png, id=2119, 893.58844pt x 432.11438pt>
+ [77 <./images/bab2/colbert.png>] [78 <./images/bab2/qdrantpoints.png (PNG copy)>] [79]
+<images/bab2/arsitektur_sistem_agentik.png, id=2090, 893.58844pt x 432.11438pt>
 File: images/bab2/arsitektur_sistem_agentik.png Graphic file (type png)
 <use images/bab2/arsitektur_sistem_agentik.png>
-Package pdftex.def Info: images/bab2/arsitektur_sistem_agentik.png  used on input line 932.
+Package pdftex.def Info: images/bab2/arsitektur_sistem_agentik.png  used on input line 916.
 (pdftex.def)             Requested size: 338.59023pt x 163.73701pt.
- [82 <./images/bab2/arsitektur_sistem_agentik.png>] [83] [84] [85]
+ [80 <./images/bab2/arsitektur_sistem_agentik.png>] [81] [82] [83]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.99109pt on input line 978.
+(Font)              scaled to size 10.99109pt on input line 962.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.99109pt on input line 978.
+(Font)              scaled to size 10.99109pt on input line 962.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 10.99109pt on input line 978.
- [86] [87]
-<images/bab2/langgraph_platform.png, id=2194, 1585.925pt x 975.645pt>
+(Font)              scaled to size 10.99109pt on input line 962.
+ [84] [85]
+<images/bab2/langgraph_platform.png, id=2165, 1585.925pt x 975.645pt>
 File: images/bab2/langgraph_platform.png Graphic file (type png)
 <use images/bab2/langgraph_platform.png>
-Package pdftex.def Info: images/bab2/langgraph_platform.png  used on input line 992.
+Package pdftex.def Info: images/bab2/langgraph_platform.png  used on input line 976.
 (pdftex.def)             Requested size: 318.67209pt x 196.03366pt.
- [88 <./images/bab2/langgraph_platform.png (PNG copy)>]
-<images/bab2/kerangkakerjageval.png, id=2213, 1063.72406pt x 650.43pt>
+ [86 <./images/bab2/langgraph_platform.png (PNG copy)>]
+<images/bab2/kerangkakerjageval.png, id=2183, 1063.72406pt x 650.43pt>
 File: images/bab2/kerangkakerjageval.png Graphic file (type png)
 <use images/bab2/kerangkakerjageval.png>
-Package pdftex.def Info: images/bab2/kerangkakerjageval.png  used on input line 1011.
+Package pdftex.def Info: images/bab2/kerangkakerjageval.png  used on input line 995.
 (pdftex.def)             Requested size: 258.91765pt x 158.30968pt.
- [89] [90 <./images/bab2/kerangkakerjageval.png>] [91] [92]
-<images/bab2/contoh_dag.png, id=2253, 2652.15843pt x 1714.90688pt>
+ [87] [88 <./images/bab2/kerangkakerjageval.png>] [89] [90]
+<images/bab2/contoh_dag.png, id=2224, 2652.15843pt x 1714.90688pt>
 File: images/bab2/contoh_dag.png Graphic file (type png)
 <use images/bab2/contoh_dag.png>
-Package pdftex.def Info: images/bab2/contoh_dag.png  used on input line 1036.
+Package pdftex.def Info: images/bab2/contoh_dag.png  used on input line 1020.
 (pdftex.def)             Requested size: 298.75394pt x 193.16728pt.
- [93 <./images/bab2/contoh_dag.png>] [94] [95] [96]) [97]
+ [91 <./images/bab2/contoh_dag.png>] [92] [93] [94] [95]) [96]
 \openout2 = `chapters/bab3.aux'.
 
  (chapters/bab3.tex
 Bab III.
-<images/bab3/dnd.png, id=2310, 3962.805pt x 329.23pt>
+<images/bab3/dnd.png, id=2287, 3962.805pt x 329.23pt>
 File: images/bab3/dnd.png Graphic file (type png)
 <use images/bab3/dnd.png>
 Package pdftex.def Info: images/bab3/dnd.png  used on input line 10.
 (pdftex.def)             Requested size: 398.3386pt x 33.0907pt.
-[98
+[97
 
 
 
 
- <./images/bab3/dnd.png>] [99]
-<images/bab3/arsitektursistemagentik.png, id=2331, 3300.33pt x 4063.18pt>
-File: images/bab3/arsitektursistemagentik.png Graphic file (type png)
-<use images/bab3/arsitektursistemagentik.png>
-Package pdftex.def Info: images/bab3/arsitektursistemagentik.png  used on input line 77.
-(pdftex.def)             Requested size: 398.3386pt x 490.41252pt.
- [100] [101 <./images/bab3/arsitektursistemagentik.png>]
-<images/bab3/reactlanggraph.png, id=2344, 3794.175pt x 2212.265pt>
+ <./images/bab3/dnd.png>] [98] [99] [100]
+<images/bab3/arsitektur_sistem_agentik.png, id=2323, 2075.755pt x 1469.49pt>
+File: images/bab3/arsitektur_sistem_agentik.png Graphic file (type png)
+<use images/bab3/arsitektur_sistem_agentik.png>
+Package pdftex.def Info: images/bab3/arsitektur_sistem_agentik.png  used on input line 67.
+(pdftex.def)             Requested size: 219.08743pt x 155.097pt.
+<images/bab3/modality_moduL_sistem.png, id=2324, 3304.345pt x 2585.66pt>
+File: images/bab3/modality_moduL_sistem.png Graphic file (type png)
+<use images/bab3/modality_moduL_sistem.png>
+Package pdftex.def Info: images/bab3/modality_moduL_sistem.png  used on input line 74.
+(pdftex.def)             Requested size: 258.91765pt x 202.596pt.
+ [101 <./images/bab3/arsitektur_sistem_agentik.png> <./images/bab3/modality_moduL_sistem.png>]
+<images/bab3/reactlanggraph.png, id=2333, 3794.175pt x 2212.265pt>
 File: images/bab3/reactlanggraph.png Graphic file (type png)
 <use images/bab3/reactlanggraph.png>
 Package pdftex.def Info: images/bab3/reactlanggraph.png  used on input line 90.
-(pdftex.def)             Requested size: 398.3386pt x 232.24405pt.
- [102] [103 <./images/bab3/reactlanggraph.png>] [104] [105]
-<images/bab3/costar.png, id=2368, 4171.585pt x 2067.725pt>
+(pdftex.def)             Requested size: 318.67209pt x 185.79523pt.
+ [102]
+Overfull \hbox (2.8582pt too wide) in paragraph at lines 126--126
+ []\T1/ntxtlf/m/it/12 list[AnyMessage] 
+ []
+
+
+Overfull \hbox (2.91212pt too wide) in paragraph at lines 126--126
+ []\T1/ntxtlf/b/it/12 plant_disease_classifications 
+ []
+
+[103 <./images/bab3/reactlanggraph.png>]
+Overfull \hbox (2.8582pt too wide) in paragraph at lines 126--126
+ []\T1/ntxtlf/m/it/12 list[AnyMessage] 
+ []
+
+
+Overfull \hbox (2.91212pt too wide) in paragraph at lines 126--126
+ []\T1/ntxtlf/b/it/12 plant_disease_classifications 
+ []
+
+[104]
+<images/bab3/costar.png, id=2355, 2613.765pt x 2244.385pt>
 File: images/bab3/costar.png Graphic file (type png)
 <use images/bab3/costar.png>
-Package pdftex.def Info: images/bab3/costar.png  used on input line 146.
-(pdftex.def)             Requested size: 398.3386pt x 197.41399pt.
- [106] [107 <./images/bab3/costar.png>]
-<images/bab3/moduldeteksitanaman.png, id=2389, 4978.6pt x 1802.735pt>
-File: images/bab3/moduldeteksitanaman.png Graphic file (type png)
-<use images/bab3/moduldeteksitanaman.png>
-Package pdftex.def Info: images/bab3/moduldeteksitanaman.png  used on input line 170.
-(pdftex.def)             Requested size: 398.3386pt x 144.22174pt.
- [108]
-<images/bab3/sampelplantdoc.png, id=2396, 1020.06094pt x 101.62968pt>
-File: images/bab3/sampelplantdoc.png Graphic file (type png)
-<use images/bab3/sampelplantdoc.png>
-Package pdftex.def Info: images/bab3/sampelplantdoc.png  used on input line 185.
-(pdftex.def)             Requested size: 398.3386pt x 39.68658pt.
-<images/bab3/plantdoc_distribution.png, id=2397, 398.4486pt x 171.039pt>
+Package pdftex.def Info: images/bab3/costar.png  used on input line 160.
+(pdftex.def)             Requested size: 318.67209pt x 273.62964pt.
+ [105] [106 <./images/bab3/costar.png>]
+<images/bab3/modul_deteksi_objek.png, id=2374, 5018.75pt x 2204.235pt>
+File: images/bab3/modul_deteksi_objek.png Graphic file (type png)
+<use images/bab3/modul_deteksi_objek.png>
+Package pdftex.def Info: images/bab3/modul_deteksi_objek.png  used on input line 183.
+(pdftex.def)             Requested size: 398.3386pt x 174.92978pt.
+ [107 <./images/bab3/modul_deteksi_objek.png>] [108]
+<images/bab3/plantdoc_repository.png, id=2390, 1924.94156pt x 1021.56656pt>
+File: images/bab3/plantdoc_repository.png Graphic file (type png)
+<use images/bab3/plantdoc_repository.png>
+Package pdftex.def Info: images/bab3/plantdoc_repository.png  used on input line 204.
+(pdftex.def)             Requested size: 398.3386pt x 211.38657pt.
+<images/bab3/plantdoc_sampel.png, id=2391, 1809.76125pt x 686.565pt>
+File: images/bab3/plantdoc_sampel.png Graphic file (type png)
+<use images/bab3/plantdoc_sampel.png>
+Package pdftex.def Info: images/bab3/plantdoc_sampel.png  used on input line 211.
+(pdftex.def)             Requested size: 398.3386pt x 151.10762pt.
+ [109]
+<images/bab3/plantdoc_distribution.png, id=2400, 398.4486pt x 171.039pt>
 File: images/bab3/plantdoc_distribution.png Graphic file (type png)
 <use images/bab3/plantdoc_distribution.png>
-Package pdftex.def Info: images/bab3/plantdoc_distribution.png  used on input line 194.
+Package pdftex.def Info: images/bab3/plantdoc_distribution.png  used on input line 223.
 (pdftex.def)             Requested size: 398.3386pt x 170.9942pt.
- [109 <./images/bab3/moduldeteksitanaman.png>] [110 <./images/bab3/sampelplantdoc.png> <./images/bab3/plantdoc_distribution.png>]
-<images/bab3/arsitekturalatowlv2.png, id=2416, 2798.455pt x 1561.835pt>
+ [110 <./images/bab3/plantdoc_repository.png> <./images/bab3/plantdoc_sampel.png (PNG copy)>] [111 <./images/bab3/plantdoc_distribution.png>]
+<images/bab3/huggingface_owlv2.png, id=2418, 1857.18843pt x 1018.55531pt>
+File: images/bab3/huggingface_owlv2.png Graphic file (type png)
+<use images/bab3/huggingface_owlv2.png>
+Package pdftex.def Info: images/bab3/huggingface_owlv2.png  used on input line 273.
+(pdftex.def)             Requested size: 304.06624pt x 166.74886pt.
+<images/bab3/arsitekturalatowlv2.png, id=2419, 2798.455pt x 1561.835pt>
 File: images/bab3/arsitekturalatowlv2.png Graphic file (type png)
 <use images/bab3/arsitekturalatowlv2.png>
-Package pdftex.def Info: images/bab3/arsitekturalatowlv2.png  used on input line 229.
-(pdftex.def)             Requested size: 398.3386pt x 222.30165pt.
- [111]
-<images/bab3/modulgambarteks.png, id=2427, 5468.43pt x 2979.13pt>
-File: images/bab3/modulgambarteks.png Graphic file (type png)
-<use images/bab3/modulgambarteks.png>
-Package pdftex.def Info: images/bab3/modulgambarteks.png  used on input line 239.
-(pdftex.def)             Requested size: 398.3386pt x 216.9701pt.
- [112 <./images/bab3/arsitekturalatowlv2.png>]
-<images/bab3/distribusiplantwild.png, id=2439, 1271.5003pt x 338.01282pt>
+Package pdftex.def Info: images/bab3/arsitekturalatowlv2.png  used on input line 280.
+(pdftex.def)             Requested size: 304.06624pt x 169.68137pt.
+ [112] [113 <./images/bab3/huggingface_owlv2.png> <./images/bab3/arsitekturalatowlv2.png>] [114] [115] [116]
+<images/bab3/modul_pengambilan_gambar-teks.png, id=2467, 5468.43pt x 2979.13pt>
+File: images/bab3/modul_pengambilan_gambar-teks.png Graphic file (type png)
+<use images/bab3/modul_pengambilan_gambar-teks.png>
+Package pdftex.def Info: images/bab3/modul_pengambilan_gambar-teks.png  used on input line 353.
+(pdftex.def)             Requested size: 318.67209pt x 173.60335pt.
+<images/bab3/modul_pengambilan_basis_pengetahuan_dan_internet.png, id=2468, 5681.225pt x 1866.975pt>
+File: images/bab3/modul_pengambilan_basis_pengetahuan_dan_internet.png Graphic file (type png)
+<use images/bab3/modul_pengambilan_basis_pengetahuan_dan_internet.png>
+Package pdftex.def Info: images/bab3/modul_pengambilan_basis_pengetahuan_dan_internet.png  used on input line 360.
+(pdftex.def)             Requested size: 358.50229pt x 117.79666pt.
+ [117] [118 <./images/bab3/modul_pengambilan_gambar-teks.png> <./images/bab3/modul_pengambilan_basis_pengetahuan_dan_internet.png>] [119]
+<images/bab3/distribusiplantwild.png, id=2497, 1271.5003pt x 338.01282pt>
 File: images/bab3/distribusiplantwild.png Graphic file (type png)
 <use images/bab3/distribusiplantwild.png>
-Package pdftex.def Info: images/bab3/distribusiplantwild.png  used on input line 250.
-(pdftex.def)             Requested size: 398.3386pt x 105.89177pt.
- [113 <./images/bab3/modulgambarteks.png> <./images/bab3/distribusiplantwild.png>] [114]
-<images/bab3/fulltextindexpayloadfield.png, id=2454, 7134.655pt x 2396.955pt>
-File: images/bab3/fulltextindexpayloadfield.png Graphic file (type png)
-<use images/bab3/fulltextindexpayloadfield.png>
-Package pdftex.def Info: images/bab3/fulltextindexpayloadfield.png  used on input line 288.
-(pdftex.def)             Requested size: 398.3386pt x 133.78967pt.
-<images/bab3/strategipencarianteksteks.png, id=2456, 4103.33pt x 3019.28pt>
-File: images/bab3/strategipencarianteksteks.png Graphic file (type png)
-<use images/bab3/strategipencarianteksteks.png>
-Package pdftex.def Info: images/bab3/strategipencarianteksteks.png  used on input line 300.
-(pdftex.def)             Requested size: 179.25114pt x 131.8536pt.
-<images/bab3/strategipencariantekksgambar.png, id=2457, 4099.315pt x 3019.28pt>
-File: images/bab3/strategipencariantekksgambar.png Graphic file (type png)
-<use images/bab3/strategipencariantekksgambar.png>
-Package pdftex.def Info: images/bab3/strategipencariantekksgambar.png  used on input line 307.
-(pdftex.def)             Requested size: 179.25114pt x 131.99182pt.
-<images/bab3/strategipencariangambargambar.png, id=2458, 4099.315pt x 3220.03pt>
-File: images/bab3/strategipencariangambargambar.png Graphic file (type png)
-<use images/bab3/strategipencariangambargambar.png>
-Package pdftex.def Info: images/bab3/strategipencariangambargambar.png  used on input line 316.
-(pdftex.def)             Requested size: 179.25114pt x 140.76787pt.
-<images/bab3/strategipencariangambarteks.png, id=2459, 4099.315pt x 3220.03pt>
-File: images/bab3/strategipencariangambarteks.png Graphic file (type png)
-<use images/bab3/strategipencariangambarteks.png>
-Package pdftex.def Info: images/bab3/strategipencariangambarteks.png  used on input line 323.
-(pdftex.def)             Requested size: 179.25114pt x 140.76787pt.
- [115 <./images/bab3/fulltextindexpayloadfield.png>] [116 <./images/bab3/strategipencarianteksteks.png> <./images/bab3/strategipencariantekksgambar.png> <./images/bab3/strategipencariangambargambar.png> <./images/bab3/strategipencariangambarteks.png>] [117]
-<images/bab3/alurkerjamodulpencarianinformasi.png, id=2482, 5540.7pt x 1581.91pt>
-File: images/bab3/alurkerjamodulpencarianinformasi.png Graphic file (type png)
-<use images/bab3/alurkerjamodulpencarianinformasi.png>
-Package pdftex.def Info: images/bab3/alurkerjamodulpencarianinformasi.png  used on input line 355.
-(pdftex.def)             Requested size: 398.3386pt x 113.71397pt.
-<images/bab3/mtebbenchmark.png, id=2485, 1860.9525pt x 989.19562pt>
-File: images/bab3/mtebbenchmark.png Graphic file (type png)
-<use images/bab3/mtebbenchmark.png>
-Package pdftex.def Info: images/bab3/mtebbenchmark.png  used on input line 365.
-(pdftex.def)             Requested size: 398.3386pt x 211.73709pt.
- [118 <./images/bab3/alurkerjamodulpencarianinformasi.png>] [119 <./images/bab3/mtebbenchmark.png>]
-<images/bab3/alurkerjabenchmarkrag.png, id=2507, 2396.955pt x 3625.545pt>
-File: images/bab3/alurkerjabenchmarkrag.png Graphic file (type png)
-<use images/bab3/alurkerjabenchmarkrag.png>
-Package pdftex.def Info: images/bab3/alurkerjabenchmarkrag.png  used on input line 378.
-(pdftex.def)             Requested size: 318.67209pt x 481.95909pt.
- [120] [121 <./images/bab3/alurkerjabenchmarkrag.png>]
-<images/bab3/plantvillageweb.png, id=2519, 1401.73688pt x 691.08188pt>
+Package pdftex.def Info: images/bab3/distribusiplantwild.png  used on input line 392.
+(pdftex.def)             Requested size: 380.08136pt x 101.03842pt.
+<images/bab3/sampel_plantwild.png, id=2498, 444.15938pt x 401.24907pt>
+File: images/bab3/sampel_plantwild.png Graphic file (type png)
+<use images/bab3/sampel_plantwild.png>
+Package pdftex.def Info: images/bab3/sampel_plantwild.png  used on input line 398.
+(pdftex.def)             Requested size: 136.82887pt x 123.60835pt.
+ [120]
+<images/bab3/flowchart_persiapan_data_rag.png, id=2511, 3866.445pt x 774.895pt>
+File: images/bab3/flowchart_persiapan_data_rag.png Graphic file (type png)
+<use images/bab3/flowchart_persiapan_data_rag.png>
+Package pdftex.def Info: images/bab3/flowchart_persiapan_data_rag.png  used on input line 416.
+(pdftex.def)             Requested size: 380.08136pt x 76.16975pt.
+ [121 <./images/bab3/distribusiplantwild.png> <./images/bab3/sampel_plantwild.png> <./images/bab3/flowchart_persiapan_data_rag.png>]
+<images/bab3/plantvillageweb.png, id=2525, 1401.73688pt x 691.08188pt>
 File: images/bab3/plantvillageweb.png Graphic file (type png)
 <use images/bab3/plantvillageweb.png>
-Package pdftex.def Info: images/bab3/plantvillageweb.png  used on input line 447.
-(pdftex.def)             Requested size: 191.20082pt x 94.26216pt.
-<images/bab3/gardenologyweb.png, id=2520, 1397.97281pt x 693.34032pt>
+Package pdftex.def Info: images/bab3/plantvillageweb.png  used on input line 431.
+(pdftex.def)             Requested size: 182.43742pt x 89.93869pt.
+<images/bab3/gardenologyweb.png, id=2526, 1397.97281pt x 693.34032pt>
 File: images/bab3/gardenologyweb.png Graphic file (type png)
 <use images/bab3/gardenologyweb.png>
-Package pdftex.def Info: images/bab3/gardenologyweb.png  used on input line 454.
-(pdftex.def)             Requested size: 191.20082pt x 94.82413pt.
- [122] [123 <./images/bab3/plantvillageweb.png> <./images/bab3/gardenologyweb.png>]
-<images/bab3/sampelkorpus.png, id=2533, 1027.58907pt x 197.98969pt>
+Package pdftex.def Info: images/bab3/gardenologyweb.png  used on input line 438.
+(pdftex.def)             Requested size: 182.43742pt x 90.47594pt.
+
+Overfull \hbox (2.43391pt too wide) in paragraph at lines 469--469
+ []\T1/ntxtlf/m/n/12 List/String 
+ []
+
+
+Overfull \hbox (2.43391pt too wide) in paragraph at lines 469--469
+ []\T1/ntxtlf/m/n/12 List/String 
+ []
+
+[122 <./images/bab3/plantvillageweb.png> <./images/bab3/gardenologyweb.png>]
+<images/bab3/sampelkorpus.png, id=2539, 1027.58907pt x 197.98969pt>
 File: images/bab3/sampelkorpus.png Graphic file (type png)
 <use images/bab3/sampelkorpus.png>
-Package pdftex.def Info: images/bab3/sampelkorpus.png  used on input line 483.
-(pdftex.def)             Requested size: 398.3386pt x 76.75041pt.
- [124 <./images/bab3/sampelkorpus.png>] [125] [126]
-<images/bab3/alatpencarianbasispengetahuan.png, id=2555, 2890.8pt x 2272.49pt>
-File: images/bab3/alatpencarianbasispengetahuan.png Graphic file (type png)
-<use images/bab3/alatpencarianbasispengetahuan.png>
-Package pdftex.def Info: images/bab3/alatpencarianbasispengetahuan.png  used on input line 548.
-(pdftex.def)             Requested size: 398.3386pt x 313.1185pt.
- [127 <./images/bab3/alatpencarianbasispengetahuan.png>] [128]
-<images/bab3/arsitekturantarmukasistem.png, id=2574, 3119.655pt x 3613.5pt>
-File: images/bab3/arsitekturantarmukasistem.png Graphic file (type png)
-<use images/bab3/arsitekturantarmukasistem.png>
-Package pdftex.def Info: images/bab3/arsitekturantarmukasistem.png  used on input line 591.
-(pdftex.def)             Requested size: 278.83578pt x 322.94034pt.
- [129]
-<images/bab3/usecasediagram.png, id=2581, 1047.915pt x 1332.98pt>
+Package pdftex.def Info: images/bab3/sampelkorpus.png  used on input line 479.
+(pdftex.def)             Requested size: 380.08136pt x 73.23087pt.
+
+Overfull \hbox (1.59708pt too wide) in paragraph at lines 506--506
+ []\T1/ntxtlf/b/n/12 Proporsi 
+ []
+
+
+Overfull \hbox (1.59708pt too wide) in paragraph at lines 506--506
+ []\T1/ntxtlf/b/n/12 Proporsi 
+ []
+
+[123 <./images/bab3/sampelkorpus.png>]
+<images/bab3/huggingface_scold.png, id=2555, 1857.18843pt x 1024.57782pt>
+File: images/bab3/huggingface_scold.png Graphic file (type png)
+<use images/bab3/huggingface_scold.png>
+Package pdftex.def Info: images/bab3/huggingface_scold.png  used on input line 525.
+(pdftex.def)             Requested size: 304.06624pt x 167.7348pt.
+ [124] [125 <./images/bab3/huggingface_scold.png>]
+<images/bab3/fulltextindexpayloadfield.png, id=2577, 7134.655pt x 2396.955pt>
+File: images/bab3/fulltextindexpayloadfield.png Graphic file (type png)
+<use images/bab3/fulltextindexpayloadfield.png>
+Package pdftex.def Info: images/bab3/fulltextindexpayloadfield.png  used on input line 572.
+(pdftex.def)             Requested size: 365.17264pt x 122.671pt.
+ [126 <./images/bab3/fulltextindexpayloadfield.png>]
+<images/bab3/strategipencarianteksteks.png, id=2585, 4103.33pt x 3019.28pt>
+File: images/bab3/strategipencarianteksteks.png Graphic file (type png)
+<use images/bab3/strategipencarianteksteks.png>
+Package pdftex.def Info: images/bab3/strategipencarianteksteks.png  used on input line 589.
+(pdftex.def)             Requested size: 164.32657pt x 120.88884pt.
+<images/bab3/strategipencariantekksgambar.png, id=2586, 4099.315pt x 3019.28pt>
+File: images/bab3/strategipencariantekksgambar.png Graphic file (type png)
+<use images/bab3/strategipencariantekksgambar.png>
+Package pdftex.def Info: images/bab3/strategipencariantekksgambar.png  used on input line 596.
+(pdftex.def)             Requested size: 164.32657pt x 121.02705pt.
+<images/bab3/strategipencariangambargambar.png, id=2587, 4099.315pt x 3220.03pt>
+File: images/bab3/strategipencariangambargambar.png Graphic file (type png)
+<use images/bab3/strategipencariangambargambar.png>
+Package pdftex.def Info: images/bab3/strategipencariangambargambar.png  used on input line 605.
+(pdftex.def)             Requested size: 164.32657pt x 129.07407pt.
+<images/bab3/strategipencariangambarteks.png, id=2588, 4099.315pt x 3220.03pt>
+File: images/bab3/strategipencariangambarteks.png Graphic file (type png)
+<use images/bab3/strategipencariangambarteks.png>
+Package pdftex.def Info: images/bab3/strategipencariangambarteks.png  used on input line 612.
+(pdftex.def)             Requested size: 164.32657pt x 129.07407pt.
+ [127 <./images/bab3/strategipencarianteksteks.png> <./images/bab3/strategipencariantekksgambar.png> <./images/bab3/strategipencariangambargambar.png> <./images/bab3/strategipencariangambarteks.png>] [128]
+Overfull \hbox (0.95595pt too wide) in paragraph at lines 673--673
+ []\T1/ntxtlf/m/n/12 Variabel 
+ []
+
+
+Overfull \hbox (0.95595pt too wide) in paragraph at lines 673--673
+ []\T1/ntxtlf/m/n/12 Variabel 
+ []
+
+[129]
+Overfull \hbox (0.95595pt too wide) in paragraph at lines 673--673
+ []\T1/ntxtlf/m/n/12 Variabel 
+ []
+
+
+Overfull \hbox (0.95595pt too wide) in paragraph at lines 673--673
+ []\T1/ntxtlf/m/n/12 Variabel 
+ []
+
+[130]
+<images/bab3/teknik_pengambilan_hibrida.png, id=2639, 2890.8pt x 2272.49pt>
+File: images/bab3/teknik_pengambilan_hibrida.png Graphic file (type png)
+<use images/bab3/teknik_pengambilan_hibrida.png>
+Package pdftex.def Info: images/bab3/teknik_pengambilan_hibrida.png  used on input line 697.
+(pdftex.def)             Requested size: 292.13922pt x 229.62024pt.
+ [131 <./images/bab3/teknik_pengambilan_hibrida.png>]
+Overfull \hbox (2.32022pt too wide) in paragraph at lines 729--729
+ []\T1/ntxtlf/m/n/12 "advanced" 
+ []
+
+
+Overfull \hbox (2.32022pt too wide) in paragraph at lines 729--729
+ []\T1/ntxtlf/m/n/12 "advanced" 
+ []
+
+[132]
+<images/bab3/qdrant_cloud_config.png, id=2655, 1863.21094pt x 974.13937pt>
+File: images/bab3/qdrant_cloud_config.png Graphic file (type png)
+<use images/bab3/qdrant_cloud_config.png>
+Package pdftex.def Info: images/bab3/qdrant_cloud_config.png  used on input line 748.
+(pdftex.def)             Requested size: 318.67209pt x 166.61226pt.
+ [133] [134 <./images/bab3/qdrant_cloud_config.png>] [135] [136]
+<images/bab3/arsitektur_antarmuka_sistem.png, id=2688, 3131.7pt x 2971.1pt>
+File: images/bab3/arsitektur_antarmuka_sistem.png Graphic file (type png)
+<use images/bab3/arsitektur_antarmuka_sistem.png>
+Package pdftex.def Info: images/bab3/arsitektur_antarmuka_sistem.png  used on input line 785.
+(pdftex.def)             Requested size: 266.05579pt x 252.38148pt.
+ [137 <./images/bab3/arsitektur_antarmuka_sistem.png>]
+<images/bab3/usecasediagram.png, id=2699, 1047.915pt x 1332.98pt>
 File: images/bab3/usecasediagram.png Graphic file (type png)
 <use images/bab3/usecasediagram.png>
-Package pdftex.def Info: images/bab3/usecasediagram.png  used on input line 601.
-(pdftex.def)             Requested size: 318.67209pt x 405.3481pt.
- [130 <./images/bab3/arsitekturantarmukasistem.png>] [131 <./images/bab3/usecasediagram.png>]
-<images/bab3/sequencediagram.png, id=2597, 3175.865pt x 2782.395pt>
-File: images/bab3/sequencediagram.png Graphic file (type png)
-<use images/bab3/sequencediagram.png>
-Package pdftex.def Info: images/bab3/sequencediagram.png  used on input line 619.
-(pdftex.def)             Requested size: 398.3386pt x 348.98729pt.
- [132 <./images/bab3/sequencediagram.png>]
-<images/bab3/sequencediagramsubmit.png, id=2605, 6227.265pt x 6058.635pt>
+Package pdftex.def Info: images/bab3/usecasediagram.png  used on input line 806.
+(pdftex.def)             Requested size: 190.04068pt x 241.73627pt.
+<images/bab3/sequencec_diagram_identifikasi.png, id=2701, 3175.865pt x 2782.395pt>
+File: images/bab3/sequencec_diagram_identifikasi.png Graphic file (type png)
+<use images/bab3/sequencec_diagram_identifikasi.png>
+Package pdftex.def Info: images/bab3/sequencec_diagram_identifikasi.png  used on input line 821.
+(pdftex.def)             Requested size: 380.08136pt x 332.98143pt.
+ [138 <./images/bab3/usecasediagram.png>] [139 <./images/bab3/sequencec_diagram_identifikasi.png>]
+<images/bab3/sequencediagramsubmit.png, id=2718, 6227.265pt x 6058.635pt>
 File: images/bab3/sequencediagramsubmit.png Graphic file (type png)
 <use images/bab3/sequencediagramsubmit.png>
-Package pdftex.def Info: images/bab3/sequencediagramsubmit.png  used on input line 637.
-(pdftex.def)             Requested size: 398.3386pt x 387.5387pt.
- [133]
-<images/bab3/sequencediagramaksesthreadlama.png, id=2614, 2934.965pt x 3649.635pt>
+Package pdftex.def Info: images/bab3/sequencediagramsubmit.png  used on input line 843.
+(pdftex.def)             Requested size: 380.08136pt x 369.78883pt.
+ [140 <./images/bab3/sequencediagramsubmit.png>]
+<images/bab3/sequencediagramaksesthreadlama.png, id=2725, 2934.965pt x 3649.635pt>
 File: images/bab3/sequencediagramaksesthreadlama.png Graphic file (type png)
 <use images/bab3/sequencediagramaksesthreadlama.png>
-Package pdftex.def Info: images/bab3/sequencediagramaksesthreadlama.png  used on input line 646.
-(pdftex.def)             Requested size: 398.3386pt x 495.29684pt.
- [134 <./images/bab3/sequencediagramsubmit.png>]
-<images/bab3/submitulangdithreadlama.png, id=2621, 8078.18pt x 5074.96pt>
+Package pdftex.def Info: images/bab3/sequencediagramaksesthreadlama.png  used on input line 856.
+(pdftex.def)             Requested size: 380.08136pt x 472.63148pt.
+ [141 <./images/bab3/sequencediagramaksesthreadlama.png>]
+<images/bab3/submitulangdithreadlama.png, id=2732, 8078.18pt x 5074.96pt>
 File: images/bab3/submitulangdithreadlama.png Graphic file (type png)
 <use images/bab3/submitulangdithreadlama.png>
-Package pdftex.def Info: images/bab3/submitulangdithreadlama.png  used on input line 655.
-(pdftex.def)             Requested size: 398.3386pt x 250.20073pt.
- [135 <./images/bab3/sequencediagramaksesthreadlama.png>]
-<images/bab3/prototipeantarmuka.png, id=2629, 1409.265pt x 691.08188pt>
+Package pdftex.def Info: images/bab3/submitulangdithreadlama.png  used on input line 869.
+(pdftex.def)             Requested size: 380.08136pt x 238.73997pt.
+<images/bab3/prototipeantarmuka.png, id=2735, 1409.265pt x 691.08188pt>
 File: images/bab3/prototipeantarmuka.png Graphic file (type png)
 <use images/bab3/prototipeantarmuka.png>
-Package pdftex.def Info: images/bab3/prototipeantarmuka.png  used on input line 667.
-(pdftex.def)             Requested size: 398.3386pt x 195.33644pt.
- [136 <./images/bab3/submitulangdithreadlama.png>] [137 <./images/bab3/prototipeantarmuka.png>] [138] [139]
-
-LaTeX Warning: Citation 'getachewWheatLeafDataset2021' on page 140 undefined on input line 744.
-
-
-LaTeX Warning: Citation '' on page 140 undefined on input line 744.
-
-<images/bab3/contohentri.png, id=2662, 2055.68pt x 582.175pt>
+Package pdftex.def Info: images/bab3/prototipeantarmuka.png  used on input line 885.
+(pdftex.def)             Requested size: 380.08136pt x 186.3837pt.
+ [142 <./images/bab3/submitulangdithreadlama.png>] [143 <./images/bab3/prototipeantarmuka.png>] [144]
+<images/bab3/flowchart_benchmark_yolo.png, id=2760, 3059.43pt x 2220.295pt>
+File: images/bab3/flowchart_benchmark_yolo.png Graphic file (type png)
+<use images/bab3/flowchart_benchmark_yolo.png>
+Package pdftex.def Info: images/bab3/flowchart_benchmark_yolo.png  used on input line 933.
+(pdftex.def)             Requested size: 398.3386pt x 289.05502pt.
+ [145 <./images/bab3/flowchart_benchmark_yolo.png>]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.83302pt on input line 943.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.62477pt on input line 943.
+ [146] [147] [148]
+<images/bab3/flowchart_pengujian_rag.png, id=2790, 4504.83pt x 1654.18pt>
+File: images/bab3/flowchart_pengujian_rag.png Graphic file (type png)
+<use images/bab3/flowchart_pengujian_rag.png>
+Package pdftex.def Info: images/bab3/flowchart_pengujian_rag.png  used on input line 1001.
+(pdftex.def)             Requested size: 398.3386pt x 146.26997pt.
+ [149 <./images/bab3/flowchart_pengujian_rag.png>] [150] [151] [152] [153] [154]
+<images/bab3/contohentri.png, id=2885, 2055.68pt x 582.175pt>
 File: images/bab3/contohentri.png Graphic file (type png)
 <use images/bab3/contohentri.png>
-Package pdftex.def Info: images/bab3/contohentri.png  used on input line 751.
-(pdftex.def)             Requested size: 398.3386pt x 112.80856pt.
-[140]
-<images/bab3/contohpromptpersiapandata.png, id=2676, 2055.68pt x 2033.5975pt>
+Package pdftex.def Info: images/bab3/contohentri.png  used on input line 1143.
+(pdftex.def)             Requested size: 365.17264pt x 103.41895pt.
+ [155 <./images/bab3/contohentri.png>]
+<images/bab3/contohpromptpersiapandata.png, id=2895, 2055.68pt x 2033.5975pt>
 File: images/bab3/contohpromptpersiapandata.png Graphic file (type png)
 <use images/bab3/contohpromptpersiapandata.png>
-Package pdftex.def Info: images/bab3/contohpromptpersiapandata.png  used on input line 768.
-(pdftex.def)             Requested size: 398.3386pt x 394.05199pt.
- [141 <./images/bab3/contohentri.png>] [142 <./images/bab3/contohpromptpersiapandata.png>]
-<images/bab3/contohskenario1.png, id=2693, 2055.68pt x 1063.975pt>
+Package pdftex.def Info: images/bab3/contohpromptpersiapandata.png  used on input line 1164.
+(pdftex.def)             Requested size: 365.17264pt x 361.25311pt.
+ [156 <./images/bab3/contohpromptpersiapandata.png>]
+<images/bab3/flowchart_generate_dataset_sistem_agentik.png, id=2902, 3063.445pt x 2822.545pt>
+File: images/bab3/flowchart_generate_dataset_sistem_agentik.png Graphic file (type png)
+<use images/bab3/flowchart_generate_dataset_sistem_agentik.png>
+Package pdftex.def Info: images/bab3/flowchart_generate_dataset_sistem_agentik.png  used on input line 1177.
+(pdftex.def)             Requested size: 292.13922pt x 269.13513pt.
+<images/bab3/contohskenario1.png, id=2904, 2055.68pt x 1063.975pt>
 File: images/bab3/contohskenario1.png Graphic file (type png)
 <use images/bab3/contohskenario1.png>
-Package pdftex.def Info: images/bab3/contohskenario1.png  used on input line 826.
-(pdftex.def)             Requested size: 398.3386pt x 206.16737pt.
-<images/bab3/contohskenario2.png, id=2694, 2055.68pt x 1100.11pt>
+Package pdftex.def Info: images/bab3/contohskenario1.png  used on input line 1192.
+(pdftex.def)             Requested size: 365.17264pt x 189.00705pt.
+<images/bab3/contohskenario2.png, id=2905, 2055.68pt x 1100.11pt>
 File: images/bab3/contohskenario2.png Graphic file (type png)
 <use images/bab3/contohskenario2.png>
-Package pdftex.def Info: images/bab3/contohskenario2.png  used on input line 832.
-(pdftex.def)             Requested size: 398.3386pt x 213.16928pt.
-<images/bab3/contohskenario3.png, id=2695, 2055.68pt x 951.555pt>
+Package pdftex.def Info: images/bab3/contohskenario2.png  used on input line 1198.
+(pdftex.def)             Requested size: 365.17264pt x 195.42616pt.
+<images/bab3/contohskenario3.png, id=2906, 2055.68pt x 951.555pt>
 File: images/bab3/contohskenario3.png Graphic file (type png)
 <use images/bab3/contohskenario3.png>
-Package pdftex.def Info: images/bab3/contohskenario3.png  used on input line 838.
-(pdftex.def)             Requested size: 398.3386pt x 184.38365pt.
- [143]
-Overfull \vbox (33.6427pt too high) has occurred while \output is active []
+Package pdftex.def Info: images/bab3/contohskenario3.png  used on input line 1204.
+(pdftex.def)             Requested size: 365.17264pt x 169.0365pt.
+ [157 <./images/bab3/flowchart_generate_dataset_sistem_agentik.png>]
+Overfull \vbox (13.84485pt too high) has occurred while \output is active []
 
- [144 <./images/bab3/contohskenario1.png> <./images/bab3/contohskenario2.png> <./images/bab3/contohskenario3.png>] [145] [146] [147] [148]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.83302pt on input line 954.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.62477pt on input line 954.
-<images/bab3/contohparetofrontier.png, id=2743, 995.97093pt x 400.49625pt>
-File: images/bab3/contohparetofrontier.png Graphic file (type png)
-<use images/bab3/contohparetofrontier.png>
-Package pdftex.def Info: images/bab3/contohparetofrontier.png  used on input line 971.
-(pdftex.def)             Requested size: 358.50229pt x 144.1602pt.
- [149] [150 <./images/bab3/contohparetofrontier.png>] [151] [152]
-<images/bab3/dagtree.png, id=2776, 5223.515pt x 7649.57875pt>
+ [158 <./images/bab3/contohskenario1.png> <./images/bab3/contohskenario2.png> <./images/bab3/contohskenario3.png>] [159]
+<images/bab3/dagtree.png, id=2927, 666.3294pt x 492.8814pt>
 File: images/bab3/dagtree.png Graphic file (type png)
 <use images/bab3/dagtree.png>
-Package pdftex.def Info: images/bab3/dagtree.png  used on input line 1065.
-(pdftex.def)             Requested size: 239.00558pt x 349.93562pt.
- [153] [154 <./images/bab3/dagtree.png>] [155] [156]
-LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.99109pt on input line 1169.
- [157] [158] [159] [160] [161]
-<images/bab3/promptdomainadherence.png, id=2836, 2043.635pt x 618.31pt>
+Package pdftex.def Info: images/bab3/dagtree.png  used on input line 1257.
+(pdftex.def)             Requested size: 328.65314pt x 243.1084pt.
+ [160 <./images/bab3/dagtree.png>]
+Overfull \hbox (8.47964pt too wide) in paragraph at lines 1289--1289
+[]\T1/ntxtlf/m/it/12 reference_tool_calls  
+ []
+
+
+Overfull \hbox (8.47964pt too wide) in paragraph at lines 1289--1289
+[]\T1/ntxtlf/m/it/12 reference_tool_calls  
+ []
+
+[161] [162] [163] [164] [165] [166] [167] [168] [169]
+<images/bab3/promptdomainadherence.png, id=3005, 2043.635pt x 618.31pt>
 File: images/bab3/promptdomainadherence.png Graphic file (type png)
 <use images/bab3/promptdomainadherence.png>
-Package pdftex.def Info: images/bab3/promptdomainadherence.png  used on input line 1266.
-(pdftex.def)             Requested size: 398.3386pt x 120.51807pt.
- [162]) [163 <./images/bab3/promptdomainadherence.png>]
+Package pdftex.def Info: images/bab3/promptdomainadherence.png  used on input line 1523.
+(pdftex.def)             Requested size: 380.08136pt x 114.98936pt.
+ [170 <./images/bab3/promptdomainadherence.png>]
+<images/bab3/contohparetofrontier.png, id=3015, 995.97093pt x 400.49625pt>
+File: images/bab3/contohparetofrontier.png Graphic file (type png)
+<use images/bab3/contohparetofrontier.png>
+Package pdftex.def Info: images/bab3/contohparetofrontier.png  used on input line 1540.
+(pdftex.def)             Requested size: 358.50229pt x 144.1602pt.
+ [171 <./images/bab3/contohparetofrontier.png>] [172]) [173] [174]
 \openout2 = `chapters/bab4.aux'.
 
  (chapters/bab4.tex
 Bab IV.
-<images/bab4/compiledstategraph.png, id=2847, 216.81pt x 249.93375pt>
+<images/bab4/compiledstategraph.png, id=3041, 216.81pt x 249.93375pt>
 File: images/bab4/compiledstategraph.png Graphic file (type png)
 <use images/bab4/compiledstategraph.png>
-Package pdftex.def Info: images/bab4/compiledstategraph.png  used on input line 10.
+Package pdftex.def Info: images/bab4/compiledstategraph.png  used on input line 12.
 (pdftex.def)             Requested size: 159.333pt x 183.68575pt.
-[164
+[175
 
 
 
 
- <./images/bab4/compiledstategraph.png (PNG copy)>]
-<images/bab4/agentgraphdilangsmithstudio.png, id=2853, 1879.02pt x 997.47656pt>
+]
+<images/bab4/agentgraphdilangsmithstudio.png, id=3047, 1879.02pt x 997.47656pt>
 File: images/bab4/agentgraphdilangsmithstudio.png Graphic file (type png)
 <use images/bab4/agentgraphdilangsmithstudio.png>
-Package pdftex.def Info: images/bab4/agentgraphdilangsmithstudio.png  used on input line 19.
+Package pdftex.def Info: images/bab4/agentgraphdilangsmithstudio.png  used on input line 21.
 (pdftex.def)             Requested size: 398.3386pt x 211.4549pt.
-<images/bab4/contohoutputagentdilangsmithstudio.png, id=2855, 1867.72781pt x 993.7125pt>
-File: images/bab4/contohoutputagentdilangsmithstudio.png Graphic file (type png)
-<use images/bab4/contohoutputagentdilangsmithstudio.png>
-Package pdftex.def Info: images/bab4/contohoutputagentdilangsmithstudio.png  used on input line 28.
-(pdftex.def)             Requested size: 398.3386pt x 211.93062pt.
- [165 <./images/bab4/agentgraphdilangsmithstudio.png>]
-<images/bab4/contohtracedilangsmithstudio.png, id=2862, 1877.51437pt x 1000.48781pt>
-File: images/bab4/contohtracedilangsmithstudio.png Graphic file (type png)
-<use images/bab4/contohtracedilangsmithstudio.png>
-Package pdftex.def Info: images/bab4/contohtracedilangsmithstudio.png  used on input line 37.
-(pdftex.def)             Requested size: 398.3386pt x 212.26117pt.
- [166 <./images/bab4/contohoutputagentdilangsmithstudio.png> <./images/bab4/contohtracedilangsmithstudio.png>]
-<images/bab4/tampilanpromptdilangsmithprompthub.png, id=2871, 1861.7053pt x 1053.1847pt>
+ [176 <./images/bab4/compiledstategraph.png (PNG copy)> <./images/bab4/agentgraphdilangsmithstudio.png>]
+<images/bab4/tampilanpromptdilangsmithprompthub.png, id=3054, 1861.7053pt x 1053.1847pt>
 File: images/bab4/tampilanpromptdilangsmithprompthub.png Graphic file (type png)
 <use images/bab4/tampilanpromptdilangsmithprompthub.png>
-Package pdftex.def Info: images/bab4/tampilanpromptdilangsmithprompthub.png  used on input line 49.
+Package pdftex.def Info: images/bab4/tampilanpromptdilangsmithprompthub.png  used on input line 31.
 (pdftex.def)             Requested size: 398.3386pt x 225.33751pt.
-<images/bab4/contextobjective.png, id=2873, 2055.68pt x 1407.2575pt>
+<images/bab4/contextobjective.png, id=3056, 2055.68pt x 1407.2575pt>
 File: images/bab4/contextobjective.png Graphic file (type png)
 <use images/bab4/contextobjective.png>
-Package pdftex.def Info: images/bab4/contextobjective.png  used on input line 57.
+Package pdftex.def Info: images/bab4/contextobjective.png  used on input line 40.
 (pdftex.def)             Requested size: 398.3386pt x 272.68553pt.
- [167 <./images/bab4/tampilanpromptdilangsmithprompthub.png>]
-<images/bab4/styletoneaudience.png, id=2880, 2055.68pt x 881.2925pt>
+ [177 <./images/bab4/tampilanpromptdilangsmithprompthub.png>]
+<images/bab4/styletoneaudience.png, id=3063, 2055.68pt x 881.2925pt>
 File: images/bab4/styletoneaudience.png Graphic file (type png)
 <use images/bab4/styletoneaudience.png>
-Package pdftex.def Info: images/bab4/styletoneaudience.png  used on input line 66.
+Package pdftex.def Info: images/bab4/styletoneaudience.png  used on input line 49.
 (pdftex.def)             Requested size: 398.3386pt x 170.76883pt.
- [168 <./images/bab4/contextobjective.png> <./images/bab4/styletoneaudience.png>]
-<images/bab4/response.png, id=2888, 2055.68pt x 807.015pt>
+ [178 <./images/bab4/contextobjective.png> <./images/bab4/styletoneaudience.png>]
+<images/bab4/response.png, id=3072, 2055.68pt x 807.015pt>
 File: images/bab4/response.png Graphic file (type png)
 <use images/bab4/response.png>
-Package pdftex.def Info: images/bab4/response.png  used on input line 75.
+Package pdftex.def Info: images/bab4/response.png  used on input line 58.
 (pdftex.def)             Requested size: 398.3386pt x 156.376pt.
-LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 81.
- (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\t1ntxtt.fd
-File: t1ntxtt.fd 2012/04/20 v3.1
-)
-LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 12.04504pt on input line 81.
-<images/bab4/referensitool.png, id=2890, 2055.68pt x 1658.195pt>
+<images/bab4/referensitool.png, id=3074, 2055.68pt x 1658.195pt>
 File: images/bab4/referensitool.png Graphic file (type png)
 <use images/bab4/referensitool.png>
-Package pdftex.def Info: images/bab4/referensitool.png  used on input line 85.
+Package pdftex.def Info: images/bab4/referensitool.png  used on input line 68.
 (pdftex.def)             Requested size: 398.3386pt x 321.30992pt.
- [169 <./images/bab4/response.png>] [170 <./images/bab4/referensitool.png>] [171] [172]
-<images/bab4/datasetplantdoc.png, id=2915, 909.1566pt x 904.8204pt>
+ [179 <./images/bab4/response.png>]
+<images/bab4/tool_decision_policy_1.png, id=3081, 1294.8375pt x 1320.935pt>
+File: images/bab4/tool_decision_policy_1.png Graphic file (type png)
+<use images/bab4/tool_decision_policy_1.png>
+Package pdftex.def Info: images/bab4/tool_decision_policy_1.png  used on input line 79.
+(pdftex.def)             Requested size: 191.20082pt x 195.04785pt.
+<images/bab4/tool_decision_policy_2.png, id=3082, 1260.71pt x 1246.6575pt>
+File: images/bab4/tool_decision_policy_2.png Graphic file (type png)
+<use images/bab4/tool_decision_policy_2.png>
+Package pdftex.def Info: images/bab4/tool_decision_policy_2.png  used on input line 85.
+(pdftex.def)             Requested size: 191.20082pt x 189.064pt.
+<images/bab4/tool_decision_policy_3.png, id=3083, 1242.6425pt x 1284.8pt>
+File: images/bab4/tool_decision_policy_3.png Graphic file (type png)
+<use images/bab4/tool_decision_policy_3.png>
+Package pdftex.def Info: images/bab4/tool_decision_policy_3.png  used on input line 91.
+(pdftex.def)             Requested size: 191.20082pt x 197.6716pt.
+<images/bab4/tool_decision_policy_4.png, id=3084, 1192.455pt x 1098.1025pt>
+File: images/bab4/tool_decision_policy_4.png Graphic file (type png)
+<use images/bab4/tool_decision_policy_4.png>
+Package pdftex.def Info: images/bab4/tool_decision_policy_4.png  used on input line 97.
+(pdftex.def)             Requested size: 191.20082pt x 176.0686pt.
+ [180 <./images/bab4/referensitool.png>] [181 <./images/bab4/tool_decision_policy_1.png> <./images/bab4/tool_decision_policy_2.png> <./images/bab4/tool_decision_policy_3.png> <./images/bab4/tool_decision_policy_4.png>]
+<images/bab4/hard_truthfulness_1.png, id=3099, 1363.0925pt x 1246.6575pt>
+File: images/bab4/hard_truthfulness_1.png Graphic file (type png)
+<use images/bab4/hard_truthfulness_1.png>
+Package pdftex.def Info: images/bab4/hard_truthfulness_1.png  used on input line 110.
+(pdftex.def)             Requested size: 127.47125pt x 116.56949pt.
+<images/bab4/hard_truthfulness_2.png, id=3100, 1192.455pt x 1545.775pt>
+File: images/bab4/hard_truthfulness_2.png Graphic file (type png)
+<use images/bab4/hard_truthfulness_2.png>
+Package pdftex.def Info: images/bab4/hard_truthfulness_2.png  used on input line 116.
+(pdftex.def)             Requested size: 127.47125pt x 165.2241pt.
+<images/bab4/hard_truthfulness_3.png, id=3101, 1328.965pt x 985.6825pt>
+File: images/bab4/hard_truthfulness_3.png Graphic file (type png)
+<use images/bab4/hard_truthfulness_3.png>
+Package pdftex.def Info: images/bab4/hard_truthfulness_3.png  used on input line 122.
+(pdftex.def)             Requested size: 127.47125pt x 94.54323pt.
+
+
+LaTeX Warning: Reference `tab:perangkat_keras_pengembangan' on page 182 undefined on input line 135.
+
+[182 <./images/bab4/hard_truthfulness_1.png> <./images/bab4/hard_truthfulness_2.png> <./images/bab4/hard_truthfulness_3.png>]
+<images/bab4/datasetplantdoc.png, id=3111, 909.1566pt x 904.8204pt>
 File: images/bab4/datasetplantdoc.png Graphic file (type png)
 <use images/bab4/datasetplantdoc.png>
-Package pdftex.def Info: images/bab4/datasetplantdoc.png  used on input line 217.
-(pdftex.def)             Requested size: 318.67209pt x 317.1613pt.
- [173 <./images/bab4/datasetplantdoc.png>]
-<images/bab4/outputhasiltraining.png, id=2923, 1403.2425pt x 419.31656pt>
+Package pdftex.def Info: images/bab4/datasetplantdoc.png  used on input line 142.
+(pdftex.def)             Requested size: 304.06624pt x 302.62314pt.
+ [183 <./images/bab4/datasetplantdoc.png>]
+<images/bab4/outputhasiltraining.png, id=3119, 1403.2425pt x 419.31656pt>
 File: images/bab4/outputhasiltraining.png Graphic file (type png)
 <use images/bab4/outputhasiltraining.png>
-Package pdftex.def Info: images/bab4/outputhasiltraining.png  used on input line 249.
-(pdftex.def)             Requested size: 318.67209pt x 95.2251pt.
-<images/bab4/yolov11ntraningcurve.png, id=2925, 1076.1003pt x 1065.9825pt>
-File: images/bab4/yolov11ntraningcurve.png Graphic file (type png)
-<use images/bab4/yolov11ntraningcurve.png>
-Package pdftex.def Info: images/bab4/yolov11ntraningcurve.png  used on input line 260.
-(pdftex.def)             Requested size: 179.25114pt x 177.55487pt.
-<images/bab4/yolov11straningcurve.png, id=2926, 1076.1003pt x 1065.9825pt>
-File: images/bab4/yolov11straningcurve.png Graphic file (type png)
-<use images/bab4/yolov11straningcurve.png>
-Package pdftex.def Info: images/bab4/yolov11straningcurve.png  used on input line 266.
-(pdftex.def)             Requested size: 179.25114pt x 177.55487pt.
-<images/bab4/yolov11mtraningcurve.png, id=2927, 1076.1003pt x 1065.9825pt>
-File: images/bab4/yolov11mtraningcurve.png Graphic file (type png)
-<use images/bab4/yolov11mtraningcurve.png>
-Package pdftex.def Info: images/bab4/yolov11mtraningcurve.png  used on input line 274.
-(pdftex.def)             Requested size: 179.25114pt x 177.55487pt.
- [174 <./images/bab4/outputhasiltraining.png>] [175 <./images/bab4/yolov11ntraningcurve.png> <./images/bab4/yolov11straningcurve.png> <./images/bab4/yolov11mtraningcurve.png>]
-<images/bab4/testprediksiyolov11n.png, id=2941, 852.786pt x 849.1725pt>
-File: images/bab4/testprediksiyolov11n.png Graphic file (type png)
-<use images/bab4/testprediksiyolov11n.png>
-Package pdftex.def Info: images/bab4/testprediksiyolov11n.png  used on input line 287.
-(pdftex.def)             Requested size: 179.25114pt x 178.48697pt.
-<images/bab4/testprediksiyolov11s.png, id=2942, 852.786pt x 849.1725pt>
-File: images/bab4/testprediksiyolov11s.png Graphic file (type png)
-<use images/bab4/testprediksiyolov11s.png>
-Package pdftex.def Info: images/bab4/testprediksiyolov11s.png  used on input line 293.
-(pdftex.def)             Requested size: 179.25114pt x 178.48697pt.
-<images/bab4/testprediksiyolov11m.png, id=2943, 852.786pt x 849.1725pt>
-File: images/bab4/testprediksiyolov11m.png Graphic file (type png)
-<use images/bab4/testprediksiyolov11m.png>
-Package pdftex.def Info: images/bab4/testprediksiyolov11m.png  used on input line 301.
-(pdftex.def)             Requested size: 179.25114pt x 178.48697pt.
- [176 <./images/bab4/testprediksiyolov11n.png> <./images/bab4/testprediksiyolov11s.png> <./images/bab4/testprediksiyolov11m.png>]
-<images/bab4/perbandinganperformayolov11.png, id=2953, 709.6914pt x 422.0568pt>
-File: images/bab4/perbandinganperformayolov11.png Graphic file (type png)
-<use images/bab4/perbandinganperformayolov11.png>
-Package pdftex.def Info: images/bab4/perbandinganperformayolov11.png  used on input line 331.
-(pdftex.def)             Requested size: 318.67209pt x 189.51163pt.
-<images/bab4/perbandinganlatensiyolov11.png, id=2955, 708.246pt x 422.0568pt>
-File: images/bab4/perbandinganlatensiyolov11.png Graphic file (type png)
-<use images/bab4/perbandinganlatensiyolov11.png>
-Package pdftex.def Info: images/bab4/perbandinganlatensiyolov11.png  used on input line 340.
-(pdftex.def)             Requested size: 318.67209pt x 189.90448pt.
- [177 <./images/bab4/perbandinganperformayolov11.png>]
-<images/bab4/paretofrontiermap50latensip50.png, id=2964, 683.6742pt x 398.9304pt>
-File: images/bab4/paretofrontiermap50latensip50.png Graphic file (type png)
-<use images/bab4/paretofrontiermap50latensip50.png>
-Package pdftex.def Info: images/bab4/paretofrontiermap50latensip50.png  used on input line 351.
-(pdftex.def)             Requested size: 318.67209pt x 185.95117pt.
-<images/bab4/paretofrontiermap5095latensip95.png, id=2965, 677.8926pt x 398.9304pt>
-File: images/bab4/paretofrontiermap5095latensip95.png Graphic file (type png)
-<use images/bab4/paretofrontiermap5095latensip95.png>
-Package pdftex.def Info: images/bab4/paretofrontiermap5095latensip95.png  used on input line 358.
-(pdftex.def)             Requested size: 318.67209pt x 187.53383pt.
- [178 <./images/bab4/perbandinganlatensiyolov11.png>]
-<images/bab4/deteksiowlv2.png, id=2973, 1389.19pt x 1194.4625pt>
-File: images/bab4/deteksiowlv2.png Graphic file (type png)
-<use images/bab4/deteksiowlv2.png>
-Package pdftex.def Info: images/bab4/deteksiowlv2.png  used on input line 371.
-(pdftex.def)             Requested size: 318.67209pt x 273.99155pt.
- [179 <./images/bab4/paretofrontiermap50latensip50.png> <./images/bab4/paretofrontiermap5095latensip95.png>] [180 <./images/bab4/deteksiowlv2.png (PNG copy)>]
-<images/bab4/collectionplantwilddidashboardqdrant.png, id=2986, 1410.77063pt x 365.86688pt>
+Package pdftex.def Info: images/bab4/outputhasiltraining.png  used on input line 185.
+(pdftex.def)             Requested size: 304.06624pt x 90.8615pt.
+ [184 <./images/bab4/outputhasiltraining.png>]
+<images/bab4/proses_konversi_onnx_yolov11.png, id=3127, 1197.72469pt x 657.95813pt>
+File: images/bab4/proses_konversi_onnx_yolov11.png Graphic file (type png)
+<use images/bab4/proses_konversi_onnx_yolov11.png>
+Package pdftex.def Info: images/bab4/proses_konversi_onnx_yolov11.png  used on input line 200.
+(pdftex.def)             Requested size: 361.07613pt x 198.35277pt.
+<images/bab4/info_model_onnx_yolov11.png, id=3128, 424.58624pt x 153.57375pt>
+File: images/bab4/info_model_onnx_yolov11.png Graphic file (type png)
+<use images/bab4/info_model_onnx_yolov11.png>
+Package pdftex.def Info: images/bab4/info_model_onnx_yolov11.png  used on input line 207.
+(pdftex.def)             Requested size: 361.07613pt x 130.6086pt.
+ [185 <./images/bab4/proses_konversi_onnx_yolov11.png> <./images/bab4/info_model_onnx_yolov11.png>]
+<images/bab4/proses_konversi_onnx_owlv2.png, id=3137, 1196.97188pt x 126.4725pt>
+File: images/bab4/proses_konversi_onnx_owlv2.png Graphic file (type png)
+<use images/bab4/proses_konversi_onnx_owlv2.png>
+Package pdftex.def Info: images/bab4/proses_konversi_onnx_owlv2.png  used on input line 229.
+(pdftex.def)             Requested size: 361.07613pt x 38.15045pt.
+<images/bab4/info_model_onnx_owlv2.png, id=3138, 502.12593pt x 263.48438pt>
+File: images/bab4/info_model_onnx_owlv2.png Graphic file (type png)
+<use images/bab4/info_model_onnx_owlv2.png>
+Package pdftex.def Info: images/bab4/info_model_onnx_owlv2.png  used on input line 236.
+(pdftex.def)             Requested size: 361.07613pt x 189.47943pt.
+ [186 <./images/bab4/proses_konversi_onnx_owlv2.png> <./images/bab4/info_model_onnx_owlv2.png>]
+<images/bab4/collectionplantwilddidashboardqdrant.png, id=3146, 1410.77063pt x 365.86688pt>
 File: images/bab4/collectionplantwilddidashboardqdrant.png Graphic file (type png)
 <use images/bab4/collectionplantwilddidashboardqdrant.png>
-Package pdftex.def Info: images/bab4/collectionplantwilddidashboardqdrant.png  used on input line 404.
-(pdftex.def)             Requested size: 398.3386pt x 103.30176pt.
-<images/bab4/pointplantwildidashboardqdrant.png, id=2988, 1406.25375pt x 694.84593pt>
+Package pdftex.def Info: images/bab4/collectionplantwilddidashboardqdrant.png  used on input line 260.
+(pdftex.def)             Requested size: 380.08136pt x 98.56764pt.
+<images/bab4/pointplantwildidashboardqdrant.png, id=3148, 1406.25375pt x 692.5875pt>
 File: images/bab4/pointplantwildidashboardqdrant.png Graphic file (type png)
 <use images/bab4/pointplantwildidashboardqdrant.png>
-Package pdftex.def Info: images/bab4/pointplantwildidashboardqdrant.png  used on input line 413.
-(pdftex.def)             Requested size: 398.3386pt x 196.81386pt.
- [181 <./images/bab4/collectionplantwilddidashboardqdrant.png>]
-<images/bab4/testtexttoimage.png, id=2995, 1187.43625pt x 466.74374pt>
-File: images/bab4/testtexttoimage.png Graphic file (type png)
-<use images/bab4/testtexttoimage.png>
-Package pdftex.def Info: images/bab4/testtexttoimage.png  used on input line 426.
-(pdftex.def)             Requested size: 398.3386pt x 156.57556pt.
-<images/bab4/testimagetoimage.png, id=2996, 1582.91376pt x 466.74374pt>
-File: images/bab4/testimagetoimage.png Graphic file (type png)
-<use images/bab4/testimagetoimage.png>
-Package pdftex.def Info: images/bab4/testimagetoimage.png  used on input line 432.
-(pdftex.def)             Requested size: 398.3386pt x 117.4548pt.
-<images/bab4/testtexttotext.png, id=2997, 1186.4325pt x 404.51125pt>
-File: images/bab4/testtexttotext.png Graphic file (type png)
-<use images/bab4/testtexttotext.png>
-Package pdftex.def Info: images/bab4/testtexttotext.png  used on input line 438.
-(pdftex.def)             Requested size: 398.3386pt x 135.80992pt.
-<images/bab4/imagetotext.png, id=2998, 1585.925pt x 410.53375pt>
-File: images/bab4/imagetotext.png Graphic file (type png)
-<use images/bab4/imagetotext.png>
-Package pdftex.def Info: images/bab4/imagetotext.png  used on input line 444.
-(pdftex.def)             Requested size: 398.3386pt x 103.10925pt.
- [182 <./images/bab4/pointplantwildidashboardqdrant.png>] [183 <./images/bab4/testtexttoimage.png (PNG copy)> <./images/bab4/testimagetoimage.png (PNG copy)> <./images/bab4/testtexttotext.png (PNG copy)> <./images/bab4/imagetotext.png (PNG copy)>]
-<images/bab4/testnofilter.png, id=3009, 1584.92125pt x 391.4625pt>
-File: images/bab4/testnofilter.png Graphic file (type png)
-<use images/bab4/testnofilter.png>
-Package pdftex.def Info: images/bab4/testnofilter.png  used on input line 459.
-(pdftex.def)             Requested size: 398.3386pt x 98.38504pt.
-<images/bab4/testfilter.png, id=3010, 1579.9025pt x 393.47pt>
-File: images/bab4/testfilter.png Graphic file (type png)
-<use images/bab4/testfilter.png>
-Package pdftex.def Info: images/bab4/testfilter.png  used on input line 465.
-(pdftex.def)             Requested size: 398.3386pt x 99.20178pt.
- [184 <./images/bab4/testnofilter.png (PNG copy)> <./images/bab4/testfilter.png (PNG copy)>]
-<images/bab4/evaluasireranker.png, id=3018, 990.70125pt x 588.1975pt>
-File: images/bab4/evaluasireranker.png Graphic file (type png)
-<use images/bab4/evaluasireranker.png>
-Package pdftex.def Info: images/bab4/evaluasireranker.png  used on input line 496.
-(pdftex.def)             Requested size: 318.67209pt x 189.19635pt.
- [185 <./images/bab4/evaluasireranker.png (PNG copy)>]
-<images/bab4/hasilantarmuka.png, id=3024, 1402.48969pt x 710.655pt>
+Package pdftex.def Info: images/bab4/pointplantwildidashboardqdrant.png  used on input line 273.
+(pdftex.def)             Requested size: 380.08136pt x 187.19135pt.
+ [187 <./images/bab4/collectionplantwilddidashboardqdrant.png>]
+<images/bab4/knowledgebase_collection_index.png, id=3156, 1410.77063pt x 693.34032pt>
+File: images/bab4/knowledgebase_collection_index.png Graphic file (type png)
+<use images/bab4/knowledgebase_collection_index.png>
+Package pdftex.def Info: images/bab4/knowledgebase_collection_index.png  used on input line 289.
+(pdftex.def)             Requested size: 304.06624pt x 149.43555pt.
+ [188 <./images/bab4/pointplantwildidashboardqdrant.png> <./images/bab4/knowledgebase_collection_index.png>]
+<images/bab4/knowledgebase_point.png, id=3165, 1403.2425pt x 692.5875pt>
+File: images/bab4/knowledgebase_point.png Graphic file (type png)
+<use images/bab4/knowledgebase_point.png>
+Package pdftex.def Info: images/bab4/knowledgebase_point.png  used on input line 302.
+(pdftex.def)             Requested size: 304.06624pt x 150.07645pt.
+<images/bab4/tampilan_halaman_web_tavily.png, id=3167, 1859.44687pt x 1025.33063pt>
+File: images/bab4/tampilan_halaman_web_tavily.png Graphic file (type png)
+<use images/bab4/tampilan_halaman_web_tavily.png>
+Package pdftex.def Info: images/bab4/tampilan_halaman_web_tavily.png  used on input line 318.
+(pdftex.def)             Requested size: 323.07147pt x 178.137pt.
+ [189 <./images/bab4/knowledgebase_point.png>]
+<images/bab4/hasilantarmuka.png, id=3175, 1402.48969pt x 710.655pt>
 File: images/bab4/hasilantarmuka.png Graphic file (type png)
 <use images/bab4/hasilantarmuka.png>
-Package pdftex.def Info: images/bab4/hasilantarmuka.png  used on input line 508.
+Package pdftex.def Info: images/bab4/hasilantarmuka.png  used on input line 332.
 (pdftex.def)             Requested size: 398.3386pt x 201.83394pt.
- [186 <./images/bab4/hasilantarmuka.png>]
-<images/bab4/hasiluc1.png, id=3033, 1411.52344pt x 694.84593pt>
+ [190 <./images/bab4/tampilan_halaman_web_tavily.png> <./images/bab4/hasilantarmuka.png>]
+<images/bab4/interface_vercel.png, id=3185, 1411.52344pt x 694.84593pt>
+File: images/bab4/interface_vercel.png Graphic file (type png)
+<use images/bab4/interface_vercel.png>
+Package pdftex.def Info: images/bab4/interface_vercel.png  used on input line 343.
+(pdftex.def)             Requested size: 318.67209pt x 156.86371pt.
+<images/bab4/agent_cloud_run.png, id=3186, 1412.27625pt x 694.84593pt>
+File: images/bab4/agent_cloud_run.png Graphic file (type png)
+<use images/bab4/agent_cloud_run.png>
+Package pdftex.def Info: images/bab4/agent_cloud_run.png  used on input line 350.
+(pdftex.def)             Requested size: 318.67209pt x 156.78949pt.
+ [191 <./images/bab4/interface_vercel.png> <./images/bab4/agent_cloud_run.png>]
+<images/bab4/yolov11ntraningcurve.png, id=3194, 1076.1003pt x 1065.9825pt>
+File: images/bab4/yolov11ntraningcurve.png Graphic file (type png)
+<use images/bab4/yolov11ntraningcurve.png>
+Package pdftex.def Info: images/bab4/yolov11ntraningcurve.png  used on input line 379.
+(pdftex.def)             Requested size: 171.03545pt x 169.42209pt.
+<images/bab4/yolov11straningcurve.png, id=3195, 1076.1003pt x 1065.9825pt>
+File: images/bab4/yolov11straningcurve.png Graphic file (type png)
+<use images/bab4/yolov11straningcurve.png>
+Package pdftex.def Info: images/bab4/yolov11straningcurve.png  used on input line 385.
+(pdftex.def)             Requested size: 171.03545pt x 169.42209pt.
+<images/bab4/yolov11mtraningcurve.png, id=3196, 1076.1003pt x 1065.9825pt>
+File: images/bab4/yolov11mtraningcurve.png Graphic file (type png)
+<use images/bab4/yolov11mtraningcurve.png>
+Package pdftex.def Info: images/bab4/yolov11mtraningcurve.png  used on input line 393.
+(pdftex.def)             Requested size: 171.03545pt x 169.42209pt.
+ [192] [193 <./images/bab4/yolov11ntraningcurve.png> <./images/bab4/yolov11straningcurve.png> <./images/bab4/yolov11mtraningcurve.png>]
+<images/bab4/testprediksiyolov11n.png, id=3210, 852.786pt x 849.1725pt>
+File: images/bab4/testprediksiyolov11n.png Graphic file (type png)
+<use images/bab4/testprediksiyolov11n.png>
+Package pdftex.def Info: images/bab4/testprediksiyolov11n.png  used on input line 410.
+(pdftex.def)             Requested size: 171.03545pt x 170.31091pt.
+<images/bab4/testprediksiyolov11s.png, id=3211, 852.786pt x 849.1725pt>
+File: images/bab4/testprediksiyolov11s.png Graphic file (type png)
+<use images/bab4/testprediksiyolov11s.png>
+Package pdftex.def Info: images/bab4/testprediksiyolov11s.png  used on input line 416.
+(pdftex.def)             Requested size: 171.03545pt x 170.31091pt.
+<images/bab4/testprediksiyolov11m.png, id=3212, 852.786pt x 849.1725pt>
+File: images/bab4/testprediksiyolov11m.png Graphic file (type png)
+<use images/bab4/testprediksiyolov11m.png>
+Package pdftex.def Info: images/bab4/testprediksiyolov11m.png  used on input line 424.
+(pdftex.def)             Requested size: 171.03545pt x 170.31091pt.
+ [194 <./images/bab4/testprediksiyolov11n.png> <./images/bab4/testprediksiyolov11s.png> <./images/bab4/testprediksiyolov11m.png>]
+<images/bab4/perbandingan_performa_yolov11.png, id=3222, 889.3225pt x 487.8225pt>
+File: images/bab4/perbandingan_performa_yolov11.png Graphic file (type png)
+<use images/bab4/perbandingan_performa_yolov11.png>
+Package pdftex.def Info: images/bab4/perbandingan_performa_yolov11.png  used on input line 464.
+(pdftex.def)             Requested size: 304.06624pt x 166.78789pt.
+ [195 <./images/bab4/perbandingan_performa_yolov11.png (PNG copy)>]
+<images/bab4/proses_benchmark_latensi.png, id=3229, 582.67688pt x 554.07pt>
+File: images/bab4/proses_benchmark_latensi.png Graphic file (type png)
+<use images/bab4/proses_benchmark_latensi.png>
+Package pdftex.def Info: images/bab4/proses_benchmark_latensi.png  used on input line 477.
+(pdftex.def)             Requested size: 380.08136pt x 361.4263pt.
+ [196 <./images/bab4/proses_benchmark_latensi.png>]
+<images/bab4/perbandingan_latensi_yolov11.png, id=3237, 889.3225pt x 487.8225pt>
+File: images/bab4/perbandingan_latensi_yolov11.png Graphic file (type png)
+<use images/bab4/perbandingan_latensi_yolov11.png>
+Package pdftex.def Info: images/bab4/perbandingan_latensi_yolov11.png  used on input line 490.
+(pdftex.def)             Requested size: 304.06624pt x 166.78789pt.
+<images/bab4/pareto_frontier_map50_latensip50.png, id=3241, 788.9475pt x 488.82625pt>
+File: images/bab4/pareto_frontier_map50_latensip50.png Graphic file (type png)
+<use images/bab4/pareto_frontier_map50_latensip50.png>
+Package pdftex.def Info: images/bab4/pareto_frontier_map50_latensip50.png  used on input line 505.
+(pdftex.def)             Requested size: 304.06624pt x 188.39633pt.
+<images/bab4/pareto_frontier_map5095_latensi_p95.png, id=3242, 788.9475pt x 488.82625pt>
+File: images/bab4/pareto_frontier_map5095_latensi_p95.png Graphic file (type png)
+<use images/bab4/pareto_frontier_map5095_latensi_p95.png>
+Package pdftex.def Info: images/bab4/pareto_frontier_map5095_latensi_p95.png  used on input line 512.
+(pdftex.def)             Requested size: 304.06624pt x 188.39633pt.
+ [197 <./images/bab4/perbandingan_latensi_yolov11.png (PNG copy)>] [198 <./images/bab4/pareto_frontier_map50_latensip50.png (PNG copy)> <./images/bab4/pareto_frontier_map5095_latensi_p95.png (PNG copy)>]
+<images/bab4/deteksiowlv2.png, id=3253, 1389.19pt x 1194.4625pt>
+File: images/bab4/deteksiowlv2.png Graphic file (type png)
+<use images/bab4/deteksiowlv2.png>
+Package pdftex.def Info: images/bab4/deteksiowlv2.png  used on input line 530.
+(pdftex.def)             Requested size: 304.06624pt x 261.43384pt.
+<images/bab4/proses_lantensi_owlv2.png, id=3255, 657.95813pt x 268.75406pt>
+File: images/bab4/proses_lantensi_owlv2.png Graphic file (type png)
+<use images/bab4/proses_lantensi_owlv2.png>
+Package pdftex.def Info: images/bab4/proses_lantensi_owlv2.png  used on input line 543.
+(pdftex.def)             Requested size: 380.08136pt x 155.25414pt.
+ [199 <./images/bab4/deteksiowlv2.png (PNG copy)>] [200 <./images/bab4/proses_lantensi_owlv2.png>]
+<images/bab4/kode_pengujian_csod.png, id=3267, 2055.68pt x 1591.9475pt>
+File: images/bab4/kode_pengujian_csod.png Graphic file (type png)
+<use images/bab4/kode_pengujian_csod.png>
+Package pdftex.def Info: images/bab4/kode_pengujian_csod.png  used on input line 581.
+(pdftex.def)             Requested size: 179.25114pt x 138.79951pt.
+<images/bab4/keluaran_pengujian_csod.png, id=3268, 436.63126pt x 423.83344pt>
+File: images/bab4/keluaran_pengujian_csod.png Graphic file (type png)
+<use images/bab4/keluaran_pengujian_csod.png>
+Package pdftex.def Info: images/bab4/keluaran_pengujian_csod.png  used on input line 588.
+(pdftex.def)             Requested size: 179.25114pt x 173.99918pt.
+<images/bab4/kode_pengujian_ovd.png, id=3269, 2055.68pt x 1545.775pt>
+File: images/bab4/kode_pengujian_ovd.png Graphic file (type png)
+<use images/bab4/kode_pengujian_ovd.png>
+Package pdftex.def Info: images/bab4/kode_pengujian_ovd.png  used on input line 597.
+(pdftex.def)             Requested size: 179.25114pt x 134.7738pt.
+<images/bab4/keluaran_pengujian_ovd.png, id=3270, 818.30719pt x 551.05875pt>
+File: images/bab4/keluaran_pengujian_ovd.png Graphic file (type png)
+<use images/bab4/keluaran_pengujian_ovd.png>
+Package pdftex.def Info: images/bab4/keluaran_pengujian_ovd.png  used on input line 604.
+(pdftex.def)             Requested size: 179.25114pt x 120.70355pt.
+ [201 <./images/bab4/kode_pengujian_csod.png> <./images/bab4/keluaran_pengujian_csod.png> <./images/bab4/kode_pengujian_ovd.png> <./images/bab4/keluaran_pengujian_ovd.png>]
+<images/bab4/csod_integration_test.png, id=3280, 1204.5pt x 1806.75pt>
+File: images/bab4/csod_integration_test.png Graphic file (type png)
+<use images/bab4/csod_integration_test.png>
+Package pdftex.def Info: images/bab4/csod_integration_test.png  used on input line 618.
+(pdftex.def)             Requested size: 191.20082pt x 286.7977pt.
+<images/bab4/ovd_integration_test.png, id=3281, 1204.5pt x 1809.76125pt>
+File: images/bab4/ovd_integration_test.png Graphic file (type png)
+<use images/bab4/ovd_integration_test.png>
+Package pdftex.def Info: images/bab4/ovd_integration_test.png  used on input line 625.
+(pdftex.def)             Requested size: 191.20082pt x 287.2757pt.
+
+Overfull \hbox (1.49612pt too wide) in paragraph at lines 655--655
+ []\T1/ntxtlf/b/n/12 Fungsionalitas 
+ []
+
+
+Overfull \hbox (2.78008pt too wide) in paragraph at lines 655--655
+ \T1/ntxtlf/b/n/12 Pe-ngu-ji-an 
+ []
+
+
+Overfull \hbox (1.49612pt too wide) in paragraph at lines 655--655
+ []\T1/ntxtlf/b/n/12 Fungsionalitas 
+ []
+
+
+Overfull \hbox (2.78008pt too wide) in paragraph at lines 655--655
+ \T1/ntxtlf/b/n/12 Pe-ngu-ji-an 
+ []
+
+[202 <./images/bab4/csod_integration_test.png> <./images/bab4/ovd_integration_test.png>] [203]
+<images/bab4/testimagetoimage.png, id=3297, 1582.91376pt x 466.74374pt>
+File: images/bab4/testimagetoimage.png Graphic file (type png)
+<use images/bab4/testimagetoimage.png>
+Package pdftex.def Info: images/bab4/testimagetoimage.png  used on input line 674.
+(pdftex.def)             Requested size: 342.07089pt x 100.86072pt.
+<images/bab4/imagetotext.png, id=3298, 1585.925pt x 410.53375pt>
+File: images/bab4/imagetotext.png Graphic file (type png)
+<use images/bab4/imagetotext.png>
+Package pdftex.def Info: images/bab4/imagetotext.png  used on input line 680.
+(pdftex.def)             Requested size: 342.07089pt x 88.54492pt.
+<images/bab4/testtexttoimage.png, id=3301, 1187.43625pt x 466.74374pt>
+File: images/bab4/testtexttoimage.png Graphic file (type png)
+<use images/bab4/testtexttoimage.png>
+Package pdftex.def Info: images/bab4/testtexttoimage.png  used on input line 697.
+(pdftex.def)             Requested size: 342.07089pt x 134.45485pt.
+<images/bab4/testtexttotext.png, id=3302, 1186.4325pt x 404.51125pt>
+File: images/bab4/testtexttotext.png Graphic file (type png)
+<use images/bab4/testtexttotext.png>
+Package pdftex.def Info: images/bab4/testtexttotext.png  used on input line 703.
+(pdftex.def)             Requested size: 342.07089pt x 116.6263pt.
+ [204 <./images/bab4/testimagetoimage.png (PNG copy)> <./images/bab4/imagetotext.png (PNG copy)>]
+<images/bab4/testnofilter.png, id=3308, 1584.92125pt x 391.4625pt>
+File: images/bab4/testnofilter.png Graphic file (type png)
+<use images/bab4/testnofilter.png>
+Package pdftex.def Info: images/bab4/testnofilter.png  used on input line 720.
+(pdftex.def)             Requested size: 380.08136pt x 93.87526pt.
+<images/bab4/testfilter.png, id=3309, 1579.9025pt x 393.47pt>
+File: images/bab4/testfilter.png Graphic file (type png)
+<use images/bab4/testfilter.png>
+Package pdftex.def Info: images/bab4/testfilter.png  used on input line 726.
+(pdftex.def)             Requested size: 380.08136pt x 94.65686pt.
+ [205 <./images/bab4/testtexttoimage.png (PNG copy)> <./images/bab4/testtexttotext.png (PNG copy)>] [206 <./images/bab4/testnofilter.png (PNG copy)> <./images/bab4/testfilter.png (PNG copy)>]
+<images/bab4/kode_pengujian_pengambilan_citra_teks_tanpa_deteksi.png, id=3320, 2055.68pt x 2107.875pt>
+File: images/bab4/kode_pengujian_pengambilan_citra_teks_tanpa_deteksi.png Graphic file (type png)
+<use images/bab4/kode_pengujian_pengambilan_citra_teks_tanpa_deteksi.png>
+Package pdftex.def Info: images/bab4/kode_pengujian_pengambilan_citra_teks_tanpa_deteksi.png  used on input line 745.
+(pdftex.def)             Requested size: 182.43742pt x 187.06316pt.
+<images/bab4/keluaran_pengujian_pengambilan_citra_teks_tanpa_deteksi.png, id=3321, 584.93532pt x 432.86719pt>
+File: images/bab4/keluaran_pengujian_pengambilan_citra_teks_tanpa_deteksi.png Graphic file (type png)
+<use images/bab4/keluaran_pengujian_pengambilan_citra_teks_tanpa_deteksi.png>
+Package pdftex.def Info: images/bab4/keluaran_pengujian_pengambilan_citra_teks_tanpa_deteksi.png  used on input line 752.
+(pdftex.def)             Requested size: 182.43742pt x 135.00645pt.
+<images/bab4/kode_pengujian_pengambilan_citra_teks_dengan_deteksi.png, id=3324, 1684.2925pt x 1545.775pt>
+File: images/bab4/kode_pengujian_pengambilan_citra_teks_dengan_deteksi.png Graphic file (type png)
+<use images/bab4/kode_pengujian_pengambilan_citra_teks_dengan_deteksi.png>
+Package pdftex.def Info: images/bab4/kode_pengujian_pengambilan_citra_teks_dengan_deteksi.png  used on input line 770.
+(pdftex.def)             Requested size: 182.43742pt x 167.41766pt.
+<images/bab4/keluaran_pengujian_pengambilan_citra_teks_dengan_deteksi.png, id=3325, 771.63281pt x 407.27156pt>
+File: images/bab4/keluaran_pengujian_pengambilan_citra_teks_dengan_deteksi.png Graphic file (type png)
+<use images/bab4/keluaran_pengujian_pengambilan_citra_teks_dengan_deteksi.png>
+Package pdftex.def Info: images/bab4/keluaran_pengujian_pengambilan_citra_teks_dengan_deteksi.png  used on input line 777.
+(pdftex.def)             Requested size: 182.43742pt x 96.28676pt.
+ [207 <./images/bab4/kode_pengujian_pengambilan_citra_teks_tanpa_deteksi.png> <./images/bab4/keluaran_pengujian_pengambilan_citra_teks_tanpa_deteksi.png>] [208 <./images/bab4/kode_pengujian_pengambilan_citra_teks_dengan_deteksi.png> <./images/bab4/keluaran_pengujian_pengambilan_citra_teks_dengan_deteksi.png>]
+<images/bab4/perbandingan_kinerja_konfigurasi_hybrid_search_pada_top_5_dokumen.png, id=3342, 1191.45125pt x 588.1975pt>
+File: images/bab4/perbandingan_kinerja_konfigurasi_hybrid_search_pada_top_5_dokumen.png Graphic file (type png)
+<use images/bab4/perbandingan_kinerja_konfigurasi_hybrid_search_pada_top_5_dokumen.png>
+Package pdftex.def Info: images/bab4/perbandingan_kinerja_konfigurasi_hybrid_search_pada_top_5_dokumen.png  used on input line 820.
+(pdftex.def)             Requested size: 304.06624pt x 150.10954pt.
+<images/bab4/perbandingan_kinerja_metode_reranking_pada_top_5_dokumen.png, id=3344, 990.70125pt x 588.1975pt>
+File: images/bab4/perbandingan_kinerja_metode_reranking_pada_top_5_dokumen.png Graphic file (type png)
+<use images/bab4/perbandingan_kinerja_metode_reranking_pada_top_5_dokumen.png>
+Package pdftex.def Info: images/bab4/perbandingan_kinerja_metode_reranking_pada_top_5_dokumen.png  used on input line 833.
+(pdftex.def)             Requested size: 304.06624pt x 180.52635pt.
+ [209 <./images/bab4/perbandingan_kinerja_konfigurasi_hybrid_search_pada_top_5_dokumen.png (PNG copy)>] [210 <./images/bab4/perbandingan_kinerja_metode_reranking_pada_top_5_dokumen.png (PNG copy)>]
+<images/bab4/kode_pengujian_alat_pengambilan_basis_pengetahuan.png, id=3354, 2055.68pt x 2033.5975pt>
+File: images/bab4/kode_pengujian_alat_pengambilan_basis_pengetahuan.png Graphic file (type png)
+<use images/bab4/kode_pengujian_alat_pengambilan_basis_pengetahuan.png>
+Package pdftex.def Info: images/bab4/kode_pengujian_alat_pengambilan_basis_pengetahuan.png  used on input line 850.
+(pdftex.def)             Requested size: 182.43742pt x 180.4714pt.
+<images/bab4/keluaran_pengujian_pengambilan_basis_pengetauan_tanpa_dan_dengan_filter.png, id=3355, 693.34032pt x 431.36156pt>
+File: images/bab4/keluaran_pengujian_pengambilan_basis_pengetauan_tanpa_dan_dengan_filter.png Graphic file (type png)
+<use images/bab4/keluaran_pengujian_pengambilan_basis_pengetauan_tanpa_dan_dengan_filter.png>
+Package pdftex.def Info: images/bab4/keluaran_pengujian_pengambilan_basis_pengetauan_tanpa_dan_dengan_filter.png  used on input line 857.
+(pdftex.def)             Requested size: 182.43742pt x 113.50067pt.
+<images/bab4/kode_pengujian_pencarian_web.png, id=3357, 1146.2825pt x 1515.6625pt>
+File: images/bab4/kode_pengujian_pencarian_web.png Graphic file (type png)
+<use images/bab4/kode_pengujian_pencarian_web.png>
+Package pdftex.def Info: images/bab4/kode_pengujian_pencarian_web.png  used on input line 877.
+(pdftex.def)             Requested size: 182.43742pt x 241.21584pt.
+<images/bab4/keluaran_pengujian_alat_pencarian_web.png, id=3358, 514.92375pt x 222.07968pt>
+File: images/bab4/keluaran_pengujian_alat_pencarian_web.png Graphic file (type png)
+<use images/bab4/keluaran_pengujian_alat_pencarian_web.png>
+Package pdftex.def Info: images/bab4/keluaran_pengujian_alat_pencarian_web.png  used on input line 884.
+(pdftex.def)             Requested size: 182.43742pt x 78.68126pt.
+ [211 <./images/bab4/kode_pengujian_alat_pengambilan_basis_pengetahuan.png> <./images/bab4/keluaran_pengujian_pengambilan_basis_pengetauan_tanpa_dan_dengan_filter.png>]
+<images/bab4/image-text_integration_test.png, id=3367, 1204.5pt x 1778.645pt>
+File: images/bab4/image-text_integration_test.png Graphic file (type png)
+<use images/bab4/image-text_integration_test.png>
+Package pdftex.def Info: images/bab4/image-text_integration_test.png  used on input line 901.
+(pdftex.def)             Requested size: 318.67209pt x 470.57877pt.
+ [212 <./images/bab4/kode_pengujian_pencarian_web.png> <./images/bab4/keluaran_pengujian_alat_pencarian_web.png>]
+<images/bab4/knowledgebase_integration_test.png, id=3375, 1204.5pt x 1773.62625pt>
+File: images/bab4/knowledgebase_integration_test.png Graphic file (type png)
+<use images/bab4/knowledgebase_integration_test.png>
+Package pdftex.def Info: images/bab4/knowledgebase_integration_test.png  used on input line 910.
+(pdftex.def)             Requested size: 318.67209pt x 469.25095pt.
+ [213 <./images/bab4/image-text_integration_test.png (PNG copy)>]
+<images/bab4/web_integration_test.png, id=3381, 1204.5pt x 1770.615pt>
+File: images/bab4/web_integration_test.png Graphic file (type png)
+<use images/bab4/web_integration_test.png>
+Package pdftex.def Info: images/bab4/web_integration_test.png  used on input line 919.
+(pdftex.def)             Requested size: 318.67209pt x 468.45425pt.
+ [214 <./images/bab4/knowledgebase_integration_test.png>]
+Overfull \hbox (1.49612pt too wide) in paragraph at lines 955--955
+ []\T1/ntxtlf/b/n/12 Fungsionalitas 
+ []
+
+
+Overfull \hbox (2.78008pt too wide) in paragraph at lines 955--955
+ \T1/ntxtlf/b/n/12 Pe-ngu-ji-an 
+ []
+
+
+Overfull \hbox (1.49612pt too wide) in paragraph at lines 955--955
+ []\T1/ntxtlf/b/n/12 Fungsionalitas 
+ []
+
+
+Overfull \hbox (2.78008pt too wide) in paragraph at lines 955--955
+ \T1/ntxtlf/b/n/12 Pe-ngu-ji-an 
+ []
+
+[215 <./images/bab4/web_integration_test.png>] [216] [217]
+<images/bab4/hasiluc1.png, id=3403, 1411.52344pt x 694.84593pt>
 File: images/bab4/hasiluc1.png Graphic file (type png)
 <use images/bab4/hasiluc1.png>
-Package pdftex.def Info: images/bab4/hasiluc1.png  used on input line 520.
+Package pdftex.def Info: images/bab4/hasiluc1.png  used on input line 965.
 (pdftex.def)             Requested size: 179.25114pt x 88.23384pt.
-<images/bab4/hasiluc2.png, id=3034, 1407.00656pt x 690.32906pt>
+<images/bab4/hasiluc2.png, id=3404, 1407.00656pt x 690.32906pt>
 File: images/bab4/hasiluc2.png Graphic file (type png)
 <use images/bab4/hasiluc2.png>
-Package pdftex.def Info: images/bab4/hasiluc2.png  used on input line 526.
+Package pdftex.def Info: images/bab4/hasiluc2.png  used on input line 971.
 (pdftex.def)             Requested size: 179.25114pt x 87.94469pt.
-<images/bab4/hasiluc3.png, id=3035, 1412.27625pt x 694.09312pt>
+ [218 <./images/bab4/hasiluc1.png> <./images/bab4/hasiluc2.png>]
+<images/bab4/hasiluc3.png, id=3412, 1412.27625pt x 694.09312pt>
 File: images/bab4/hasiluc3.png Graphic file (type png)
 <use images/bab4/hasiluc3.png>
-Package pdftex.def Info: images/bab4/hasiluc3.png  used on input line 534.
+Package pdftex.def Info: images/bab4/hasiluc3.png  used on input line 984.
 (pdftex.def)             Requested size: 179.25114pt x 88.09589pt.
-<images/bab4/hasiluc5.png, id=3036, 1410.0178pt x 688.07062pt>
+<images/bab4/hasiluc5.png, id=3413, 1888.05376pt x 2771.35374pt>
 File: images/bab4/hasiluc5.png Graphic file (type png)
 <use images/bab4/hasiluc5.png>
-Package pdftex.def Info: images/bab4/hasiluc5.png  used on input line 540.
-(pdftex.def)             Requested size: 179.25114pt x 87.46799pt.
-<images/bab4/hasiluc4a.png, id=3037, 1409.265pt x 702.37407pt>
+Package pdftex.def Info: images/bab4/hasiluc5.png  used on input line 990.
+(pdftex.def)             Requested size: 179.25114pt x 263.0699pt.
+<images/bab4/hasiluc4a.png, id=3415, 1409.265pt x 702.37407pt>
 File: images/bab4/hasiluc4a.png Graphic file (type png)
 <use images/bab4/hasiluc4a.png>
-Package pdftex.def Info: images/bab4/hasiluc4a.png  used on input line 551.
+Package pdftex.def Info: images/bab4/hasiluc4a.png  used on input line 1003.
 (pdftex.def)             Requested size: 179.25114pt x 89.32912pt.
-<images/bab4/hasiluc4b.png, id=3038, 1412.27625pt x 693.34032pt>
+<images/bab4/hasiluc4b.png, id=3416, 1412.27625pt x 693.34032pt>
 File: images/bab4/hasiluc4b.png Graphic file (type png)
 <use images/bab4/hasiluc4b.png>
-Package pdftex.def Info: images/bab4/hasiluc4b.png  used on input line 557.
+Package pdftex.def Info: images/bab4/hasiluc4b.png  used on input line 1009.
 (pdftex.def)             Requested size: 179.25114pt x 88.00034pt.
-LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.99109pt on input line 580.
- [187 <./images/bab4/hasiluc1.png> <./images/bab4/hasiluc2.png> <./images/bab4/hasiluc3.png> <./images/bab4/hasiluc5.png> <./images/bab4/hasiluc4a.png> <./images/bab4/hasiluc4b.png>]
-<images/bab4/pengujian_sistem_agentik/datasetdilangsmith.png, id=3050, 1385.92781pt x 726.46407pt>
+ [219 <./images/bab4/hasiluc3.png> <./images/bab4/hasiluc5.png (PNG copy)>] [220 <./images/bab4/hasiluc4a.png> <./images/bab4/hasiluc4b.png>]
+<images/bab4/contohoutputagentdilangsmithstudio.png, id=3431, 1867.72781pt x 993.7125pt>
+File: images/bab4/contohoutputagentdilangsmithstudio.png Graphic file (type png)
+<use images/bab4/contohoutputagentdilangsmithstudio.png>
+Package pdftex.def Info: images/bab4/contohoutputagentdilangsmithstudio.png  used on input line 1047.
+(pdftex.def)             Requested size: 398.3386pt x 211.93062pt.
+<images/bab4/contohtracedilangsmithstudio.png, id=3433, 1877.51437pt x 1000.48781pt>
+File: images/bab4/contohtracedilangsmithstudio.png Graphic file (type png)
+<use images/bab4/contohtracedilangsmithstudio.png>
+Package pdftex.def Info: images/bab4/contohtracedilangsmithstudio.png  used on input line 1056.
+(pdftex.def)             Requested size: 398.3386pt x 212.26117pt.
+ [221 <./images/bab4/contohoutputagentdilangsmithstudio.png>]
+<images/bab4/pengujian_sistem_agentik/datasetdilangsmith.png, id=3440, 1385.92781pt x 726.46407pt>
 File: images/bab4/pengujian_sistem_agentik/datasetdilangsmith.png Graphic file (type png)
 <use images/bab4/pengujian_sistem_agentik/datasetdilangsmith.png>
-Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/datasetdilangsmith.png  used on input line 590.
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/datasetdilangsmith.png  used on input line 1065.
 (pdftex.def)             Requested size: 398.3386pt x 208.79582pt.
- [188]
-<images/bab4/pengujian_sistem_agentik/contohexamplesdilangsmith.png, id=3056, 1401.73688pt x 695.59875pt>
+ [222 <./images/bab4/contohtracedilangsmithstudio.png>]
+<images/bab4/pengujian_sistem_agentik/contohexamplesdilangsmith.png, id=3447, 1401.73688pt x 695.59875pt>
 File: images/bab4/pengujian_sistem_agentik/contohexamplesdilangsmith.png Graphic file (type png)
 <use images/bab4/pengujian_sistem_agentik/contohexamplesdilangsmith.png>
-Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/contohexamplesdilangsmith.png  used on input line 599.
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/contohexamplesdilangsmith.png  used on input line 1074.
 (pdftex.def)             Requested size: 398.3386pt x 197.66394pt.
- [189 <./images/bab4/pengujian_sistem_agentik/datasetdilangsmith.png> <./images/bab4/pengujian_sistem_agentik/contohexamplesdilangsmith.png>]
-<images/bab4/pengujian_sistem_agentik/vqa_id_scenario1.png, id=3065, 1406.25375pt x 691.83469pt>
+ [223 <./images/bab4/pengujian_sistem_agentik/datasetdilangsmith.png> <./images/bab4/pengujian_sistem_agentik/contohexamplesdilangsmith.png>]
+Overfull \hbox (1.03691pt too wide) in paragraph at lines 1104--1104
+ []\T1/ntxtlf/b/n/10.95 Metrik 
+ []
+
+
+Overfull \hbox (1.03691pt too wide) in paragraph at lines 1104--1104
+ []\T1/ntxtlf/b/n/10.95 Metrik 
+ []
+
+
+Overfull \hbox (1.03691pt too wide) in paragraph at lines 1104--1104
+ []\T1/ntxtlf/b/n/10.95 Metrik 
+ []
+
+[224]
+<images/bab4/pengujian_sistem_agentik/vqa_id_scenario1.png, id=3461, 1406.25375pt x 691.83469pt>
 File: images/bab4/pengujian_sistem_agentik/vqa_id_scenario1.png Graphic file (type png)
 <use images/bab4/pengujian_sistem_agentik/vqa_id_scenario1.png>
-Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/vqa_id_scenario1.png  used on input line 636.
-(pdftex.def)             Requested size: 179.25114pt x 88.17871pt.
-<images/bab4/pengujian_sistem_agentik/vqa_ood_scenario1.png, id=3066, 1397.97281pt x 691.83469pt>
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/vqa_id_scenario1.png  used on input line 1115.
+(pdftex.def)             Requested size: 378.42044pt x 186.16446pt.
+<images/bab4/pengujian_sistem_agentik/vqa_ood_scenario1.png, id=3462, 1397.97281pt x 691.83469pt>
 File: images/bab4/pengujian_sistem_agentik/vqa_ood_scenario1.png Graphic file (type png)
 <use images/bab4/pengujian_sistem_agentik/vqa_ood_scenario1.png>
-Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/vqa_ood_scenario1.png  used on input line 641.
-(pdftex.def)             Requested size: 179.25114pt x 88.70654pt.
-<images/bab4/pengujian_sistem_agentik/vqa_id_scenario2.png, id=3067, 1403.2425pt x 697.10437pt>
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/vqa_ood_scenario1.png  used on input line 1121.
+(pdftex.def)             Requested size: 378.42044pt x 187.2729pt.
+ [225 <./images/bab4/pengujian_sistem_agentik/vqa_id_scenario1.png> <./images/bab4/pengujian_sistem_agentik/vqa_ood_scenario1.png>]
+<images/bab4/pengujian_sistem_agentik/vqa_id_scenario2.png, id=3470, 1403.2425pt x 697.10437pt>
 File: images/bab4/pengujian_sistem_agentik/vqa_id_scenario2.png Graphic file (type png)
 <use images/bab4/pengujian_sistem_agentik/vqa_id_scenario2.png>
-Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/vqa_id_scenario2.png  used on input line 650.
-(pdftex.def)             Requested size: 179.25114pt x 89.04184pt.
-<images/bab4/pengujian_sistem_agentik/vqa_ood_scenario2.png, id=3068, 1400.23125pt x 692.5875pt>
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/vqa_id_scenario2.png  used on input line 1134.
+(pdftex.def)             Requested size: 378.42044pt x 187.98668pt.
+<images/bab4/pengujian_sistem_agentik/vqa_ood_scenario2.png, id=3471, 1391.1975pt x 729.47531pt>
 File: images/bab4/pengujian_sistem_agentik/vqa_ood_scenario2.png Graphic file (type png)
 <use images/bab4/pengujian_sistem_agentik/vqa_ood_scenario2.png>
-Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/vqa_ood_scenario2.png  used on input line 656.
-(pdftex.def)             Requested size: 179.25114pt x 88.65512pt.
-<images/bab4/pengujian_sistem_agentik/vqa_id_scenario3.png, id=3069, 1407.00656pt x 706.13812pt>
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/vqa_ood_scenario2.png  used on input line 1140.
+(pdftex.def)             Requested size: 378.42044pt x 198.41911pt.
+ [226 <./images/bab4/pengujian_sistem_agentik/vqa_id_scenario2.png> <./images/bab4/pengujian_sistem_agentik/vqa_ood_scenario2.png>]
+<images/bab4/pengujian_sistem_agentik/vqa_id_scenario3.png, id=3480, 1393.45593pt x 685.05937pt>
 File: images/bab4/pengujian_sistem_agentik/vqa_id_scenario3.png Graphic file (type png)
 <use images/bab4/pengujian_sistem_agentik/vqa_id_scenario3.png>
-Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/vqa_id_scenario3.png  used on input line 665.
-(pdftex.def)             Requested size: 179.25114pt x 89.95868pt.
-<images/bab4/pengujian_sistem_agentik/vqa_ood_scenario3.png, id=3070, 1407.75937pt x 693.34032pt>
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/vqa_id_scenario3.png  used on input line 1153.
+(pdftex.def)             Requested size: 378.42044pt x 186.03471pt.
+<images/bab4/pengujian_sistem_agentik/vqa_ood_scenario3.png, id=3481, 1407.75937pt x 693.34032pt>
 File: images/bab4/pengujian_sistem_agentik/vqa_ood_scenario3.png Graphic file (type png)
 <use images/bab4/pengujian_sistem_agentik/vqa_ood_scenario3.png>
-Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/vqa_ood_scenario3.png  used on input line 672.
-(pdftex.def)             Requested size: 179.25114pt x 88.2754pt.
- [190]
-<images/bab4/pengujian_sistem_agentik/contohgoldenrunclosedset.png, id=3077, 1405.50093pt x 694.84593pt>
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/vqa_ood_scenario3.png  used on input line 1159.
+(pdftex.def)             Requested size: 378.42044pt x 186.3686pt.
+ [227 <./images/bab4/pengujian_sistem_agentik/vqa_id_scenario3.png> <./images/bab4/pengujian_sistem_agentik/vqa_ood_scenario3.png>]
+<images/bab4/pengujian_sistem_agentik/contohgoldenrunclosedset.png, id=3489, 1405.50093pt x 694.84593pt>
 File: images/bab4/pengujian_sistem_agentik/contohgoldenrunclosedset.png Graphic file (type png)
 <use images/bab4/pengujian_sistem_agentik/contohgoldenrunclosedset.png>
-Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/contohgoldenrunclosedset.png  used on input line 683.
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/contohgoldenrunclosedset.png  used on input line 1170.
 (pdftex.def)             Requested size: 398.3386pt x 196.93048pt.
- [191 <./images/bab4/pengujian_sistem_agentik/vqa_id_scenario1.png> <./images/bab4/pengujian_sistem_agentik/vqa_ood_scenario1.png> <./images/bab4/pengujian_sistem_agentik/vqa_id_scenario2.png> <./images/bab4/pengujian_sistem_agentik/vqa_ood_scenario2.png> <./images/bab4/pengujian_sistem_agentik/vqa_id_scenario3.png> <./images/bab4/pengujian_sistem_agentik/vqa_ood_scenario3.png>]
-<images/bab4/pengujian_sistem_agentik/contohgoldenrun2openvocab.png, id=3089, 1375.38844pt x 691.83469pt>
+<images/bab4/pengujian_sistem_agentik/contohgoldenrun2openvocab.png, id=3491, 1375.38844pt x 691.83469pt>
 File: images/bab4/pengujian_sistem_agentik/contohgoldenrun2openvocab.png Graphic file (type png)
 <use images/bab4/pengujian_sistem_agentik/contohgoldenrun2openvocab.png>
-Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/contohgoldenrun2openvocab.png  used on input line 692.
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/contohgoldenrun2openvocab.png  used on input line 1179.
 (pdftex.def)             Requested size: 398.3386pt x 200.363pt.
- [192 <./images/bab4/pengujian_sistem_agentik/contohgoldenrunclosedset.png> <./images/bab4/pengujian_sistem_agentik/contohgoldenrun2openvocab.png>]
-<images/bab4/pengujian_sistem_agentik/lowscores.png, id=3097, 1111.15125pt x 716.6775pt>
+ [228 <./images/bab4/pengujian_sistem_agentik/contohgoldenrunclosedset.png> <./images/bab4/pengujian_sistem_agentik/contohgoldenrun2openvocab.png>]
+<images/bab4/pengujian_sistem_agentik/lowscores.png, id=3499, 1111.15125pt x 716.6775pt>
 File: images/bab4/pengujian_sistem_agentik/lowscores.png Graphic file (type png)
 <use images/bab4/pengujian_sistem_agentik/lowscores.png>
-Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/lowscores.png  used on input line 701.
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/lowscores.png  used on input line 1188.
 (pdftex.def)             Requested size: 398.3386pt x 256.92108pt.
-<images/bab4/pengujian_sistem_agentik/contohsalah.png, id=3099, 1393.45593pt x 708.39656pt>
+<images/bab4/pengujian_sistem_agentik/contohsalah.png, id=3501, 1393.45593pt x 708.39656pt>
 File: images/bab4/pengujian_sistem_agentik/contohsalah.png Graphic file (type png)
 <use images/bab4/pengujian_sistem_agentik/contohsalah.png>
-Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/contohsalah.png  used on input line 710.
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/contohsalah.png  used on input line 1197.
 (pdftex.def)             Requested size: 398.3386pt x 202.50043pt.
- [193 <./images/bab4/pengujian_sistem_agentik/lowscores.png>]
-<images/bab4/pengujian_sistem_agentik/experimentdomainboundary.png, id=3106, 1399.47844pt x 689.57625pt>
+ [229 <./images/bab4/pengujian_sistem_agentik/lowscores.png>]
+<images/bab4/pengujian_sistem_agentik/experimentdomainboundary.png, id=3508, 1399.47844pt x 689.57625pt>
 File: images/bab4/pengujian_sistem_agentik/experimentdomainboundary.png Graphic file (type png)
 <use images/bab4/pengujian_sistem_agentik/experimentdomainboundary.png>
-Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/experimentdomainboundary.png  used on input line 720.
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/experimentdomainboundary.png  used on input line 1207.
 (pdftex.def)             Requested size: 398.3386pt x 196.26822pt.
- [194 <./images/bab4/pengujian_sistem_agentik/contohsalah.png>]
-<images/bab4/pengujian_sistem_agentik/datasetdomainboundary.png, id=3113, 1409.265pt x 683.55376pt>
+ [230 <./images/bab4/pengujian_sistem_agentik/contohsalah.png> <./images/bab4/pengujian_sistem_agentik/experimentdomainboundary.png>]
+<images/bab4/pengujian_sistem_agentik/datasetdomainboundary.png, id=3516, 1409.265pt x 683.55376pt>
 File: images/bab4/pengujian_sistem_agentik/datasetdomainboundary.png Graphic file (type png)
 <use images/bab4/pengujian_sistem_agentik/datasetdomainboundary.png>
-Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/datasetdomainboundary.png  used on input line 729.
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/datasetdomainboundary.png  used on input line 1216.
 (pdftex.def)             Requested size: 398.3386pt x 193.20859pt.
- [195 <./images/bab4/pengujian_sistem_agentik/experimentdomainboundary.png> <./images/bab4/pengujian_sistem_agentik/datasetdomainboundary.png>]
-<images/bab4/pengujian_sistem_agentik/examplesdomainboundary.png, id=3121, 1401.73688pt x 693.34032pt>
+<images/bab4/pengujian_sistem_agentik/examplesdomainboundary.png, id=3518, 1401.73688pt x 693.34032pt>
 File: images/bab4/pengujian_sistem_agentik/examplesdomainboundary.png Graphic file (type png)
 <use images/bab4/pengujian_sistem_agentik/examplesdomainboundary.png>
-Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/examplesdomainboundary.png  used on input line 738.
+Package pdftex.def Info: images/bab4/pengujian_sistem_agentik/examplesdomainboundary.png  used on input line 1225.
 (pdftex.def)             Requested size: 398.3386pt x 197.02217pt.
- [196 <./images/bab4/pengujian_sistem_agentik/examplesdomainboundary.png>] [197] [198]) [199]
+ [231 <./images/bab4/pengujian_sistem_agentik/datasetdomainboundary.png>] [232 <./images/bab4/pengujian_sistem_agentik/examplesdomainboundary.png>] [233] [234] [235]) [236]
 \openout2 = `chapters/bab5.aux'.
 
  (chapters/bab5.tex
 Bab V.
-[200
+[237
 
 
 
 
-] [201]) [202] [203
+] [238]) [239]
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 685.
+ (C:\Users\Andakara\AppData\Local\Programs\MiKTeX\tex/latex/newtx\t1ntxtt.fd
+File: t1ntxtt.fd 2012/04/20 v3.1
+)
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 12.04504pt on input line 685.
+ [240
 
 
 
-] [204] [205] [206] [207] [208] [209] [210] [211] [212] [213]
+] [241] [242] [243] [244] [245] [246] [247] [248] [249] [250] [251]
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.04504pt on input line 659.
- [214] [215] [216] [217] [218] [219] [220]
+(Font)              scaled to size 12.04504pt on input line 685.
+ [252] [253] [254] [255] [256] [257] [258] [259]
 \openout2 = `chapters/lampiran.aux'.
 
- (chapters/lampiran.tex [221
+ (chapters/lampiran.tex
+Overfull \hbox (3.61337pt too wide) in paragraph at lines 7--30
+  []
+ []
+
+<images/lampiran/repository_monorepo.png, id=3947, 301.125pt x 301.125pt>
+File: images/lampiran/repository_monorepo.png Graphic file (type png)
+<use images/lampiran/repository_monorepo.png>
+Package pdftex.def Info: images/lampiran/repository_monorepo.png  used on input line 37.
+(pdftex.def)             Requested size: 128.0374pt x 128.04305pt.
+<images/lampiran/pengujian-satu-tahap-id.png, id=3948, 4015.0pt x 1365.1pt>
+File: images/lampiran/pengujian-satu-tahap-id.png Graphic file (type png)
+<use images/lampiran/pengujian-satu-tahap-id.png>
+Package pdftex.def Info: images/lampiran/pengujian-satu-tahap-id.png  used on input line 45.
+(pdftex.def)             Requested size: 398.3386pt x 135.43484pt.
+[260
 
 
-]
-<images/lampiran/55611489-VQA_ID_Scenario_1.png, id=3521, 1322.9425pt x 1720.4275pt>
-File: images/lampiran/55611489-VQA_ID_Scenario_1.png Graphic file (type png)
-<use images/lampiran/55611489-VQA_ID_Scenario_1.png>
-Package pdftex.def Info: images/lampiran/55611489-VQA_ID_Scenario_1.png  used on input line 29.
-(pdftex.def)             Requested size: 179.25114pt x 233.08774pt.
-<images/lampiran/55611489-VQA_ID_Scenario_2.png, id=3522, 1322.9425pt x 1720.4275pt>
-File: images/lampiran/55611489-VQA_ID_Scenario_2.png Graphic file (type png)
-<use images/lampiran/55611489-VQA_ID_Scenario_2.png>
-Package pdftex.def Info: images/lampiran/55611489-VQA_ID_Scenario_2.png  used on input line 34.
-(pdftex.def)             Requested size: 179.25114pt x 233.08774pt.
-<images/lampiran/55611628-VQA_ID_Scenario_3.png, id=3523, 1322.9425pt x 1720.4275pt>
-File: images/lampiran/55611628-VQA_ID_Scenario_3.png Graphic file (type png)
-<use images/lampiran/55611628-VQA_ID_Scenario_3.png>
-Package pdftex.def Info: images/lampiran/55611628-VQA_ID_Scenario_3.png  used on input line 41.
-(pdftex.def)             Requested size: 179.25114pt x 233.08774pt.
- [222 <./images/lampiran/55611489-VQA_ID_Scenario_1.png> <./images/lampiran/55611489-VQA_ID_Scenario_2.png> <./images/lampiran/55611628-VQA_ID_Scenario_3.png>]
-<images/lampiran/55611642-VQA_OOD_Scenario_1.png, id=3532, 1322.9425pt x 1720.4275pt>
-File: images/lampiran/55611642-VQA_OOD_Scenario_1.png Graphic file (type png)
-<use images/lampiran/55611642-VQA_OOD_Scenario_1.png>
-Package pdftex.def Info: images/lampiran/55611642-VQA_OOD_Scenario_1.png  used on input line 54.
-(pdftex.def)             Requested size: 179.25114pt x 233.08774pt.
-<images/lampiran/55611672-VQA_OOD_Scenario_2.png, id=3533, 1322.9425pt x 1720.4275pt>
-File: images/lampiran/55611672-VQA_OOD_Scenario_2.png Graphic file (type png)
-<use images/lampiran/55611672-VQA_OOD_Scenario_2.png>
-Package pdftex.def Info: images/lampiran/55611672-VQA_OOD_Scenario_2.png  used on input line 59.
-(pdftex.def)             Requested size: 179.25114pt x 233.08774pt.
-<images/lampiran/55611689-VQA_OOD_Scenario_3.png, id=3534, 1322.9425pt x 1720.4275pt>
-File: images/lampiran/55611689-VQA_OOD_Scenario_3.png Graphic file (type png)
-<use images/lampiran/55611689-VQA_OOD_Scenario_3.png>
-Package pdftex.def Info: images/lampiran/55611689-VQA_OOD_Scenario_3.png  used on input line 66.
-(pdftex.def)             Requested size: 179.25114pt x 233.08774pt.
- [223 <./images/lampiran/55611642-VQA_OOD_Scenario_1.png> <./images/lampiran/55611672-VQA_OOD_Scenario_2.png> <./images/lampiran/55611689-VQA_OOD_Scenario_3.png>]
-<images/lampiran/55611697-Domain_Boundary.png, id=3543, 1322.9425pt x 1720.4275pt>
-File: images/lampiran/55611697-Domain_Boundary.png Graphic file (type png)
-<use images/lampiran/55611697-Domain_Boundary.png>
-Package pdftex.def Info: images/lampiran/55611697-Domain_Boundary.png  used on input line 77.
-(pdftex.def)             Requested size: 318.67209pt x 414.40738pt.
-) [224 <./images/lampiran/55611697-Domain_Boundary.png>]
-runsystem(latexminted cleantemp  --timestamp 20260303010828 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
+ <./images/lampiran/repository_monorepo.png>]
+<images/lampiran/pengujian-satu-tahap-ood.png, id=3954, 3994.925pt x 1365.1pt>
+File: images/lampiran/pengujian-satu-tahap-ood.png Graphic file (type png)
+<use images/lampiran/pengujian-satu-tahap-ood.png>
+Package pdftex.def Info: images/lampiran/pengujian-satu-tahap-ood.png  used on input line 53.
+(pdftex.def)             Requested size: 398.3386pt x 136.1014pt.
+<images/lampiran/pengujian-multi-tahap.png, id=3955, 1204.5pt x 1369.115pt>
+File: images/lampiran/pengujian-multi-tahap.png Graphic file (type png)
+<use images/lampiran/pengujian-multi-tahap.png>
+Package pdftex.def Info: images/lampiran/pengujian-multi-tahap.png  used on input line 61.
+(pdftex.def)             Requested size: 128.0374pt x 145.5266pt.
+ [261 <./images/lampiran/pengujian-satu-tahap-id.png> <./images/lampiran/pengujian-satu-tahap-ood.png> <./images/lampiran/pengujian-multi-tahap.png>]
+<images/lampiran/uji-similaritas-turnitin.png, id=3963, 3721.905pt x 6303.55pt>
+File: images/lampiran/uji-similaritas-turnitin.png Graphic file (type png)
+<use images/lampiran/uji-similaritas-turnitin.png>
+Package pdftex.def Info: images/lampiran/uji-similaritas-turnitin.png  used on input line 69.
+(pdftex.def)             Requested size: 318.67209pt x 539.69014pt.
+ [262 <./images/lampiran/uji-similaritas-turnitin.png>]
+<images/lampiran/uji-deteksi-ai.jpg, id=3970, 597.9138pt x 845.0772pt>
+File: images/lampiran/uji-deteksi-ai.jpg Graphic file (type jpg)
+<use images/lampiran/uji-deteksi-ai.jpg>
+Package pdftex.def Info: images/lampiran/uji-deteksi-ai.jpg  used on input line 77.
+(pdftex.def)             Requested size: 318.67209pt x 450.40327pt.
+) [263 <./images/lampiran/uji-deteksi-ai.jpg>]
+runsystem(latexminted cleantemp  --timestamp 20260313145251 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
 
  (main.aux (chapters/bab1.aux) (chapters/bab2.aux) (chapters/bab3.aux) (chapters/bab4.aux) (chapters/bab5.aux) (chapters/lampiran.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 24AB54E4648EDAB0B86F3CDF7860F0C0;21137.
+(rerunfilecheck)             Checksum: F4CDD83F1FF7ABF0383659ECB64D5907;18312.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 72170 strings out of 467871
- 1678969 string characters out of 5416924
- 4548536 words of memory out of 5000000
- 99339 multiletter control sequences out of 15000+600000
- 722908 words of font info for 159 fonts, out of 8000000 for 9000
+ 72677 strings out of 467871
+ 1705333 string characters out of 5416924
+ 4583200 words of memory out of 5000000
+ 99726 multiletter control sequences out of 15000+600000
+ 722210 words of font info for 157 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,13n,136p,3165b,7416s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,12n,136p,3165b,7416s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI7.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsym.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmbi.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/Andakara/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (245 pages, 52537264 bytes).
+Output written on main.pdf (284 pages, 68574320 bytes).
 PDF statistics:
- 3777 PDF objects out of 4296 (max. 8388607)
- 778 named destinations out of 1000 (max. 500000)
- 1909 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4227 PDF objects out of 4296 (max. 8388607)
+ 898 named destinations out of 1000 (max. 500000)
+ 2066 words of extra memory for PDF output out of 10000 (max. 10000000)
 
