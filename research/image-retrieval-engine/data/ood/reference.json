@@ -1,0 +1,322 @@
+[
+  {
+    "class": "black_gram anthracnose",
+    "status": "diseased",
+    "symptoms": "Circular, black, sunken spots with dark center and bright red orange margins on leaves and pods. Severe infections spread entire leaf giving blighted appearance. Small, dark brown to black lesions on cotyledons; oval or eye-shaped lesions on stems which turn sunken and brown with purple to red margins.",
+    "cause": "Fungal (Colletotrichum lindemuthianum)",
+    "management": "Plant resistant varieties; use certified disease-free seed; avoid sprinkler irrigation, water plants at base; plow bean crop debris into soil. Remove and destroy infected plant debris. Apply copper-based fungicides. Practice crop rotation. Ensure proper spacing for air circulation.",
+    "source": "TNAU Agritech Portal: https://agritech.tnau.ac.in/crop_protection/black_gram_disease/blackgram_d1.html; PlantVillage: https://plantvillage.psu.edu/topics/chickpea-gram-pea/infos"
+  },
+  {
+    "class": "black_gram leaf",
+    "status": "healthy",
+    "symptoms": "Deep green, smooth leaves with even coloration. Leaves are firm and turgid. No spots, discoloration, or deformities. Plant shows vigorous growth.",
+    "cause": "N/A - healthy plant",
+    "maintenance": "Water regularly but avoid waterlogging. Provide full sun (6-8 hours daily). Apply balanced fertilizer every 2-3 weeks. Maintain soil pH 6.0-6.8. Prune to improve air circulation. Monitor for early signs of pests or diseases.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/chickpea-gram-pea/infos"
+  },
+  {
+    "class": "black_gram leaf crinckle",
+    "status": "diseased",
+    "symptoms": "Leaves show crinkling and distortion. Leaf surfaces become irregular and wavy. Plants may show stunted growth.",
+    "cause": "Virus or genetic disorder",
+    "management": "Remove and destroy infected plants. Control aphid vectors that may transmit viruses. Use resistant varieties. Practice field sanitation. Avoid planting near infected crops.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/chickpea-gram-pea/infos; Additional: University extension sources for viral diseases"
+  },
+  {
+    "class": "black_gram powdery mildew",
+    "status": "diseased",
+    "symptoms": "White, powdery fungal growth on leaf surfaces, particularly on upper surfaces. Leaves may yellow and die prematurely. Severe infections can cover entire leaf surfaces.",
+    "cause": "Fungal (Erysiphe polygoni)",
+    "management": "Plant resistant varieties. Ensure proper spacing for air circulation. Apply sulfur-based fungicides or other appropriate fungicides. Avoid excessive nitrogen fertilization. Remove infected plant debris.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/chickpea-gram-pea/infos; Additional: University extension sources"
+  },
+  {
+    "class": "black_gram yellow mosaic",
+    "status": "diseased",
+    "symptoms": "Yellow mosaic patterns on leaves with distinct yellow patches or streaks. Leaves may show chlorosis. Plants become stunted and produce fewer pods.",
+    "cause": "Virus (Mung bean yellow mosaic virus)",
+    "management": "Remove and destroy infected plants immediately. Control whitefly vectors that transmit the virus. Use resistant varieties. Avoid planting near other infected crops. Practice crop rotation.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/chickpea-gram-pea/infos; Additional: University extension sources for viral diseases"
+  },
+  {
+    "class": "chili cercospora",
+    "status": "diseased",
+    "symptoms": "Small, circular spots on leaves with gray centers and brown margins. Spots may coalesce to form larger necrotic areas. Leaves may yellow and drop prematurely.",
+    "cause": "Fungal (Cercospora capsici)",
+    "management": "Remove and destroy infected plant debris. Apply copper-based fungicides. Ensure proper spacing for air circulation. Avoid overhead irrigation. Practice crop rotation.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/chilli-pepper/infos"
+  },
+  {
+    "class": "chili leaf",
+    "status": "healthy",
+    "symptoms": "Deep green, smooth leaves with even coloration. Leaves are firm and turgid. No spots, discoloration, or deformities. Plant shows vigorous growth.",
+    "cause": "N/A - healthy plant",
+    "maintenance": "Water regularly but avoid waterlogging. Provide full sun (6-8 hours daily). Apply balanced fertilizer every 2-3 weeks. Maintain soil pH 6.0-6.8. Prune to improve air circulation. Monitor for early signs of pests or diseases.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/chilli-pepper/infos"
+  },
+  {
+    "class": "chili mites and trips",
+    "status": "diseased",
+    "symptoms": "Silvery or bronze discoloration on leaves. Tiny white or yellow stippling marks. Curled or distorted leaves. Fine webbing may be visible (for mites). Black fecal spots on leaves.",
+    "cause": "Pests (Spider mites: Tetranychus spp.; Thrips: Thrips spp.)",
+    "management": "Apply neem oil or insecticidal soap. Use predatory mites for biological control. Maintain proper humidity levels. Remove heavily infested leaves. Apply appropriate miticides or insecticides if infestation is severe. Ensure good air circulation.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/chilli-pepper/infos; Additional: University extension sources"
+  },
+  {
+    "class": "chili nutritional deficiency",
+    "status": "diseased",
+    "symptoms": "Yellowing of leaves (chlorosis), stunted growth, purple or reddish discoloration on leaves, leaf curling or distortion depending on specific nutrient lacking.",
+    "cause": "Nutritional deficiency (nitrogen, phosphorus, potassium, magnesium, or micronutrients)",
+    "management": "Conduct soil testing to identify deficiency. Apply appropriate fertilizers or amendments. Ensure proper pH levels (6.0-6.8). Use balanced NPK fertilizers. Apply foliar sprays for quick correction.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/chilli-pepper/infos; Additional: University extension sources"
+  },
+  {
+    "class": "chili powdery mildew",
+    "status": "diseased",
+    "symptoms": "White, powdery growth on underside of leaves which starts in patches but spreads across whole leaves, including top surface. Yellow-brown discoloration on underside of leaves. Leaves curling.",
+    "cause": "Fungal (Leveillula taurica)",
+    "management": "Apply appropriate fungicide if disease is severe. Ensure proper spacing for air circulation. Avoid excessive nitrogen fertilization. Remove infected plant debris. Maintain proper humidity levels.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/chilli-pepper/infos"
+  },
+  {
+    "class": "guava anthracnose",
+    "status": "diseased",
+    "symptoms": "Dark, sunken lesions on fruit, leaves, and stems. Fruit lesions may have pink spore masses in center. Leaves show brown spots that may expand. Can cause fruit rot and defoliation.",
+    "cause": "Fungal (Colletotrichum gloeosporioides)",
+    "management": "Remove and destroy infected fruit and plant debris. Apply copper-based fungicides. Ensure proper pruning for air circulation. Avoid overhead irrigation. Harvest fruit carefully to prevent wounds.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/guava/infos; Additional: University extension sources"
+  },
+  {
+    "class": "guava canker",
+    "status": "diseased",
+    "symptoms": "Sunken, dark lesions on branches and stems. Bark becomes cracked and dies back. Lesions may girdle branches causing dieback. Gum may ooze from infected areas.",
+    "cause": "Fungal (Botryosphaeria rhodina)",
+    "management": "Prune and destroy infected branches well below canker area. Apply copper-based fungicides. Maintain tree vigor through proper fertilization and irrigation. Avoid mechanical damage to bark.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/guava/infos; Additional: University extension sources"
+  },
+  {
+    "class": "guava dot",
+    "status": "diseased",
+    "symptoms": "Small, dark, circular spots on fruit that may be slightly raised or sunken. Spots may coalesce to form larger lesions. Fruit quality is reduced.",
+    "cause": "Fungal (Phomopsis psidii)",
+    "management": "Remove and destroy infected fruit. Apply appropriate fungicides. Ensure proper sanitation in orchard. Maintain tree health through proper care.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/guava/infos; Additional: University extension sources"
+  },
+  {
+    "class": "guava leaf",
+    "status": "healthy",
+    "symptoms": "Glossy, dark green leaves with smooth margins. Leaves are firm and leathery. No spots, yellowing, or distortion. Plant shows vigorous growth.",
+    "cause": "N/A - healthy plant",
+    "maintenance": "Water regularly during dry periods. Apply balanced fertilizer 3-4 times per year. Prune to maintain shape and remove dead wood. Mulch to conserve moisture. Monitor for pests and diseases.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/guava/infos"
+  },
+  {
+    "class": "guava rust",
+    "status": "diseased",
+    "symptoms": "Orange to brown pustules on leaves and fruit. Leaves may yellow and drop prematurely. Severe infections can defoliate trees and reduce fruit quality.",
+    "cause": "Fungal (Puccinia psidii)",
+    "management": "Remove and destroy infected plant material. Apply copper-based fungicides. Plant resistant varieties if available. Ensure proper spacing and air circulation. Avoid overhead irrigation.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/guava/infos; Additional: University extension sources"
+  },
+  {
+    "class": "guava scab",
+    "status": "diseased",
+    "symptoms": "Dark, scabby lesions on fruit, leaves, and stems. Lesions may be raised and corky. Fruit becomes distorted and unmarketable. Leaves may show spots and drop.",
+    "cause": "Fungal (Elsinoe psidii)",
+    "management": "Remove and destroy infected fruit and plant debris. Apply copper-based fungicides. Ensure proper pruning for air circulation. Avoid overhead irrigation. Maintain tree vigor.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/guava/infos; Additional: University extension sources"
+  },
+  {
+    "class": "guava styler end root",
+    "status": "diseased",
+    "symptoms": "Rotting at the stylar end (blossom end) of fruit. Fruit becomes soft and watery. Lesions may expand to cover large portions of fruit. Foul odor may be present.",
+    "cause": "Fungal (Phytophthora spp.) or bacteria",
+    "management": "Remove and destroy infected fruit. Apply appropriate fungicides or bactericides. Ensure proper drainage. Avoid overhead irrigation. Harvest fruit at proper maturity.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/guava/infos; Additional: University extension sources"
+  },
+  {
+    "class": "malabar_spinach anthracnose",
+    "status": "diseased",
+    "symptoms": "Dark, sunken lesions on leaves, stems, and petioles. Lesions may have concentric rings. Leaves may yellow and drop. Severe infections can cause plant death.",
+    "cause": "Fungal (Colletotrichum spp.)",
+    "management": "Remove and destroy infected plant debris. Apply copper-based fungicides. Ensure proper spacing for air circulation. Avoid overhead irrigation. Practice crop rotation.",
+    "source": "Smart Gardener: https://www.smartgardener.com/plants/1317-spinach-malabar-spinach/diseases/554-anthracnose"
+  },
+  {
+    "class": "malabar_spinach bacterial spot",
+    "status": "diseased",
+    "symptoms": "Water-soaked spots on leaves that turn brown and may have yellow halos. Spots may coalesce to form larger necrotic areas. Leaves may drop prematurely.",
+    "cause": "Bacterial (Xanthomonas spp.)",
+    "management": "Remove and destroy infected plant material. Apply copper-based bactericides. Ensure proper spacing for air circulation. Avoid overhead irrigation. Practice crop rotation.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/malabar-spinach/infos; Additional: University extension sources"
+  },
+  {
+    "class": "malabar_spinach downy mildew",
+    "status": "diseased",
+    "symptoms": "Yellow spots on upper leaf surfaces with fuzzy, gray-purple growth on undersides. Leaves may yellow and drop. Severe infections can defoliate plants.",
+    "cause": "Oomycete (Peronospora spp.)",
+    "management": "Remove and destroy infected plant debris. Apply copper-based fungicides. Ensure proper spacing for air circulation. Avoid overhead irrigation. Practice crop rotation.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/malabar-spinach/infos; Additional: University extension sources"
+  },
+  {
+    "class": "malabar_spinach leaf",
+    "status": "healthy",
+    "symptoms": "Large, succulent, heart-shaped leaves with smooth margins. Leaves are deep green and glossy. No spots, yellowing, or distortion. Plant shows vigorous growth.",
+    "cause": "N/A - healthy plant",
+    "maintenance": "Water regularly to keep soil moist. Provide partial to full sun. Apply balanced fertilizer every 2-3 weeks. Harvest leaves regularly to encourage new growth. Support vines with trellis.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/malabar-spinach/infos"
+  },
+  {
+    "class": "malabar_spinach pest damage",
+    "status": "diseased",
+    "symptoms": "Chewed holes in leaves, skeletonized foliage, sticky residue on leaves, visible insects or webbing. Leaves may be distorted or discolored.",
+    "cause": "Pests (caterpillars, aphids, mites, or other insects)",
+    "management": "Apply neem oil or insecticidal soap. Handpick larger pests. Use row covers to prevent pest access. Encourage beneficial insects. Remove heavily damaged leaves.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/malabar-spinach/infos; Additional: University extension sources"
+  },
+  {
+    "class": "okra alternaria leaf spot",
+    "status": "diseased",
+    "symptoms": "Dark brown to black circular spots on leaves with concentric rings. Spots may have yellow halos. Leaves may yellow and drop prematurely. Severe infections can defoliate plants.",
+    "cause": "Fungal (Alternaria spp.)",
+    "management": "Remove and destroy infected plant debris. Apply copper-based fungicides. Ensure proper spacing for air circulation. Avoid overhead irrigation. Practice crop rotation.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/okra/infos"
+  },
+  {
+    "class": "okra cercospora leaf spot",
+    "status": "diseased",
+    "symptoms": "Small, circular spots with gray centers and brown margins on leaves. Spots may coalesce to form larger necrotic areas. Leaves may yellow and drop.",
+    "cause": "Fungal (Cercospora abelmoschi)",
+    "management": "Remove and destroy infected plant debris. Apply copper-based fungicides. Ensure proper spacing for air circulation. Avoid overhead irrigation. Practice crop rotation.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/okra/infos"
+  },
+  {
+    "class": "okra downy mildew",
+    "status": "diseased",
+    "symptoms": "Yellow angular spots on upper leaf surfaces with fuzzy, gray-purple growth on undersides. Leaves may yellow and drop. Severe infections can defoliate plants.",
+    "cause": "Oomycete (Pseudoperonospora sp.)",
+    "management": "Remove and destroy infected plant debris. Apply copper-based fungicides. Ensure proper spacing for air circulation. Avoid overhead irrigation. Practice crop rotation.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/okra/infos"
+  },
+  {
+    "class": "okra leaf",
+    "status": "healthy",
+    "symptoms": "Large, palmate leaves with 5-7 lobes. Leaves are deep green and smooth. No spots, yellowing, or distortion. Plant shows vigorous growth.",
+    "cause": "N/A - healthy plant",
+    "maintenance": "Water regularly but avoid waterlogging. Provide full sun (6-8 hours daily). Apply balanced fertilizer every 2-3 weeks. Maintain soil pH 6.0-6.8. Harvest pods when tender.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/okra/infos"
+  },
+  {
+    "class": "okra leaf curly virus",
+    "status": "diseased",
+    "symptoms": "Leaves become curled, twisted, and distorted. Plants may be stunted. Leaf margins may show yellowing. Reduced pod production.",
+    "cause": "Virus (Okra leaf curl virus)",
+    "management": "Remove and destroy infected plants immediately. Control whitefly vectors that transmit the virus. Use resistant varieties if available. Avoid planting near infected crops.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/okra/infos; Additional: University extension sources"
+  },
+  {
+    "class": "onion iris yellow virus",
+    "status": "diseased",
+    "symptoms": "Yellow streaks on leaves, particularly at bases. Leaves may be flattened or crinkled. Bulbs are undersized. Flower stalks yellow and twisted.",
+    "cause": "Virus (Onion yellow dwarf virus)",
+    "management": "Control aphid vectors that transmit the virus. Plant virus-free sets or transplants. Remove infected plants. Plant more tolerant varieties. Practice field sanitation.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/onion/infos"
+  },
+  {
+    "class": "onion leaf",
+    "status": "healthy",
+    "symptoms": "Hollow, cylindrical leaves with uniform green coloration. Leaves are firm and upright. No spots, yellowing, or distortion. Plant shows vigorous growth.",
+    "cause": "N/A - healthy plant",
+    "maintenance": "Water regularly but avoid waterlogging. Provide full sun. Apply balanced fertilizer. Maintain soil pH 6.0-7.0. Space plants properly for air circulation.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/onion/infos"
+  },
+  {
+    "class": "onion leaf blight",
+    "status": "diseased",
+    "symptoms": "Water-soaked, dark green oval lesions or streaks on leaves. Tipburn of leaves. Dark spots on wrapper scales of bulbs. Reddish-brown discoloration of inner scales.",
+    "cause": "Bacterial (Pseudomonas viridiflava)",
+    "management": "Avoid fertilizing plants during winter. Apply appropriate bacteriacidial sprays. Remove infected plants. Practice crop rotation. Ensure proper drainage.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/onion/infos"
+  },
+  {
+    "class": "onion purple blotch",
+    "status": "diseased",
+    "symptoms": "Small water-soaked lesions on leaves or stalks with white centers. Lesions enlarge to become zonate and brown to purple with red or purple margin surrounded by yellow zone. Large lesions may coalesce and girdle leaf.",
+    "cause": "Fungal (Alternaria porri)",
+    "management": "Avoid planting infected sets. Rotate crops to non-allium species for 3-4 years. Plant in well-draining areas. Destroy all infected crop debris. Apply appropriate foliar fungicides.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/onion/infos"
+  },
+  {
+    "class": "orka phyllosticta leaf spot",
+    "status": "diseased",
+    "symptoms": "Small, circular spots with dark borders and light centers on leaves. Spots may coalesce to form larger necrotic areas. Leaves may yellow and drop prematurely.",
+    "cause": "Fungal (Phyllosticta spp.)",
+    "management": "Remove and destroy infected plant debris. Apply copper-based fungicides. Ensure proper spacing for air circulation. Avoid overhead irrigation. Practice crop rotation.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/okra/infos; Additional: University extension sources"
+  },
+  {
+    "class": "radish black leaf spot",
+    "status": "diseased",
+    "symptoms": "Dark brown or black circular spots on leaves with concentric rings. Spots may have yellow halos. Leaves may yellow and drop. Severe infections can defoliate plants.",
+    "cause": "Fungal (Alternaria spp.)",
+    "management": "Plant only certified, disease-free seed. Treat seeds with hot water prior to planting. Rotate crops to non-brassica species. Irrigate plants in morning to allow drying. Apply appropriate fungicide.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/radish/infos"
+  },
+  {
+    "class": "radish downey mildew",
+    "status": "diseased",
+    "symptoms": "Yellow spots on upper leaf surfaces with fuzzy, white to gray growth on undersides. Leaves may yellow and drop. Severe infections can defoliate plants.",
+    "cause": "Oomycete (Peronospora parasitica)",
+    "management": "Remove and destroy infected plant debris. Apply copper-based fungicides. Ensure proper spacing for air circulation. Avoid overhead irrigation. Practice crop rotation.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/radish/infos"
+  },
+  {
+    "class": "radish flea beetle",
+    "status": "diseased",
+    "symptoms": "Small, shot-hole holes in leaves. Leaves may be skeletonized. Plants may be stunted. Severe infestations can destroy young seedlings.",
+    "cause": "Pest (Flea beetles - Phyllotreta spp.)",
+    "management": "Apply insecticidal sprays or dusts. Use row covers to protect young plants. Maintain field sanitation. Plant trap crops. Apply diatomaceous earth.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/radish/infos; Additional: University extension sources"
+  },
+  {
+    "class": "radish fresh leaf",
+    "status": "healthy",
+    "symptoms": "Dark green, lobed leaves with smooth margins. Leaves are firm and turgid. No spots, yellowing, or distortion. Plant shows vigorous growth.",
+    "cause": "N/A - healthy plant",
+    "maintenance": "Water regularly but avoid waterlogging. Provide full sun to partial shade. Apply balanced fertilizer. Maintain soil pH 6.0-7.0. Harvest leaves when young and tender.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/radish/infos"
+  },
+  {
+    "class": "radish mosaic virus",
+    "status": "diseased",
+    "symptoms": "Mosaic patterns on leaves with light and dark green areas. Leaves may be distorted and stunted. Plants show reduced growth and poor root development.",
+    "cause": "Virus (Turnip mosaic virus)",
+    "management": "Remove and destroy infected plants. Control aphid vectors that transmit the virus. Use resistant varieties if available. Practice field sanitation. Avoid planting near infected crops.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/radish/infos; Additional: University extension sources"
+  },
+  {
+    "class": "wheat leaf",
+    "status": "healthy",
+    "symptoms": "Long, narrow leaves with parallel veins. Leaves are erect and green. No spots, yellowing, or distortion. Plant shows vigorous growth.",
+    "cause": "N/A - healthy plant",
+    "maintenance": "Water regularly during establishment. Apply nitrogen fertilizer as needed. Monitor for pests and diseases. Ensure proper spacing for air circulation. Harvest at proper maturity.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/wheat/infos"
+  },
+  {
+    "class": "wheat septoria",
+    "status": "diseased",
+    "symptoms": "Brown to tan lesions on leaves with dark borders. Small black fruiting bodies (pycnidia) visible in lesions. Leaves may yellow and die prematurely. Severe infections can reduce yield.",
+    "cause": "Fungal (Septoria tritici)",
+    "management": "Plant resistant varieties. Apply appropriate fungicides. Rotate crops with non-cereal species. Remove crop debris after harvest. Avoid overhead irrigation.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/wheat/infos; Additional: University extension sources"
+  },
+  {
+    "class": "wheat stripe rust",
+    "status": "diseased",
+    "symptoms": "Yellow to orange pustules arranged in stripes on leaves. Leaves may yellow and die prematurely. Severe infections can cause significant yield loss.",
+    "cause": "Fungal (Puccinia striiformis)",
+    "management": "Plant resistant varieties. Apply appropriate fungicides. Destroy alternate hosts. Plant early-maturing varieties. Monitor fields regularly for early detection.",
+    "source": "PlantVillage: https://plantvillage.psu.edu/topics/wheat/infos"
+  }
+]
