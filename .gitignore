@@ -28,9 +28,25 @@ data/plantwild/evaluation/images/*
 data/knowledge_base/
 data/corpus
 data/evaluation_cache
+scraping/llm/data/gardenology_relevant_links.jsonl
+scraping/llm/data/gardenology_verified_links_v2.jsonl
+scraping/llm/data/gardenology_verified_links.jsonl
+
 **/qdrant_storage/*
 !**/qdrant_storage/
 !**/qdrant_storage/.gitkeep
+
+**/research/image-retrieval-engine/data/plantwild/images/*
+!**/research/image-retrieval-engine/data/plantwild/images/
+!**/research/image-retrieval-engine/data/plantwild/images/.gitkeep
+
+research/image-retrieval-engine/data/plantwild/evaluation/images/*
+!research/image-retrieval-engine/data/plantwild/evaluation/images/
+!research/image-retrieval-engine/data/plantwild/evaluation/images/.gitkeep
+
+research/object-detection-engine/data/plantdoc/*
+!research/object-detection-engine/data/plantdoc/
+!research/object-detection-engine/data/plantdoc/.gitkeep
 
 # Unused Files & Directories
 old/
