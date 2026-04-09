@@ -13,6 +13,7 @@ vespa_storage
 .vercel
 .langgraph_api
 react_agent_engine.egg-info/
+agent.egg-info/
 .deepeval/
 .vscode/
 .fastembed_cache
@@ -27,11 +28,13 @@ data/plantwild/evaluation/images/*
 data/knowledge_base/
 data/corpus
 data/evaluation_cache
-qdrant_storage/*
-!qdrant_storage/.gitkeep
+**/qdrant_storage/*
+!**/qdrant_storage/
+!**/qdrant_storage/.gitkeep
 
 # Unused Files & Directories
 old/
 mwe/
 backup/
 prompts/
+ablation_configs.py
