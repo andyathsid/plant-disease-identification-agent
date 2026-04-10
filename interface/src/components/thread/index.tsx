@@ -98,7 +98,7 @@ function OpenGitHubRepo() {
       <Tooltip>
         <TooltipTrigger asChild>
           <a
-            href="https://github.com/teddylee777/agent-chat-ui"
+            href="https://github.com/andyathsid/plant-disease-identification-agent"
             target="_blank"
             className="flex items-center justify-center pr-3 h-9"
           >
