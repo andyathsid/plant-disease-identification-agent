@@ -1,7 +1,7 @@
 # Undergraduate Thesis Research - Plant Disease Identification Agent
 
 <div align="center">
-  <img src="https://github.com/andyathsid/plant-disease-identification-agent/blob/main/interface/assets/logo.png" alt="App Logo" width="200"/>
+  <img src="https://github.com/andyathsid/plant-disease-identification-agent/blob/main/interface/assets/logo.png" alt="App Logo" width="300"/>
   
   <h3>Identifikasi Penyakit Tanaman Dengan AI Agent</h3>
   
@@ -10,7 +10,7 @@
     [![Qdrant](https://img.shields.io/badge/Qdrant-1.11.3+-red?style=for-the-badge&logo=qdrant&logoColor=white)](https://qdrant.tech)
     [![Supabase](https://img.shields.io/badge/Supabase-2.27.0+-green?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com)
   
-  Multimodal Plant Disease Identification | Factual Data-Driven ...? | Adaptive AI Agent | Web-based Chatbot Interface
+  Multimodal Plant Disease Identification | Factual Data-Driven Responses | Adaptive AI Agent | Web-based Chatbot Interface
 </div>
 
 ---
@@ -24,23 +24,25 @@ This research focuses on developing an agentic system for plant disease identifi
 These capabilities are integrated as tools for an adaptive AI agent built on the Reasoning and Acting (ReAct) pattern and powered by a Gemini-based Large Language Model (LLM). The system is accessible through an intuitive web-based user interface. A comprehensive end-to-end evaluation was also conducted, covering the trained YOLOv11 model, the optimal RAG configuration using standard metrics, and the agentic system itself, which was assessed using an LLM-as-a-judge approach.
 
 <div align="center">
-
   <img src="https://github.com/andyathsid/plant-disease-identification-agent/blob/main/interface/assets/interface.png" alt="Interface"/>
+</div>
+
+---
 
 ## System Architecture
 
 <div align="center">
-
-  <img src="https://github.com/andyathsid/plant-disease-identification-agent/blob/main/latex/images/bab3/arsitektur_antarmuka_sistem.png" alt="System Architecture" width="200"/>
-
+  <img src="https://github.com/andyathsid/plant-disease-identification-agent/blob/main/latex/images/bab3/arsitektur_antarmuka_sistem.png" alt="System Architecture" width="400"/>
 </div>
+
+---
 
 ## Repository Structure
 This repository is divided into two main directories:
 
 1. Final App Implementation
 This contains the application code:
-- `agent/`: The LangChain-based agent implementation built with Aegra.
+- `agent/`: The ReAct agent and tools implementation built with LanChain and [Aegra](https://github.com/ibbybuilds/aegra).
 - `interface/`: The web application built with Next.js.
 
 2. Research and Experiments
@@ -48,6 +50,17 @@ This contains the research materials and experimental work:
 - `latex/`: The thesis document written in LaTeX.
 - `research/`: Experiments and development work (e.g., indexing, modeling, evaluation). All evaluation outputs used in the thesis are stored here.
 - `scraping/`: Data collection pipelines used to scrape information for building the knowledge base.
+
+---
+
+## **Live Deployments**
+
+###  **Production Services**
+
+| Service | URL | Status |
+|---------|-----|--------|
+| **Interface** | [thesis-interface.andyathsid.com](thesis-interface.andyathsid.com) | 🟢 Live | 
+| **Agent** | [thesis-agent.andyathsid.com](https://thesis-agent.andyathsid.com) | 🟢 Live |
 
 ---
 
@@ -84,6 +97,7 @@ Aegra requires a Postgres database for agent memory management. The easiest way 
 
 Note:
 - If Supabase offers "Connection pooling", start with the non-pooling connection string for easier debugging.
+- When running the agent locally with Supabase, start Aegra with `--no-db-check`.
 
 #### 2.2 Setup Qdrant (Vector DB) + persistent storage
 
@@ -207,7 +221,7 @@ docker run --rm \
 
 ```bash
 cd agent
-uv run aegra dev
+uv run aegra dev --no-db-check
 ```
 
 Default agent URL for the interface: `http://localhost:2024`.
@@ -226,6 +240,8 @@ Then open `http://localhost:3000`.
 - If the interface cannot connect to the agent, check `NEXT_PUBLIC_API_URL` and ensure the agent is running on port 2024.
 - If retrieval fails, Qdrant might not be running, or `agent/qdrant_storage/` hasn't been populated with the restored data.
 - If you get a prompt error, make sure the `thesis-prompt` exists in LangSmith and `LANGSMITH_API_KEY` is valid.
+
+---
 
 ## Deployment
 TBA
