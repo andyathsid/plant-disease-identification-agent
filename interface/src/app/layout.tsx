@@ -4,8 +4,11 @@ import React from "react";
 import { NuqsAdapter } from "nuqs/adapters/next/app";
 
 export const metadata: Metadata = {
-  title: "Agent Chat",
-  description: "Agent Chat UX by LangChain",
+  title: "Plant Disease Identification Agent",
+  description: "Plant Disease Identification Agent Interface",
+  icons: {
+    icon: [{ url: "/icon.ico" }],
+  },
 };
 
 export default function RootLayout({
