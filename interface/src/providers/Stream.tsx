@@ -130,6 +130,26 @@ const StreamSession = ({
     onThreadId: handleThreadId,
   });
 
+  // useEffect(() => {
+  //   if (!streamValue?.messages?.length) return;
+  //   const lastMessage = streamValue.messages[streamValue.messages.length - 1];
+  //   const content = lastMessage.content;
+  //   const contentTypes = Array.isArray(content)
+  //     ? content.map((item) => (typeof item === "object" && item !== null ? (item as { type?: string }).type : typeof item))
+  //     : [typeof content];
+  //   const payload = {
+  //     id: lastMessage.id,
+  //     type: lastMessage.type,
+  //     contentTypes,
+  //     content,
+  //   };
+
+  //   if (typeof window !== "undefined") {
+  //     (window as { __lg_last_message?: unknown }).__lg_last_message = payload;
+  //   }
+  //   console.log("[Stream debug] last_message", payload);
+  // }, [streamValue.messages]);
+
   useEffect(() => {
     checkGraphStatus(apiUrl, apiKey).then((ok) => {
       if (!ok) {
@@ -169,14 +189,6 @@ export const StreamProvider: React.FC<{ children: ReactNode }> = ({
   const envAssistantId: string | undefined = process.env.NEXT_PUBLIC_ASSISTANT_ID;
   const envApiKey: string | undefined = process.env.NEXT_PUBLIC_LANGCHAIN_API_KEY;
 
-  // Use URL params with env var fallbacks
-  const [apiUrl, _setApiUrl] = useQueryState("apiUrl", {
-    defaultValue: envApiUrl || "",
-  });
-  const [assistantId, _setAssistantId] = useQueryState("assistantId", {
-    defaultValue: envAssistantId || "",
-  });
-
   // For API key, use localStorage with env var fallback
   const [apiKey, _setApiKey] = useState(() => {
     const storedKey = getApiKey();
@@ -193,23 +205,22 @@ export const StreamProvider: React.FC<{ children: ReactNode }> = ({
     _setApiKey(key);
   };
 
-  // Determine final values to use, prioritizing URL params then env vars
-  const finalApiUrl = apiUrl || envApiUrl;
-  const finalAssistantId = assistantId?.trim() || envAssistantId || "";
+  // Use URL param for API URL only, assistant ID is hardcoded from env
+  const [apiUrl, _setApiUrl] = useQueryState("apiUrl", {
+    defaultValue: envApiUrl || "",
+  });
+
   const resolvedApiUrl = useMemo(
-    () => normalizeApiUrl(finalApiUrl),
-    [finalApiUrl]
+    () => normalizeApiUrl(apiUrl || envApiUrl || ""),
+    [apiUrl, envApiUrl]
   );
 
   // Log connection parameters
   console.log("[StreamProvider] Connection parameters:", {
     apiUrl,
     envApiUrl,
-    finalApiUrl,
     resolvedApiUrl,
-    assistantId,
     envAssistantId,
-    finalAssistantId,
     apiKey: apiKey ? `${apiKey.substring(0, 10)}...` : "none",
   });
 
@@ -217,7 +228,7 @@ export const StreamProvider: React.FC<{ children: ReactNode }> = ({
     <StreamSession
       apiKey={apiKey}
       apiUrl={resolvedApiUrl}
-      assistantId={finalAssistantId}
+      assistantId={envAssistantId || ""}
     >
       {children}
     </StreamSession>

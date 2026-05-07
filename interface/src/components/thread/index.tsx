@@ -47,7 +47,6 @@ import {
 } from "./artifact";
 import { useSettings } from "@/hooks/useSettings";
 import { FullDescriptionModal } from "./FullDescriptionModal";
-import { useAssistantConfig } from "@/hooks/useAssistantConfig";
 import { AssistantSelector } from "./AssistantSelector";
 import { ChatOpeners } from "./ChatOpeners";
 
@@ -122,7 +121,6 @@ export function Thread() {
   const { config, userSettings } = useSettings();
 
   const [threadId, _setThreadId] = useQueryState("threadId");
-  const [assistantQueryId, setAssistantQueryId] = useQueryState("assistantId");
   const [chatHistoryOpen, setChatHistoryOpen] = useQueryState(
     "chatHistoryOpen",
     parseAsBoolean.withDefault(config.threads.sidebarOpenByDefault),
@@ -150,12 +148,6 @@ export function Thread() {
   const stream = useStreamContext();
   const messages = stream.messages;
   const isLoading = stream.isLoading;
-  const {
-    assistantId: _activeAssistantId,
-    assistants,
-    assistantsLoading,
-    refetchAssistants,
-  } = useAssistantConfig();
 
   const lastError = useRef<string | undefined>(undefined);
 
@@ -165,37 +157,6 @@ export function Thread() {
     // close artifact and reset artifact context
     closeArtifact();
     setArtifactContext({});
-  };
-
-  const assistantSelectValue = assistantQueryId?.trim() || "none";
-
-  const isAssistantSelected = Boolean(assistantQueryId?.trim());
-
-  const handleAssistantChange = (value: string) => {
-    if (value === "none") {
-      if (assistantQueryId) {
-        void setAssistantQueryId(null);
-      }
-      setThreadId(null);
-      setInput("");
-      setContentBlocks([]);
-      setFirstTokenReceived(false);
-      return;
-    }
-
-    const trimmedValue = value.trim();
-    if (!trimmedValue || trimmedValue === assistantQueryId?.trim()) {
-      return;
-    }
-
-    void setAssistantQueryId(trimmedValue);
-    setThreadId(null);
-    setInput("");
-    setContentBlocks([]);
-    setFirstTokenReceived(false);
-    toast.success("Graf telah diubah.", {
-      description: `ID asisten yang dipilih: ${value}`,
-    });
   };
 
   useEffect(() => {
@@ -242,10 +203,6 @@ export function Thread() {
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    if (!isAssistantSelected) {
-      toast.error("Silakan pilih graf terlebih dahulu.");
-      return;
-    }
     if (
       (input.trim().length === 0 && contentBlocks.length === 0) ||
       isLoading
@@ -530,7 +487,7 @@ export function Thread() {
                       </div>
                       {config.branding.chatOpeners && config.branding.chatOpeners.length > 0 && (
                         <ChatOpeners
-                          disabled={isLoading || !isAssistantSelected}
+                          disabled={isLoading}
                           chatOpeners={config.branding.chatOpeners}
                           onSelectOpener={(opener) => {
                             setInput(opener);
@@ -643,23 +600,6 @@ export function Thread() {
                             </Tooltip>
                           </TooltipProvider>
 
-                          <TooltipProvider>
-                            <Tooltip>
-                              <TooltipTrigger asChild>
-                              <AssistantSelector
-                                assistants={assistants}
-                                selectedAssistantId={assistantSelectValue}
-                                isLoading={assistantsLoading}
-                                onSelect={handleAssistantChange}
-                                onRefresh={refetchAssistants}
-                              />
-                              </TooltipTrigger>
-                              <TooltipContent side="top">
-                                <p>Pilih graf</p>
-                              </TooltipContent>
-                            </Tooltip>
-                          </TooltipProvider>
-
                         </div>
                         {stream.isLoading ? (
                           <Button
@@ -678,8 +618,7 @@ export function Thread() {
                             className="h-8 w-8 rounded-lg"
                             disabled={
                               isLoading ||
-                              (!input.trim() && contentBlocks.length === 0) ||
-                              !isAssistantSelected
+                              (!input.trim() && contentBlocks.length === 0)
                             }
                           >
                             <ArrowUp className="h-4 w-4" />

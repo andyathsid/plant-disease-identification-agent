@@ -26,7 +26,6 @@ interface ConnectionDialogProps {
 
 export function ConnectionDialog({ open, onOpenChange }: ConnectionDialogProps) {
   const [apiUrl, setApiUrl] = useQueryState("apiUrl");
-  const [assistantId, setAssistantId] = useQueryState("assistantId");
   const [apiKey, _setApiKey] = useState(() => getApiKey() || "");
 
   const setApiKey = (key: string) => {
@@ -40,12 +39,10 @@ export function ConnectionDialog({ open, onOpenChange }: ConnectionDialogProps) 
     const form = e.target as HTMLFormElement;
     const formData = new FormData(form);
     const newApiUrl = formData.get("apiUrl") as string;
-    const newAssistantId = formData.get("assistantId") as string;
     const newApiKey = formData.get("apiKey") as string;
 
     setApiUrl(newApiUrl);
     setApiKey(newApiKey);
-    setAssistantId(newAssistantId);
 
     form.reset();
     onOpenChange(false);
@@ -77,22 +74,6 @@ export function ConnectionDialog({ open, onOpenChange }: ConnectionDialogProps) 
               name="apiUrl"
               className="bg-background"
               defaultValue={apiUrl || DEFAULT_API_URL}
-              required
-            />
-          </div>
-
-          <div className="flex flex-col gap-2">
-            <Label htmlFor="assistantId">
-              ID Asisten / Graf<span className="text-rose-500">*</span>
-            </Label>
-            <p className="text-muted-foreground text-sm">
-              Ini adalah ID graf (bisa berupa nama graf), atau asisten untuk mengambil thread, dan dipanggil saat tindakan dilakukan.
-            </p>
-            <Input
-              id="assistantId"
-              name="assistantId"
-              className="bg-background"
-              defaultValue={assistantId || ""}
               required
             />
           </div>

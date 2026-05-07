@@ -21,10 +21,10 @@ export default function ThreadHistory({ onShowGuide }: ThreadHistoryProps) {
   );
   const [_threadId, setThreadId] = useQueryState("threadId");
   const [apiUrl] = useQueryState("apiUrl");
-  const [assistantId] = useQueryState("assistantId");
   const envApiUrl: string | undefined = process.env.NEXT_PUBLIC_API_URL;
+  const envAssistantId: string | undefined = process.env.NEXT_PUBLIC_ASSISTANT_ID;
   const finalApiUrl = apiUrl || envApiUrl;
-  const finalAssistantId = assistantId?.trim();
+  const finalAssistantId = envAssistantId;
 
   const { getThreads, threads, setThreads, threadsLoading, setThreadsLoading } =
     useThreads();
