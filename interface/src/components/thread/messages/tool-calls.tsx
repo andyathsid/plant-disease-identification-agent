@@ -311,7 +311,7 @@ export function ToolCalls({
   if (!toolCalls || toolCalls.length === 0) return null;
 
   return (
-    <div className={`mx-auto grid ${userSettings.chatWidth === "default" ? "max-w-3xl" : "max-w-5xl"} grid-rows-[1fr_auto] gap-4`}>
+    <div className={`w-full grid ${userSettings.chatWidth === "default" ? "max-w-3xl" : "max-w-5xl"} grid-rows-[1fr_auto] gap-4`}>
       {toolCalls.map((tc, idx) => {
         return <ToolCallItem key={idx} toolCall={tc} isLoading={isLoading} />;
       })}
@@ -335,7 +335,20 @@ function ToolCallItem({
     }
   }, [isLoading, userSettings.autoCollapseToolCalls]);
 
-  const args = toolCall.args as Record<string, unknown>;
+  const rawArgs = toolCall.args as unknown;
+  let args: Record<string, unknown> = {};
+  if (rawArgs && typeof rawArgs === "object" && !Array.isArray(rawArgs)) {
+    args = rawArgs as Record<string, unknown>;
+  } else if (typeof rawArgs === "string" && rawArgs.trim().length > 0) {
+    try {
+      const parsed = JSON.parse(rawArgs);
+      if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) {
+        args = parsed as Record<string, unknown>;
+      }
+    } catch {
+      args = { input: rawArgs };
+    }
+  }
   const hasArgs = Object.keys(args).length > 0;
   const argEntries = Object.entries(args);
 
@@ -490,7 +503,7 @@ export function ToolResult({
       : contentStr;
 
   return (
-    <div className={`mx-auto grid ${userSettings.chatWidth === "default" ? "max-w-3xl" : "max-w-5xl"} grid-rows-[1fr_auto] gap-0`}>
+    <div className={`w-full grid ${userSettings.chatWidth === "default" ? "max-w-3xl" : "max-w-5xl"} grid-rows-[1fr_auto] gap-0`}>
       <div className="overflow-hidden rounded-xl border border-border/50 dark:border-border bg-card shadow-sm transition-all duration-200 hover:shadow-md hover:border-border dark:hover:border-border/80">
         <button
           onClick={() => setIsExpanded(!isExpanded)}
