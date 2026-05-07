@@ -1,0 +1,54 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: react-agent-qdrant
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - ./agent/qdrant_storage:/qdrant/storage
+    restart: unless-stopped
+
+  agent:
+    build: ./agent
+    container_name: react-agent-engine
+    ports:
+      - "${PORT:-8000}:8000"
+    env_file:
+      - agent/.env
+    environment:
+      - AEGRA_CONFIG=aegra.json
+      - PORT=${PORT:-8000}
+    volumes:
+      - ./agent/models:/app/models:ro
+      - ./agent/src:/app/src:ro
+      - ./agent/aegra.json:/app/aegra.json:ro
+    command: sh -c "aegra dev --no-db-check --host 0.0.0.0 --port $${PORT:-8000}"
+    depends_on:
+      - qdrant
+    restart: unless-stopped
+
+  interface:
+    build:
+      context: ./interface
+      dockerfile: Dockerfile.dev
+    container_name: react-agent-interface
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./interface/.env
+    environment:
+      - WATCHPACK_POLLING=true
+    develop:
+      watch:
+        - action: sync
+          path: .
+          target: /app
+          ignore:
+            - node_modules/
+            - .next/
+        - action: rebuild
+          path: package.json
+    depends_on:
+      - agent
+    restart: unless-stopped
